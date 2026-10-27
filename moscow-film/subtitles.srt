@@ -1,0 +1,27 @@
+1
+00:00:00,500 --> 00:00:08,000
+At the geographic and historical heart of Russia, the brick towers and gilded cathedrals of the Moscow Kremlin command the bend of the Moskva River.
+
+2
+00:00:08,500 --> 00:00:16,500
+Outside the Spasskaya Tower lies Red Square, anchored by the iconic patterned onion domes of the 16th-century Saint Basil’s Cathedral.
+
+3
+00:00:17,000 --> 00:00:25,000
+Centuries of defense shaped Moscow’s unique urban anatomy, radiating outward in concentric defensive belts.
+
+4
+00:00:25,500 --> 00:00:33,500
+Following the fire of 1812, the medieval stone walls of the White City were transformed into the tree-lined Boulevard Ring.
+
+5
+00:00:34,000 --> 00:00:42,000
+Further outward lies the sixteen-kilometer Garden Ring, tracing the ancient earthen ramparts built under Boris Godunov.
+
+6
+00:00:42,500 --> 00:00:50,500
+In the 20th century, monumental Stalinist skyscrapers like the Kotelnicheskaya Embankment Building punctuated the skyline.
+
+7
+00:00:51,000 --> 00:00:59,500
+From medieval citadel to radial modern metropolis, Moscow’s geometry stands as an enduring map of time and ambition.

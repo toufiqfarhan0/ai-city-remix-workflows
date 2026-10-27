@@ -1,0 +1,6762 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-27T11:31:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 179621059,
+  "bounds": {
+    "minlat": 55.7279156,
+    "minlon": 37.6430780,
+    "maxlat": 55.7284812,
+    "maxlon": 37.6438197
+  },
+  "tags": {
+    "addr:housenumber": "2 с4",
+    "addr:street": "Летниковская улица",
+    "building": "commercial",
+    "building:colour": "lightgrey;brown",
+    "building:levels": "11",
+    "building:material": "glass;brick",
+    "ref": "А",
+    "roof:colour": "lightgrey",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 130641851,
+  "bounds": {
+    "minlat": 55.7296242,
+    "minlon": 37.6438315,
+    "maxlat": 55.7298368,
+    "maxlon": 37.6443113
+  },
+  "tags": {
+    "addr:country": "RU",
+    "addr:housenumber": "8/4 с1",
+    "addr:region": "Москва",
+    "addr:street": "Кожевническая улица",
+    "building": "retail",
+    "building:architecture": "neoclassicism",
+    "building:colour": "green",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 160412233,
+  "bounds": {
+    "minlat": 55.7299899,
+    "minlon": 37.6433035,
+    "maxlat": 55.7304249,
+    "maxlon": 37.6446890
+  },
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Кожевническая улица",
+    "building": "apartments",
+    "building:colour": "yellow",
+    "building:levels": "7",
+    "building:material": "plaster",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 179621057,
+  "bounds": {
+    "minlat": 55.7291284,
+    "minlon": 37.6435845,
+    "maxlat": 55.7293942,
+    "maxlon": 37.6442023
+  },
+  "tags": {
+    "addr:housenumber": "8 с3",
+    "addr:street": "Кожевническая улица",
+    "building": "hotel",
+    "building:colour": "lightgrey",
+    "building:levels": "12",
+    "building:material": "glass",
+    "check_date": "2025-10-18",
+    "contact:fax": "+7 495 2877271",
+    "contact:phone": "+7 495 2877250;+7 495 2877272;+7 495 2877281;+7 495 2877722;+7 800 7077764",
+    "contact:website": "https://cosmosgroup.ru",
+    "internet_access": "wlan",
+    "name": "Cosmos Москва Павелецкая",
+    "opening_hours": "24/7",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 179621058,
+  "bounds": {
+    "minlat": 55.7285100,
+    "minlon": 37.6431527,
+    "maxlat": 55.7291671,
+    "maxlon": 37.6436916
+  },
+  "tags": {
+    "addr:housenumber": "2 с3",
+    "addr:street": "Летниковская улица",
+    "building": "commercial",
+    "building:colour": "lightgrey;brown",
+    "building:levels": "11",
+    "building:material": "glass;brick",
+    "ref": "Б",
+    "roof:colour": "lightgrey",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 244222442,
+  "bounds": {
+    "minlat": 55.7329737,
+    "minlon": 37.6435581,
+    "maxlat": 55.7335144,
+    "maxlon": 37.6449162
+  },
+  "tags": {
+    "addr:housenumber": "52 с6",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "building:part": "stilobate",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 332981235,
+  "bounds": {
+    "minlat": 55.7309354,
+    "minlon": 37.6435105,
+    "maxlat": 55.7321347,
+    "maxlon": 37.6452472
+  },
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Шлюзовая набережная",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "Бизнес-центр \"Россо Рива\""
+  }
+},
+{
+  "type": "way",
+  "id": 385975240,
+  "bounds": {
+    "minlat": 55.7330618,
+    "minlon": 37.6437549,
+    "maxlat": 55.7339500,
+    "maxlon": 37.6459998
+  },
+  "tags": {
+    "addr:housenumber": "52 с13",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "height": "5",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 738334691,
+  "bounds": {
+    "minlat": 55.7283799,
+    "minlon": 37.6432757,
+    "maxlat": 55.7285643,
+    "maxlon": 37.6436591
+  },
+  "tags": {
+    "building": "yes",
+    "building:colour": "brown;lightgrey",
+    "building:levels": "1",
+    "building:material": "brick;metal_plates",
+    "roof:colour": "lightgrey",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 132469317,
+  "bounds": {
+    "minlat": 55.7295399,
+    "minlon": 37.6433300,
+    "maxlat": 55.7299582,
+    "maxlon": 37.6438396
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "6",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 160412226,
+  "bounds": {
+    "minlat": 55.7303244,
+    "minlon": 37.6426486,
+    "maxlat": 55.7305952,
+    "maxlon": 37.6433859
+  },
+  "tags": {
+    "addr:housenumber": "3 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:colour": "lightyellow",
+    "building:levels": "6",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "green",
+    "roof:levels": "0",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 885991965,
+  "bounds": {
+    "minlat": 55.7297714,
+    "minlon": 37.6419255,
+    "maxlat": 55.7300644,
+    "maxlon": 37.6430279
+  },
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Кожевническая улица",
+    "building": "hotel",
+    "building:colour": "lightgrey;beige",
+    "building:levels": "7",
+    "building:material": "glass;cement_block",
+    "check_date": "2025-10-18",
+    "contact:website": "https://glenver-garden.com/",
+    "name": "Glenver Garden",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1445732467,
+  "bounds": {
+    "minlat": 55.7320134,
+    "minlon": 37.6422118,
+    "maxlat": 55.7325019,
+    "maxlon": 37.6430031
+  },
+  "tags": {
+    "building": "construction",
+    "building:levels": "12",
+    "construction": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 48303616,
+  "bounds": {
+    "minlat": 55.7365468,
+    "minlon": 37.6429665,
+    "maxlat": 55.7367879,
+    "maxlon": 37.6436683
+  },
+  "tags": {
+    "addr:housenumber": "71 с11",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:levels": "4",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 48303763,
+  "bounds": {
+    "minlat": 55.7351926,
+    "minlon": 37.6430285,
+    "maxlat": 55.7356249,
+    "maxlon": 37.6435246
+  },
+  "tags": {
+    "addr:housenumber": "77 с2",
+    "addr:street": "Садовническая улица",
+    "building": "apartments",
+    "building:levels": "6",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 155998649,
+  "bounds": {
+    "minlat": 55.7364122,
+    "minlon": 37.6424378,
+    "maxlat": 55.7367049,
+    "maxlon": 37.6430218
+  },
+  "tags": {
+    "addr:housenumber": "71 с2",
+    "addr:street": "Садовническая улица",
+    "building": "office",
+    "building:levels": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 379436139,
+  "bounds": {
+    "minlat": 55.7363248,
+    "minlon": 37.6425391,
+    "maxlat": 55.7365147,
+    "maxlon": 37.6433714
+  },
+  "tags": {
+    "addr:housenumber": "73 с2",
+    "addr:street": "Садовническая улица",
+    "building": "office",
+    "building:levels": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 385975244,
+  "bounds": {
+    "minlat": 55.7370317,
+    "minlon": 37.6427472,
+    "maxlat": 55.7371083,
+    "maxlon": 37.6430623
+  },
+  "tags": {
+    "addr:housenumber": "71 с15",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385975245,
+  "bounds": {
+    "minlat": 55.7367924,
+    "minlon": 37.6427882,
+    "maxlat": 55.7369899,
+    "maxlon": 37.6433884
+  },
+  "tags": {
+    "addr:housenumber": "71 с3",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:levels": "3",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385975247,
+  "bounds": {
+    "minlat": 55.7358590,
+    "minlon": 37.6427001,
+    "maxlat": 55.7360940,
+    "maxlon": 37.6432233
+  },
+  "tags": {
+    "addr:housenumber": "73 с1А",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385975248,
+  "bounds": {
+    "minlat": 55.7361540,
+    "minlon": 37.6431601,
+    "maxlat": 55.7362190,
+    "maxlon": 37.6432488
+  },
+  "tags": {
+    "addr:housenumber": "73 с4",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385979670,
+  "bounds": {
+    "minlat": 55.7353549,
+    "minlon": 37.6435460,
+    "maxlat": 55.7354246,
+    "maxlon": 37.6436478
+  },
+  "tags": {
+    "addr:housenumber": "77 с3",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385979671,
+  "bounds": {
+    "minlat": 55.7354057,
+    "minlon": 37.6436383,
+    "maxlat": 55.7354789,
+    "maxlon": 37.6438321
+  },
+  "tags": {
+    "addr:housenumber": "77 с4",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 828172045,
+  "bounds": {
+    "minlat": 55.7354819,
+    "minlon": 37.6436449,
+    "maxlat": 55.7355298,
+    "maxlon": 37.6437458
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:levels": "1",
+    "denomination": "russian_orthodox",
+    "name": "Часовня в память о погибших моряках и путешественниках в честь Святителя Николы Угодника",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 48303492,
+  "bounds": {
+    "minlat": 55.7361645,
+    "minlon": 37.6433708,
+    "maxlat": 55.7364142,
+    "maxlon": 37.6440333
+  },
+  "tags": {
+    "addr:housenumber": "73 с24",
+    "addr:street": "Садовническая улица",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "name": "Детский сад № 295"
+  }
+},
+{
+  "type": "way",
+  "id": 48303614,
+  "bounds": {
+    "minlat": 55.7365924,
+    "minlon": 37.6436979,
+    "maxlat": 55.7368248,
+    "maxlon": 37.6442798
+  },
+  "tags": {
+    "addr:housenumber": "71 с5",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:colour": "yellow",
+    "building:levels": "4",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 111593126,
+  "bounds": {
+    "minlat": 55.7371002,
+    "minlon": 37.6423759,
+    "maxlat": 55.7381308,
+    "maxlon": 37.6448105
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "40-42 с3",
+    "addr:street": "Космодамианская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "7"
+  }
+},
+{
+  "type": "way",
+  "id": 155998585,
+  "bounds": {
+    "minlat": 55.7368739,
+    "minlon": 37.6437172,
+    "maxlat": 55.7372280,
+    "maxlon": 37.6440724
+  },
+  "tags": {
+    "addr:housenumber": "71 с4",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:colour": "cyan",
+    "building:levels": "2",
+    "roof:shape": "hipped",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 225157172,
+  "bounds": {
+    "minlat": 55.7356889,
+    "minlon": 37.6427658,
+    "maxlat": 55.7360517,
+    "maxlon": 37.6440004
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "75",
+    "addr:postcode": "115035",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "contact:phone": "+7 495 7300110",
+    "contact:website": "http://www.fesco.ru/",
+    "drive_through": "no",
+    "name": "ФЕСКО Транспортная группа",
+    "name:en": "FESCO",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "source": "Адресный реестр Москвы, data.mos.ru",
+    "wikidata": "Q5445623"
+  }
+},
+{
+  "type": "way",
+  "id": 385975246,
+  "bounds": {
+    "minlat": 55.7364622,
+    "minlon": 37.6433878,
+    "maxlat": 55.7366514,
+    "maxlon": 37.6442410
+  },
+  "tags": {
+    "addr:housenumber": "73 с17",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 48346030,
+  "bounds": {
+    "minlat": 55.7276347,
+    "minlon": 37.6475420,
+    "maxlat": 55.7280999,
+    "maxlon": 37.6480356
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "5 к1",
+    "addr:street": "1-й Кожевнический переулок",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "3",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706620,
+  "bounds": {
+    "minlat": 55.7281372,
+    "minlon": 37.6500188,
+    "maxlat": 55.7283181,
+    "maxlon": 37.6503239
+  },
+  "tags": {
+    "abandoned:building": "yes",
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "24",
+    "addr:street": "Кожевническая улица",
+    "building": "ruins",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 52706638,
+  "bounds": {
+    "minlat": 55.7282591,
+    "minlon": 37.6497995,
+    "maxlat": 55.7283980,
+    "maxlon": 37.6500132
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "20 с16",
+    "addr:street": "Кожевническая улица",
+    "building": "retail",
+    "building:colour": "grey;yellow",
+    "building:levels": "1",
+    "building:material": "metal_plates;porcelain_stoneware",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 179621061,
+  "bounds": {
+    "minlat": 55.7280538,
+    "minlon": 37.6440640,
+    "maxlat": 55.7285469,
+    "maxlon": 37.6450859
+  },
+  "tags": {
+    "addr:housenumber": "2 с2",
+    "addr:street": "Летниковская улица",
+    "building": "commercial",
+    "building:colour": "lightgrey;brown",
+    "building:levels": "11",
+    "building:material": "glass;brick",
+    "ref": "В",
+    "roof:colour": "lightgrey",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 300381544,
+  "bounds": {
+    "minlat": 55.7283350,
+    "minlon": 37.6493787,
+    "maxlat": 55.7284879,
+    "maxlon": 37.6496400
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "22",
+    "addr:street": "Кожевническая улица",
+    "building": "construction",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 542900236,
+  "bounds": {
+    "minlat": 55.7275453,
+    "minlon": 37.6465362,
+    "maxlat": 55.7283030,
+    "maxlon": 37.6475090
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "16",
+    "addr:postcode": "115114",
+    "addr:street": "Кожевническая улица",
+    "building": "industrial",
+    "building:colour": "lightgrey",
+    "building:levels": "4",
+    "building:material": "concrete",
+    "email": "metf@bk.ru",
+    "man_made": "works",
+    "name": "Московская экспериментальная трикотажная фабрика",
+    "product": "clothes",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "short_name": "МЭТФ",
+    "website": "https://metf.ru/"
+  }
+},
+{
+  "type": "way",
+  "id": 685516376,
+  "bounds": {
+    "minlat": 55.7278411,
+    "minlon": 37.6454023,
+    "maxlat": 55.7284156,
+    "maxlon": 37.6465951
+  },
+  "tags": {
+    "addr:housenumber": "14 с5",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:colour": "red;white",
+    "building:levels": "10",
+    "building:material": "brick:metal_plates",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706658,
+  "bounds": {
+    "minlat": 55.7283608,
+    "minlon": 37.6509518,
+    "maxlat": 55.7285440,
+    "maxlon": 37.6513266
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "21 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "historic",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 1218025119,
+  "bounds": {
+    "minlat": 55.7284216,
+    "minlon": 37.6517434,
+    "maxlat": 55.7285480,
+    "maxlon": 37.6519787
+  },
+  "tags": {
+    "building": "house"
+  }
+},
+{
+  "type": "way",
+  "id": 43684265,
+  "bounds": {
+    "minlat": 55.7344936,
+    "minlon": 37.6536021,
+    "maxlat": 55.7351358,
+    "maxlon": 37.6542602
+  },
+  "tags": {
+    "addr:housenumber": "18 к3",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "5",
+    "design:ref": "1-511-4/М",
+    "start_date": "1964"
+  }
+},
+{
+  "type": "way",
+  "id": 43684266,
+  "bounds": {
+    "minlat": 55.7346639,
+    "minlon": 37.6542995,
+    "maxlat": 55.7353068,
+    "maxlon": 37.6549575
+  },
+  "tags": {
+    "addr:housenumber": "18 к2",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "5",
+    "design:ref": "1-511-4/М",
+    "start_date": "1963"
+  }
+},
+{
+  "type": "way",
+  "id": 43684270,
+  "bounds": {
+    "minlat": 55.7348480,
+    "minlon": 37.6550242,
+    "maxlat": 55.7354859,
+    "maxlon": 37.6556802
+  },
+  "tags": {
+    "addr:housenumber": "18 к1",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "5",
+    "design:ref": "1-511-4/М",
+    "start_date": "1962"
+  }
+},
+{
+  "type": "way",
+  "id": 43684275,
+  "bounds": {
+    "minlat": 55.7346716,
+    "minlon": 37.6500170,
+    "maxlat": 55.7352805,
+    "maxlon": 37.6505482
+  },
+  "tags": {
+    "building:levels": "1",
+    "building:part": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 45112495,
+  "bounds": {
+    "minlat": 55.7302491,
+    "minlon": 37.6568552,
+    "maxlat": 55.7307292,
+    "maxlon": 37.6579554
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "2",
+    "addr:street": "Саринский проезд",
+    "building": "apartments",
+    "building:colour": "lightgrey",
+    "building:levels": "9",
+    "building:material": "plaster",
+    "roof:colour": "lightgrey",
+    "roof:levels": "0",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 47626951,
+  "bounds": {
+    "minlat": 55.7340086,
+    "minlon": 37.6546803,
+    "maxlat": 55.7346427,
+    "maxlon": 37.6570709
+  },
+  "tags": {
+    "addr:housenumber": "3 к1",
+    "addr:street": "Новоспасский переулок",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "10"
+  }
+},
+{
+  "type": "way",
+  "id": 48346028,
+  "bounds": {
+    "minlat": 55.7284943,
+    "minlon": 37.6509929,
+    "maxlat": 55.7289841,
+    "maxlon": 37.6518726
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "18",
+    "addr:street": "Шлюзовая набережная",
+    "building": "industrial",
+    "building:colour": "beige",
+    "building:levels": "2",
+    "building:material": "porcelain_stoneware",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 48346147,
+  "bounds": {
+    "minlat": 55.7280398,
+    "minlon": 37.6502945,
+    "maxlat": 55.7282513,
+    "maxlon": 37.6507735
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "26",
+    "addr:street": "Кожевническая улица",
+    "building": "apartments",
+    "building:architecture": "neoclassicism",
+    "building:colour": "yellow;white",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346155,
+  "bounds": {
+    "minlat": 55.7283205,
+    "minlon": 37.6477999,
+    "maxlat": 55.7286303,
+    "maxlon": 37.6482334
+  },
+  "tags": {
+    "addr:housenumber": "18 с3",
+    "addr:street": "Кожевническая улица",
+    "building": "hangar",
+    "building:colour": "lightgrey",
+    "building:levels": "2",
+    "building:material": "metal",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 48346156,
+  "bounds": {
+    "minlat": 55.7284037,
+    "minlon": 37.6475806,
+    "maxlat": 55.7286822,
+    "maxlon": 37.6478835
+  },
+  "tags": {
+    "addr:housenumber": "18 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:colour": "red;beige",
+    "building:levels": "2",
+    "building:material": "brick;plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346404,
+  "bounds": {
+    "minlat": 55.7314043,
+    "minlon": 37.6569109,
+    "maxlat": 55.7316760,
+    "maxlon": 37.6575232
+  },
+  "tags": {
+    "addr:housenumber": "10 с20",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "name": "Настоятельский корпус",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706635,
+  "bounds": {
+    "minlat": 55.7279376,
+    "minlon": 37.6451188,
+    "maxlat": 55.7291665,
+    "maxlon": 37.6467178
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "14",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:colour": "lightgrey",
+    "building:levels": "4",
+    "building:material": "glass",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706637,
+  "bounds": {
+    "minlat": 55.7284152,
+    "minlon": 37.6485406,
+    "maxlat": 55.7286533,
+    "maxlon": 37.6488394
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "20 с19",
+    "addr:street": "Кожевническая улица",
+    "building": "construction",
+    "building:architecture": "neoclassicism",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706655,
+  "bounds": {
+    "minlat": 55.7289051,
+    "minlon": 37.6501882,
+    "maxlat": 55.7291338,
+    "maxlon": 37.6507959
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "19 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "hotel",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "name": "Заходи!",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "tourism": "hostel",
+    "website": "https://www.hostel-zaxodi.ru/"
+  }
+},
+{
+  "type": "way",
+  "id": 53650437,
+  "bounds": {
+    "minlat": 55.7309375,
+    "minlon": 37.6565446,
+    "maxlat": 55.7312610,
+    "maxlon": 37.6574321
+  },
+  "tags": {
+    "addr:housenumber": "10 с5",
+    "addr:street": "Крестьянская площадь",
+    "building": "office",
+    "building:levels": "2",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 96759950,
+  "bounds": {
+    "minlat": 55.7330884,
+    "minlon": 37.6562227,
+    "maxlat": 55.7339160,
+    "maxlon": 37.6577054
+  },
+  "tags": {
+    "addr:housenumber": "3 к2",
+    "addr:street": "Новоспасский переулок",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:flats": "139",
+    "building:levels": "10"
+  }
+},
+{
+  "type": "way",
+  "id": 134102193,
+  "bounds": {
+    "minlat": 55.7339175,
+    "minlon": 37.6510408,
+    "maxlat": 55.7356516,
+    "maxlon": 37.6528480
+  },
+  "tags": {
+    "addr:housenumber": "13 с1",
+    "addr:postcode": "115172",
+    "addr:street": "Краснохолмская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:cladding": "brick",
+    "building:colour": "orange",
+    "building:levels": "7",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 157320169,
+  "bounds": {
+    "minlat": 55.7277097,
+    "minlon": 37.6462688,
+    "maxlat": 55.7286361,
+    "maxlon": 37.6472655
+  },
+  "tags": {
+    "addr:housenumber": "16 с4",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:colour": "lightyellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 171878890,
+  "bounds": {
+    "minlat": 55.7308137,
+    "minlon": 37.6568215,
+    "maxlat": 55.7309418,
+    "maxlon": 37.6574679
+  },
+  "tags": {
+    "addr:housenumber": "10 с3",
+    "addr:street": "Крестьянская площадь",
+    "building": "service",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 179621060,
+  "bounds": {
+    "minlat": 55.7285013,
+    "minlon": 37.6445125,
+    "maxlat": 55.7291273,
+    "maxlon": 37.6453236
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "2 с1",
+    "addr:street": "Летниковская улица",
+    "building": "commercial",
+    "building:colour": "lightgrey;brown",
+    "building:levels": "11",
+    "building:material": "glass;brick",
+    "ref": "Г",
+    "roof:colour": "lightgrey",
+    "roof:material": "concrete",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 242682015,
+  "bounds": {
+    "minlat": 55.7280034,
+    "minlon": 37.6566228,
+    "maxlat": 55.7285451,
+    "maxlon": 37.6572240
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Крутицкая набережная",
+    "building": "office",
+    "building:levels": "2",
+    "roof:angle": "20",
+    "roof:colour": "red",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 251394398,
+  "bounds": {
+    "minlat": 55.7349301,
+    "minlon": 37.6509323,
+    "maxlat": 55.7351616,
+    "maxlon": 37.6512576
+  },
+  "tags": {
+    "addr:housenumber": "13 с2",
+    "addr:postcode": "115172",
+    "addr:street": "Краснохолмская набережная",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 300381543,
+  "bounds": {
+    "minlat": 55.7284190,
+    "minlon": 37.6487925,
+    "maxlat": 55.7286111,
+    "maxlon": 37.6492989
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "20А",
+    "addr:street": "Кожевническая улица",
+    "building": "retail",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "building:material": "metal_plates",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 340437149,
+  "bounds": {
+    "minlat": 55.7350822,
+    "minlon": 37.6501669,
+    "maxlat": 55.7353701,
+    "maxlon": 37.6505621
+  },
+  "tags": {
+    "building:levels": "10",
+    "building:part": "apartments",
+    "design:ref": "II-18-01/МИ вариант «Б»"
+  }
+},
+{
+  "type": "way",
+  "id": 620857950,
+  "bounds": {
+    "minlat": 55.7346716,
+    "minlon": 37.6500170,
+    "maxlat": 55.7353701,
+    "maxlon": 37.6505621
+  },
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Краснохолмская набережная",
+    "building": "apartments",
+    "building:levels": "10",
+    "start_date": "1961"
+  }
+},
+{
+  "type": "way",
+  "id": 1030187584,
+  "bounds": {
+    "minlat": 55.7285133,
+    "minlon": 37.6465556,
+    "maxlat": 55.7286024,
+    "maxlon": 37.6467368
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "10",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 35983847,
+  "bounds": {
+    "minlat": 55.7325337,
+    "minlon": 37.6458668,
+    "maxlat": 55.7338519,
+    "maxlon": 37.6473735
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "52 с8",
+    "addr:street": "Космодамианская набережная",
+    "amenity": "theatre",
+    "building": "yes",
+    "building:levels": "1",
+    "height": "5",
+    "name": "Московский международный Дом музыки",
+    "name:ca": "Casa Internacional de Música de Moscou",
+    "phone": "+7 495 7301011",
+    "source": "Адресный реестр Москвы, data.mos.ru",
+    "website": "http://www.mmdm.ru",
+    "wikidata": "Q4304187"
+  }
+},
+{
+  "type": "way",
+  "id": 35983848,
+  "bounds": {
+    "minlat": 55.7331518,
+    "minlon": 37.6444222,
+    "maxlat": 55.7333749,
+    "maxlon": 37.6448173
+  },
+  "tags": {
+    "addr:housenumber": "52",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:min_level": "1",
+    "building:part": "base",
+    "height": "142"
+  }
+},
+{
+  "type": "way",
+  "id": 43539431,
+  "bounds": {
+    "minlat": 55.7286970,
+    "minlon": 37.6493611,
+    "maxlat": 55.7289827,
+    "maxlon": 37.6501738
+  },
+  "tags": {
+    "abandoned:building": "yes",
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "17 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "apartments",
+    "building:architecture": "constructivism",
+    "building:levels": "5",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "start_date": "1925"
+  }
+},
+{
+  "type": "way",
+  "id": 48346029,
+  "bounds": {
+    "minlat": 55.7287523,
+    "minlon": 37.6471094,
+    "maxlat": 55.7289895,
+    "maxlon": 37.6477284
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "16 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "orange",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "brown",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346031,
+  "bounds": {
+    "minlat": 55.7286589,
+    "minlon": 37.6478015,
+    "maxlat": 55.7288411,
+    "maxlon": 37.6481590
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "18",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "brown",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346200,
+  "bounds": {
+    "minlat": 55.7293480,
+    "minlon": 37.6482840,
+    "maxlat": 55.7296334,
+    "maxlon": 37.6486020
+  },
+  "tags": {
+    "addr:housenumber": "13 с3",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:colour": "white",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346201,
+  "bounds": {
+    "minlat": 55.7296457,
+    "minlon": 37.6468952,
+    "maxlat": 55.7299103,
+    "maxlon": 37.6476858
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "8 с2",
+    "addr:street": "Шлюзовая набережная",
+    "building": "office",
+    "building:colour": "white;lightyellow",
+    "building:material": "plaster",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 48346203,
+  "bounds": {
+    "minlat": 55.7289049,
+    "minlon": 37.6484511,
+    "maxlat": 55.7293204,
+    "maxlon": 37.6492074
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "15 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:architecture": "constructivism",
+    "building:colour": "yellow",
+    "building:material": "plaster",
+    "roof:colour": "brown",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52104566,
+  "bounds": {
+    "minlat": 55.7298908,
+    "minlon": 37.6470958,
+    "maxlat": 55.7309651,
+    "maxlon": 37.6480690
+  },
+  "tags": {
+    "addr:housenumber": "8 с1",
+    "addr:street": "Шлюзовая набережная",
+    "building": "commercial",
+    "building:colour": "yellow;white",
+    "building:levels": "7",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52104629,
+  "bounds": {
+    "minlat": 55.7309774,
+    "minlon": 37.6453646,
+    "maxlat": 55.7315732,
+    "maxlon": 37.6461452
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Кожевнический проезд",
+    "building": "commercial",
+    "building:colour": "beige;coral",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "contact:website": "http://river-place.caos.ru/",
+    "name": "Бизнес-центр \"Ривер-Плейс\"",
+    "name:en": "River Place",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 52104714,
+  "bounds": {
+    "minlat": 55.7311880,
+    "minlon": 37.6472241,
+    "maxlat": 55.7313079,
+    "maxlon": 37.6474981
+  },
+  "tags": {
+    "addr:housenumber": "6 с1",
+    "addr:street": "Шлюзовая набережная",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "yellow",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52104745,
+  "bounds": {
+    "minlat": 55.7307993,
+    "minlon": 37.6459059,
+    "maxlat": 55.7312445,
+    "maxlon": 37.6474804
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "6 с4",
+    "addr:postcode": "115114",
+    "addr:street": "Шлюзовая набережная",
+    "building": "office",
+    "building:colour": "lightyellow",
+    "building:levels": "5",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 52107806,
+  "bounds": {
+    "minlat": 55.7324996,
+    "minlon": 37.6439612,
+    "maxlat": 55.7329076,
+    "maxlon": 37.6447856
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "52 с4",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "7",
+    "height": "21",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 52706622,
+  "bounds": {
+    "minlat": 55.7289698,
+    "minlon": 37.6497143,
+    "maxlat": 55.7298150,
+    "maxlon": 37.6502720
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "17/14 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "apartments",
+    "building:architecture": "constructivism",
+    "building:colour": "bisque",
+    "building:flats": "64",
+    "building:levels": "4",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "start_date": "1926"
+  }
+},
+{
+  "type": "way",
+  "id": 52706631,
+  "bounds": {
+    "minlat": 55.7292600,
+    "minlon": 37.6470956,
+    "maxlat": 55.7296077,
+    "maxlon": 37.6477026
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "11/13 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:architecture": "empire",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgreen",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 52706632,
+  "bounds": {
+    "minlat": 55.7291771,
+    "minlon": 37.6475097,
+    "maxlat": 55.7295184,
+    "maxlon": 37.6479397
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "13 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "yes",
+    "building:levels": "2",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706633,
+  "bounds": {
+    "minlat": 55.7294052,
+    "minlon": 37.6466001,
+    "maxlat": 55.7296153,
+    "maxlon": 37.6470614
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "11/13 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:architecture": "empire",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706634,
+  "bounds": {
+    "minlat": 55.7287463,
+    "minlon": 37.6467983,
+    "maxlat": 55.7290266,
+    "maxlon": 37.6470959
+  },
+  "tags": {
+    "addr:housenumber": "14 к1",
+    "addr:street": "Кожевническая улица",
+    "building": "retail",
+    "building:colour": "lightblue",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "brown",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706636,
+  "bounds": {
+    "minlat": 55.7296509,
+    "minlon": 37.6466298,
+    "maxlat": 55.7297411,
+    "maxlon": 37.6467568
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "building": "retail"
+  }
+},
+{
+  "type": "way",
+  "id": 52706640,
+  "bounds": {
+    "minlat": 55.7291870,
+    "minlon": 37.6480663,
+    "maxlat": 55.7293795,
+    "maxlon": 37.6484056
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "13 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:colour": "beige",
+    "building:levels": "3",
+    "building:material": "brick",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706641,
+  "bounds": {
+    "minlat": 55.7303116,
+    "minlon": 37.6488431,
+    "maxlat": 55.7305952,
+    "maxlon": 37.6493628
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "12 с1",
+    "addr:street": "Шлюзовая набережная",
+    "building": "industrial",
+    "building:levels": "1",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706642,
+  "bounds": {
+    "minlat": 55.7301218,
+    "minlon": 37.6493572,
+    "maxlat": 55.7302453,
+    "maxlon": 37.6495737
+  },
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:levels": "2",
+    "roof:angle": "20",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 52706643,
+  "bounds": {
+    "minlat": 55.7300933,
+    "minlon": 37.6495737,
+    "maxlat": 55.7302609,
+    "maxlon": 37.6498698
+  },
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:colour": "beige;brown",
+    "building:material": "metal_plates",
+    "roof:angle": "20",
+    "roof:colour": "brown",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 52706644,
+  "bounds": {
+    "minlat": 55.7301109,
+    "minlon": 37.6482737,
+    "maxlat": 55.7305499,
+    "maxlon": 37.6489812
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с1",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:colour": "yellow",
+    "building:levels": "3",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52706645,
+  "bounds": {
+    "minlat": 55.7305007,
+    "minlon": 37.6481376,
+    "maxlat": 55.7306125,
+    "maxlon": 37.6483234
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с14",
+    "addr:street": "Шлюзовая набережная",
+    "building": "service",
+    "building:colour": "lightyellow",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706648,
+  "bounds": {
+    "minlat": 55.7297744,
+    "minlon": 37.6478616,
+    "maxlat": 55.7299291,
+    "maxlon": 37.6481576
+  },
+  "tags": {
+    "addr:housenumber": "10 с6",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706649,
+  "bounds": {
+    "minlat": 55.7296728,
+    "minlon": 37.6480696,
+    "maxlat": 55.7298514,
+    "maxlon": 37.6485850
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с5",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 52706650,
+  "bounds": {
+    "minlat": 55.7296081,
+    "minlon": 37.6482021,
+    "maxlat": 55.7299744,
+    "maxlon": 37.6488088
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с12",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 52706651,
+  "bounds": {
+    "minlat": 55.7296346,
+    "minlon": 37.6477691,
+    "maxlat": 55.7297907,
+    "maxlon": 37.6479377
+  },
+  "tags": {
+    "addr:housenumber": "13 с10",
+    "addr:street": "Кожевническая улица",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 52706652,
+  "bounds": {
+    "minlat": 55.7310054,
+    "minlon": 37.6471854,
+    "maxlat": 55.7312301,
+    "maxlon": 37.6476074
+  },
+  "tags": {
+    "addr:housenumber": "6 с1",
+    "addr:street": "Шлюзовая набережная",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "yellow",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 52706653,
+  "bounds": {
+    "minlat": 55.7311197,
+    "minlon": 37.6466067,
+    "maxlat": 55.7313569,
+    "maxlon": 37.6472890
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "6 с2",
+    "addr:street": "Шлюзовая набережная",
+    "building": "hotel",
+    "building:colour": "yellow;coral",
+    "building:levels": "8",
+    "building:material": "plaster",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "many"
+  }
+},
+{
+  "type": "way",
+  "id": 52706654,
+  "bounds": {
+    "minlat": 55.7313360,
+    "minlon": 37.6462824,
+    "maxlat": 55.7314966,
+    "maxlon": 37.6467725
+  },
+  "tags": {
+    "addr:housenumber": "6 с3",
+    "addr:street": "Шлюзовая набережная",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "beige",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "grren",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 57359889,
+  "bounds": {
+    "minlat": 55.7302565,
+    "minlon": 37.6443992,
+    "maxlat": 55.7308649,
+    "maxlon": 37.6450527
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "4/5 с5",
+    "addr:street": "Кожевнический проезд",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "orange",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 75509677,
+  "bounds": {
+    "minlat": 55.7291151,
+    "minlon": 37.6450310,
+    "maxlat": 55.7294493,
+    "maxlon": 37.6456570
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с1",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:colour": "lightgrey;blue",
+    "building:levels": "11",
+    "building:material": "glass",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 75714717,
+  "bounds": {
+    "minlat": 55.7294222,
+    "minlon": 37.6444554,
+    "maxlat": 55.7296599,
+    "maxlon": 37.6450008
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "8 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:architecture": "art_nouveau",
+    "building:colour": "lightgreen",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 130642284,
+  "bounds": {
+    "minlat": 55.7307106,
+    "minlon": 37.6452473,
+    "maxlat": 55.7310182,
+    "maxlon": 37.6455829
+  },
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Кожевнический проезд",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "yellow",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:levels": "1",
+    "roof:material": "metal",
+    "roof:shape": "gabled",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 223013520,
+  "bounds": {
+    "minlat": 55.7340942,
+    "minlon": 37.6447167,
+    "maxlat": 55.7349647,
+    "maxlon": 37.6467555
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "52 с7",
+    "addr:postcode": "115035",
+    "addr:street": "Космодамианская набережная",
+    "building": "commercial",
+    "building:levels": "9",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 271847439,
+  "bounds": {
+    "minlat": 55.7299895,
+    "minlon": 37.6458355,
+    "maxlat": 55.7305311,
+    "maxlon": 37.6463680
+  },
+  "tags": {
+    "addr:housenumber": "7 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "office",
+    "building:levels": "6",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 300381528,
+  "bounds": {
+    "minlat": 55.7302291,
+    "minlon": 37.6481170,
+    "maxlat": 55.7303141,
+    "maxlon": 37.6482316
+  },
+  "tags": {
+    "addr:housenumber": "10 с10",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 300381530,
+  "bounds": {
+    "minlat": 55.7297659,
+    "minlon": 37.6484305,
+    "maxlat": 55.7301372,
+    "maxlon": 37.6487823
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с2",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 300381531,
+  "bounds": {
+    "minlat": 55.7298633,
+    "minlon": 37.6482587,
+    "maxlat": 55.7300949,
+    "maxlon": 37.6485300
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с3",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 300381532,
+  "bounds": {
+    "minlat": 55.7298854,
+    "minlon": 37.6479269,
+    "maxlat": 55.7300599,
+    "maxlon": 37.6481748
+  },
+  "tags": {
+    "addr:housenumber": "10 с7",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 300381535,
+  "bounds": {
+    "minlat": 55.7300367,
+    "minlon": 37.6480073,
+    "maxlat": 55.7302385,
+    "maxlon": 37.6482546
+  },
+  "tags": {
+    "addr:housenumber": "10 с9",
+    "addr:street": "Шлюзовая набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 325176381,
+  "bounds": {
+    "minlat": 55.7290940,
+    "minlon": 37.6445173,
+    "maxlat": 55.7293675,
+    "maxlon": 37.6449689
+  },
+  "tags": {
+    "addr:housenumber": "10 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "service",
+    "building:colour": "white",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385975239,
+  "bounds": {
+    "minlat": 55.7327230,
+    "minlon": 37.6448221,
+    "maxlat": 55.7330834,
+    "maxlon": 37.6454464
+  },
+  "tags": {
+    "addr:housenumber": "52 с11",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385975241,
+  "bounds": {
+    "minlat": 55.7321091,
+    "minlon": 37.6456941,
+    "maxlat": 55.7323704,
+    "maxlon": 37.6464725
+  },
+  "tags": {
+    "addr:housenumber": "52 с2",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "7",
+    "height": "21",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 385975242,
+  "bounds": {
+    "minlat": 55.7321982,
+    "minlon": 37.6446259,
+    "maxlat": 55.7326595,
+    "maxlon": 37.6457739
+  },
+  "tags": {
+    "addr:housenumber": "52 с3",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "7",
+    "height": "21",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 396786612,
+  "bounds": {
+    "minlat": 55.7296098,
+    "minlon": 37.6443357,
+    "maxlat": 55.7296656,
+    "maxlon": 37.6444186
+  },
+  "tags": {
+    "building": "shed",
+    "building:colour": "brown",
+    "building:levels": "1",
+    "building:material": "brick",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 464710485,
+  "bounds": {
+    "minlat": 55.7338236,
+    "minlon": 37.6464643,
+    "maxlat": 55.7341132,
+    "maxlon": 37.6466637
+  },
+  "tags": {
+    "building": "yes",
+    "building:part": "base"
+  }
+},
+{
+  "type": "way",
+  "id": 536342520,
+  "bounds": {
+    "minlat": 55.7324402,
+    "minlon": 37.6459001,
+    "maxlat": 55.7326431,
+    "maxlon": 37.6462813
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "52 с10",
+    "addr:postcode": "115035",
+    "addr:street": "Космодамианская набережная",
+    "building": "commercial",
+    "building:levels": "2",
+    "email": "info@aitarget.com",
+    "name": "Aitarget",
+    "office": "it",
+    "phone": "+7 495 2587488",
+    "smoking": "isolated",
+    "website": "https://www.aitarget.ru/"
+  }
+},
+{
+  "type": "way",
+  "id": 568169736,
+  "bounds": {
+    "minlat": 55.7309049,
+    "minlon": 37.6446618,
+    "maxlat": 55.7309787,
+    "maxlon": 37.6449427
+  },
+  "tags": {
+    "addr:housenumber": "4 с2",
+    "addr:street": "Шлюзовая набережная",
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 885991971,
+  "bounds": {
+    "minlat": 55.7286041,
+    "minlon": 37.6439629,
+    "maxlat": 55.7288878,
+    "maxlon": 37.6442886
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 1030187585,
+  "bounds": {
+    "minlat": 55.7286051,
+    "minlon": 37.6466185,
+    "maxlat": 55.7287819,
+    "maxlon": 37.6469553
+  },
+  "tags": {
+    "addr:housenumber": "14 к1 с2",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:levels": "4",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 1110163364,
+  "bounds": {
+    "minlat": 55.7328545,
+    "minlon": 37.6460004,
+    "maxlat": 55.7334364,
+    "maxlon": 37.6470356
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "height": "12",
+    "roof:shape": "dome"
+  }
+},
+{
+  "type": "way",
+  "id": 1110163367,
+  "bounds": {
+    "minlat": 55.7319777,
+    "minlon": 37.6467588,
+    "maxlat": 55.7321691,
+    "maxlon": 37.6474679
+  },
+  "tags": {
+    "addr:housenumber": "52 с1",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "5",
+    "height": "15"
+  }
+},
+{
+  "type": "way",
+  "id": 1152213707,
+  "bounds": {
+    "minlat": 55.7329979,
+    "minlon": 37.6497751,
+    "maxlat": 55.7332230,
+    "maxlon": 37.6501070
+  },
+  "tags": {
+    "building": "service",
+    "source": "esri"
+  }
+},
+{
+  "type": "way",
+  "id": 43684264,
+  "bounds": {
+    "minlat": 55.7343143,
+    "minlon": 37.6528648,
+    "maxlat": 55.7349568,
+    "maxlon": 37.6535084
+  },
+  "tags": {
+    "addr:housenumber": "18 к4",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "apartments",
+    "building:flats": "80",
+    "building:levels": "5",
+    "design:ref": "1-511-4/М",
+    "start_date": "1959"
+  }
+},
+{
+  "type": "way",
+  "id": 43684274,
+  "bounds": {
+    "minlat": 55.7336272,
+    "minlon": 37.6505296,
+    "maxlat": 55.7344315,
+    "maxlon": 37.6522512
+  },
+  "tags": {
+    "addr:housenumber": "11 с1",
+    "addr:postcode": "115172",
+    "addr:street": "Краснохолмская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "6",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 47571971,
+  "bounds": {
+    "minlat": 55.7334287,
+    "minlon": 37.6540738,
+    "maxlat": 55.7340261,
+    "maxlon": 37.6546889
+  },
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:postcode": "115172",
+    "addr:street": "Новоспасский переулок",
+    "building": "apartments",
+    "building:flats": "179",
+    "building:levels": "12",
+    "building:material": "brick"
+  }
+},
+{
+  "type": "way",
+  "id": 47626949,
+  "bounds": {
+    "minlat": 55.7339723,
+    "minlon": 37.6542899,
+    "maxlat": 55.7341181,
+    "maxlon": 37.6547219
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 48346403,
+  "bounds": {
+    "minlat": 55.7289708,
+    "minlon": 37.6565585,
+    "maxlat": 55.7294225,
+    "maxlon": 37.6569613
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "13 с5",
+    "addr:street": "Саринский проезд",
+    "building": "public",
+    "building:architecture": "neoclassicism",
+    "building:colour": "coral",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346415,
+  "bounds": {
+    "minlat": 55.7326070,
+    "minlon": 37.6561319,
+    "maxlat": 55.7328849,
+    "maxlon": 37.6567649
+  },
+  "tags": {
+    "addr:housenumber": "2А",
+    "addr:street": "Крестьянская площадь",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:levels": "2",
+    "name": "Детский сад № 492"
+  }
+},
+{
+  "type": "way",
+  "id": 52706656,
+  "bounds": {
+    "minlat": 55.7292510,
+    "minlon": 37.6510851,
+    "maxlat": 55.7294032,
+    "maxlon": 37.6513775
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "14",
+    "addr:street": "Шлюзовая набережная",
+    "building": "roof",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 53650439,
+  "bounds": {
+    "minlat": 55.7313832,
+    "minlon": 37.6556783,
+    "maxlat": 55.7315256,
+    "maxlon": 37.6559144
+  },
+  "tags": {
+    "addr:housenumber": "10 с8",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 53818912,
+  "bounds": {
+    "minlat": 55.7323772,
+    "minlon": 37.6549499,
+    "maxlat": 55.7325165,
+    "maxlon": 37.6551974
+  },
+  "tags": {
+    "addr:housenumber": "10 с29",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "height": "16",
+    "man_made": "tower",
+    "name": "Северо-западная башня",
+    "roof:colour": "#3A3A29",
+    "roof:material": "metal",
+    "roof:shape": "pyramidal",
+    "tower:type": "defensive",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/41-plan-13"
+  }
+},
+{
+  "type": "way",
+  "id": 53818913,
+  "bounds": {
+    "minlat": 55.7316378,
+    "minlon": 37.6552524,
+    "maxlat": 55.7317860,
+    "maxlon": 37.6555129
+  },
+  "tags": {
+    "addr:housenumber": "10 с9",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Западная башня",
+    "tower:type": "defensive",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/40-plan-12"
+  }
+},
+{
+  "type": "way",
+  "id": 53818915,
+  "bounds": {
+    "minlat": 55.7310609,
+    "minlon": 37.6562925,
+    "maxlat": 55.7311812,
+    "maxlon": 37.6565112
+  },
+  "tags": {
+    "addr:housenumber": "10 с27",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Юго-западная башня",
+    "tower:type": "defensive",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/39-plan-11"
+  }
+},
+{
+  "type": "way",
+  "id": 53818961,
+  "bounds": {
+    "minlat": 55.7321594,
+    "minlon": 37.6562804,
+    "maxlat": 55.7322167,
+    "maxlon": 37.6563460
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "russian_orthodox",
+    "name": "Часовня 300-летия дома Романовых",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 53819487,
+  "bounds": {
+    "minlat": 55.7318624,
+    "minlon": 37.6551619,
+    "maxlat": 55.7322759,
+    "maxlon": 37.6555496
+  },
+  "tags": {
+    "addr:housenumber": "10 с10",
+    "addr:street": "Крестьянская площадь",
+    "building": "apartments",
+    "name": "Братский корпус",
+    "roof:colour": "#582112"
+  }
+},
+{
+  "type": "way",
+  "id": 53819489,
+  "bounds": {
+    "minlat": 55.7318798,
+    "minlon": 37.6556545,
+    "maxlat": 55.7320709,
+    "maxlon": 37.6560362
+  },
+  "tags": {
+    "addr:housenumber": "10 с13",
+    "addr:street": "Крестьянская площадь",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "russian_orthodox",
+    "name": "Храм иконы Божией Матери «Знамение»",
+    "religion": "christian",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/31-plan-3"
+  }
+},
+{
+  "type": "way",
+  "id": 53819491,
+  "bounds": {
+    "minlat": 55.7314555,
+    "minlon": 37.6556425,
+    "maxlat": 55.7318702,
+    "maxlon": 37.6564247
+  },
+  "tags": {
+    "addr:housenumber": "10 с11",
+    "addr:street": "Крестьянская площадь",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:colour": "white",
+    "building:material": "plaster",
+    "denomination": "russian_orthodox",
+    "name": "Храм Покрова Пресвятой Богородицы",
+    "religion": "christian",
+    "roof:colour": "#39170E",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/30-plan-2"
+  }
+},
+{
+  "type": "way",
+  "id": 53819677,
+  "bounds": {
+    "minlat": 55.7322544,
+    "minlon": 37.6553713,
+    "maxlat": 55.7325862,
+    "maxlon": 37.6566352
+  },
+  "tags": {
+    "addr:housenumber": "10 с17",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "name": "Братский корпус"
+  }
+},
+{
+  "type": "way",
+  "id": 53819678,
+  "bounds": {
+    "minlat": 55.7322465,
+    "minlon": 37.6551151,
+    "maxlat": 55.7325518,
+    "maxlon": 37.6563617
+  },
+  "tags": {
+    "addr:housenumber": "10 с15",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "name": "Братский корпус"
+  }
+},
+{
+  "type": "way",
+  "id": 96759948,
+  "bounds": {
+    "minlat": 55.7332703,
+    "minlon": 37.6551229,
+    "maxlat": 55.7336709,
+    "maxlon": 37.6561052
+  },
+  "tags": {
+    "addr:housenumber": "3 к3",
+    "addr:street": "Новоспасский переулок",
+    "building": "university",
+    "building:levels": "4",
+    "name": "МПГУ. Музыкальный факультет"
+  }
+},
+{
+  "type": "way",
+  "id": 96759949,
+  "bounds": {
+    "minlat": 55.7328841,
+    "minlon": 37.6549691,
+    "maxlat": 55.7331652,
+    "maxlon": 37.6557001
+  },
+  "tags": {
+    "addr:housenumber": "10/2 с1",
+    "addr:street": "Крестьянская площадь",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:levels": "2",
+    "name": "Детский сад № 1874"
+  }
+},
+{
+  "type": "way",
+  "id": 129410219,
+  "bounds": {
+    "minlat": 55.7328052,
+    "minlon": 37.6521584,
+    "maxlat": 55.7331293,
+    "maxlon": 37.6529500
+  },
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:street": "Новоспасский переулок",
+    "building": "school",
+    "building:levels": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 129410221,
+  "bounds": {
+    "minlat": 55.7328276,
+    "minlon": 37.6517814,
+    "maxlat": 55.7329513,
+    "maxlon": 37.6521931
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 129410226,
+  "bounds": {
+    "minlat": 55.7326759,
+    "minlon": 37.6513685,
+    "maxlat": 55.7332068,
+    "maxlon": 37.6518886
+  },
+  "tags": {
+    "addr:housenumber": "11 с2",
+    "addr:street": "Новоспасский переулок",
+    "building": "school",
+    "building:levels": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 131469311,
+  "bounds": {
+    "minlat": 55.7299369,
+    "minlon": 37.6553717,
+    "maxlat": 55.7301421,
+    "maxlon": 37.6558212
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "6",
+    "addr:street": "Саринский проезд",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 171878891,
+  "bounds": {
+    "minlat": 55.7307752,
+    "minlon": 37.6563644,
+    "maxlat": 55.7311027,
+    "maxlon": 37.6568511
+  },
+  "tags": {
+    "addr:housenumber": "10 с4",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 241751702,
+  "bounds": {
+    "minlat": 55.7287321,
+    "minlon": 37.6558255,
+    "maxlat": 55.7294148,
+    "maxlon": 37.6566755
+  },
+  "tags": {
+    "addr:housenumber": "13 с4",
+    "addr:street": "Саринский проезд",
+    "building": "industrial",
+    "building:colour": "red",
+    "building:levels": "2",
+    "building:material": "brick",
+    "building:ruian:type": "2",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 252730611,
+  "bounds": {
+    "minlat": 55.7332610,
+    "minlon": 37.6524607,
+    "maxlat": 55.7338220,
+    "maxlon": 37.6534337
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:postcode": "115172",
+    "addr:street": "Новоспасский переулок",
+    "amenity": "hospital",
+    "building": "yes",
+    "building:levels": "7",
+    "healthcare": "hospital",
+    "name": "Центр спортивной, балетной травмы и реабилитации",
+    "name:uk": "Центр спортивної, балетної травми та реабілітації",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator": "ФГБУ \"Центральный научно-исследовательский институт травматологии и ортопедии им. Н. Н. Приорова\"",
+    "short_name": "ЦИТО",
+    "website": "https://www.cito-priorov.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 300381536,
+  "bounds": {
+    "minlat": 55.7295134,
+    "minlon": 37.6505526,
+    "maxlat": 55.7296824,
+    "maxlon": 37.6508424
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "14",
+    "addr:street": "Шлюзовая набережная",
+    "amenity": "car_wash",
+    "building": "retail",
+    "building:colour": "red;lightgrey",
+    "building:material": "metal_plates",
+    "check_date": "2026-04-30",
+    "opening_hours": "24/7",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 300381540,
+  "bounds": {
+    "minlat": 55.7291312,
+    "minlon": 37.6505823,
+    "maxlat": 55.7293895,
+    "maxlon": 37.6508662
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "19 с6",
+    "addr:street": "Кожевническая улица",
+    "building": "historic",
+    "building:colour": "red",
+    "building:levels": "2",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 340288767,
+  "bounds": {
+    "minlat": 55.7344329,
+    "minlon": 37.6510806,
+    "maxlat": 55.7345268,
+    "maxlon": 37.6512849
+  },
+  "tags": {
+    "addr:housenumber": "11 с2",
+    "addr:street": "Краснохолмская набережная",
+    "building": "service",
+    "building:levels": "1",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 340437150,
+  "bounds": {
+    "minlat": 55.7346166,
+    "minlon": 37.6504732,
+    "maxlat": 55.7348981,
+    "maxlon": 37.6508231
+  },
+  "tags": {
+    "addr:housenumber": "5-9",
+    "addr:street": "Краснохолмская набережная",
+    "building": "apartments",
+    "building:levels": "10",
+    "design:ref": "II-18-01/МИ вариант «Б»",
+    "start_date": "1962"
+  }
+},
+{
+  "type": "way",
+  "id": 340437216,
+  "bounds": {
+    "minlat": 55.7346201,
+    "minlon": 37.6517413,
+    "maxlat": 55.7346614,
+    "maxlon": 37.6518142
+  },
+  "tags": {
+    "building": "yes",
+    "building:cladding": "brick",
+    "building:colour": "red",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 340953015,
+  "bounds": {
+    "minlat": 55.7327487,
+    "minlon": 37.6531807,
+    "maxlat": 55.7331120,
+    "maxlon": 37.6538028
+  },
+  "tags": {
+    "addr:housenumber": "7А с3,4",
+    "addr:street": "Новоспасский переулок",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Come in",
+    "was:amenity": "arts_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 340953016,
+  "bounds": {
+    "minlat": 55.7331359,
+    "minlon": 37.6532587,
+    "maxlat": 55.7332743,
+    "maxlon": 37.6534934
+  },
+  "tags": {
+    "addr:housenumber": "9 с2",
+    "addr:street": "Новоспасский переулок",
+    "building": "yes",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 340967156,
+  "bounds": {
+    "minlat": 55.7330903,
+    "minlon": 37.6559700,
+    "maxlat": 55.7332340,
+    "maxlon": 37.6561567
+  },
+  "tags": {
+    "addr:housenumber": "3 с3А",
+    "addr:street": "Новоспасский переулок",
+    "building": "service",
+    "building:levels": "1",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 341436756,
+  "bounds": {
+    "minlat": 55.7332267,
+    "minlon": 37.6511631,
+    "maxlat": 55.7333085,
+    "maxlon": 37.6513114
+  },
+  "tags": {
+    "addr:housenumber": "11 с6",
+    "addr:street": "Новоспасский переулок",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 341436758,
+  "bounds": {
+    "minlat": 55.7338246,
+    "minlon": 37.6534931,
+    "maxlat": 55.7339045,
+    "maxlon": 37.6536386
+  },
+  "tags": {
+    "addr:housenumber": "5 с3",
+    "addr:street": "Новоспасский переулок",
+    "building": "service",
+    "building:levels": "1",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 341506116,
+  "bounds": {
+    "minlat": 55.7330832,
+    "minlon": 37.6548018,
+    "maxlat": 55.7332573,
+    "maxlon": 37.6550085
+  },
+  "tags": {
+    "addr:housenumber": "5 с2",
+    "addr:street": "Новоспасский переулок",
+    "building": "service",
+    "building:levels": "1",
+    "name": "МОЭК"
+  }
+},
+{
+  "type": "way",
+  "id": 345507132,
+  "bounds": {
+    "minlat": 55.7292145,
+    "minlon": 37.6510314,
+    "maxlat": 55.7293528,
+    "maxlon": 37.6513034
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 670864774,
+  "bounds": {
+    "minlat": 55.7319758,
+    "minlon": 37.6560287,
+    "maxlat": 55.7320345,
+    "maxlon": 37.6561330
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "21",
+    "roof:colour": "blue",
+    "roof:material": "metal",
+    "roof:shape": "onion"
+  }
+},
+{
+  "type": "way",
+  "id": 670864775,
+  "bounds": {
+    "minlat": 55.7318376,
+    "minlon": 37.6560985,
+    "maxlat": 55.7318963,
+    "maxlon": 37.6562028
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "21",
+    "roof:colour": "blue",
+    "roof:material": "metal",
+    "roof:shape": "onion"
+  }
+},
+{
+  "type": "way",
+  "id": 670864776,
+  "bounds": {
+    "minlat": 55.7320203,
+    "minlon": 37.6562916,
+    "maxlat": 55.7320791,
+    "maxlon": 37.6563959
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "21",
+    "roof:colour": "blue",
+    "roof:material": "metal",
+    "roof:shape": "onion"
+  }
+},
+{
+  "type": "way",
+  "id": 670864777,
+  "bounds": {
+    "minlat": 55.7318808,
+    "minlon": 37.6563643,
+    "maxlat": 55.7319395,
+    "maxlon": 37.6564686
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "21",
+    "roof:colour": "blue",
+    "roof:material": "metal",
+    "roof:shape": "onion"
+  }
+},
+{
+  "type": "way",
+  "id": 670864778,
+  "bounds": {
+    "minlat": 55.7319136,
+    "minlon": 37.6561745,
+    "maxlat": 55.7319988,
+    "maxlon": 37.6563260
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "24",
+    "roof:colour": "gold",
+    "roof:material": "metal",
+    "roof:shape": "onion"
+  }
+},
+{
+  "type": "way",
+  "id": 670864779,
+  "bounds": {
+    "minlat": 55.7318034,
+    "minlon": 37.6559630,
+    "maxlat": 55.7321161,
+    "maxlon": 37.6565342
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "18",
+    "roof:colour": "#3A3129",
+    "roof:height": "2",
+    "roof:material": "metal",
+    "roof:shape": "pyramidal"
+  }
+},
+{
+  "type": "way",
+  "id": 670881143,
+  "bounds": {
+    "minlat": 55.7325126,
+    "minlon": 37.6568589,
+    "maxlat": 55.7325416,
+    "maxlon": 37.6569126
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "14",
+    "roof:colour": "#39170E",
+    "roof:material": "metal",
+    "roof:shape": "onion"
+  }
+},
+{
+  "type": "way",
+  "id": 241751682,
+  "bounds": {
+    "minlat": 55.7282404,
+    "minlon": 37.6583382,
+    "maxlat": 55.7283580,
+    "maxlon": 37.6585985
+  },
+  "tags": {
+    "addr:housenumber": "17 с10",
+    "addr:street": "Крутицкая улица",
+    "building": "detached",
+    "building:colour": "green",
+    "building:levels": "1",
+    "building:material": "wood",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 241751688,
+  "bounds": {
+    "minlat": 55.7280821,
+    "minlon": 37.6582657,
+    "maxlat": 55.7281900,
+    "maxlon": 37.6585215
+  },
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Крутицкая улица",
+    "building": "hut",
+    "building:colour": "orange",
+    "building:levels": "1",
+    "building:material": "wood",
+    "roof:angle": "20",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 241751689,
+  "bounds": {
+    "minlat": 55.7283707,
+    "minlon": 37.6582296,
+    "maxlat": 55.7285094,
+    "maxlon": 37.6585844
+  },
+  "tags": {
+    "addr:housenumber": "17 с9",
+    "addr:street": "Крутицкая улица",
+    "building": "detached",
+    "building:colour": "green;beige",
+    "building:levels": "1",
+    "building:material": "wood",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 241751698,
+  "bounds": {
+    "minlat": 55.7283504,
+    "minlon": 37.6588494,
+    "maxlat": 55.7284743,
+    "maxlon": 37.6590867
+  },
+  "tags": {
+    "addr:housenumber": "13",
+    "addr:street": "Крутицкая улица",
+    "building": "public",
+    "building:colour": "beige",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "name": "Музей путешествий и паломничества по святым местам",
+    "note": "По предварительной договоренности",
+    "opening_hours": "Tu 15:30-21:00; Th 15:30-21:00",
+    "roof:angle": "30",
+    "roof:colour": "red",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "tourism": "museum",
+    "website": "https://plmusey.narod.ru/"
+  }
+},
+{
+  "type": "way",
+  "id": 242682006,
+  "bounds": {
+    "minlat": 55.7279189,
+    "minlon": 37.6588472,
+    "maxlat": 55.7282995,
+    "maxlon": 37.6593599
+  },
+  "tags": {
+    "addr:housenumber": "17 с1",
+    "addr:street": "Крутицкая улица",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:colour": "red",
+    "building:levels": "4",
+    "building:material": "brick",
+    "denomination": "russian_orthodox",
+    "name": "Храм Успения Пресвятой Богородицы в Крутицах",
+    "religion": "christian",
+    "roof:angle": "20",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 242682014,
+  "bounds": {
+    "minlat": 55.7284786,
+    "minlon": 37.6577851,
+    "maxlat": 55.7285234,
+    "maxlon": 37.6581363
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 242682018,
+  "bounds": {
+    "minlat": 55.7283513,
+    "minlon": 37.6577096,
+    "maxlat": 55.7284253,
+    "maxlon": 37.6580582
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 645359444,
+  "bounds": {
+    "minlat": 55.7283649,
+    "minlon": 37.6594525,
+    "maxlat": 55.7284883,
+    "maxlon": 37.6596482
+  },
+  "tags": {
+    "addr:housenumber": "3 с1",
+    "addr:street": "1-й Крутицкий переулок",
+    "building": "office",
+    "building:colour": "lightyellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "30",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 1449349535,
+  "bounds": {
+    "minlat": 55.7281330,
+    "minlon": 37.6572132,
+    "maxlat": 55.7283583,
+    "maxlon": 37.6574022
+  },
+  "tags": {
+    "addr:housenumber": "13 с8",
+    "addr:street": "Саринский проезд",
+    "building": "industrial",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 52445492,
+  "bounds": {
+    "minlat": 55.7343874,
+    "minlon": 37.6577967,
+    "maxlat": 55.7353257,
+    "maxlon": 37.6586452
+  },
+  "tags": {
+    "addr:housenumber": "7/4 с1",
+    "addr:street": "улица Гвоздева",
+    "building": "apartments",
+    "building:levels": "12"
+  }
+},
+{
+  "type": "way",
+  "id": 171878917,
+  "bounds": {
+    "minlat": 55.7350219,
+    "minlon": 37.6586356,
+    "maxlat": 55.7351844,
+    "maxlon": 37.6589001
+  },
+  "tags": {
+    "addr:housenumber": "7/4 с3",
+    "addr:street": "улица Гвоздева",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 241751690,
+  "bounds": {
+    "minlat": 55.7285157,
+    "minlon": 37.6588255,
+    "maxlat": 55.7286353,
+    "maxlon": 37.6590707
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "11",
+    "addr:street": "Крутицкая улица",
+    "building": "detached",
+    "building:colour": "pink",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "30",
+    "roof:colour": "red",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 242682019,
+  "bounds": {
+    "minlat": 55.7283492,
+    "minlon": 37.6570704,
+    "maxlat": 55.7287155,
+    "maxlon": 37.6573596
+  },
+  "tags": {
+    "addr:housenumber": "13 с7",
+    "addr:street": "Саринский проезд",
+    "building": "industrial",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 1449349534,
+  "bounds": {
+    "minlat": 55.7284687,
+    "minlon": 37.6573067,
+    "maxlat": 55.7286296,
+    "maxlon": 37.6573927
+  },
+  "tags": {
+    "addr:housenumber": "13 с14",
+    "addr:street": "Саринский проезд",
+    "building": "house"
+  }
+},
+{
+  "type": "way",
+  "id": 23414615,
+  "bounds": {
+    "minlat": 55.7291386,
+    "minlon": 37.6586060,
+    "maxlat": 55.7295534,
+    "maxlon": 37.6596300
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "10 с1",
+    "addr:street": "4-й Крутицкий переулок",
+    "building": "office",
+    "building:levels": "4",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 47512683,
+  "bounds": {
+    "minlat": 55.7347421,
+    "minlon": 37.6585891,
+    "maxlat": 55.7349264,
+    "maxlon": 37.6588861
+  },
+  "tags": {
+    "addr:housenumber": "7/4 с2",
+    "addr:street": "улица Гвоздева",
+    "building": "yes",
+    "building:levels": "1",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 48346402,
+  "bounds": {
+    "minlat": 55.7291249,
+    "minlon": 37.6573874,
+    "maxlat": 55.7294071,
+    "maxlon": 37.6578193
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "13 с1",
+    "addr:street": "Саринский проезд",
+    "building": "office",
+    "building:levels": "3",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 53519022,
+  "bounds": {
+    "minlat": 55.7315901,
+    "minlon": 37.6585691,
+    "maxlat": 55.7319384,
+    "maxlon": 37.6593433
+  },
+  "tags": {
+    "addr:housenumber": "28 с1",
+    "addr:street": "Динамовская улица",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:colour": "yellow",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "contact:website": "https://www.40мучеников.рус/",
+    "denomination": "russian_orthodox",
+    "name": "Храм Сорока Севастийских Мучеников",
+    "official_name": "Храм Сорока Мучеников Севастийских в Спасской слободе",
+    "religion": "christian",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "many"
+  }
+},
+{
+  "type": "way",
+  "id": 53591175,
+  "bounds": {
+    "minlat": 55.7319020,
+    "minlon": 37.6584392,
+    "maxlat": 55.7321846,
+    "maxlon": 37.6587669
+  },
+  "tags": {
+    "addr:housenumber": "11 с1",
+    "addr:street": "Крестьянская площадь",
+    "building": "office",
+    "building:colour": "red",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "30",
+    "roof:colour": "brown",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 53818910,
+  "bounds": {
+    "minlat": 55.7313065,
+    "minlon": 37.6580608,
+    "maxlat": 55.7314172,
+    "maxlon": 37.6582588
+  },
+  "tags": {
+    "building": "yes",
+    "height": "10",
+    "man_made": "tower",
+    "name": "Юго-восточная башня",
+    "roof:colour": "#3A3A29",
+    "tower:type": "defensive",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/37-plan-10"
+  }
+},
+{
+  "type": "way",
+  "id": 53818911,
+  "bounds": {
+    "minlat": 55.7326879,
+    "minlon": 37.6572497,
+    "maxlat": 55.7327988,
+    "maxlon": 37.6574468
+  },
+  "tags": {
+    "addr:housenumber": "10 с28",
+    "addr:street": "Крестьянская площадь",
+    "building": "yes",
+    "height": "16",
+    "man_made": "tower",
+    "name": "Северо-восточная башня",
+    "roof:colour": "#3A3A29",
+    "roof:material": "metal",
+    "roof:shape": "pyramidal",
+    "tower:type": "defensive",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/42-plan-14"
+  }
+},
+{
+  "type": "way",
+  "id": 53818914,
+  "bounds": {
+    "minlat": 55.7307017,
+    "minlon": 37.6578409,
+    "maxlat": 55.7307563,
+    "maxlon": 37.6579379
+  },
+  "tags": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "defensive"
+  }
+},
+{
+  "type": "way",
+  "id": 53818958,
+  "bounds": {
+    "minlat": 55.7322961,
+    "minlon": 37.6571920,
+    "maxlat": 55.7326538,
+    "maxlon": 37.6574791
+  },
+  "tags": {
+    "addr:housenumber": "10 с7",
+    "addr:street": "Крестьянская площадь",
+    "building": "garages"
+  }
+},
+{
+  "type": "way",
+  "id": 53818959,
+  "bounds": {
+    "minlat": 55.7315473,
+    "minlon": 37.6577163,
+    "maxlat": 55.7318733,
+    "maxlon": 37.6579422
+  },
+  "tags": {
+    "addr:housenumber": "10 с1",
+    "addr:street": "Крестьянская площадь",
+    "building": "church",
+    "building:colour": "white",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "30",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 53818960,
+  "bounds": {
+    "minlat": 55.7313864,
+    "minlon": 37.6578358,
+    "maxlat": 55.7315039,
+    "maxlon": 37.6580052
+  },
+  "tags": {
+    "building": "retail",
+    "building:colour": "white",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 53819488,
+  "bounds": {
+    "minlat": 55.7318808,
+    "minlon": 37.6573879,
+    "maxlat": 55.7321759,
+    "maxlon": 37.6578788
+  },
+  "tags": {
+    "addr:housenumber": "10 с1",
+    "addr:street": "Крестьянская площадь",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:colour": "#ffe399",
+    "building:material": "plaster",
+    "denomination": "russian_orthodox",
+    "name": "Колокольня с храмом преподобного Сергия Радонежского",
+    "religion": "christian",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/36-plan-8"
+  }
+},
+{
+  "type": "way",
+  "id": 53819524,
+  "bounds": {
+    "minlat": 55.7307996,
+    "minlon": 37.6574284,
+    "maxlat": 55.7308807,
+    "maxlon": 37.6575847
+  },
+  "tags": {
+    "addr:housenumber": "10 с23",
+    "addr:street": "Крестьянская площадь",
+    "building": "service",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 131370368,
+  "bounds": {
+    "minlat": 55.7289226,
+    "minlon": 37.6571552,
+    "maxlat": 55.7291394,
+    "maxlon": 37.6574665
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "13 с3",
+    "addr:street": "Саринский проезд",
+    "building": "retail",
+    "building:levels": "1",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 133636968,
+  "bounds": {
+    "minlat": 55.7295131,
+    "minlon": 37.6571875,
+    "maxlat": 55.7297500,
+    "maxlon": 37.6577767
+  },
+  "tags": {
+    "addr:housenumber": "13 с2",
+    "addr:street": "Саринский проезд",
+    "building": "office",
+    "building:colour": "red",
+    "building:levels": "3",
+    "building:material": "brick",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 160412240,
+  "bounds": {
+    "minlat": 55.7286645,
+    "minlon": 37.6587539,
+    "maxlat": 55.7289207,
+    "maxlon": 37.6590552
+  },
+  "tags": {
+    "addr:housenumber": "9 с1",
+    "addr:street": "Крутицкая улица",
+    "building": "commercial",
+    "building:colour": "orange;red",
+    "building:levels": "4",
+    "building:material": "brick",
+    "roof:angle": "30",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 160412242,
+  "bounds": {
+    "minlat": 55.7287133,
+    "minlon": 37.6591365,
+    "maxlat": 55.7288935,
+    "maxlon": 37.6593900
+  },
+  "tags": {
+    "addr:housenumber": "9 с2",
+    "addr:postcode": "107076",
+    "addr:street": "Крутицкая улица",
+    "building": "office",
+    "building:colour": "beige",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "name": "RRG",
+    "roof:angle": "30",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "gabled",
+    "website": "https://www.rrg.ru/"
+  }
+},
+{
+  "type": "way",
+  "id": 171878889,
+  "bounds": {
+    "minlat": 55.7311704,
+    "minlon": 37.6573328,
+    "maxlat": 55.7313431,
+    "maxlon": 37.6580129
+  },
+  "tags": {
+    "addr:housenumber": "10 с2",
+    "addr:street": "Крестьянская площадь",
+    "building": "church",
+    "building:levels": "2",
+    "roof:angle": "30",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 171878902,
+  "bounds": {
+    "minlat": 55.7341143,
+    "minlon": 37.6595660,
+    "maxlat": 55.7345052,
+    "maxlon": 37.6599914
+  },
+  "tags": {
+    "addr:housenumber": "5/7",
+    "addr:street": "Воронцовский переулок",
+    "building": "yes",
+    "building:levels": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 171878903,
+  "bounds": {
+    "minlat": 55.7336761,
+    "minlon": 37.6590937,
+    "maxlat": 55.7342617,
+    "maxlon": 37.6598395
+  },
+  "tags": {
+    "addr:housenumber": "5/7 с1",
+    "addr:street": "Воронцовский переулок",
+    "building": "yes",
+    "building:levels": "3",
+    "check_date": "2025-10-15",
+    "leisure": "sauna",
+    "name": "Воронцовские бани",
+    "opening_hours": "24/7",
+    "operator": "ЗАО Воронцовский БПК"
+  }
+},
+{
+  "type": "way",
+  "id": 171878904,
+  "bounds": {
+    "minlat": 55.7340773,
+    "minlon": 37.6585391,
+    "maxlat": 55.7343354,
+    "maxlon": 37.6591842
+  },
+  "tags": {
+    "addr:housenumber": "5/7 с2",
+    "addr:street": "Воронцовский переулок",
+    "building": "hotel",
+    "building:levels": "2",
+    "check_date": "2025-12-18",
+    "contact:phone": "+7 495 6639929",
+    "contact:website": "https://vorontsovsky.ru/",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Воронцовский",
+    "name:en": "Vorontsovsky",
+    "stars": "4",
+    "tourism": "hotel",
+    "wikimedia_commons": "File:Vorontsovsky Hotel.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 171878906,
+  "bounds": {
+    "minlat": 55.7343087,
+    "minlon": 37.6591974,
+    "maxlat": 55.7344334,
+    "maxlon": 37.6594798
+  },
+  "tags": {
+    "addr:housenumber": "5/7 с4",
+    "addr:street": "Воронцовский переулок",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 241751696,
+  "bounds": {
+    "minlat": 55.7289146,
+    "minlon": 37.6595653,
+    "maxlat": 55.7292511,
+    "maxlon": 37.6602851
+  },
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "4-й Крутицкий переулок",
+    "building": "apartments",
+    "building:colour": "beige",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 242682016,
+  "bounds": {
+    "minlat": 55.7299824,
+    "minlon": 37.6586828,
+    "maxlat": 55.7301121,
+    "maxlon": 37.6590892
+  },
+  "tags": {
+    "addr:housenumber": "вл17/1",
+    "addr:street": "3-й Крутицкий переулок",
+    "building": "retail",
+    "building:colour": "white;blue",
+    "building:levels": "1",
+    "building:material": "metal_plates",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 242682017,
+  "bounds": {
+    "minlat": 55.7288014,
+    "minlon": 37.6582926,
+    "maxlat": 55.7289102,
+    "maxlon": 37.6585227
+  },
+  "tags": {
+    "addr:housenumber": "4 с3",
+    "addr:street": "Крутицкая улица",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "30",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 340465068,
+  "bounds": {
+    "minlat": 55.7337638,
+    "minlon": 37.6588545,
+    "maxlat": 55.7340229,
+    "maxlon": 37.6592557
+  },
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Новоспасский проезд",
+    "building": "yes",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 341199576,
+  "bounds": {
+    "minlat": 55.7321350,
+    "minlon": 37.6574220,
+    "maxlat": 55.7322128,
+    "maxlon": 37.6575641
+  },
+  "tags": {
+    "building": "shed",
+    "name": "Свечная мастерская"
+  }
+},
+{
+  "type": "way",
+  "id": 341199577,
+  "bounds": {
+    "minlat": 55.7321933,
+    "minlon": 37.6573880,
+    "maxlat": 55.7322732,
+    "maxlon": 37.6575312
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "russian_orthodox",
+    "name": "Часовня на месте погребения инокини Досифеи (княжны Таракановой)",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 341199578,
+  "bounds": {
+    "minlat": 55.7315295,
+    "minlon": 37.6577981,
+    "maxlat": 55.7315801,
+    "maxlon": 37.6579120
+  },
+  "tags": {
+    "building": "kiosk",
+    "building:colour": "lightgrey",
+    "building:levels": "1",
+    "building:material": "metal",
+    "information": "office",
+    "name": "Экскурсионная служба",
+    "roof:colour": "red",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "tourism": "information"
+  }
+},
+{
+  "type": "way",
+  "id": 412960093,
+  "bounds": {
+    "minlat": 55.7334977,
+    "minlon": 37.6589527,
+    "maxlat": 55.7335495,
+    "maxlon": 37.6590365
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "man_made": "ventilation_shaft",
+    "railway": "ventilation_shaft"
+  }
+},
+{
+  "type": "way",
+  "id": 645359441,
+  "bounds": {
+    "minlat": 55.7286480,
+    "minlon": 37.6582834,
+    "maxlat": 55.7288151,
+    "maxlon": 37.6585524
+  },
+  "tags": {
+    "addr:housenumber": "4 с2",
+    "addr:street": "Крутицкая улица",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "30",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 645359443,
+  "bounds": {
+    "minlat": 55.7285892,
+    "minlon": 37.6593531,
+    "maxlat": 55.7287160,
+    "maxlon": 37.6596456
+  },
+  "tags": {
+    "building": "garages",
+    "building:colour": "grey",
+    "building:levels": "1",
+    "building:material": "metal",
+    "roof:angle": "20",
+    "roof:colour": "red",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 670864773,
+  "bounds": {
+    "minlat": 55.7319115,
+    "minlon": 37.6574335,
+    "maxlat": 55.7321412,
+    "maxlon": 37.6578196
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "24",
+    "roof:colour": "#196F3D"
+  }
+},
+{
+  "type": "way",
+  "id": 670881153,
+  "bounds": {
+    "minlat": 55.7313298,
+    "minlon": 37.6581100,
+    "maxlat": 55.7313905,
+    "maxlon": 37.6582178
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "15",
+    "roof:colour": "#3A3A29",
+    "roof:material": "metal",
+    "roof:shape": "pyramidal"
+  }
+},
+{
+  "type": "way",
+  "id": 672979411,
+  "bounds": {
+    "minlat": 55.7319397,
+    "minlon": 37.6574805,
+    "maxlat": 55.7321142,
+    "maxlon": 37.6577748
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "36"
+  }
+},
+{
+  "type": "way",
+  "id": 673035713,
+  "bounds": {
+    "minlat": 55.7320093,
+    "minlon": 37.6575942,
+    "maxlat": 55.7320463,
+    "maxlon": 37.6576591
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "57",
+    "min_height": "54",
+    "roof:material": "metal"
+  }
+},
+{
+  "type": "way",
+  "id": 1028861121,
+  "bounds": {
+    "minlat": 55.7299824,
+    "minlon": 37.6586828,
+    "maxlat": 55.7300503,
+    "maxlon": 37.6587873
+  },
+  "tags": {
+    "addr:housenumber": "вл17/1",
+    "addr:street": "3-й Крутицкий переулок",
+    "building:levels": "1",
+    "building:part": "retail"
+  }
+},
+{
+  "type": "way",
+  "id": 1258130963,
+  "bounds": {
+    "minlat": 55.7299967,
+    "minlon": 37.6587528,
+    "maxlat": 55.7301121,
+    "maxlon": 37.6590892
+  },
+  "tags": {
+    "building:levels": "1",
+    "building:part": "roof",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1449349532,
+  "bounds": {
+    "minlat": 55.7293686,
+    "minlon": 37.6584640,
+    "maxlat": 55.7297476,
+    "maxlon": 37.6597360
+  },
+  "tags": {
+    "building": "office"
+  }
+},
+{
+  "type": "way",
+  "id": 1449349533,
+  "bounds": {
+    "minlat": 55.7286255,
+    "minlon": 37.6572838,
+    "maxlat": 55.7286918,
+    "maxlon": 37.6573616
+  },
+  "tags": {
+    "addr:housenumber": "13 с22",
+    "addr:street": "Саринский проезд",
+    "building": "house"
+  }
+},
+{
+  "type": "way",
+  "id": 39811007,
+  "bounds": {
+    "minlat": 55.7365911,
+    "minlon": 37.6488005,
+    "maxlat": 55.7368713,
+    "maxlon": 37.6492551
+  },
+  "tags": {
+    "addr:housenumber": "22/13",
+    "addr:street": "Народная улица",
+    "building": "yes",
+    "building:colour": "red",
+    "building:levels": "2",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 39811017,
+  "bounds": {
+    "minlat": 55.7372968,
+    "minlon": 37.6488214,
+    "maxlat": 55.7375574,
+    "maxlon": 37.6494850
+  },
+  "tags": {
+    "addr:housenumber": "16/9",
+    "addr:housenumber1": "9/16",
+    "addr:postcode": "115172",
+    "addr:street": "Народная улица",
+    "addr:street1": "Гончарная набережная",
+    "building": "yes",
+    "building:levels": "3",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 48346416,
+  "bounds": {
+    "minlat": 55.7369131,
+    "minlon": 37.6487718,
+    "maxlat": 55.7371469,
+    "maxlon": 37.6491402
+  },
+  "tags": {
+    "addr:housenumber": "20 с2",
+    "addr:street": "Народная улица",
+    "building": "yes",
+    "building:colour": "yellow",
+    "building:levels": "4",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 155998601,
+  "bounds": {
+    "minlat": 55.7365024,
+    "minlon": 37.6442075,
+    "maxlat": 55.7367598,
+    "maxlon": 37.6448270
+  },
+  "tags": {
+    "addr:housenumber": "46-50 с3",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:colour": "yellow",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 331538493,
+  "bounds": {
+    "minlat": 55.7367883,
+    "minlon": 37.6490299,
+    "maxlat": 55.7370683,
+    "maxlon": 37.6494844
+  },
+  "tags": {
+    "addr:housenumber": "20 с1",
+    "addr:street": "Народная улица",
+    "building": "yes",
+    "building:colour": "orange",
+    "building:levels": "2",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 331538495,
+  "bounds": {
+    "minlat": 55.7372989,
+    "minlon": 37.6491759,
+    "maxlat": 55.7374489,
+    "maxlon": 37.6495420
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 331538496,
+  "bounds": {
+    "minlat": 55.7370188,
+    "minlon": 37.6492328,
+    "maxlat": 55.7374298,
+    "maxlon": 37.6498379
+  },
+  "tags": {
+    "addr:housenumber": "9/16 с2",
+    "addr:street": "Гончарная набережная",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 340288765,
+  "bounds": {
+    "minlat": 55.7355319,
+    "minlon": 37.6497750,
+    "maxlat": 55.7357395,
+    "maxlon": 37.6500377
+  },
+  "tags": {
+    "addr:housenumber": "1 с3",
+    "addr:street": "Краснохолмская набережная",
+    "building": "yes",
+    "building:cladding": "brick",
+    "building:colour": "red",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 340437214,
+  "bounds": {
+    "minlat": 55.7374254,
+    "minlon": 37.6486341,
+    "maxlat": 55.7375406,
+    "maxlon": 37.6488328
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "building:colour": "brown",
+    "building:levels": "1",
+    "check_date": "2025-10-01",
+    "name": "аё",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 527404734,
+  "bounds": {
+    "minlat": 55.7367842,
+    "minlon": 37.6443999,
+    "maxlat": 55.7368449,
+    "maxlon": 37.6445077
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "railway": "ventilation_shaft",
+    "service": "ventilation"
+  }
+},
+{
+  "type": "way",
+  "id": 828172044,
+  "bounds": {
+    "minlat": 55.7358034,
+    "minlon": 37.6441238,
+    "maxlat": 55.7358484,
+    "maxlon": 37.6442346
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1281367959,
+  "bounds": {
+    "minlat": 55.7366467,
+    "minlon": 37.6482518,
+    "maxlat": 55.7367643,
+    "maxlon": 37.6483679
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 43684271,
+  "bounds": {
+    "minlat": 55.7351711,
+    "minlon": 37.6554703,
+    "maxlat": 55.7357145,
+    "maxlon": 37.6561350
+  },
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:postcode": "115172",
+    "addr:street": "улица Большие Каменщики",
+    "building": "apartments",
+    "building:levels": "12"
+  }
+},
+{
+  "type": "way",
+  "id": 43684278,
+  "bounds": {
+    "minlat": 55.7368786,
+    "minlon": 37.6508856,
+    "maxlat": 55.7376952,
+    "maxlon": 37.6517510
+  },
+  "tags": {
+    "addr:housenumber": "11 с1",
+    "addr:postcode": "115172",
+    "addr:street": "Народная улица",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "8"
+  }
+},
+{
+  "type": "way",
+  "id": 43684281,
+  "bounds": {
+    "minlat": 55.7354406,
+    "minlon": 37.6515803,
+    "maxlat": 55.7366757,
+    "maxlon": 37.6527618
+  },
+  "tags": {
+    "addr:housenumber": "13",
+    "addr:postcode": "115172",
+    "addr:street": "Народная улица",
+    "building": "apartments",
+    "building:levels": "9"
+  }
+},
+{
+  "type": "way",
+  "id": 43684867,
+  "bounds": {
+    "minlat": 55.7356685,
+    "minlon": 37.6531522,
+    "maxlat": 55.7360665,
+    "maxlon": 37.6537399
+  },
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "office",
+    "building:cladding": "brick",
+    "building:levels": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 43684868,
+  "bounds": {
+    "minlat": 55.7362046,
+    "minlon": 37.6528719,
+    "maxlat": 55.7366666,
+    "maxlon": 37.6539077
+  },
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "kindergarten",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 43684869,
+  "bounds": {
+    "minlat": 55.7359773,
+    "minlon": 37.6539452,
+    "maxlat": 55.7362611,
+    "maxlon": 37.6545117
+  },
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "apartments",
+    "building:levels": "14",
+    "energy_class": "E"
+  }
+},
+{
+  "type": "way",
+  "id": 43684870,
+  "bounds": {
+    "minlat": 55.7354472,
+    "minlon": 37.6538295,
+    "maxlat": 55.7357544,
+    "maxlon": 37.6545384
+  },
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "kindergarten"
+  }
+},
+{
+  "type": "way",
+  "id": 43684896,
+  "bounds": {
+    "minlat": 55.7370004,
+    "minlon": 37.6518809,
+    "maxlat": 55.7373031,
+    "maxlon": 37.6523719
+  },
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "apartments",
+    "building:cladding": "brick",
+    "building:colour": "orange",
+    "building:levels": "14",
+    "building:material": "brick"
+  }
+},
+{
+  "type": "way",
+  "id": 47572154,
+  "bounds": {
+    "minlat": 55.7374235,
+    "minlon": 37.6547949,
+    "maxlat": 55.7382258,
+    "maxlon": 37.6561443
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "9 сС",
+    "addr:street": "улица Большие Каменщики",
+    "building": "retail",
+    "building:levels": "4",
+    "old_name": "ОАО «Мосхимфармпрепараты» им. Н. А. Семашко"
+  }
+},
+{
+  "type": "way",
+  "id": 52829944,
+  "bounds": {
+    "minlat": 55.7362807,
+    "minlon": 37.6561740,
+    "maxlat": 55.7366250,
+    "maxlon": 37.6566245
+  },
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:street": "улица Большие Каменщики",
+    "building": "apartments",
+    "building:levels": "8"
+  }
+},
+{
+  "type": "way",
+  "id": 52829945,
+  "bounds": {
+    "minlat": 55.7359793,
+    "minlon": 37.6564896,
+    "maxlat": 55.7363498,
+    "maxlon": 37.6569399
+  },
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:street": "улица Большие Каменщики",
+    "building": "apartments",
+    "building:levels": "13",
+    "energy_class": "E"
+  }
+},
+{
+  "type": "way",
+  "id": 52829947,
+  "bounds": {
+    "minlat": 55.7370683,
+    "minlon": 37.6559860,
+    "maxlat": 55.7373144,
+    "maxlon": 37.6563744
+  },
+  "tags": {
+    "addr:housenumber": "15/13",
+    "addr:street": "переулок Маяковского",
+    "building": "yes",
+    "building:levels": "2",
+    "wikidata": "Q20018462",
+    "wikipedia": "ru:Дом Маяковского в переулке Маяковского"
+  }
+},
+{
+  "type": "way",
+  "id": 52829948,
+  "bounds": {
+    "minlat": 55.7365693,
+    "minlon": 37.6559047,
+    "maxlat": 55.7369342,
+    "maxlon": 37.6563803
+  },
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:street": "улица Большие Каменщики",
+    "building": "apartments",
+    "building:levels": "13"
+  }
+},
+{
+  "type": "way",
+  "id": 340288750,
+  "bounds": {
+    "minlat": 55.7367282,
+    "minlon": 37.6528488,
+    "maxlat": 55.7369351,
+    "maxlon": 37.6532033
+  },
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "улица Малые Каменщики",
+    "building": "yes",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 340288752,
+  "bounds": {
+    "minlat": 55.7366751,
+    "minlon": 37.6524081,
+    "maxlat": 55.7367481,
+    "maxlon": 37.6525609
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 340288756,
+  "bounds": {
+    "minlat": 55.7373764,
+    "minlon": 37.6526111,
+    "maxlat": 55.7374671,
+    "maxlon": 37.6527758
+  },
+  "tags": {
+    "addr:housenumber": "4 с2",
+    "addr:street": "улица Малые Каменщики",
+    "building": "industrial",
+    "building:levels": "1",
+    "power": "substation",
+    "ref": "16799А"
+  }
+},
+{
+  "type": "way",
+  "id": 340288757,
+  "bounds": {
+    "minlat": 55.7365474,
+    "minlon": 37.6524864,
+    "maxlat": 55.7366197,
+    "maxlon": 37.6526374
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 340288762,
+  "bounds": {
+    "minlat": 55.7365235,
+    "minlon": 37.6527485,
+    "maxlat": 55.7366223,
+    "maxlon": 37.6529138
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 340288764,
+  "bounds": {
+    "minlat": 55.7366378,
+    "minlon": 37.6534922,
+    "maxlat": 55.7367163,
+    "maxlon": 37.6536239
+  },
+  "tags": {
+    "addr:housenumber": "10 с2",
+    "addr:street": "улица Малые Каменщики",
+    "building": "industrial",
+    "building:levels": "1",
+    "power": "substation",
+    "ref": "19964Б",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 340288766,
+  "bounds": {
+    "minlat": 55.7356832,
+    "minlon": 37.6509282,
+    "maxlat": 55.7359875,
+    "maxlon": 37.6515118
+  },
+  "tags": {
+    "building": "garages",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 340437148,
+  "bounds": {
+    "minlat": 55.7356444,
+    "minlon": 37.6508802,
+    "maxlat": 55.7357436,
+    "maxlon": 37.6510468
+  },
+  "tags": {
+    "addr:housenumber": "13 с3",
+    "addr:street": "Краснохолмская набережная",
+    "building": "service",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "building:material": "brick",
+    "power": "substation",
+    "ref": "20901",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 340599416,
+  "bounds": {
+    "minlat": 55.7363051,
+    "minlon": 37.6554097,
+    "maxlat": 55.7363323,
+    "maxlon": 37.6554583
+  },
+  "tags": {
+    "building": "yes",
+    "man_made": "ventilation_shaft"
+  }
+},
+{
+  "type": "way",
+  "id": 340599417,
+  "bounds": {
+    "minlat": 55.7363787,
+    "minlon": 37.6553584,
+    "maxlat": 55.7364018,
+    "maxlon": 37.6553989
+  },
+  "tags": {
+    "building": "yes",
+    "man_made": "ventilation_shaft"
+  }
+},
+{
+  "type": "way",
+  "id": 340602178,
+  "bounds": {
+    "minlat": 55.7370697,
+    "minlon": 37.6526421,
+    "maxlat": 55.7372847,
+    "maxlon": 37.6530764
+  },
+  "tags": {
+    "addr:housenumber": "6 с2",
+    "addr:street": "улица Большие Каменщики",
+    "building": "yes",
+    "building:levels": "1",
+    "fixme": "Табличка висит \"Большие каменщики\".. но может это ошибка?"
+  }
+},
+{
+  "type": "way",
+  "id": 340602179,
+  "bounds": {
+    "minlat": 55.7373074,
+    "minlon": 37.6526024,
+    "maxlat": 55.7373786,
+    "maxlon": 37.6527356
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 340646933,
+  "bounds": {
+    "minlat": 55.7374757,
+    "minlon": 37.6517334,
+    "maxlat": 55.7375282,
+    "maxlon": 37.6518272
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 340655814,
+  "bounds": {
+    "minlat": 55.7369759,
+    "minlon": 37.6518539,
+    "maxlat": 55.7370257,
+    "maxlon": 37.6519290
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 340655815,
+  "bounds": {
+    "minlat": 55.7366605,
+    "minlon": 37.6519922,
+    "maxlat": 55.7366974,
+    "maxlon": 37.6520489
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 340662721,
+  "bounds": {
+    "minlat": 55.7353329,
+    "minlon": 37.6546505,
+    "maxlat": 55.7354239,
+    "maxlon": 37.6548325
+  },
+  "tags": {
+    "addr:housenumber": "18 с5",
+    "addr:street": "улица Малые Каменщики",
+    "building": "industrial",
+    "building:levels": "1",
+    "power": "substation",
+    "ref": "ТП-23493А"
+  }
+},
+{
+  "type": "way",
+  "id": 340662766,
+  "bounds": {
+    "minlat": 55.7359695,
+    "minlon": 37.6537732,
+    "maxlat": 55.7360483,
+    "maxlon": 37.6539029
+  },
+  "tags": {
+    "building": "yes",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 587511008,
+  "bounds": {
+    "minlat": 55.7361483,
+    "minlon": 37.6534477,
+    "maxlat": 55.7362271,
+    "maxlon": 37.6535666
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511009,
+  "bounds": {
+    "minlat": 55.7361495,
+    "minlon": 37.6529678,
+    "maxlat": 55.7362282,
+    "maxlon": 37.6530866
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511010,
+  "bounds": {
+    "minlat": 55.7367557,
+    "minlon": 37.6526073,
+    "maxlat": 55.7368345,
+    "maxlon": 37.6527261
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511011,
+  "bounds": {
+    "minlat": 55.7368780,
+    "minlon": 37.6522622,
+    "maxlat": 55.7369568,
+    "maxlon": 37.6523811
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511014,
+  "bounds": {
+    "minlat": 55.7355579,
+    "minlon": 37.6547751,
+    "maxlat": 55.7356149,
+    "maxlon": 37.6548924
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511015,
+  "bounds": {
+    "minlat": 55.7352596,
+    "minlon": 37.6537572,
+    "maxlat": 55.7353166,
+    "maxlon": 37.6538744
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511016,
+  "bounds": {
+    "minlat": 55.7354790,
+    "minlon": 37.6533859,
+    "maxlat": 55.7355361,
+    "maxlon": 37.6535032
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511017,
+  "bounds": {
+    "minlat": 55.7353428,
+    "minlon": 37.6532649,
+    "maxlat": 55.7354087,
+    "maxlon": 37.6533654
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 587511018,
+  "bounds": {
+    "minlat": 55.7358802,
+    "minlon": 37.6546354,
+    "maxlat": 55.7359399,
+    "maxlon": 37.6547574
+  },
+  "tags": {
+    "building": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 39811019,
+  "bounds": {
+    "minlat": 55.7374118,
+    "minlon": 37.6497631,
+    "maxlat": 55.7379850,
+    "maxlon": 37.6504375
+  },
+  "tags": {
+    "addr:housenumber": "14 с1",
+    "addr:postcode": "115172",
+    "addr:street": "Народная улица",
+    "building": "yes",
+    "building:levels": "4",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 43684280,
+  "bounds": {
+    "minlat": 55.7358134,
+    "minlon": 37.6494189,
+    "maxlat": 55.7371083,
+    "maxlon": 37.6513110
+  },
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:postcode": "115172",
+    "addr:street": "Народная улица",
+    "addr:street1": "Краснохолмская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:colour": "pink",
+    "building:levels": "8",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 52816912,
+  "bounds": {
+    "minlat": 55.7354054,
+    "minlon": 37.6566960,
+    "maxlat": 55.7360209,
+    "maxlon": 37.6580238
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "21/8",
+    "addr:street": "улица Большие Каменщики",
+    "building": "apartments",
+    "building:levels": "14"
+  }
+},
+{
+  "type": "way",
+  "id": 52829946,
+  "bounds": {
+    "minlat": 55.7366167,
+    "minlon": 37.6567572,
+    "maxlat": 55.7368160,
+    "maxlon": 37.6570847
+  },
+  "tags": {
+    "addr:housenumber": "15 с2",
+    "addr:street": "улица Большие Каменщики",
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "man_made": "heat_exchange_station",
+    "pipeline": "substation",
+    "substance": "hot_water",
+    "substation": "distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 158677531,
+  "bounds": {
+    "minlat": 55.7367722,
+    "minlon": 37.6565098,
+    "maxlat": 55.7376586,
+    "maxlon": 37.6584360
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "20",
+    "addr:street": "Воронцовская улица",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "Офисный центр «Спектр Таганский»",
+    "opening_hours": "Mo-Fr 08:30-20:00",
+    "smoking": "no",
+    "source": "http://www.spektr-bc.ru/objects/ofisnyj-centr-spektr-taganskij/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 171878892,
+  "bounds": {
+    "minlat": 55.7374356,
+    "minlon": 37.6567520,
+    "maxlat": 55.7377777,
+    "maxlon": 37.6574444
+  },
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:street": "переулок Маяковского",
+    "building": "civic",
+    "building:levels": "7"
+  }
+},
+{
+  "type": "way",
+  "id": 171878893,
+  "bounds": {
+    "minlat": 55.7364458,
+    "minlon": 37.6569172,
+    "maxlat": 55.7365577,
+    "maxlon": 37.6570992
+  },
+  "tags": {
+    "addr:housenumber": "19 с3",
+    "addr:street": "улица Большие Каменщики",
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 340288769,
+  "bounds": {
+    "minlat": 55.7359780,
+    "minlon": 37.6504064,
+    "maxlat": 55.7360921,
+    "maxlon": 37.6505673
+  },
+  "tags": {
+    "addr:housenumber": "1/15 с2",
+    "addr:street": "Народная улица",
+    "building": "yes",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "building:material": "brick"
+  }
+},
+{
+  "type": "way",
+  "id": 47486198,
+  "bounds": {
+    "minlat": 55.7356850,
+    "minlon": 37.6591592,
+    "maxlat": 55.7359786,
+    "maxlon": 37.6596284
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "26",
+    "addr:street": "Воронцовская улица",
+    "building": "apartments",
+    "building:flats": "64",
+    "building:levels": "9",
+    "design:ref": "II-29-41/37",
+    "start_date": "1968"
+  }
+},
+{
+  "type": "way",
+  "id": 47516537,
+  "bounds": {
+    "minlat": 55.7358208,
+    "minlon": 37.6575002,
+    "maxlat": 55.7362872,
+    "maxlon": 37.6580855
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "24/6 с2",
+    "addr:street": "Воронцовская улица",
+    "building": "apartments",
+    "building:levels": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 47571963,
+  "bounds": {
+    "minlat": 55.7360897,
+    "minlon": 37.6578229,
+    "maxlat": 55.7365371,
+    "maxlon": 37.6592369
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "24/6 с1",
+    "addr:street": "Воронцовская улица",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "7"
+  }
+},
+{
+  "type": "way",
+  "id": 47571964,
+  "bounds": {
+    "minlat": 55.7366579,
+    "minlon": 37.6582329,
+    "maxlat": 55.7369544,
+    "maxlon": 37.6587109
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "22",
+    "addr:street": "Воронцовская улица",
+    "building": "apartments",
+    "building:flats": "72",
+    "building:levels": "9",
+    "design:ref": "II-29-41/37",
+    "start_date": "1966"
+  }
+},
+{
+  "type": "way",
+  "id": 47571970,
+  "bounds": {
+    "minlat": 55.7371661,
+    "minlon": 37.6583789,
+    "maxlat": 55.7376088,
+    "maxlon": 37.6590817
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "19Б",
+    "addr:postcode": "109147",
+    "addr:street": "Воронцовская улица",
+    "building": "apartments",
+    "building:levels": "5",
+    "start_date": "1929"
+  }
+},
+{
+  "type": "way",
+  "id": 52517084,
+  "bounds": {
+    "minlat": 55.7373835,
+    "minlon": 37.6593656,
+    "maxlat": 55.7376620,
+    "maxlon": 37.6597898
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "21 с3",
+    "addr:street": "Воронцовская улица",
+    "building": "yes",
+    "building:levels": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 52571598,
+  "bounds": {
+    "minlat": 55.7366988,
+    "minlon": 37.6574501,
+    "maxlat": 55.7369335,
+    "maxlon": 37.6579027
+  },
+  "tags": {
+    "addr:housenumber": "22 с2",
+    "addr:street": "Воронцовская улица",
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Постоянное представительство Республики Ингушетия при Президенте Российской Федерации",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 52817259,
+  "bounds": {
+    "minlat": 55.7363576,
+    "minlon": 37.6570580,
+    "maxlat": 55.7364695,
+    "maxlon": 37.6572400
+  },
+  "tags": {
+    "addr:housenumber": "19 с2",
+    "addr:street": "улица Большие Каменщики",
+    "building": "yes",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 171878900,
+  "bounds": {
+    "minlat": 55.7352675,
+    "minlon": 37.6590142,
+    "maxlat": 55.7355548,
+    "maxlon": 37.6594544
+  },
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "улица Гвоздева",
+    "building": "apartments",
+    "building:levels": "15"
+  }
+},
+{
+  "type": "way",
+  "id": 532071072,
+  "bounds": {
+    "minlat": 55.7368196,
+    "minlon": 37.6579891,
+    "maxlat": 55.7368615,
+    "maxlon": 37.6580644
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "description": "Охрана"
+  }
+},
+{
+  "type": "way",
+  "id": 532071079,
+  "bounds": {
+    "minlat": 55.7363116,
+    "minlon": 37.6572985,
+    "maxlat": 55.7364213,
+    "maxlon": 37.6575561
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 532071083,
+  "bounds": {
+    "minlat": 55.7366155,
+    "minlon": 37.6571971,
+    "maxlat": 55.7366679,
+    "maxlon": 37.6572752
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "description": "Охрана"
+  }
+},
+{
+  "type": "way",
+  "id": 999603318,
+  "bounds": {
+    "minlat": 55.7368599,
+    "minlon": 37.6597480,
+    "maxlat": 55.7369708,
+    "maxlon": 37.6599591
+  },
+  "tags": {
+    "access": "private",
+    "amenity": "parking",
+    "building": "parking",
+    "covered": "yes",
+    "parking": "multi-storey",
+    "parking:orientation": "parallel"
+  }
+},
+{
+  "type": "relation",
+  "id": 11326389,
+  "bounds": {
+    "minlat": 55.7348473,
+    "minlon": 37.6430733,
+    "maxlat": 55.7352166,
+    "maxlon": 37.6437495
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "79",
+    "addr:street": "Садовническая улица",
+    "building": "yes",
+    "building:levels": "8",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 15781820,
+  "bounds": {
+    "minlat": 55.7305495,
+    "minlon": 37.6422352,
+    "maxlat": 55.7319843,
+    "maxlon": 37.6443024
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "2А",
+    "addr:postcode": "115114",
+    "addr:street": "Шлюзовая набережная",
+    "building": "apartments",
+    "building:flats": "200",
+    "building:levels": "7",
+    "start_date": "2017-12-12",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20151768,
+  "bounds": {
+    "minlat": 55.7328110,
+    "minlon": 37.6430250,
+    "maxlat": 55.7334230,
+    "maxlon": 37.6441686
+  },
+  "tags": {
+    "addr:housenumber": "52 с5",
+    "addr:street": "Космодамианская набережная",
+    "building": "office",
+    "building:levels": "14",
+    "height": "42",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 11326386,
+  "bounds": {
+    "minlat": 55.7351502,
+    "minlon": 37.6435873,
+    "maxlat": 55.7364855,
+    "maxlon": 37.6450837
+  },
+  "tags": {
+    "addr:housenumber": "77 с1",
+    "addr:street": "Садовническая улица",
+    "building": "apartments",
+    "building:architecture": "constructivism",
+    "building:levels": "5",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 3661883,
+  "bounds": {
+    "minlat": 55.7320856,
+    "minlon": 37.6568449,
+    "maxlat": 55.7324725,
+    "maxlon": 37.6572528
+  },
+  "tags": {
+    "addr:housenumber": "10 с19",
+    "addr:street": "Крестьянская площадь",
+    "building": "apartments",
+    "building:levels": "2",
+    "name": "Братский корпус",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 3661884,
+  "bounds": {
+    "minlat": 55.7324192,
+    "minlon": 37.6565858,
+    "maxlat": 55.7326187,
+    "maxlon": 37.6570907
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:colour": "white",
+    "building:material": "plaster",
+    "denomination": "russian_orthodox",
+    "name": "Храм Святителя Николая чудотворца",
+    "religion": "christian",
+    "roof:colour": "#582112",
+    "roof:material": "metal",
+    "type": "multipolygon",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/32-plan-4"
+  }
+},
+{
+  "type": "relation",
+  "id": 4835323,
+  "bounds": {
+    "minlat": 55.7350496,
+    "minlon": 37.6530921,
+    "maxlat": 55.7352626,
+    "maxlon": 37.6534220
+  },
+  "tags": {
+    "addr:housenumber": "16 к2",
+    "addr:postcode": "115172",
+    "addr:street": "улица Малые Каменщики",
+    "building": "yes",
+    "building:cladding": "wood",
+    "building:levels": "1",
+    "name": "УК Гранд-Сервис",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 3629068,
+  "bounds": {
+    "minlat": 55.7295917,
+    "minlon": 37.6449724,
+    "maxlat": 55.7310291,
+    "maxlon": 37.6472667
+  },
+  "tags": {
+    "addr:housenumber": "7 с1",
+    "addr:postcode": "115114",
+    "addr:street": "Кожевническая улица",
+    "building": "commercial",
+    "building:colour": "beige",
+    "building:levels": "6",
+    "building:material": "brick;concrete",
+    "name": "Кожевники",
+    "name:uk": "Шкіряники",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "shop": "mall",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14767194,
+  "bounds": {
+    "minlat": 55.7321430,
+    "minlon": 37.6466572,
+    "maxlat": 55.7324292,
+    "maxlon": 37.6471996
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "52 с1",
+    "addr:postcode": "115054",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "9",
+    "height": "30",
+    "name": "Риверсайд Тауэрс",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14767195,
+  "bounds": {
+    "minlat": 55.7319441,
+    "minlon": 37.6474064,
+    "maxlat": 55.7321842,
+    "maxlon": 37.6478432
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "52 с1",
+    "addr:postcode": "115054",
+    "addr:street": "Космодамианская набережная",
+    "building": "yes",
+    "building:levels": "9",
+    "height": "30",
+    "name": "Риверсайд Тауэрс",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 9354546,
+  "bounds": {
+    "minlat": 55.7317512,
+    "minlon": 37.6559594,
+    "maxlat": 55.7321167,
+    "maxlon": 37.6567182
+  },
+  "tags": {
+    "addr:housenumber": "10 с12",
+    "addr:street": "Крестьянская площадь",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:colour": "white",
+    "building:material": "plaster",
+    "denomination": "russian_orthodox",
+    "name": "Спасо-Преображенский собор",
+    "religion": "christian",
+    "type": "multipolygon",
+    "website": "http://www.novospasskiymon.ru/plan-monastyrya/29-plan-1"
+  }
+},
+{
+  "type": "relation",
+  "id": 8685001,
+  "bounds": {
+    "minlat": 55.7347457,
+    "minlon": 37.6592001,
+    "maxlat": 55.7350884,
+    "maxlon": 37.6599504
+  },
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Воронцовский переулок",
+    "building": "office",
+    "building:levels": "5",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 11326379,
+  "bounds": {
+    "minlat": 55.7364082,
+    "minlon": 37.6442172,
+    "maxlat": 55.7371697,
+    "maxlon": 37.6452444
+  },
+  "tags": {
+    "addr:housenumber": "46-50 с1",
+    "addr:street": "Космодамианская набережная",
+    "building": "apartments",
+    "building:colour": "yellow",
+    "building:levels": "9",
+    "building:part": "yes",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 4834092,
+  "bounds": {
+    "minlat": 55.7359659,
+    "minlon": 37.6533360,
+    "maxlat": 55.7378821,
+    "maxlon": 37.6552711
+  },
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "улица Большие Каменщики",
+    "building": "apartments",
+    "building:levels": "13",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 4834971,
+  "bounds": {
+    "minlat": 55.7374515,
+    "minlon": 37.6516123,
+    "maxlat": 55.7381336,
+    "maxlon": 37.6526581
+  },
+  "tags": {
+    "addr:housenumber": "11/2",
+    "addr:housenumber1": "2",
+    "addr:postcode": "115172",
+    "addr:street": "Народная улица",
+    "addr:street1": "улица Малые Каменщики",
+    "amenity": "school",
+    "building": "school",
+    "name": "Школа №498",
+    "ref": "498",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 4835146,
+  "bounds": {
+    "minlat": 55.7365153,
+    "minlon": 37.6538636,
+    "maxlat": 55.7365490,
+    "maxlon": 37.6539129
+  },
+  "tags": {
+    "building": "yes",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19594609,
+  "bounds": {
+    "minlat": 55.7375269,
+    "minlon": 37.6527135,
+    "maxlat": 55.7379927,
+    "maxlon": 37.6534939
+  },
+  "tags": {
+    "addr:housenumber": "6 с1А",
+    "addr:street": "улица Большие Каменщики",
+    "building": "commercial",
+    "building:levels": "1",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8901350,
+  "bounds": {
+    "minlat": 55.7365817,
+    "minlon": 37.6590091,
+    "maxlat": 55.7371465,
+    "maxlon": 37.6606124
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "21 с1",
+    "addr:postcode": "109147",
+    "addr:street": "Воронцовская улица",
+    "building": "office",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "7",
+    "start_date": "1926",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "node",
+  "id": 3316589567,
+  "lat": 55.7284819,
+  "lon": 37.6435708,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "russian",
+    "name": "Open Food",
+    "opening_hours": "Mo-Fr 08:30-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11851428598,
+  "lat": 55.7281644,
+  "lon": 37.6434168,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Lintu"
+  }
+},
+{
+  "type": "node",
+  "id": 3523987249,
+  "lat": 55.7334271,
+  "lon": 37.6438481,
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "52/6",
+    "addr:postcode": "115054",
+    "addr:street": "Космодамианская набережная",
+    "amenity": "bar",
+    "name": "City Space Bar",
+    "phone": "+7 495 2215357",
+    "website": "https://www.cityspacebar.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4457908215,
+  "lat": 55.7329113,
+  "lon": 37.6437065,
+  "tags": {
+    "amenity": "pub",
+    "contact:phone": "+7 495 7740401",
+    "contact:website": "http://crabpub.ru",
+    "name": "Crab pub"
+  }
+},
+{
+  "type": "node",
+  "id": 10261265913,
+  "lat": 55.7287051,
+  "lon": 37.6433846,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Хангри вульф"
+  }
+},
+{
+  "type": "node",
+  "id": 12016320040,
+  "lat": 55.7304045,
+  "lon": 37.6430392,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2025-10-18",
+    "name": "Зацепин"
+  }
+},
+{
+  "type": "node",
+  "id": 8772465475,
+  "lat": 55.7281525,
+  "lon": 37.6459558,
+  "tags": {
+    "amenity": "fast_food",
+    "fast_food": "cafeteria"
+  }
+},
+{
+  "type": "node",
+  "id": 8844476877,
+  "lat": 55.7283630,
+  "lon": 37.6499697,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-10-18",
+    "cuisine": "shawarma",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 1520833185,
+  "lat": 55.7286520,
+  "lon": 37.6447741,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Кожевническая улица",
+    "amenity": "restaurant",
+    "contact:email": "info@torrogrill.ru",
+    "contact:phone": "+7 495 6401783;+7 495 7750420;+7 495 7750421;+7 495 9811620",
+    "contact:website": "https://www.torrogrill.ru/",
+    "cuisine": "steak_house",
+    "int_name": "Torro Grill & wine bar",
+    "name": "Торро Гриль",
+    "name:en": "Torro Grill",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "source": "Vizit card"
+  }
+},
+{
+  "type": "node",
+  "id": 1958643767,
+  "lat": 55.7286119,
+  "lon": 37.6450227,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Prime",
+    "brand:wikidata": "Q62122839",
+    "contact:email": "911@prime-star.ru",
+    "contact:facebook": "https://www.facebook.com/PRIMENATURALFOOD/",
+    "contact:instagram": "https://www.instagram.com/prime_star_cafe/",
+    "contact:phone": "+7 495 6642363",
+    "contact:vk": "https://vk.com/primestar.rumenus",
+    "contact:website": "http://www.prime-star.ru/",
+    "cuisine": "coffee_shop",
+    "name": "Prime",
+    "name:en": "Prime",
+    "opening_hours": "Mo-Fr 07:00-21:00",
+    "operator": "ООО \"ПРАЙМСТАР Ресторантс Групп \"",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2515602412,
+  "lat": 55.7331045,
+  "lon": 37.6444378,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-04-30",
+    "contact:phone": "+7 495 2215358",
+    "cuisine": "russian",
+    "internet_access": "wlan",
+    "name": "Акапелла",
+    "name:en": "Acapella",
+    "opening_hours": "Mo-Su 07:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2812173323,
+  "lat": 55.7296059,
+  "lon": 37.6445910,
+  "tags": {
+    "air_conditioning": "yes",
+    "check_date": "2025-10-18",
+    "currency:RUB": "yes",
+    "description": "Пекарня",
+    "indoor_seating": "yes",
+    "name:signed": "no",
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 09:00-21:00",
+    "operator": "ИП Сидорова",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "phone": "+7 495 6476877",
+    "shop": "bakery",
+    "source": "survey",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2812173324,
+  "lat": 55.7285714,
+  "lon": 37.6456131,
+  "tags": {
+    "amenity": "fast_food",
+    "description": "Столовая",
+    "drive_through": "no",
+    "fast_food": "cafeteria",
+    "level": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 3031804066,
+  "lat": 55.7307598,
+  "lon": 37.6449978,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-18",
+    "contact:website": "http://tastefully.ru",
+    "cuisine": "russian",
+    "name": "Тэсти",
+    "phone": "+7 495 1500611"
+  }
+},
+{
+  "type": "node",
+  "id": 3134923409,
+  "lat": 55.7321263,
+  "lon": 37.6470791,
+  "tags": {
+    "amenity": "cafe",
+    "name": "СушиТун"
+  }
+},
+{
+  "type": "node",
+  "id": 3134924668,
+  "lat": 55.7321337,
+  "lon": 37.6469337,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Кремлевский экспресс"
+  }
+},
+{
+  "type": "node",
+  "id": 3213901866,
+  "lat": 55.7294768,
+  "lon": 37.6469347,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Palati"
+  }
+},
+{
+  "type": "node",
+  "id": 4607984516,
+  "lat": 55.7290005,
+  "lon": 37.6445764,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-11-07",
+    "contact:email": "info@torrogrill.ru",
+    "contact:facebook": "https://www.facebook.com/RestaurantBoston",
+    "contact:phone": "+7 495 2874600;+7 926 9606760",
+    "contact:website": "http://boston-restaurant.ru",
+    "cuisine": "seafood",
+    "name": "Boston",
+    "official_name": "Boston Seafood & Bar",
+    "opening_hours": "Mo-Su 12:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4663234756,
+  "lat": 55.7301752,
+  "lon": 37.6439407,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-18",
+    "contact:vk": "https://vk.com/eidos_coffee",
+    "cuisine": "coffee_shop",
+    "name": "Hookeh Самса"
+  }
+},
+{
+  "type": "node",
+  "id": 4695534893,
+  "lat": 55.7306231,
+  "lon": 37.6456274,
+  "tags": {
+    "addr:postcode": "115114",
+    "amenity": "cafe",
+    "brand": "Шоколадница",
+    "brand:en": "Chocolate",
+    "brand:wikidata": "Q30891188",
+    "brand:wikipedia": "ru:Шоколадница (сеть кофеен)",
+    "contact:facebook": "https://www.facebook.com/shoko.ru",
+    "contact:instagram": "https://instagram.com/shoko.ru",
+    "contact:ok": "https://ok.ru/shokoru",
+    "contact:twitter": "https://twitter.com/wwwShokoRu",
+    "contact:vk": "https://vk.com/shokoru",
+    "contact:website": "http://shoko.ru",
+    "cuisine": "coffee_shop",
+    "diet:vegetarian": "no",
+    "name": "Шоколадница",
+    "name:en": "Shokoladnitsa",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00",
+    "phone": "+7 495 7218908",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5466776800,
+  "lat": 55.7318465,
+  "lon": 37.6443797,
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "4",
+    "addr:postcode": "115114",
+    "addr:street": "Шлюзовая набережная",
+    "amenity": "restaurant",
+    "check_date": "2026-04-30",
+    "contact:facebook": "https://www.facebook.com/pinzeria",
+    "contact:phone": "+7 499 6783009",
+    "cuisine": "pizza",
+    "internet_access": "wlan",
+    "level": "1",
+    "name": "Pinzeria by Bontempi",
+    "opening_hours": "Su-Th 12:00-23:00; Fr-Sa 12:00-24:00",
+    "phone": "+7 495 2017550",
+    "reservation": "recommended",
+    "website": "https://pinzeria.ru/ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 6658181613,
+  "lat": 55.7303848,
+  "lon": 37.6452135,
+  "tags": {
+    "addr:housenumber": "7 с1",
+    "addr:postcode": "115114",
+    "addr:street": "Кожевническая улица",
+    "amenity": "restaurant",
+    "check_date": "2025-10-18",
+    "description": "Караоке-клуб",
+    "name": "По Чесноку",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "phone": "+7 495 8467372",
+    "website": "https://мск.ресторанпочесноку.рф"
+  }
+},
+{
+  "type": "node",
+  "id": 6885605689,
+  "lat": 55.7287817,
+  "lon": 37.6480185,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-10-18"
+  }
+},
+{
+  "type": "node",
+  "id": 7258909340,
+  "lat": 55.7297375,
+  "lon": 37.6441321,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Вкусно — и точка",
+    "brand:en": "Vkusno i tochka",
+    "brand:ru": "Вкусно — и точка",
+    "brand:wikidata": "Q112406961",
+    "check_date": "2025-10-18",
+    "contact:email": "info@qsrsystem.ru",
+    "contact:phone": "+7 495 1033893",
+    "contact:website": "https://vkusnoitochka.ru/",
+    "cuisine": "burger",
+    "diet:vegetarian": "no",
+    "name": "Вкусно — и точка",
+    "name:en": "Vkusno i tochka",
+    "name:ru": "Вкусно — и точка",
+    "old_name": "Макдоналдс",
+    "old_name:en": "McDonald’s",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7829977776,
+  "lat": 55.7327389,
+  "lon": 37.6443243,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Prime",
+    "brand:wikidata": "Q62122839",
+    "check_date": "2026-04-30",
+    "contact:facebook": "https://www.facebook.com/PRIMENATURALFOOD/",
+    "contact:instagram": "https://www.instagram.com/prime_star_cafe/",
+    "contact:vk": "https://vk.com/primestar.rumenus",
+    "cuisine": "coffee_shop",
+    "email": "911@prime-star.ru",
+    "name": "Prime",
+    "opening_hours": "Mo-Fr 07:30-20:00",
+    "phone": "+7 495 6642363",
+    "takeaway": "yes",
+    "website": "https://www.prime-star.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 7832400980,
+  "lat": 55.7287201,
+  "lon": 37.6478586,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2025-10-18",
+    "contact:email": "barhighground@gmail.com",
+    "contact:instagram": "https://instagram.com/highground_csl",
+    "contact:phone": "+7 925 3332218",
+    "contact:vk": "https://vk.com/highground_csl",
+    "contact:website": "https://hgcsl.ru/",
+    "name": "High Ground",
+    "opening_hours": "24/7",
+    "operator": "ООО Гудлак"
+  }
+},
+{
+  "type": "node",
+  "id": 8212697422,
+  "lat": 55.7301088,
+  "lon": 37.6451726,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:email": "info@mealty.ru",
+    "contact:instagram": "https://www.instagram.com/mealty.ru",
+    "contact:phone": "+7 495 2151311",
+    "contact:vk": "https://vk.com/mealty",
+    "contact:website": "https://www.mealty.ru",
+    "diet:halal": "no",
+    "food": "prepared_meals",
+    "name": "Милти",
+    "name:en": "Mealty",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "food",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8728811033,
+  "lat": 55.7323313,
+  "lon": 37.6452997,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-04-30",
+    "contact:instagram": "https://www.instagram.com/umamiramenbistro/",
+    "cuisine": "ramen",
+    "name": "Umami Ramen Bistro",
+    "opening_hours": "Mo-Fr 09:00-21:00; Sa,Su 12:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8772453710,
+  "lat": 55.7293206,
+  "lon": 37.6455404,
+  "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "Rostic's",
+    "brand:wikidata": "Q3442874",
+    "brand:wikipedia": "en:KFC",
+    "check_date": "2025-10-18",
+    "cuisine": "chicken",
+    "name": "Rostic's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8897650025,
+  "lat": 55.7288173,
+  "lon": 37.6479044,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-18",
+    "name": "Ciao"
+  }
+},
+{
+  "type": "node",
+  "id": 10833829922,
+  "lat": 55.7304334,
+  "lon": 37.6454674,
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "7 с1",
+    "addr:postcode": "115114",
+    "addr:street": "Кожевническая улица",
+    "amenity": "cafe",
+    "contact:phone": "+7 495 2780801",
+    "cuisine": "regional",
+    "name": "Зар",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-17:00",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12051296329,
+  "lat": 55.7299272,
+  "lon": 37.6451805,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-18",
+    "cuisine": "coffee_shop",
+    "level": "0",
+    "name": "Универ"
+  }
+},
+{
+  "type": "node",
+  "id": 12051296331,
+  "lat": 55.7289998,
+  "lon": 37.6470730,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-18",
+    "cuisine": "turkish",
+    "name": "Bodrum"
+  }
+},
+{
+  "type": "node",
+  "id": 12051296332,
+  "lat": 55.7289335,
+  "lon": 37.6470732,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2025-10-18",
+    "name": "Bearsach"
+  }
+},
+{
+  "type": "node",
+  "id": 12051296334,
+  "lat": 55.7287630,
+  "lon": 37.6480999,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2025-10-18",
+    "name": "Кирпич"
+  }
+},
+{
+  "type": "node",
+  "id": 13240974459,
+  "lat": 55.7293711,
+  "lon": 37.6439132,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2025-10-18",
+    "cuisine": "italian;russian",
+    "name": "Space by Cosmos",
+    "opening_hours": "24/7",
+    "phone": "+7 (495) 287-77-22",
+    "website": "https://paveletskaya.cosmosgroup.ru/restorants/space-restoran-i-bar"
+  }
+},
+{
+  "type": "node",
+  "id": 13240974470,
+  "lat": 55.7300911,
+  "lon": 37.6446289,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-18",
+    "cuisine": "coffee_shop",
+    "name": "Молния"
+  }
+},
+{
+  "type": "node",
+  "id": 13240974471,
+  "lat": 55.7303525,
+  "lon": 37.6448102,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-18",
+    "cuisine": "coffee_shop",
+    "name": "Правда Кофе"
+  }
+},
+{
+  "type": "node",
+  "id": 13503773501,
+  "lat": 55.7309430,
+  "lon": 37.6441463,
+  "tags": {
+    "addr:housenumber": "2А",
+    "addr:street": "Шлюзовая набережная",
+    "amenity": "cafe",
+    "contact:instagram": "coffee_now",
+    "name": "Now",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa-Su 10:00-21:00",
+    "phone": "+79256878857"
+  }
+},
+{
+  "type": "node",
+  "id": 13509381002,
+  "lat": 55.7323803,
+  "lon": 37.6450922,
+  "tags": {
+    "addr:housenumber": "52 с3",
+    "addr:street": "Космодамианская набережная",
+    "amenity": "cafe",
+    "brand": "Даблби",
+    "brand:en": "Double B",
+    "brand:ru": "Даблби",
+    "brand:wikidata": "Q62501686",
+    "check_date": "2026-04-30",
+    "cuisine": "coffee_shop",
+    "name": "Даблби",
+    "name:en": "Double B",
+    "name:ru": "Даблби",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13509385601,
+  "lat": 55.7324140,
+  "lon": 37.6449705,
+  "tags": {
+    "addr:housenumber": "52 с3",
+    "addr:street": "Космодамианская набережная",
+    "amenity": "fast_food",
+    "brand": "Милти",
+    "check_date": "2026-04-30",
+    "contact:email": "info@mealty.ru",
+    "contact:instagram": "https://www.instagram.com/mealty.ru",
+    "contact:phone": "+7 495 2151311",
+    "contact:vk": "https://vk.com/mealty",
+    "contact:website": "https://www.mealty.ru",
+    "cuisine": "deli",
+    "delivery": "yes",
+    "diet:halal": "no",
+    "food": "prepared_meals",
+    "name": "Милти",
+    "name:en": "Mealty",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13782020217,
+  "lat": 55.7311134,
+  "lon": 37.6475174,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-04-30",
+    "name": "Rosso Riva"
+  }
+},
+{
+  "type": "node",
+  "id": 3481829142,
+  "lat": 55.7342305,
+  "lon": 37.6569217,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-15",
+    "cuisine": "italian",
+    "name": "Сесто Сенсо",
+    "opening_hours": "10:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 6923933186,
+  "lat": 55.7343785,
+  "lon": 37.6568047,
+  "tags": {
+    "addr:postcode": "115172",
+    "check_date": "2025-10-15",
+    "email": "info@inwine.ru",
+    "name": "Inwine",
+    "name:en": "InWine",
+    "opening_hours": "Mo-Sa 10:00-23:00; Su 11:00-21:00",
+    "phone": "+7 499 6861412",
+    "shop": "wine",
+    "website": "https://www.inwine.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 13962270514,
+  "lat": 55.7284430,
+  "lon": 37.6584908,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "tea",
+    "name": "Чайная на Крутицах"
+  }
+},
+{
+  "type": "node",
+  "id": 2803105301,
+  "lat": 55.7314680,
+  "lon": 37.6573970,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Трапезная паломника"
+  }
+},
+{
+  "type": "node",
+  "id": 6066788484,
+  "lat": 55.7286190,
+  "lon": 37.6585928,
+  "tags": {
+    "name": "Пироговая лавка",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5260252116,
+  "lat": 55.7355805,
+  "lon": 37.6498836,
+  "tags": {
+    "amenity": "pub",
+    "check_date": "2025-10-18",
+    "contact:facebook": "https://www.facebook.com/rakovayabar",
+    "contact:vk": "https://vk.com/public135260474",
+    "craft_beer": "yes",
+    "name": "Раковая на Таганке",
+    "opening_hours": "Mo-Th,Su 12:00-01:00; Fr-Sa 12:00-02:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11083605381,
+  "lat": 55.7371195,
+  "lon": 37.6494273,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-01",
+    "contact:phone": "+7 995 1162424",
+    "contact:website": "https://ezhiustrica.ru/",
+    "name": "Ёж и устрица",
+    "opening_hours": "Mo-Su 12:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12264053361,
+  "lat": 55.7373458,
+  "lon": 37.6490253,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-01",
+    "contact:instagram": "https://www.instagram.com/babos.rest/",
+    "cuisine": "georgian",
+    "name": "Babo’s"
+  }
+},
+{
+  "type": "node",
+  "id": 13186194352,
+  "lat": 55.7373205,
+  "lon": 37.6492277,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-01",
+    "name": "Шеф Kebab"
+  }
+},
+{
+  "type": "node",
+  "id": 13186194356,
+  "lat": 55.7372896,
+  "lon": 37.6498096,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-01",
+    "cuisine": "georgian",
+    "name": "Пуримания",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 9687694617,
+  "lat": 55.7375005,
+  "lon": 37.6539307,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-12-02",
+    "cuisine": "sushi",
+    "name": "Сушисет",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "phone": "+74951505522",
+    "website": "https://setsushi.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 10763832328,
+  "lat": 55.7374643,
+  "lon": 37.6554197,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-08-20",
+    "contact:instagram": "https://www.instagram.com/monteview_coffee/",
+    "cuisine": "coffee_shop",
+    "name": "Monteview",
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su 10:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7963608192,
+  "lat": 55.7369056,
+  "lon": 37.6592459,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-22",
+    "name": "Скандинавия"
+  }
+},
+{
+  "type": "node",
+  "id": 12576850852,
+  "lat": 55.7370226,
+  "lon": 37.6591037,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-22",
+    "contact:website": "https://хинкалихачапури.рф/",
+    "cuisine": "georgian",
+    "name": "Хинкали хачапури",
+    "opening_hours": "12:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13084893965,
+  "lat": 55.7356805,
+  "lon": 37.6578878,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-08-20",
+    "cuisine": "georgian",
+    "name": "Суло"
+  }
+},
+{
+  "type": "node",
+  "id": 13084893970,
+  "lat": 55.7371138,
+  "lon": 37.6583595,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-08-20",
+    "name": "Ла Лара"
+  }
+},
+{
+  "type": "node",
+  "id": 13084893975,
+  "lat": 55.7354376,
+  "lon": 37.6573772,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-08-20",
+    "cuisine": "coffee_shop"
+  }
+},
+{
+  "type": "node",
+  "id": 13512665762,
+  "lat": 55.7355636,
+  "lon": 37.6573731,
+  "tags": {
+    "check_date": "2026-01-30",
+    "name": "Мясная лавка",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "way",
+  "id": 340437214,
+  "center": {
+    "lat": 55.7374830,
+    "lon": 37.6487335
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "building:colour": "brown",
+    "building:levels": "1",
+    "check_date": "2025-10-01",
+    "name": "аё",
+    "opening_hours": "24/7"
+  }
+}
+
+  ]
+}

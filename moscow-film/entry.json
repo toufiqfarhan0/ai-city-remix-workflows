@@ -1,0 +1,24 @@
+{
+  "title": "Moscow: Rings of Imperial Memory",
+  "summary": "From Kremlin fortress walls to the Boulevard and Garden rings, trace Moscow's concentric architecture and historic landmarks across a millennium.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "moscow",
+    "place_lat": 55.752,
+    "place_lng": 37.623,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt the procedural architectural poster workflow (city-map-poster) to visualize Moscow's concentric ring structure across 60 seconds of cinematic motion. MiniMax M3.1 Flash role: Scripted historical voiceover narrative highlighting the Kremlin fortress, Saint Basil's Cathedral, White City ramparts, Boulevard Ring, and Stalinist high-rises; directed timeline choreographies across OSM vector layers; synthesized speech with MiniMax Speech 2.8 HD.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moscow",
+      "https://en.wikipedia.org/wiki/Moscow_Kremlin",
+      "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
+      "https://en.wikipedia.org/wiki/Boulevard_Ring",
+      "https://en.wikipedia.org/wiki/Garden_Ring",
+      "https://en.wikipedia.org/wiki/Kotelnicheskaya_Embankment_Building",
+      "https://en.wikipedia.org/wiki/Red_Square"
+    ],
+    "my_city_line": "Concentric rings of memory and stone: Moscow."
+  }
+}

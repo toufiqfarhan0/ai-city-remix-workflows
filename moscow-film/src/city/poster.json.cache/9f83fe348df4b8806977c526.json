@@ -1,0 +1,5561 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-27T11:29:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 48503927,
+  "bounds": {
+    "minlat": 55.7273910,
+    "minlon": 37.6010228,
+    "maxlat": 55.7282465,
+    "maxlon": 37.6022508
+  },
+  "tags": {
+    "addr:housenumber": "9 с32",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "3",
+    "check_date": "2025-10-25",
+    "contact:phone": "+7 495 6450520",
+    "contact:website": "http://garageccc.com",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "name": "Гараж",
+    "name:de": "Garage-Museum für zeitgenössische Kunst",
+    "name:en": "Garage Museum of Contemporary Art",
+    "name:ro": "Muzeul de Artă Contemporană\"Garage\"",
+    "name:ru": "Гараж",
+    "official_name": "Музей современного искусства «Гараж»",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "subject": "contemporary art",
+    "toilets:wheelchair": "yes",
+    "tourism": "gallery",
+    "wheelchair": "yes",
+    "wikidata": "Q4504054"
+  }
+},
+{
+  "type": "way",
+  "id": 176873885,
+  "bounds": {
+    "minlat": 55.7282027,
+    "minlon": 37.6024684,
+    "maxlat": 55.7283673,
+    "maxlon": 37.6027732
+  },
+  "tags": {
+    "access": "yes",
+    "addr:housenumber": "9 с39",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "toilets",
+    "building": "yes",
+    "check_date": "2022-08-05",
+    "fee": "yes",
+    "female": "yes",
+    "male": "yes",
+    "opening_hours": "24/7",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 45463075,
+  "bounds": {
+    "minlat": 55.7350043,
+    "minlon": 37.5926597,
+    "maxlat": 55.7354598,
+    "maxlon": 37.5935140
+  },
+  "tags": {
+    "addr:housenumber": "13 с1",
+    "addr:street": "Зубовский бульвар",
+    "building": "train_station",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 239077211,
+  "bounds": {
+    "minlat": 55.7339596,
+    "minlon": 37.6014038,
+    "maxlat": 55.7353166,
+    "maxlon": 37.6039415
+  },
+  "tags": {
+    "building": "roof",
+    "building:levels": "1",
+    "name": "Вернисаж",
+    "opening_hours": "Mo-Sa 10:00-18:00",
+    "roof:colour": "lightgrey",
+    "roof:material": "glass",
+    "roof:shape": "many",
+    "shop": "art",
+    "website": "http://www.vernisaz.ru/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 239869193,
+  "bounds": {
+    "minlat": 55.7303485,
+    "minlon": 37.6044124,
+    "maxlat": 55.7306668,
+    "maxlon": 37.6048878
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1322839070,
+  "bounds": {
+    "minlat": 55.7350262,
+    "minlon": 37.5926597,
+    "maxlat": 55.7354598,
+    "maxlon": 37.5934494
+  },
+  "tags": {
+    "building:levels": "3",
+    "building:part": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 30433763,
+  "bounds": {
+    "minlat": 55.7297140,
+    "minlon": 37.5919917,
+    "maxlat": 55.7306998,
+    "maxlon": 37.5929215
+  },
+  "tags": {
+    "addr:housenumber": "16 к1",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:levels": "8",
+    "design:ref": "СМ-6",
+    "start_date": "1960"
+  }
+},
+{
+  "type": "way",
+  "id": 30433764,
+  "bounds": {
+    "minlat": 55.7306897,
+    "minlon": 37.5927216,
+    "maxlat": 55.7312915,
+    "maxlon": 37.5934964
+  },
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:housenumber2": "14/1",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:levels": "8",
+    "design:ref": "СМ-6",
+    "start_date": "1959"
+  }
+},
+{
+  "type": "way",
+  "id": 32529676,
+  "bounds": {
+    "minlat": 55.7316444,
+    "minlon": 37.5935916,
+    "maxlat": 55.7325163,
+    "maxlon": 37.5945666
+  },
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:colour": "beige",
+    "building:levels": "7",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 32529678,
+  "bounds": {
+    "minlat": 55.7327002,
+    "minlon": 37.5930141,
+    "maxlat": 55.7333782,
+    "maxlon": 37.5940443
+  },
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Комсомольский проспект",
+    "building": "apartments",
+    "building:levels": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 45404831,
+  "bounds": {
+    "minlat": 55.7337917,
+    "minlon": 37.5917488,
+    "maxlat": 55.7344198,
+    "maxlon": 37.5926515
+  },
+  "tags": {
+    "addr:housenumber": "8 с1",
+    "addr:street": "Большой Чудов переулок",
+    "building": "commercial",
+    "building:colour": "red",
+    "building:levels": "2",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "brown",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 45404891,
+  "bounds": {
+    "minlat": 55.7341553,
+    "minlon": 37.5951855,
+    "maxlat": 55.7347170,
+    "maxlon": 37.5962631
+  },
+  "tags": {
+    "addr:housenumber": "2/1",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:architecture": "constructivism",
+    "building:levels": "5",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 45404892,
+  "bounds": {
+    "minlat": 55.7336143,
+    "minlon": 37.5952927,
+    "maxlat": 55.7342208,
+    "maxlon": 37.5960784
+  },
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "8"
+  }
+},
+{
+  "type": "way",
+  "id": 45463071,
+  "bounds": {
+    "minlat": 55.7334524,
+    "minlon": 37.5937527,
+    "maxlat": 55.7336758,
+    "maxlon": 37.5941322
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Комсомольский проспект",
+    "building": "construction",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 45463072,
+  "bounds": {
+    "minlat": 55.7329159,
+    "minlon": 37.5940166,
+    "maxlat": 55.7332546,
+    "maxlon": 37.5946516
+  },
+  "tags": {
+    "addr:housenumber": "3 с3",
+    "addr:street": "Комсомольский проспект",
+    "building": "commercial",
+    "building:colour": "white",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "red",
+    "roof:material": "metal",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 45463073,
+  "bounds": {
+    "minlat": 55.7324017,
+    "minlon": 37.5936491,
+    "maxlat": 55.7325991,
+    "maxlon": 37.5939084
+  },
+  "tags": {
+    "addr:housenumber": "10А",
+    "addr:street": "Фрунзенская набережная",
+    "building": "commercial",
+    "building:colour": "pink;beige",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 91243588,
+  "bounds": {
+    "minlat": 55.7324598,
+    "minlon": 37.5943855,
+    "maxlat": 55.7329746,
+    "maxlon": 37.5949879
+  },
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:levels": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 91256702,
+  "bounds": {
+    "minlat": 55.7317272,
+    "minlon": 37.5926033,
+    "maxlat": 55.7325352,
+    "maxlon": 37.5937227
+  },
+  "tags": {
+    "addr:housenumber": "5/2",
+    "addr:street": "Комсомольский проспект",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "8"
+  }
+},
+{
+  "type": "way",
+  "id": 91256703,
+  "bounds": {
+    "minlat": 55.7328975,
+    "minlon": 37.5947491,
+    "maxlat": 55.7335257,
+    "maxlon": 37.5954647
+  },
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Фрунзенская набережная",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "7"
+  }
+},
+{
+  "type": "way",
+  "id": 102747711,
+  "bounds": {
+    "minlat": 55.7344527,
+    "minlon": 37.5930003,
+    "maxlat": 55.7345284,
+    "maxlon": 37.5931347
+  },
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Комсомольский проспект",
+    "building": "retail",
+    "building:colour": "white",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "note": "кафе закрыто https://www.openstreetmap.org/note/2256795",
+    "roof:angle": "30",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "dome"
+  }
+},
+{
+  "type": "way",
+  "id": 387559945,
+  "bounds": {
+    "minlat": 55.7343237,
+    "minlon": 37.5921542,
+    "maxlat": 55.7345385,
+    "maxlon": 37.5926771
+  },
+  "tags": {
+    "addr:housenumber": "8 с12",
+    "addr:street": "Большой Чудов переулок",
+    "building": "industrial",
+    "building:levels": "2",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 407224913,
+  "bounds": {
+    "minlat": 55.7341646,
+    "minlon": 37.5954364,
+    "maxlat": 55.7342613,
+    "maxlon": 37.5955986
+  },
+  "tags": {
+    "addr:housenumber": "4 с2",
+    "addr:street": "Фрунзенская набережная",
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 407224929,
+  "bounds": {
+    "minlat": 55.7323072,
+    "minlon": 37.5932725,
+    "maxlat": 55.7323588,
+    "maxlon": 37.5933644
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "railway": "ventilation_shaft",
+    "service": "ventilation"
+  }
+},
+{
+  "type": "way",
+  "id": 407673834,
+  "bounds": {
+    "minlat": 55.7338713,
+    "minlon": 37.5951803,
+    "maxlat": 55.7339668,
+    "maxlon": 37.5953340
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 1080376069,
+  "bounds": {
+    "minlat": 55.7350511,
+    "minlon": 37.5969677,
+    "maxlat": 55.7350848,
+    "maxlon": 37.5970234
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1209197338,
+  "bounds": {
+    "minlat": 55.7345827,
+    "minlon": 37.5932169,
+    "maxlat": 55.7346379,
+    "maxlon": 37.5932904
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "railway": "ventilation_shaft",
+    "service": "ventilation"
+  }
+},
+{
+  "type": "way",
+  "id": 1445017217,
+  "bounds": {
+    "minlat": 55.7295361,
+    "minlon": 37.5973390,
+    "maxlat": 55.7296239,
+    "maxlon": 37.5974922
+  },
+  "tags": {
+    "building:levels": "2",
+    "building:part": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1445017222,
+  "bounds": {
+    "minlat": 55.7288020,
+    "minlon": 37.5968977,
+    "maxlat": 55.7290838,
+    "maxlon": 37.5973736
+  },
+  "tags": {
+    "building:levels": "2",
+    "building:part": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1558284408,
+  "bounds": {
+    "minlat": 55.7342661,
+    "minlon": 37.5928455,
+    "maxlat": 55.7343122,
+    "maxlon": 37.5929141
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 96600218,
+  "bounds": {
+    "minlat": 55.7292803,
+    "minlon": 37.5989023,
+    "maxlat": 55.7295140,
+    "maxlon": 37.5994185
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "9",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "cafe",
+    "building": "yes",
+    "building:levels": "1",
+    "check_date": "2025-10-25",
+    "name": "Жаровня",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_electron": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 98683202,
+  "bounds": {
+    "minlat": 55.7302889,
+    "minlon": 37.6038515,
+    "maxlat": 55.7303946,
+    "maxlon": 37.6040226
+  },
+  "tags": {
+    "building": "industrial",
+    "building:levels": "1",
+    "roof:levels": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 135646711,
+  "bounds": {
+    "minlat": 55.7316078,
+    "minlon": 37.5997166,
+    "maxlat": 55.7317117,
+    "maxlon": 37.5999039
+  },
+  "tags": {
+    "amenity": "shelter",
+    "building": "gazebo",
+    "name": "Ажурная беседка"
+  }
+},
+{
+  "type": "way",
+  "id": 176875081,
+  "bounds": {
+    "minlat": 55.7314066,
+    "minlon": 37.6008599,
+    "maxlat": 55.7315731,
+    "maxlon": 37.6010924
+  },
+  "tags": {
+    "addr:housenumber": "9 с6",
+    "addr:street": "улица Крымский Вал",
+    "building": "toilets"
+  }
+},
+{
+  "type": "way",
+  "id": 244258132,
+  "bounds": {
+    "minlat": 55.7314015,
+    "minlon": 37.6017627,
+    "maxlat": 55.7314719,
+    "maxlon": 37.6018880
+  },
+  "tags": {
+    "access": "yes",
+    "addr:housenumber": "9 с5",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:colour": "red",
+    "building:levels": "2",
+    "man_made": "telescope",
+    "name": "Народная обсерватория",
+    "name:de": "Sternwarte",
+    "name:en": "Observatory",
+    "note": "В зимний период обсерватория не работает.",
+    "roof:height": "4",
+    "roof:material": "metal",
+    "roof:shape": "dome",
+    "source": "Адресный реестр Москвы, data.mos.ru",
+    "telescope:type": "optical",
+    "website": "https://park-gorkogo.com/places/132"
+  }
+},
+{
+  "type": "way",
+  "id": 364181136,
+  "bounds": {
+    "minlat": 55.7287324,
+    "minlon": 37.6031345,
+    "maxlat": 55.7288786,
+    "maxlon": 37.6034051
+  },
+  "tags": {
+    "amenity": "doctors",
+    "building": "clinic",
+    "healthcare": "doctor",
+    "name": "Здоровая Москва"
+  }
+},
+{
+  "type": "way",
+  "id": 413007827,
+  "bounds": {
+    "minlat": 55.7349173,
+    "minlon": 37.6038867,
+    "maxlat": 55.7349777,
+    "maxlon": 37.6039946
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 413012971,
+  "bounds": {
+    "minlat": 55.7340710,
+    "minlon": 37.6036244,
+    "maxlat": 55.7341455,
+    "maxlon": 37.6037608
+  },
+  "tags": {
+    "building": "service",
+    "height": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 418301558,
+  "bounds": {
+    "minlat": 55.7290343,
+    "minlon": 37.6018647,
+    "maxlat": 55.7291755,
+    "maxlon": 37.6021076
+  },
+  "tags": {
+    "addr:housenumber": "9 с10",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "description": "Диспетчерская по управлению фонтаном",
+    "description:en": "fountain's control room",
+    "mapillary": "1464917107182123",
+    "survey:date": "2019-05-02"
+  }
+},
+{
+  "type": "way",
+  "id": 418303283,
+  "bounds": {
+    "minlat": 55.7291480,
+    "minlon": 37.5983464,
+    "maxlat": 55.7294554,
+    "maxlon": 37.5987862
+  },
+  "tags": {
+    "building": "retail",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 418304450,
+  "bounds": {
+    "minlat": 55.7289410,
+    "minlon": 37.6024322,
+    "maxlat": 55.7290577,
+    "maxlon": 37.6026643
+  },
+  "tags": {
+    "amenity": "bicycle_rental",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 482758558,
+  "bounds": {
+    "minlat": 55.7299469,
+    "minlon": 37.5988962,
+    "maxlat": 55.7300813,
+    "maxlon": 37.5991228
+  },
+  "tags": {
+    "addr:housenumber": "9 с64",
+    "addr:street": "улица Крымский Вал",
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 594166393,
+  "bounds": {
+    "minlat": 55.7323982,
+    "minlon": 37.6001499,
+    "maxlat": 55.7324894,
+    "maxlon": 37.6003165
+  },
+  "tags": {
+    "building": "service",
+    "height": "7",
+    "power": "substation",
+    "ref": "793",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 698354575,
+  "bounds": {
+    "minlat": 55.7299853,
+    "minlon": 37.5995474,
+    "maxlat": 55.7300714,
+    "maxlon": 37.5997152
+  },
+  "tags": {
+    "building": "retail",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 698774645,
+  "bounds": {
+    "minlat": 55.7298318,
+    "minlon": 37.5987659,
+    "maxlat": 55.7299640,
+    "maxlon": 37.5989553
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "location": "indoor",
+    "operator": "Россети",
+    "operator:en": "Rosseti",
+    "operator:ru": "Россети",
+    "operator:wikidata": "Q4499024",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 828959844,
+  "bounds": {
+    "minlat": 55.7315191,
+    "minlon": 37.6030266,
+    "maxlat": 55.7315775,
+    "maxlon": 37.6031216
+  },
+  "tags": {
+    "building:part": "pylon_top3",
+    "height": "21.599999999999998",
+    "min_height": "20.5025641025641"
+  }
+},
+{
+  "type": "way",
+  "id": 828959845,
+  "bounds": {
+    "minlat": 55.7315118,
+    "minlon": 37.6030147,
+    "maxlat": 55.7315848,
+    "maxlon": 37.6031335
+  },
+  "tags": {
+    "building:part": "pylon_top2",
+    "height": "20.5025641025641",
+    "min_height": "19.405128205128204",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959846,
+  "bounds": {
+    "minlat": 55.7315045,
+    "minlon": 37.6030028,
+    "maxlat": 55.7315921,
+    "maxlon": 37.6031454
+  },
+  "tags": {
+    "building:part": "pylon_top1",
+    "height": "19.405128205128204",
+    "min_height": "18.307692307692307",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959847,
+  "bounds": {
+    "minlat": 55.7312492,
+    "minlon": 37.6029456,
+    "maxlat": 55.7316268,
+    "maxlon": 37.6039025
+  },
+  "tags": {
+    "building:part": "cornice4",
+    "height": "18.307692307692307",
+    "min_height": "18.007692307692306",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959848,
+  "bounds": {
+    "minlat": 55.7312523,
+    "minlon": 37.6029510,
+    "maxlat": 55.7316238,
+    "maxlon": 37.6038971
+  },
+  "tags": {
+    "building:part": "cornice3",
+    "height": "18.007692307692306",
+    "min_height": "17.707692307692305",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959849,
+  "bounds": {
+    "minlat": 55.7314753,
+    "minlon": 37.6029553,
+    "maxlat": 55.7316213,
+    "maxlon": 37.6031929
+  },
+  "tags": {
+    "building:part": "pylon_middle_wall",
+    "height": "17.707692307692305",
+    "min_height": "15.615384615384615",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959851,
+  "bounds": {
+    "minlat": 55.7312484,
+    "minlon": 37.6029471,
+    "maxlat": 55.7316277,
+    "maxlon": 37.6039010
+  },
+  "tags": {
+    "building:part": "cornice1",
+    "height": "15.015384615384615",
+    "min_height": "14.415384615384616",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959852,
+  "bounds": {
+    "minlat": 55.7314753,
+    "minlon": 37.6029553,
+    "maxlat": 55.7316213,
+    "maxlon": 37.6031929
+  },
+  "tags": {
+    "building:part": "pylon_middle_wall",
+    "height": "14.415384615384616",
+    "min_height": "13.36923076923077",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959853,
+  "bounds": {
+    "minlat": 55.7314753,
+    "minlon": 37.6029553,
+    "maxlat": 55.7316213,
+    "maxlon": 37.6031929
+  },
+  "tags": {
+    "building:part": "pylon",
+    "height": "13.36923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959854,
+  "bounds": {
+    "minlat": 55.7314753,
+    "minlon": 37.6029553,
+    "maxlat": 55.7316213,
+    "maxlon": 37.6031929
+  },
+  "tags": {
+    "building:part": "stilobate",
+    "height": "0.2",
+    "min_height": "0.0",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959857,
+  "bounds": {
+    "minlat": 55.7313017,
+    "minlon": 37.6030873,
+    "maxlat": 55.7315743,
+    "maxlon": 37.6037608
+  },
+  "tags": {
+    "building:part": "pylon_middle_wall",
+    "height": "17.707692307692305",
+    "min_height": "15.615384615384615",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959860,
+  "bounds": {
+    "minlat": 55.7313017,
+    "minlon": 37.6030873,
+    "maxlat": 55.7315743,
+    "maxlon": 37.6037608
+  },
+  "tags": {
+    "building:part": "pylon_middle_wall",
+    "height": "14.415384615384616",
+    "min_height": "13.36923076923077",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959861,
+  "bounds": {
+    "minlat": 55.7314803,
+    "minlon": 37.6030838,
+    "maxlat": 55.7315035,
+    "maxlon": 37.6031226
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959862,
+  "bounds": {
+    "minlat": 55.7314834,
+    "minlon": 37.6030892,
+    "maxlat": 55.7315005,
+    "maxlon": 37.6031172
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959863,
+  "bounds": {
+    "minlat": 55.7314995,
+    "minlon": 37.6031029,
+    "maxlat": 55.7315227,
+    "maxlon": 37.6031417
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959864,
+  "bounds": {
+    "minlat": 55.7315026,
+    "minlon": 37.6031083,
+    "maxlat": 55.7315196,
+    "maxlon": 37.6031362
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959865,
+  "bounds": {
+    "minlat": 55.7315331,
+    "minlon": 37.6031362,
+    "maxlat": 55.7315563,
+    "maxlon": 37.6031750
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959866,
+  "bounds": {
+    "minlat": 55.7315361,
+    "minlon": 37.6031416,
+    "maxlat": 55.7315532,
+    "maxlon": 37.6031696
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959867,
+  "bounds": {
+    "minlat": 55.7315522,
+    "minlon": 37.6031553,
+    "maxlat": 55.7315754,
+    "maxlon": 37.6031941
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959868,
+  "bounds": {
+    "minlat": 55.7315553,
+    "minlon": 37.6031607,
+    "maxlat": 55.7315724,
+    "maxlon": 37.6031886
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959869,
+  "bounds": {
+    "minlat": 55.7314572,
+    "minlon": 37.6031610,
+    "maxlat": 55.7314717,
+    "maxlon": 37.6031897
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959870,
+  "bounds": {
+    "minlat": 55.7315363,
+    "minlon": 37.6032396,
+    "maxlat": 55.7315508,
+    "maxlon": 37.6032684
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959871,
+  "bounds": {
+    "minlat": 55.7314556,
+    "minlon": 37.6031568,
+    "maxlat": 55.7314805,
+    "maxlon": 37.6032011
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959872,
+  "bounds": {
+    "minlat": 55.7314620,
+    "minlon": 37.6031681,
+    "maxlat": 55.7314742,
+    "maxlon": 37.6031898
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959873,
+  "bounds": {
+    "minlat": 55.7314748,
+    "minlon": 37.6031759,
+    "maxlat": 55.7314997,
+    "maxlon": 37.6032201
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959874,
+  "bounds": {
+    "minlat": 55.7314811,
+    "minlon": 37.6031872,
+    "maxlat": 55.7314933,
+    "maxlon": 37.6032089
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959875,
+  "bounds": {
+    "minlat": 55.7315083,
+    "minlon": 37.6032092,
+    "maxlat": 55.7315332,
+    "maxlon": 37.6032535
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959876,
+  "bounds": {
+    "minlat": 55.7315147,
+    "minlon": 37.6032205,
+    "maxlat": 55.7315269,
+    "maxlon": 37.6032422
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959877,
+  "bounds": {
+    "minlat": 55.7315275,
+    "minlon": 37.6032283,
+    "maxlat": 55.7315524,
+    "maxlon": 37.6032725
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959878,
+  "bounds": {
+    "minlat": 55.7315338,
+    "minlon": 37.6032396,
+    "maxlat": 55.7315460,
+    "maxlon": 37.6032613
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959879,
+  "bounds": {
+    "minlat": 55.7314309,
+    "minlon": 37.6032448,
+    "maxlat": 55.7314453,
+    "maxlon": 37.6032735
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959880,
+  "bounds": {
+    "minlat": 55.7315099,
+    "minlon": 37.6033234,
+    "maxlat": 55.7315244,
+    "maxlon": 37.6033521
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959881,
+  "bounds": {
+    "minlat": 55.7314292,
+    "minlon": 37.6032406,
+    "maxlat": 55.7314541,
+    "maxlon": 37.6032848
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959882,
+  "bounds": {
+    "minlat": 55.7314356,
+    "minlon": 37.6032519,
+    "maxlat": 55.7314478,
+    "maxlon": 37.6032735
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959883,
+  "bounds": {
+    "minlat": 55.7314484,
+    "minlon": 37.6032596,
+    "maxlat": 55.7314733,
+    "maxlon": 37.6033039
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959884,
+  "bounds": {
+    "minlat": 55.7314547,
+    "minlon": 37.6032709,
+    "maxlat": 55.7314669,
+    "maxlon": 37.6032926
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959885,
+  "bounds": {
+    "minlat": 55.7314819,
+    "minlon": 37.6032930,
+    "maxlat": 55.7315068,
+    "maxlon": 37.6033372
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959886,
+  "bounds": {
+    "minlat": 55.7314883,
+    "minlon": 37.6033043,
+    "maxlat": 55.7315005,
+    "maxlon": 37.6033259
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959887,
+  "bounds": {
+    "minlat": 55.7315011,
+    "minlon": 37.6033120,
+    "maxlat": 55.7315260,
+    "maxlon": 37.6033563
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959888,
+  "bounds": {
+    "minlat": 55.7315074,
+    "minlon": 37.6033233,
+    "maxlat": 55.7315196,
+    "maxlon": 37.6033450
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959889,
+  "bounds": {
+    "minlat": 55.7314045,
+    "minlon": 37.6033285,
+    "maxlat": 55.7314189,
+    "maxlon": 37.6033572
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959890,
+  "bounds": {
+    "minlat": 55.7314835,
+    "minlon": 37.6034071,
+    "maxlat": 55.7314980,
+    "maxlon": 37.6034358
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959891,
+  "bounds": {
+    "minlat": 55.7314028,
+    "minlon": 37.6033243,
+    "maxlat": 55.7314277,
+    "maxlon": 37.6033686
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959892,
+  "bounds": {
+    "minlat": 55.7314092,
+    "minlon": 37.6033356,
+    "maxlat": 55.7314214,
+    "maxlon": 37.6033573
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959893,
+  "bounds": {
+    "minlat": 55.7314220,
+    "minlon": 37.6033434,
+    "maxlat": 55.7314469,
+    "maxlon": 37.6033876
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959894,
+  "bounds": {
+    "minlat": 55.7314283,
+    "minlon": 37.6033547,
+    "maxlat": 55.7314405,
+    "maxlon": 37.6033763
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959895,
+  "bounds": {
+    "minlat": 55.7314555,
+    "minlon": 37.6033767,
+    "maxlat": 55.7314804,
+    "maxlon": 37.6034210
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959896,
+  "bounds": {
+    "minlat": 55.7314619,
+    "minlon": 37.6033880,
+    "maxlat": 55.7314741,
+    "maxlon": 37.6034097
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959897,
+  "bounds": {
+    "minlat": 55.7314747,
+    "minlon": 37.6033958,
+    "maxlat": 55.7314996,
+    "maxlon": 37.6034400
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959898,
+  "bounds": {
+    "minlat": 55.7314811,
+    "minlon": 37.6034071,
+    "maxlat": 55.7314933,
+    "maxlon": 37.6034287
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959899,
+  "bounds": {
+    "minlat": 55.7313781,
+    "minlon": 37.6034122,
+    "maxlat": 55.7313925,
+    "maxlon": 37.6034410
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959900,
+  "bounds": {
+    "minlat": 55.7314571,
+    "minlon": 37.6034908,
+    "maxlat": 55.7314716,
+    "maxlon": 37.6035196
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959901,
+  "bounds": {
+    "minlat": 55.7313764,
+    "minlon": 37.6034080,
+    "maxlat": 55.7314013,
+    "maxlon": 37.6034523
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959902,
+  "bounds": {
+    "minlat": 55.7313828,
+    "minlon": 37.6034193,
+    "maxlat": 55.7313950,
+    "maxlon": 37.6034410
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959903,
+  "bounds": {
+    "minlat": 55.7313956,
+    "minlon": 37.6034271,
+    "maxlat": 55.7314205,
+    "maxlon": 37.6034714
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959904,
+  "bounds": {
+    "minlat": 55.7314019,
+    "minlon": 37.6034384,
+    "maxlat": 55.7314141,
+    "maxlon": 37.6034601
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959905,
+  "bounds": {
+    "minlat": 55.7314291,
+    "minlon": 37.6034605,
+    "maxlat": 55.7314540,
+    "maxlon": 37.6035047
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959906,
+  "bounds": {
+    "minlat": 55.7314355,
+    "minlon": 37.6034717,
+    "maxlat": 55.7314477,
+    "maxlon": 37.6034934
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959907,
+  "bounds": {
+    "minlat": 55.7314483,
+    "minlon": 37.6034795,
+    "maxlat": 55.7314732,
+    "maxlon": 37.6035238
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959908,
+  "bounds": {
+    "minlat": 55.7314547,
+    "minlon": 37.6034908,
+    "maxlat": 55.7314669,
+    "maxlon": 37.6035125
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959909,
+  "bounds": {
+    "minlat": 55.7313517,
+    "minlon": 37.6034960,
+    "maxlat": 55.7313661,
+    "maxlon": 37.6035247
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959910,
+  "bounds": {
+    "minlat": 55.7314307,
+    "minlon": 37.6035746,
+    "maxlat": 55.7314452,
+    "maxlon": 37.6036033
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959911,
+  "bounds": {
+    "minlat": 55.7313500,
+    "minlon": 37.6034918,
+    "maxlat": 55.7313749,
+    "maxlon": 37.6035360
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959912,
+  "bounds": {
+    "minlat": 55.7313564,
+    "minlon": 37.6035031,
+    "maxlat": 55.7313686,
+    "maxlon": 37.6035247
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959913,
+  "bounds": {
+    "minlat": 55.7313692,
+    "minlon": 37.6035108,
+    "maxlat": 55.7313941,
+    "maxlon": 37.6035551
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959914,
+  "bounds": {
+    "minlat": 55.7313756,
+    "minlon": 37.6035221,
+    "maxlat": 55.7313878,
+    "maxlon": 37.6035438
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959915,
+  "bounds": {
+    "minlat": 55.7314027,
+    "minlon": 37.6035442,
+    "maxlat": 55.7314277,
+    "maxlon": 37.6035884
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959916,
+  "bounds": {
+    "minlat": 55.7314091,
+    "minlon": 37.6035555,
+    "maxlat": 55.7314213,
+    "maxlon": 37.6035771
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959917,
+  "bounds": {
+    "minlat": 55.7314219,
+    "minlon": 37.6035632,
+    "maxlat": 55.7314468,
+    "maxlon": 37.6036075
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959918,
+  "bounds": {
+    "minlat": 55.7314283,
+    "minlon": 37.6035745,
+    "maxlat": 55.7314405,
+    "maxlon": 37.6035962
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959919,
+  "bounds": {
+    "minlat": 55.7313253,
+    "minlon": 37.6035797,
+    "maxlat": 55.7313397,
+    "maxlon": 37.6036084
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959920,
+  "bounds": {
+    "minlat": 55.7314043,
+    "minlon": 37.6036583,
+    "maxlat": 55.7314188,
+    "maxlon": 37.6036870
+  },
+  "tags": {
+    "building:part": "yes",
+    "height": "20.1",
+    "min_height": "18.3",
+    "roof:height": "1.70",
+    "roof:orientation": "across",
+    "roof:shape": "round"
+  }
+},
+{
+  "type": "way",
+  "id": 828959921,
+  "bounds": {
+    "minlat": 55.7313236,
+    "minlon": 37.6035755,
+    "maxlat": 55.7313485,
+    "maxlon": 37.6036198
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959922,
+  "bounds": {
+    "minlat": 55.7313300,
+    "minlon": 37.6035868,
+    "maxlat": 55.7313422,
+    "maxlon": 37.6036085
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959923,
+  "bounds": {
+    "minlat": 55.7313428,
+    "minlon": 37.6035946,
+    "maxlat": 55.7313677,
+    "maxlon": 37.6036388
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959924,
+  "bounds": {
+    "minlat": 55.7313492,
+    "minlon": 37.6036059,
+    "maxlat": 55.7313614,
+    "maxlon": 37.6036275
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959925,
+  "bounds": {
+    "minlat": 55.7313763,
+    "minlon": 37.6036279,
+    "maxlat": 55.7314013,
+    "maxlon": 37.6036722
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959926,
+  "bounds": {
+    "minlat": 55.7313827,
+    "minlon": 37.6036392,
+    "maxlat": 55.7313949,
+    "maxlon": 37.6036609
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959927,
+  "bounds": {
+    "minlat": 55.7313955,
+    "minlon": 37.6036470,
+    "maxlat": 55.7314204,
+    "maxlon": 37.6036912
+  },
+  "tags": {
+    "building:part": "porch_column_top",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959928,
+  "bounds": {
+    "minlat": 55.7314019,
+    "minlon": 37.6036583,
+    "maxlat": 55.7314141,
+    "maxlon": 37.6036799
+  },
+  "tags": {
+    "building:part": "porch_column",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959929,
+  "bounds": {
+    "minlat": 55.7313006,
+    "minlon": 37.6036540,
+    "maxlat": 55.7313238,
+    "maxlon": 37.6036928
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959930,
+  "bounds": {
+    "minlat": 55.7313037,
+    "minlon": 37.6036594,
+    "maxlat": 55.7313207,
+    "maxlon": 37.6036874
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959931,
+  "bounds": {
+    "minlat": 55.7313198,
+    "minlon": 37.6036731,
+    "maxlat": 55.7313430,
+    "maxlon": 37.6037119
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959932,
+  "bounds": {
+    "minlat": 55.7313228,
+    "minlon": 37.6036785,
+    "maxlat": 55.7313399,
+    "maxlon": 37.6037064
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959933,
+  "bounds": {
+    "minlat": 55.7313533,
+    "minlon": 37.6037064,
+    "maxlat": 55.7313765,
+    "maxlon": 37.6037452
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959934,
+  "bounds": {
+    "minlat": 55.7313564,
+    "minlon": 37.6037118,
+    "maxlat": 55.7313735,
+    "maxlon": 37.6037398
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959935,
+  "bounds": {
+    "minlat": 55.7313725,
+    "minlon": 37.6037255,
+    "maxlat": 55.7313957,
+    "maxlon": 37.6037643
+  },
+  "tags": {
+    "building:part": "abacus",
+    "height": "13.36923076923077",
+    "min_height": "13.11923076923077",
+    "roof:height": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 828959936,
+  "bounds": {
+    "minlat": 55.7313756,
+    "minlon": 37.6037309,
+    "maxlat": 55.7313926,
+    "maxlon": 37.6037588
+  },
+  "tags": {
+    "building:part": "fustis",
+    "height": "13.11923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959937,
+  "bounds": {
+    "minlat": 55.7313017,
+    "minlon": 37.6030873,
+    "maxlat": 55.7315743,
+    "maxlon": 37.6037608
+  },
+  "tags": {
+    "building:part": "stilobate",
+    "height": "0.2",
+    "min_height": "0.0",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959938,
+  "bounds": {
+    "minlat": 55.7312985,
+    "minlon": 37.6037264,
+    "maxlat": 55.7313569,
+    "maxlon": 37.6038215
+  },
+  "tags": {
+    "building:part": "pylon_top3",
+    "height": "21.599999999999998",
+    "min_height": "20.5025641025641"
+  }
+},
+{
+  "type": "way",
+  "id": 828959939,
+  "bounds": {
+    "minlat": 55.7312912,
+    "minlon": 37.6037146,
+    "maxlat": 55.7313642,
+    "maxlon": 37.6038333
+  },
+  "tags": {
+    "building:part": "pylon_top2",
+    "height": "20.5025641025641",
+    "min_height": "19.405128205128204",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959940,
+  "bounds": {
+    "minlat": 55.7312839,
+    "minlon": 37.6037027,
+    "maxlat": 55.7313715,
+    "maxlon": 37.6038452
+  },
+  "tags": {
+    "building:part": "pylon_top1",
+    "height": "19.405128205128204",
+    "min_height": "18.307692307692307",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959943,
+  "bounds": {
+    "minlat": 55.7312547,
+    "minlon": 37.6036552,
+    "maxlat": 55.7314007,
+    "maxlon": 37.6038927
+  },
+  "tags": {
+    "building:part": "pylon_middle_wall",
+    "height": "17.707692307692305",
+    "min_height": "15.615384615384615",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959946,
+  "bounds": {
+    "minlat": 55.7312547,
+    "minlon": 37.6036552,
+    "maxlat": 55.7314007,
+    "maxlon": 37.6038927
+  },
+  "tags": {
+    "building:part": "pylon_middle_wall",
+    "height": "14.415384615384616",
+    "min_height": "13.36923076923077",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959947,
+  "bounds": {
+    "minlat": 55.7312547,
+    "minlon": 37.6036552,
+    "maxlat": 55.7314007,
+    "maxlon": 37.6038927
+  },
+  "tags": {
+    "building:part": "pylon",
+    "height": "13.36923076923077",
+    "min_height": "0.2",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 828959948,
+  "bounds": {
+    "minlat": 55.7312547,
+    "minlon": 37.6036552,
+    "maxlat": 55.7314007,
+    "maxlon": 37.6038927
+  },
+  "tags": {
+    "building:part": "stilobate",
+    "height": "0.2",
+    "min_height": "0.0",
+    "roof:height": "0",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 1071227583,
+  "bounds": {
+    "minlat": 55.7314501,
+    "minlon": 37.6009843,
+    "maxlat": 55.7314835,
+    "maxlon": 37.6010454
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "toilets",
+    "fee": "no",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1445017226,
+  "bounds": {
+    "minlat": 55.7314623,
+    "minlon": 37.5985288,
+    "maxlat": 55.7318760,
+    "maxlon": 37.5992789
+  },
+  "tags": {
+    "building": "commercial"
+  }
+},
+{
+  "type": "way",
+  "id": 1445348162,
+  "bounds": {
+    "minlat": 55.7300917,
+    "minlon": 37.6039665,
+    "maxlat": 55.7301811,
+    "maxlon": 37.6041288
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1528815810,
+  "bounds": {
+    "minlat": 55.7327077,
+    "minlon": 37.5997379,
+    "maxlat": 55.7329360,
+    "maxlon": 37.6000134
+  },
+  "tags": {
+    "building": "commercial",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 28456413,
+  "bounds": {
+    "minlat": 55.7279042,
+    "minlon": 37.6087111,
+    "maxlat": 55.7282401,
+    "maxlon": 37.6092692
+  },
+  "tags": {
+    "building:levels": "11",
+    "building:part": "university",
+    "height": "40"
+  }
+},
+{
+  "type": "way",
+  "id": 87092202,
+  "bounds": {
+    "minlat": 55.7267886,
+    "minlon": 37.6049662,
+    "maxlat": 55.7282394,
+    "maxlon": 37.6070013
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "6 с7",
+    "addr:street": "Ленинский проспект",
+    "building": "university",
+    "building:levels": "7",
+    "name": "Корпус \"Л\""
+  }
+},
+{
+  "type": "way",
+  "id": 418322629,
+  "bounds": {
+    "minlat": 55.7277131,
+    "minlon": 37.6084044,
+    "maxlat": 55.7282102,
+    "maxlon": 37.6096294
+  },
+  "tags": {
+    "building:levels": "4",
+    "building:part": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 1097594319,
+  "bounds": {
+    "minlat": 55.7277676,
+    "minlon": 37.6068784,
+    "maxlat": 55.7283014,
+    "maxlon": 37.6077194
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "6 с7",
+    "addr:street": "Ленинский проспект",
+    "building": "university",
+    "building:levels": "7",
+    "name": "Корпус \"В\""
+  }
+},
+{
+  "type": "way",
+  "id": 98683201,
+  "bounds": {
+    "minlat": 55.7283054,
+    "minlon": 37.6073542,
+    "maxlat": 55.7285898,
+    "maxlon": 37.6078462
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "4А с23",
+    "addr:street": "Ленинский проспект",
+    "building": "yes",
+    "source:addr": "RosReestr"
+  }
+},
+{
+  "type": "way",
+  "id": 352597203,
+  "bounds": {
+    "minlat": 55.7281045,
+    "minlon": 37.6079523,
+    "maxlat": 55.7286147,
+    "maxlon": 37.6088877
+  },
+  "tags": {
+    "building:levels": "4",
+    "building:part": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 418322639,
+  "bounds": {
+    "minlat": 55.7277131,
+    "minlon": 37.6079523,
+    "maxlat": 55.7287525,
+    "maxlon": 37.6102828
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "4",
+    "addr:postcode": "119049",
+    "addr:street": "Ленинский проспект",
+    "alt_name": "Главный корпус",
+    "building": "university",
+    "building:colour": "beige",
+    "building:levels": "11",
+    "building:material": "concrete",
+    "name": "Корпус \"Б\"",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 418322653,
+  "bounds": {
+    "minlat": 55.7280426,
+    "minlon": 37.6090622,
+    "maxlat": 55.7287525,
+    "maxlon": 37.6102828
+  },
+  "tags": {
+    "alt_name": "Корпус \"Б\"",
+    "building:levels": "11",
+    "building:min_level": "2",
+    "building:part": "university",
+    "height": "40",
+    "min_height": "8",
+    "name": "Главный корпуc"
+  }
+},
+{
+  "type": "way",
+  "id": 794571804,
+  "bounds": {
+    "minlat": 55.7284644,
+    "minlon": 37.6055392,
+    "maxlat": 55.7286153,
+    "maxlon": 37.6058276
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 794571805,
+  "bounds": {
+    "minlat": 55.7285484,
+    "minlon": 37.6057623,
+    "maxlat": 55.7287788,
+    "maxlon": 37.6061950
+  },
+  "tags": {
+    "addr:housenumber": "9 с13",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 794571808,
+  "bounds": {
+    "minlat": 55.7279478,
+    "minlon": 37.6062072,
+    "maxlat": 55.7287034,
+    "maxlon": 37.6078722
+  },
+  "tags": {
+    "abandoned": "yes",
+    "addr:housenumber": "6 с14-15-16",
+    "addr:street": "Ленинский проспект",
+    "building": "construction",
+    "check_date": "2023-04-26"
+  }
+},
+{
+  "type": "way",
+  "id": 48399860,
+  "bounds": {
+    "minlat": 55.7291616,
+    "minlon": 37.6073432,
+    "maxlat": 55.7294955,
+    "maxlon": 37.6078382
+  },
+  "tags": {
+    "addr:housenumber": "5А с1",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "description": "Тяговая подстанция метрополитена Т-16 «Октябрьская»",
+    "name": "Тяговая подстанция «Октябрьская»",
+    "name:uk": "Тягова підстанція «Жовтнева»",
+    "power": "substation",
+    "ref": "Т-16",
+    "substation": "traction",
+    "voltage": "10000;825"
+  }
+},
+{
+  "type": "way",
+  "id": 53756196,
+  "bounds": {
+    "minlat": 55.7303172,
+    "minlon": 37.6064770,
+    "maxlat": 55.7309588,
+    "maxlon": 37.6080877
+  },
+  "tags": {
+    "addr:housenumber": "9 с12",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 96127931,
+  "bounds": {
+    "minlat": 55.7286856,
+    "minlon": 37.6081302,
+    "maxlat": 55.7291686,
+    "maxlon": 37.6090120
+  },
+  "tags": {
+    "addr:housenumber": "2/4",
+    "addr:street": "Ленинский проспект",
+    "building": "yes",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 96600212,
+  "bounds": {
+    "minlat": 55.7288284,
+    "minlon": 37.6050251,
+    "maxlat": 55.7294485,
+    "maxlon": 37.6065036
+  },
+  "tags": {
+    "addr:housenumber": "9 с4",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "training",
+    "building": "yes",
+    "building:levels": "1",
+    "check_date": "2025-10-25",
+    "name": "Образовательный центр Музея «Гараж»",
+    "name:en": "Garage Education Center",
+    "website": "https://garagemca.org/ru/visit?activeSection=1"
+  }
+},
+{
+  "type": "way",
+  "id": 160191362,
+  "bounds": {
+    "minlat": 55.7340514,
+    "minlon": 37.6093528,
+    "maxlat": 55.7345177,
+    "maxlon": 37.6099054
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 160191365,
+  "bounds": {
+    "minlat": 55.7324853,
+    "minlon": 37.6087928,
+    "maxlat": 55.7329226,
+    "maxlon": 37.6093159
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "26",
+    "addr:postcode": "119049",
+    "addr:street": "Мароновский переулок",
+    "amenity": "university",
+    "building": "yes",
+    "building:levels": "3",
+    "contact:phone": "+7 499 2382350",
+    "contact:website": "http://gaugn.info",
+    "name": "Государственный академический университет гуманитарных наук",
+    "short_name": "ГАУГН",
+    "wikidata": "Q4146754"
+  }
+},
+{
+  "type": "way",
+  "id": 160191366,
+  "bounds": {
+    "minlat": 55.7317152,
+    "minlon": 37.6068765,
+    "maxlat": 55.7322642,
+    "maxlon": 37.6081780
+  },
+  "tags": {
+    "addr:housenumber": "8 к. 2",
+    "building": "public",
+    "building:levels": "4",
+    "height": "18"
+  }
+},
+{
+  "type": "way",
+  "id": 220790888,
+  "bounds": {
+    "minlat": 55.7337716,
+    "minlon": 37.6093878,
+    "maxlat": 55.7339885,
+    "maxlon": 37.6096963
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 220790890,
+  "bounds": {
+    "minlat": 55.7337805,
+    "minlon": 37.6084979,
+    "maxlat": 55.7339800,
+    "maxlon": 37.6093435
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 220790892,
+  "bounds": {
+    "minlat": 55.7331558,
+    "minlon": 37.6087122,
+    "maxlat": 55.7333399,
+    "maxlon": 37.6090980
+  },
+  "tags": {
+    "addr:housenumber": "29",
+    "addr:street": "2-й Бабьегородский переулок",
+    "building": "yes",
+    "building:levels": "3",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 220790897,
+  "bounds": {
+    "minlat": 55.7331599,
+    "minlon": 37.6091111,
+    "maxlat": 55.7332896,
+    "maxlon": 37.6094619
+  },
+  "tags": {
+    "addr:housenumber": "22 с1",
+    "addr:street": "Мароновский переулок",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 239073782,
+  "bounds": {
+    "minlat": 55.7333421,
+    "minlon": 37.6060896,
+    "maxlat": 55.7334598,
+    "maxlon": 37.6062985
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Школа",
+    "website": "https://muzeon.ru/pages/school"
+  }
+},
+{
+  "type": "way",
+  "id": 239078025,
+  "bounds": {
+    "minlat": 55.7324180,
+    "minlon": 37.6057228,
+    "maxlat": 55.7325420,
+    "maxlon": 37.6059547
+  },
+  "tags": {
+    "addr:housenumber": "10 c2",
+    "addr:street": "улица Крымский Вал",
+    "building": "retail",
+    "building:colour": "black",
+    "building:levels": "1",
+    "building:material": "metal",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 239167446,
+  "bounds": {
+    "minlat": 55.7331152,
+    "minlon": 37.6085033,
+    "maxlat": 55.7331575,
+    "maxlon": 37.6085856
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 239167447,
+  "bounds": {
+    "minlat": 55.7322771,
+    "minlon": 37.6088919,
+    "maxlat": 55.7323464,
+    "maxlon": 37.6090186
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "power": "substation",
+    "ref": "20915",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 386297284,
+  "bounds": {
+    "minlat": 55.7331394,
+    "minlon": 37.6090436,
+    "maxlat": 55.7332073,
+    "maxlon": 37.6091415
+  },
+  "tags": {
+    "addr:housenumber": "22 с2",
+    "addr:street": "Мароновский переулок",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 386297285,
+  "bounds": {
+    "minlat": 55.7330686,
+    "minlon": 37.6091125,
+    "maxlat": 55.7331663,
+    "maxlon": 37.6094211
+  },
+  "tags": {
+    "addr:housenumber": "22 с3",
+    "addr:street": "Мароновский переулок",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 412972970,
+  "bounds": {
+    "minlat": 55.7327716,
+    "minlon": 37.6055027,
+    "maxlat": 55.7328156,
+    "maxlon": 37.6055938
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 412977896,
+  "bounds": {
+    "minlat": 55.7340995,
+    "minlon": 37.6079114,
+    "maxlat": 55.7341512,
+    "maxlon": 37.6080002
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 412977897,
+  "bounds": {
+    "minlat": 55.7330408,
+    "minlon": 37.6077511,
+    "maxlat": 55.7330609,
+    "maxlon": 37.6077872
+  },
+  "tags": {
+    "building": "kiosk",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 413007844,
+  "bounds": {
+    "minlat": 55.7342570,
+    "minlon": 37.6070081,
+    "maxlat": 55.7343179,
+    "maxlon": 37.6071158
+  },
+  "tags": {
+    "building": "kiosk",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 413023456,
+  "bounds": {
+    "minlat": 55.7340905,
+    "minlon": 37.6054414,
+    "maxlat": 55.7341547,
+    "maxlon": 37.6055596
+  },
+  "tags": {
+    "building": "retail",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 469067755,
+  "bounds": {
+    "minlat": 55.7313878,
+    "minlon": 37.6056689,
+    "maxlat": 55.7314177,
+    "maxlon": 37.6057219
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 524552956,
+  "bounds": {
+    "minlat": 55.7298211,
+    "minlon": 37.6080668,
+    "maxlat": 55.7301929,
+    "maxlon": 37.6087586
+  },
+  "tags": {
+    "addr:housenumber": "9 с43",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "fire_station",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Пожарная часть №113",
+    "ref": "ПЧ113"
+  }
+},
+{
+  "type": "way",
+  "id": 524552957,
+  "bounds": {
+    "minlat": 55.7292958,
+    "minlon": 37.6081910,
+    "maxlat": 55.7298475,
+    "maxlon": 37.6088251
+  },
+  "tags": {
+    "addr:housenumber": "3 с3",
+    "addr:street": "улица Крымский Вал",
+    "building": "retail"
+  }
+},
+{
+  "type": "way",
+  "id": 614272277,
+  "bounds": {
+    "minlat": 55.7286767,
+    "minlon": 37.6071403,
+    "maxlat": 55.7288335,
+    "maxlon": 37.6074196
+  },
+  "tags": {
+    "addr:housenumber": "5Б с1",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "1",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 614937118,
+  "bounds": {
+    "minlat": 55.7304145,
+    "minlon": 37.6084407,
+    "maxlat": 55.7305149,
+    "maxlon": 37.6086056
+  },
+  "tags": {
+    "addr:housenumber": "9 с57",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "toilets",
+    "building": "yes",
+    "check_date": "2025-10-25",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "opening_hours": "10:00-18:00",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 651938357,
+  "bounds": {
+    "minlat": 55.7328370,
+    "minlon": 37.6048054,
+    "maxlat": 55.7329064,
+    "maxlon": 37.6049475
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 691909955,
+  "bounds": {
+    "minlat": 55.7314179,
+    "minlon": 37.6058428,
+    "maxlat": 55.7317232,
+    "maxlon": 37.6068093
+  },
+  "tags": {
+    "building": "no",
+    "foot": "no",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "RU:urban",
+    "name": "улица Крымский Вал",
+    "name:en": "Krymskiy Val St",
+    "name:ru": "улица Крымский Вал",
+    "name:uk": "вулиця Кримський Вал",
+    "oneway": "yes",
+    "parking:both": "no",
+    "parking:both:restriction": "no_stopping",
+    "postal_code": "119049",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 698888069,
+  "bounds": {
+    "minlat": 55.7287236,
+    "minlon": 37.6089402,
+    "maxlat": 55.7288287,
+    "maxlon": 37.6091266
+  },
+  "tags": {
+    "building": "roof",
+    "building:part": "roof"
+  }
+},
+{
+  "type": "way",
+  "id": 794571806,
+  "bounds": {
+    "minlat": 55.7294706,
+    "minlon": 37.6069272,
+    "maxlat": 55.7297240,
+    "maxlon": 37.6074509
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 794571807,
+  "bounds": {
+    "minlat": 55.7293130,
+    "minlon": 37.6068326,
+    "maxlat": 55.7295602,
+    "maxlon": 37.6073518
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1508605259,
+  "bounds": {
+    "minlat": 55.7334511,
+    "minlon": 37.6085810,
+    "maxlat": 55.7335629,
+    "maxlon": 37.6087385
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1508605260,
+  "bounds": {
+    "minlat": 55.7333924,
+    "minlon": 37.6089046,
+    "maxlat": 55.7335433,
+    "maxlon": 37.6094681
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1508605261,
+  "bounds": {
+    "minlat": 55.7336007,
+    "minlon": 37.6085571,
+    "maxlat": 55.7337796,
+    "maxlon": 37.6087082
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1508605262,
+  "bounds": {
+    "minlat": 55.7335706,
+    "minlon": 37.6087067,
+    "maxlat": 55.7337004,
+    "maxlon": 37.6089518
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 45463592,
+  "bounds": {
+    "minlat": 55.7355253,
+    "minlon": 37.5919702,
+    "maxlat": 55.7358857,
+    "maxlon": 37.5926836
+  },
+  "tags": {
+    "addr:housenumber": "13 с1",
+    "addr:street": "Зубовский бульвар",
+    "building": "yes",
+    "building:levels": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 45463594,
+  "bounds": {
+    "minlat": 55.7354123,
+    "minlon": 37.5925140,
+    "maxlat": 55.7357150,
+    "maxlon": 37.5929857
+  },
+  "tags": {
+    "addr:housenumber": "11А",
+    "addr:street": "Зубовский бульвар",
+    "building": "commercial",
+    "building:colour": "lightgrey;grey",
+    "building:levels": "14",
+    "building:material": "glass",
+    "name": "Дом Парк Культуры",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 47923101,
+  "bounds": {
+    "minlat": 55.7363982,
+    "minlon": 37.5953650,
+    "maxlat": 55.7367306,
+    "maxlon": 37.5957276
+  },
+  "tags": {
+    "addr:housenumber": "53А",
+    "addr:postcode": "119034",
+    "addr:street": "улица Остоженка",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "contact:phone": "+7 499 2450385",
+    "contact:website": "https://narcologos.ru/",
+    "health_facility:type": "clinic",
+    "health_specialty:toxicology": "yes",
+    "healthcare": "clinic",
+    "medical_system:western": "yes",
+    "name": "Московский научно-практический центр наркологии. Наркологический диспансер № 12 для несовершеннолетних",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-16:00; Su off"
+  }
+},
+{
+  "type": "way",
+  "id": 76619117,
+  "bounds": {
+    "minlat": 55.7367720,
+    "minlon": 37.5957307,
+    "maxlat": 55.7369612,
+    "maxlon": 37.5962467
+  },
+  "tags": {
+    "addr:housenumber": "3 с5",
+    "addr:street": "Турчанинов переулок",
+    "building": "retail",
+    "building:colour": "grey",
+    "building:levels": "2",
+    "building:material": "glass;metal",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:levels": "0",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633171,
+  "bounds": {
+    "minlat": 55.7371999,
+    "minlon": 37.5962482,
+    "maxlat": 55.7373112,
+    "maxlon": 37.5965129
+  },
+  "tags": {
+    "addr:housenumber": "49 с2",
+    "addr:street": "улица Остоженка",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 76633181,
+  "bounds": {
+    "minlat": 55.7374479,
+    "minlon": 37.5957634,
+    "maxlat": 55.7375393,
+    "maxlon": 37.5960012
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 76633221,
+  "bounds": {
+    "minlat": 55.7371284,
+    "minlon": 37.5957603,
+    "maxlat": 55.7371849,
+    "maxlon": 37.5958825
+  },
+  "tags": {
+    "addr:housenumber": "51 с4",
+    "addr:street": "улица Остоженка",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633241,
+  "bounds": {
+    "minlat": 55.7368508,
+    "minlon": 37.5967696,
+    "maxlat": 55.7370138,
+    "maxlon": 37.5971162
+  },
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Турчанинов переулок",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633272,
+  "bounds": {
+    "minlat": 55.7365289,
+    "minlon": 37.5974958,
+    "maxlat": 55.7366168,
+    "maxlon": 37.5976822
+  },
+  "tags": {
+    "addr:housenumber": "3 с3",
+    "addr:street": "Турчанинов переулок",
+    "building": "service",
+    "building:colour": "white;blue",
+    "building:levels": "1",
+    "building:material": "concrete",
+    "location": "indoor",
+    "power": "substation",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "gabled",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 76633297,
+  "bounds": {
+    "minlat": 55.7373416,
+    "minlon": 37.5959404,
+    "maxlat": 55.7374549,
+    "maxlon": 37.5962458
+  },
+  "tags": {
+    "addr:housenumber": "51 с3",
+    "addr:street": "улица Остоженка",
+    "building": "garages",
+    "building:levels": "1",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633307,
+  "bounds": {
+    "minlat": 55.7370800,
+    "minlon": 37.5959015,
+    "maxlat": 55.7372039,
+    "maxlon": 37.5960956
+  },
+  "tags": {
+    "addr:housenumber": "51 с2",
+    "addr:street": "улица Остоженка",
+    "building": "office",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633316,
+  "bounds": {
+    "minlat": 55.7371522,
+    "minlon": 37.5954113,
+    "maxlat": 55.7374424,
+    "maxlon": 37.5958113
+  },
+  "tags": {
+    "addr:housenumber": "51 с1",
+    "addr:street": "улица Остоженка",
+    "building": "office",
+    "building:architecture": "neoclassicism",
+    "building:colour": "yellow",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "historic": "manor",
+    "name": "Особняк Абрикосовых",
+    "note": "На здании табличка 51/10, ничего про строение",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "start_date": "1820s",
+    "tourism": "attraction",
+    "wikidata": "Q19988301",
+    "wikipedia": "ru:Особняк Абрикосовых"
+  }
+},
+{
+  "type": "way",
+  "id": 80306307,
+  "bounds": {
+    "minlat": 55.7367532,
+    "minlon": 37.5934299,
+    "maxlat": 55.7369694,
+    "maxlon": 37.5938335
+  },
+  "tags": {
+    "addr:housenumber": "2 с4",
+    "addr:street": "Зубовский бульвар",
+    "building": "civic",
+    "building:colour": "beige",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 80306308,
+  "bounds": {
+    "minlat": 55.7368844,
+    "minlon": 37.5930225,
+    "maxlat": 55.7371040,
+    "maxlon": 37.5934404
+  },
+  "tags": {
+    "addr:housenumber": "2 с3",
+    "addr:street": "Зубовский бульвар",
+    "building": "civic",
+    "building:colour": "lightgrey;red",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 102747667,
+  "bounds": {
+    "minlat": 55.7369795,
+    "minlon": 37.5939038,
+    "maxlat": 55.7371816,
+    "maxlon": 37.5943317
+  },
+  "tags": {
+    "addr:housenumber": "46 с3",
+    "addr:street": "улица Остоженка",
+    "building": "service",
+    "building:colour": "white",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 132429050,
+  "bounds": {
+    "minlat": 55.7360008,
+    "minlon": 37.5948935,
+    "maxlat": 55.7361570,
+    "maxlon": 37.5951709
+  },
+  "tags": {
+    "addr:housenumber": "вл53",
+    "addr:street": "улица Остоженка",
+    "building": "train_station",
+    "building:levels": "1",
+    "roof:levels": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 137289432,
+  "bounds": {
+    "minlat": 55.7367224,
+    "minlon": 37.5938016,
+    "maxlat": 55.7368136,
+    "maxlon": 37.5939624
+  },
+  "tags": {
+    "building": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 137289443,
+  "bounds": {
+    "minlat": 55.7368297,
+    "minlon": 37.5937616,
+    "maxlat": 55.7370333,
+    "maxlon": 37.5940453
+  },
+  "tags": {
+    "addr:housenumber": "46 с2",
+    "addr:street": "улица Остоженка",
+    "building": "office",
+    "building:levels": "2",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 137289444,
+  "bounds": {
+    "minlat": 55.7367346,
+    "minlon": 37.5940419,
+    "maxlat": 55.7368690,
+    "maxlon": 37.5945876
+  },
+  "tags": {
+    "addr:housenumber": "2 с5",
+    "addr:street": "Зубовский бульвар",
+    "building": "retail",
+    "building:colour": "lightgrey",
+    "building:levels": "1",
+    "building:material": "plaster",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 160191360,
+  "bounds": {
+    "minlat": 55.7358530,
+    "minlon": 37.5955949,
+    "maxlat": 55.7359158,
+    "maxlon": 37.5957116
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 330097166,
+  "bounds": {
+    "minlat": 55.7370963,
+    "minlon": 37.5931254,
+    "maxlat": 55.7371815,
+    "maxlon": 37.5932645
+  },
+  "tags": {
+    "addr:housenumber": "46 с4",
+    "addr:street": "улица Остоженка",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 459233941,
+  "bounds": {
+    "minlat": 55.7351246,
+    "minlon": 37.5966810,
+    "maxlat": 55.7353181,
+    "maxlon": 37.5970098
+  },
+  "tags": {
+    "addr:housenumber": "53/2 с3",
+    "addr:street": "улица Остоженка",
+    "building": "government",
+    "building:colour": "lightgrey",
+    "building:levels": "1",
+    "building:material": "metal",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "skillion"
+  }
+},
+{
+  "type": "way",
+  "id": 540408573,
+  "bounds": {
+    "minlat": 55.7361823,
+    "minlon": 37.5957432,
+    "maxlat": 55.7362298,
+    "maxlon": 37.5958304
+  },
+  "tags": {
+    "building": "retail",
+    "building:levels": "1",
+    "nohousenumber": "yes",
+    "roof:shape": "skillion"
+  }
+},
+{
+  "type": "way",
+  "id": 540408579,
+  "bounds": {
+    "minlat": 55.7370448,
+    "minlon": 37.5960706,
+    "maxlat": 55.7371678,
+    "maxlon": 37.5964155
+  },
+  "tags": {
+    "building": "service",
+    "building:levels": "1",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 1080376065,
+  "bounds": {
+    "minlat": 55.7356953,
+    "minlon": 37.5975739,
+    "maxlat": 55.7358153,
+    "maxlon": 37.5977790
+  },
+  "tags": {
+    "building": "service",
+    "building:colour": "lightgrey",
+    "building:levels": "1",
+    "building:material": "metal",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "skillion"
+  }
+},
+{
+  "type": "way",
+  "id": 1080376079,
+  "bounds": {
+    "minlat": 55.7351256,
+    "minlon": 37.5968727,
+    "maxlat": 55.7351875,
+    "maxlon": 37.5969748
+  },
+  "tags": {
+    "building": "service",
+    "building:colour": "blue",
+    "building:levels": "1",
+    "building:material": "metal",
+    "roof:angle": "5",
+    "roof:colour": "blue",
+    "roof:material": "metal",
+    "roof:shape": "skillion"
+  }
+},
+{
+  "type": "way",
+  "id": 52434911,
+  "bounds": {
+    "minlat": 55.7372964,
+    "minlon": 37.6013425,
+    "maxlat": 55.7377992,
+    "maxlon": 37.6022350
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Бутиковский переулок",
+    "building": "office",
+    "building:levels": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 52434915,
+  "bounds": {
+    "minlat": 55.7375198,
+    "minlon": 37.6029590,
+    "maxlat": 55.7382647,
+    "maxlon": 37.6039793
+  },
+  "tags": {
+    "addr:housenumber": "11 с1",
+    "addr:street": "Пречистенская набережная",
+    "building": "university",
+    "building:levels": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 76619113,
+  "bounds": {
+    "minlat": 55.7356033,
+    "minlon": 37.5983142,
+    "maxlat": 55.7357396,
+    "maxlon": 37.5985651
+  },
+  "tags": {
+    "addr:housenumber": "3 с2",
+    "addr:street": "Турчанинов переулок",
+    "building": "service",
+    "building:levels": "1",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 76633180,
+  "bounds": {
+    "minlat": 55.7369952,
+    "minlon": 37.5996803,
+    "maxlat": 55.7372507,
+    "maxlon": 37.6001400
+  },
+  "tags": {
+    "addr:housenumber": "1А",
+    "addr:street": "Хилков переулок",
+    "building": "yes",
+    "building:levels": "4"
+  }
+},
+{
+  "type": "way",
+  "id": 76633191,
+  "bounds": {
+    "minlat": 55.7363486,
+    "minlon": 37.5987438,
+    "maxlat": 55.7374963,
+    "maxlon": 37.6007032
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Хилков переулок",
+    "building": "apartments",
+    "building:colour": "beige;brown",
+    "building:levels": "6",
+    "building:material": "brick",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 76633266,
+  "bounds": {
+    "minlat": 55.7367115,
+    "minlon": 37.5982306,
+    "maxlat": 55.7368136,
+    "maxlon": 37.5983937
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 105178597,
+  "bounds": {
+    "minlat": 55.7362986,
+    "minlon": 37.5984284,
+    "maxlat": 55.7366218,
+    "maxlon": 37.5990455
+  },
+  "tags": {
+    "addr:housenumber": "2А",
+    "addr:street": "Турчанинов переулок",
+    "building": "apartments",
+    "building:colour": "beige;brown",
+    "building:levels": "3",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 160191345,
+  "bounds": {
+    "minlat": 55.7370280,
+    "minlon": 37.6016381,
+    "maxlat": 55.7375812,
+    "maxlon": 37.6027225
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Пречистенская набережная",
+    "building": "office",
+    "building:levels": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 424586664,
+  "bounds": {
+    "minlat": 55.7359385,
+    "minlon": 37.5994417,
+    "maxlat": 55.7367012,
+    "maxlon": 37.6010680
+  },
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Пречистенская набережная",
+    "building": "apartments",
+    "building:colour": "brown",
+    "building:levels": "4",
+    "building:material": "metal_plates",
+    "name": "Жилой комплекс «Кленовый дом»",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 424586665,
+  "bounds": {
+    "minlat": 55.7361334,
+    "minlon": 37.5989235,
+    "maxlat": 55.7363537,
+    "maxlon": 37.5993204
+  },
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Пречистенская набережная",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 424586666,
+  "bounds": {
+    "minlat": 55.7366551,
+    "minlon": 37.6010990,
+    "maxlat": 55.7370926,
+    "maxlon": 37.6018824
+  },
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "Пречистенская набережная",
+    "building": "apartments",
+    "building:levels": "5"
+  }
+},
+{
+  "type": "way",
+  "id": 592323509,
+  "bounds": {
+    "minlat": 55.7366978,
+    "minlon": 37.6006888,
+    "maxlat": 55.7367611,
+    "maxlon": 37.6008012
+  },
+  "tags": {
+    "building": "service",
+    "power": "substation",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "way",
+  "id": 592323517,
+  "bounds": {
+    "minlat": 55.7373025,
+    "minlon": 37.6002540,
+    "maxlat": 55.7374295,
+    "maxlon": 37.6004934
+  },
+  "tags": {
+    "building:part": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1080376054,
+  "bounds": {
+    "minlat": 55.7355225,
+    "minlon": 37.5984197,
+    "maxlat": 55.7355868,
+    "maxlon": 37.5985236
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1080376064,
+  "bounds": {
+    "minlat": 55.7356772,
+    "minlon": 37.5982231,
+    "maxlat": 55.7357769,
+    "maxlon": 37.5984026
+  },
+  "tags": {
+    "addr:housenumber": "1 с4",
+    "addr:street": "Пречистенская набережная",
+    "building": "service",
+    "building:levels": "1",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 47923126,
+  "bounds": {
+    "minlat": 55.7357928,
+    "minlon": 37.5979101,
+    "maxlat": 55.7363577,
+    "maxlon": 37.5990106
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Турчанинов переулок",
+    "building": "sports_centre",
+    "building:colour": "lightgrey;brown",
+    "building:material": "glass:porcelain_stoneware",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 47923288,
+  "bounds": {
+    "minlat": 55.7370146,
+    "minlon": 37.5976283,
+    "maxlat": 55.7374908,
+    "maxlon": 37.5985304
+  },
+  "tags": {
+    "addr:housenumber": "3А",
+    "addr:postcode": "119034",
+    "addr:street": "Хилков переулок",
+    "building": "school",
+    "building:colour": "red",
+    "building:levels": "4",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633192,
+  "bounds": {
+    "minlat": 55.7368192,
+    "minlon": 37.5978054,
+    "maxlat": 55.7370404,
+    "maxlon": 37.5983560
+  },
+  "tags": {
+    "addr:housenumber": "4 с2",
+    "addr:street": "Турчанинов переулок",
+    "building": "office",
+    "building:levels": "2",
+    "roof:angle": "20",
+    "roof:colour": "green",
+    "roof:material": "metal",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 76633314,
+  "bounds": {
+    "minlat": 55.7366843,
+    "minlon": 37.5976558,
+    "maxlat": 55.7368827,
+    "maxlon": 37.5981084
+  },
+  "tags": {
+    "addr:housenumber": "4 с1",
+    "addr:street": "Турчанинов переулок",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:colour": "beige",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "denomination": "old_believers",
+    "denomination:ru": "РПСЦ",
+    "name": "Церковь Покрова Пресвятой Богородицы",
+    "name:ru": "Церковь Покрова Пресвятой Богородицы",
+    "ref:sobory.ru": "02252",
+    "religion": "christian",
+    "roof:colour": "grey",
+    "roof:material": "metal",
+    "roof:shape": "many",
+    "wikidata": "Q54327962",
+    "wikipedia": "ru:Храм Покрова Пресвятой Богородицы на Остоженке"
+  }
+},
+{
+  "type": "way",
+  "id": 54859706,
+  "bounds": {
+    "minlat": 55.7361473,
+    "minlon": 37.6071819,
+    "maxlat": 55.7364315,
+    "maxlon": 37.6077120
+  },
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:street": "Крымская набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Мосводоканал. Служба насосных станций."
+  }
+},
+{
+  "type": "way",
+  "id": 55695693,
+  "bounds": {
+    "minlat": 55.7372194,
+    "minlon": 37.6088643,
+    "maxlat": 55.7374447,
+    "maxlon": 37.6092813
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 55695706,
+  "bounds": {
+    "minlat": 55.7361646,
+    "minlon": 37.6078791,
+    "maxlat": 55.7362428,
+    "maxlon": 37.6080164
+  },
+  "tags": {
+    "addr:housenumber": "16 с2",
+    "addr:street": "Крымская набережная",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "Адресный реестр Москвы, data.mos.ru"
+  }
+},
+{
+  "type": "way",
+  "id": 374948806,
+  "bounds": {
+    "minlat": 55.7358481,
+    "minlon": 37.6049317,
+    "maxlat": 55.7360932,
+    "maxlon": 37.6054526
+  },
+  "tags": {
+    "addr:housenumber": "10 с2",
+    "addr:street": "улица Крымский Вал",
+    "building": "retail",
+    "building:levels": "1",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 412970269,
+  "bounds": {
+    "minlat": 55.7359940,
+    "minlon": 37.6071790,
+    "maxlat": 55.7360620,
+    "maxlon": 37.6072997
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes",
+    "check_date": "2026-01-11",
+    "fee": "no",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 594166406,
+  "bounds": {
+    "minlat": 55.7363338,
+    "minlon": 37.6072595,
+    "maxlat": 55.7364165,
+    "maxlon": 37.6074069
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "power": "substation",
+    "ref": "28390",
+    "substation": "minor_distribution"
+  }
+},
+{
+  "type": "relation",
+  "id": 549066,
+  "bounds": {
+    "minlat": 55.7339401,
+    "minlon": 37.6038101,
+    "maxlat": 55.7361356,
+    "maxlon": 37.6077967
+  },
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "119049",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "4",
+    "height": "26",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 3106811,
+  "bounds": {
+    "minlat": 55.7311513,
+    "minlon": 37.6041380,
+    "maxlat": 55.7315227,
+    "maxlon": 37.6051893
+  },
+  "tags": {
+    "addr:housenumber": "9 с1",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "1",
+    "height": "6",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 11022916,
+  "bounds": {
+    "minlat": 55.7279690,
+    "minlon": 37.6032026,
+    "maxlat": 55.7288899,
+    "maxlon": 37.6048828
+  },
+  "tags": {
+    "abandoned": "yes",
+    "addr:housenumber": "9 с28",
+    "addr:street": "улица Крымский Вал",
+    "building": "construction",
+    "name": "Павильон «Шестигранник»",
+    "name:de": "Pavillon \"Hexagon\"",
+    "tourism": "attraction",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16469027,
+  "bounds": {
+    "minlat": 55.7350380,
+    "minlon": 37.5959297,
+    "maxlat": 55.7353135,
+    "maxlon": 37.5965635
+  },
+  "tags": {
+    "addr:housenumber": "53 к2 с2",
+    "addr:street": "улица Остоженка",
+    "building": "yes",
+    "building:levels": "4",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19757200,
+  "bounds": {
+    "minlat": 55.7291364,
+    "minlon": 37.5970952,
+    "maxlat": 55.7314909,
+    "maxlon": 37.5988787
+  },
+  "tags": {
+    "building": "commercial",
+    "building:levels": "2",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19757203,
+  "bounds": {
+    "minlat": 55.7283970,
+    "minlon": 37.5966820,
+    "maxlat": 55.7291420,
+    "maxlon": 37.5974478
+  },
+  "tags": {
+    "building": "commercial",
+    "building:levels": "2",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6758062,
+  "bounds": {
+    "minlat": 55.7340038,
+    "minlon": 37.5914845,
+    "maxlat": 55.7350982,
+    "maxlon": 37.5932263
+  },
+  "tags": {
+    "addr:housenumber": "5 с1",
+    "addr:street": "Зубовский бульвар",
+    "building": "school",
+    "building:colour": "beige",
+    "building:levels": "4",
+    "building:material": "plaster",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 7318934,
+  "bounds": {
+    "minlat": 55.7347502,
+    "minlon": 37.5929399,
+    "maxlat": 55.7349218,
+    "maxlon": 37.5931620
+  },
+  "tags": {
+    "building": "school",
+    "building:levels": "4",
+    "building:min_level": "3",
+    "layer": "1",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 3106812,
+  "bounds": {
+    "minlat": 55.7316299,
+    "minlon": 37.6025949,
+    "maxlat": 55.7322904,
+    "maxlon": 37.6029714
+  },
+  "tags": {
+    "addr:housenumber": "9 с2",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "1",
+    "height": "6",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6913335,
+  "bounds": {
+    "minlat": 55.7312401,
+    "minlon": 37.6029312,
+    "maxlat": 55.7316363,
+    "maxlon": 37.6039148
+  },
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:postcode": "119049",
+    "addr:street": "улица Крымский Вал",
+    "building": "triumphal_arch",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "4",
+    "height": "21.6",
+    "name": "Арка главного входа в ЦПКиО им. Горького",
+    "start_date": "1955",
+    "start_date:building": "1955",
+    "tourism": "attraction",
+    "type": "multipolygon",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "relation",
+  "id": 6913337,
+  "bounds": {
+    "minlat": 55.7322384,
+    "minlon": 37.6003790,
+    "maxlat": 55.7330298,
+    "maxlon": 37.6014819
+  },
+  "tags": {
+    "addr:housenumber": "9 с45",
+    "addr:street": "улица Крымский Вал",
+    "architect:wikidata": "Q152233",
+    "building": "commercial",
+    "building:architecture": "constructivism",
+    "building:levels": "3",
+    "end_date": "2025-01-16",
+    "start_date": "1931",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20971257,
+  "bounds": {
+    "minlat": 55.7318521,
+    "minlon": 37.5989340,
+    "maxlat": 55.7329778,
+    "maxlon": 37.6004470
+  },
+  "tags": {
+    "building": "commercial",
+    "building:levels": "3",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2144183,
+  "bounds": {
+    "minlat": 55.7319376,
+    "minlon": 37.6071672,
+    "maxlat": 55.7327839,
+    "maxlon": 37.6086141
+  },
+  "tags": {
+    "addr:housenumber": "8 к2",
+    "addr:street": "улица Крымский Вал",
+    "building": "yes",
+    "building:levels": "3",
+    "height": "12",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6913343,
+  "bounds": {
+    "minlat": 55.7289344,
+    "minlon": 37.6084701,
+    "maxlat": 55.7296067,
+    "maxlon": 37.6098693
+  },
+  "tags": {
+    "addr:housenumber": "3 с2",
+    "addr:postcode": "119049",
+    "addr:street": "улица Крымский Вал",
+    "building": "office",
+    "building:levels": "5",
+    "name": "Бизнес-центр \"Крымский Вал\"",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6913344,
+  "bounds": {
+    "minlat": 55.7293076,
+    "minlon": 37.6088327,
+    "maxlat": 55.7300787,
+    "maxlon": 37.6104253
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "3 к1",
+    "addr:postcode": "119049",
+    "addr:region": "Москва",
+    "addr:street": "улица Крымский Вал",
+    "building": "university",
+    "building:levels": "4",
+    "name": "Корпус \"К\"",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6913378,
+  "bounds": {
+    "minlat": 55.7310016,
+    "minlon": 37.6086354,
+    "maxlat": 55.7317978,
+    "maxlon": 37.6097218
+  },
+  "tags": {
+    "addr:housenumber": "8/25",
+    "addr:postcode": "119049",
+    "addr:street": "улица Крымский Вал",
+    "building": "apartments",
+    "building:architecture": "stalinist_neoclassicism",
+    "building:levels": "8",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1777729,
+  "bounds": {
+    "minlat": 55.7352757,
+    "minlon": 37.5947587,
+    "maxlat": 55.7359546,
+    "maxlon": 37.5960716
+  },
+  "tags": {
+    "addr:housenumber": "53/2",
+    "addr:street": "улица Остоженка",
+    "building": "university",
+    "building:levels": "4",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1850017,
+  "bounds": {
+    "minlat": 55.7357409,
+    "minlon": 37.5959174,
+    "maxlat": 55.7367770,
+    "maxlon": 37.5979260
+  },
+  "tags": {
+    "addr:housenumber": "3 с1",
+    "addr:street": "Турчанинов переулок",
+    "building": "sports_centre",
+    "building:colour": "lightgrey",
+    "building:levels": "2",
+    "building:material": "plaster;glass",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1850021,
+  "bounds": {
+    "minlat": 55.7375068,
+    "minlon": 37.5956798,
+    "maxlat": 55.7375606,
+    "maxlon": 37.5957697
+  },
+  "tags": {
+    "building": "yes",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1850042,
+  "bounds": {
+    "minlat": 55.7373885,
+    "minlon": 37.5946566,
+    "maxlat": 55.7377951,
+    "maxlon": 37.5950696
+  },
+  "tags": {
+    "addr:housenumber": "42/2",
+    "addr:street": "улица Остоженка",
+    "building": "apartments",
+    "building:architecture": "neoclassicism",
+    "building:colour": "lightblue",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "red",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1850057,
+  "bounds": {
+    "minlat": 55.7374554,
+    "minlon": 37.5940929,
+    "maxlat": 55.7377545,
+    "maxlon": 37.5946930
+  },
+  "tags": {
+    "addr:housenumber": "4 с1",
+    "addr:street": "Кропоткинский переулок",
+    "building": "apartments",
+    "building:levels": "4",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1850064,
+  "bounds": {
+    "minlat": 55.7375076,
+    "minlon": 37.5929605,
+    "maxlat": 55.7376766,
+    "maxlon": 37.5932618
+  },
+  "tags": {
+    "addr:housenumber": "7 с2-4",
+    "addr:street": "Кропоткинский переулок",
+    "building": "yes",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 1850072,
+  "bounds": {
+    "minlat": 55.7367578,
+    "minlon": 37.5965119,
+    "maxlat": 55.7373653,
+    "maxlon": 37.5977032
+  },
+  "tags": {
+    "addr:housenumber": "6 с2",
+    "addr:street": "Турчанинов переулок",
+    "building": "office",
+    "building:colour": "beige",
+    "building:levels": "4",
+    "building:material": "porcelain_stoneware",
+    "roof:colour": "grey",
+    "roof:material": "tar_paper",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 5567732,
+  "bounds": {
+    "minlat": 55.7374617,
+    "minlon": 37.5926033,
+    "maxlat": 55.7377255,
+    "maxlon": 37.5931440
+  },
+  "tags": {
+    "building": "yes",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6011325,
+  "bounds": {
+    "minlat": 55.7360958,
+    "minlon": 37.5923760,
+    "maxlat": 55.7367921,
+    "maxlon": 37.5938405
+  },
+  "tags": {
+    "addr:housenumber": "2 с1",
+    "addr:street": "Зубовский бульвар",
+    "building": "civic",
+    "building:architecture": "empire",
+    "ref": "2",
+    "start_date": "1829..1831",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6011326,
+  "bounds": {
+    "minlat": 55.7358329,
+    "minlon": 37.5937458,
+    "maxlat": 55.7367097,
+    "maxlon": 37.5945662
+  },
+  "tags": {
+    "addr:housenumber": "2 с7",
+    "addr:street": "Зубовский бульвар",
+    "building": "civic",
+    "building:architecture": "empire",
+    "ref": "3",
+    "start_date": "1829..1831",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6011327,
+  "bounds": {
+    "minlat": 55.7365953,
+    "minlon": 37.5917750,
+    "maxlat": 55.7373263,
+    "maxlon": 37.5930624
+  },
+  "tags": {
+    "addr:housenumber": "2 с2",
+    "addr:street": "Зубовский бульвар",
+    "building": "civic",
+    "building:architecture": "empire",
+    "ref": "1",
+    "start_date": "1829..1831",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6788480,
+  "bounds": {
+    "minlat": 55.7359554,
+    "minlon": 37.5951777,
+    "maxlat": 55.7360260,
+    "maxlon": 37.5952841
+  },
+  "tags": {
+    "addr:housenumber": "53/2 с10",
+    "addr:street": "улица Остоженка",
+    "building": "retail",
+    "building:levels": "1",
+    "roof:levels": "0",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6788481,
+  "bounds": {
+    "minlat": 55.7360067,
+    "minlon": 37.5952127,
+    "maxlat": 55.7361111,
+    "maxlon": 37.5953690
+  },
+  "tags": {
+    "addr:housenumber": "53/2 с4",
+    "addr:street": "улица Остоженка",
+    "building": "retail",
+    "building:levels": "1",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14374919,
+  "bounds": {
+    "minlat": 55.7355082,
+    "minlon": 37.5973159,
+    "maxlat": 55.7357185,
+    "maxlon": 37.5976540
+  },
+  "tags": {
+    "building": "service",
+    "building:colour": "beige",
+    "building:levels": "1",
+    "building:material": "metal_plates",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "flat",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8341281,
+  "bounds": {
+    "minlat": 55.7368172,
+    "minlon": 37.5994480,
+    "maxlat": 55.7381036,
+    "maxlon": 37.6016084
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:country": "RU",
+    "addr:housenumber": "1",
+    "addr:street": "Коробейников переулок",
+    "building": "apartments",
+    "building:levels": "6",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14374916,
+  "bounds": {
+    "minlat": 55.7356490,
+    "minlon": 37.5989458,
+    "maxlat": 55.7360334,
+    "maxlon": 37.5995058
+  },
+  "tags": {
+    "addr:housenumber": "3 с1",
+    "addr:street": "Турчанинов переулок",
+    "building": "office",
+    "building:colour": "red;lightgrey",
+    "building:levels": "2",
+    "building:material": "brick",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 18034933,
+  "bounds": {
+    "minlat": 55.7365481,
+    "minlon": 37.5980593,
+    "maxlat": 55.7367231,
+    "maxlon": 37.5983433
+  },
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Турчанинов переулок",
+    "building": "house",
+    "building:colour": "yellow",
+    "building:levels": "2",
+    "building:material": "wood",
+    "name": "Дом-причта Старообрядческой Остоженской общины",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 18145071,
+  "bounds": {
+    "minlat": 55.7373994,
+    "minlon": 37.6025910,
+    "maxlat": 55.7380416,
+    "maxlon": 37.6035073
+  },
+  "tags": {
+    "addr:housenumber": "11 с2",
+    "addr:street": "Пречистенская набережная",
+    "building": "university",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14374918,
+  "bounds": {
+    "minlat": 55.7351770,
+    "minlon": 37.5979402,
+    "maxlat": 55.7354987,
+    "maxlon": 37.5985677
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Пречистенская набережная",
+    "building": "school",
+    "building:levels": "3",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 17987678,
+  "bounds": {
+    "minlat": 55.7374017,
+    "minlon": 37.5973339,
+    "maxlat": 55.7380527,
+    "maxlon": 37.5983202
+  },
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:postcode": "119034",
+    "addr:street": "Хилков переулок",
+    "building": "construction",
+    "building:colour": "yellow",
+    "building:levels": "3",
+    "building:material": "plaster",
+    "roof:angle": "20",
+    "roof:colour": "lightgrey",
+    "roof:material": "metal",
+    "roof:shape": "hipped",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "node",
+  "id": 2463911722,
+  "lat": 55.7307156,
+  "lon": 37.5931222,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:email": "beliy-juravl@mail.ru",
+    "contact:phone": "+7 495 5422323;+7 495 7750656;+7 499 2459621",
+    "contact:website": "http://www.beliy-juravl.ru",
+    "cuisine": "korean",
+    "name": "Белый Журавль",
+    "name:en": "Beliy Zhuravl",
+    "name:ru": "Белый Журавль",
+    "opening_hours": "Mo-Su 12:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4087886129,
+  "lat": 55.7320917,
+  "lon": 37.5926769,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-03-22",
+    "name": "Дастархан",
+    "opening_hours": "Mo-Su 10:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4092709207,
+  "lat": 55.7346678,
+  "lon": 37.5955276,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-25",
+    "cuisine": "georgian",
+    "name": "Хинкальная",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13638548798,
+  "lat": 55.7286602,
+  "lon": 37.5968924,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Rostic's",
+    "brand:wikidata": "Q3442874",
+    "check_date": "2026-03-22",
+    "contact:phone": "+7 800 7075477",
+    "contact:vk": "https://vk.com/rostics_official",
+    "contact:website": "https://rostics.ru",
+    "cuisine": "chicken",
+    "diet:vegetarian": "no",
+    "name": "Rostic's",
+    "name:en": "Rostic's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13669218473,
+  "lat": 55.7289714,
+  "lon": 37.5969546,
+  "tags": {
+    "amenity": "food_court",
+    "check_date": "2026-06-12"
+  }
+},
+{
+  "type": "node",
+  "id": 13807769642,
+  "lat": 55.7289860,
+  "lon": 37.5971568,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:telegram": "https://t.me/planchamsk",
+    "name": "Планча",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099080,
+  "lat": 55.7303888,
+  "lon": 37.5978222,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-06-12",
+    "contact:facebook": "https://www.facebook.com/remykitchenbakery",
+    "contact:instagram": "https://www.instagram.com/remykitchenbakery/",
+    "contact:website": "https://remykitchenbakery.ru/",
+    "cuisine": "coffee_shop",
+    "name": "Remy Kitchen Bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099081,
+  "lat": 55.7298926,
+  "lon": 37.5976355,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Чайхона №1"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099082,
+  "lat": 55.7298234,
+  "lon": 37.5977601,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Pho Bo"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099083,
+  "lat": 55.7297919,
+  "lon": 37.5975308,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Чудо-юдо"
+  }
+},
+{
+  "type": "node",
+  "id": 2815027101,
+  "lat": 55.7300490,
+  "lon": 37.5996060,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-10-25",
+    "cuisine": "crepe",
+    "name": "Wursthaus"
+  }
+},
+{
+  "type": "node",
+  "id": 5097189837,
+  "lat": 55.7349316,
+  "lon": 37.6033042,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Kaffebröd",
+    "name:sv": "Kaffebröd"
+  }
+},
+{
+  "type": "node",
+  "id": 6558514117,
+  "lat": 55.7307833,
+  "lon": 37.6017085,
+  "tags": {
+    "amenity": "cafe",
+    "building": "kiosk",
+    "check_date": "2025-10-25",
+    "cuisine": "coffee_shop",
+    "name": "Кофе Пончик",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 6919764785,
+  "lat": 55.7349087,
+  "lon": 37.6031490,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:instagram": "https://www.instagram.com/shawarma_vip_house",
+    "cuisine": "kebab",
+    "drive_through": "no",
+    "name": "Shawarma house",
+    "opening_hours": "24/7",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9250278417,
+  "lat": 55.7303349,
+  "lon": 37.6031052,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Стардогs",
+    "brand:en": "Stardogs",
+    "brand:ru": "Стардогs",
+    "brand:wikidata": "Q4439856",
+    "check_date": "2025-10-25",
+    "cuisine": "sausage",
+    "name": "Стардогs",
+    "name:en": "Stardogs",
+    "name:ru": "Стардогs",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13256120038,
+  "lat": 55.7300238,
+  "lon": 37.5996613,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-10-25",
+    "cuisine": "donut"
+  }
+},
+{
+  "type": "node",
+  "id": 13625271360,
+  "lat": 55.7313965,
+  "lon": 37.5984201,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Вкусно — и точка",
+    "brand:wikidata": "Q112406961",
+    "brand:wikipedia": "ru:Вкусно — и точка",
+    "check_date": "2026-06-12",
+    "contact:email": "info@qsrsystem.ru",
+    "contact:phone": "+7 495 2680035",
+    "contact:vk": "https://vk.com/vkusno_itochka",
+    "contact:website": "https://vkusnoitochka.ru",
+    "cuisine": "burger",
+    "diet:vegetarian": "no",
+    "name": "Вкусно — и точка",
+    "name:ru": "Вкусно — и точка",
+    "opening_hours": "Mo-Su 07:00-24:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13712634701,
+  "lat": 55.7329250,
+  "lon": 37.6003043,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Теремок",
+    "brand:en": "Teremok",
+    "brand:ru": "Теремок",
+    "brand:wikidata": "Q4455593",
+    "brand:wikipedia": "ru:Теремок (сеть быстрого питания)",
+    "check_date": "2026-06-12",
+    "contact:email": "office@teremok.ru",
+    "contact:facebook": "https://www.facebook.com/teremok",
+    "contact:instagram": "https://www.instagram.com/teremok_ru",
+    "contact:twitter": "https://twitter.com/teremok_ru",
+    "contact:vk": "https://vk.com/teremok",
+    "contact:website": "https://teremok.ru",
+    "cuisine": "crepe;russian",
+    "diet:vegetarian": "yes",
+    "name": "Теремок",
+    "name:en": "Teremok",
+    "name:ru": "Теремок",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099069,
+  "lat": 55.7328026,
+  "lon": 37.5998609,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "sbw"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099070,
+  "lat": 55.7324885,
+  "lon": 37.5995461,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Cotto"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099071,
+  "lat": 55.7321800,
+  "lon": 37.5995078,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Made in Bali"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099073,
+  "lat": 55.7320222,
+  "lon": 37.5990336,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "cuisine": "coffee_shop",
+    "name": "Select Перекрёсток"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099074,
+  "lat": 55.7317781,
+  "lon": 37.5990684,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Substance"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099075,
+  "lat": 55.7316603,
+  "lon": 37.5987544,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Surf Coffee",
+    "brand:wikidata": "Q110278756",
+    "check_date": "2026-06-12",
+    "cuisine": "coffee_shop",
+    "name": "Surf Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099076,
+  "lat": 55.7316893,
+  "lon": 37.5989914,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-06-12",
+    "cuisine": "pizza",
+    "name": "Pizzamento"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099077,
+  "lat": 55.7309349,
+  "lon": 37.5983220,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-06-12",
+    "cuisine": "pizza",
+    "name": "Mimi Pizza"
+  }
+},
+{
+  "type": "node",
+  "id": 13931099078,
+  "lat": 55.7309869,
+  "lon": 37.5983877,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-12",
+    "name": "Cameo"
+  }
+},
+{
+  "type": "node",
+  "id": 2468908587,
+  "lat": 55.7341268,
+  "lon": 37.6054914,
+  "tags": {
+    "amenity": "cafe",
+    "contact:website": "https://cezvecoffee.ru/",
+    "cuisine": "coffee_shop",
+    "name": "Cezve Coffee",
+    "opening_hours": "Mo-Su 10:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3727080994,
+  "lat": 55.7342808,
+  "lon": 37.6070436,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2022-08-07",
+    "contact:instagram": "https://www.instagram.com/crop_cof/",
+    "contact:website": "https://crop-coffee.ru/",
+    "cuisine": "coffee_shop",
+    "level": "0",
+    "name": "Crop",
+    "outdoor_seating": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6112826996,
+  "lat": 55.7313640,
+  "lon": 37.6086996,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-05-02",
+    "contact:instagram": "https://www.instagram.com/avangardist_official/",
+    "cuisine": "coffee_shop",
+    "name": "coffee first",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6112827004,
+  "lat": 55.7349183,
+  "lon": 37.6062012,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "coffee_shop"
+  }
+},
+{
+  "type": "node",
+  "id": 6112827005,
+  "lat": 55.7345891,
+  "lon": 37.6058203,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7756869043,
+  "lat": 55.7313474,
+  "lon": 37.6047863,
+  "tags": {
+    "addr:housenumber": "9 с1",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "restaurant",
+    "check_date": "2025-10-25",
+    "contact:email": "gorky@syrovarnya.com",
+    "contact:instagram": "https://www.instagram.com/syrovarnya_official/",
+    "contact:mobile": "+7 968 5256500",
+    "contact:telegram": "https://t.me/syrovarnya_official",
+    "contact:vk": "https://vk.com/syrovarnya_off",
+    "contact:website": "http://syrovarnya.com",
+    "name": "Сыроварня",
+    "opening_hours": "10:00-24:00",
+    "operator": "ООО \"ПОЭТ\"",
+    "outdoor_seating": "yes",
+    "payment:mastercard": "yes",
+    "payment:mir": "yes",
+    "payment:visa": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9418378522,
+  "lat": 55.7331132,
+  "lon": 37.6046733,
+  "tags": {
+    "amenity": "fast_food",
+    "building": "kiosk",
+    "check_date": "2026-01-11",
+    "check_date:opening_hours": "2023-10-31",
+    "name": "Пончики",
+    "opening_hours:signed": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9933988531,
+  "lat": 55.7311441,
+  "lon": 37.6092513,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-05-02",
+    "cuisine": "hot_dog",
+    "name": "Хот-дог Бульдог"
+  }
+},
+{
+  "type": "node",
+  "id": 10820363346,
+  "lat": 55.7312032,
+  "lon": 37.6090752,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-05-02",
+    "contact:phone": "+7 966 1002020",
+    "name": "Тополино.Rus",
+    "opening_hours": "Mo-Su 10:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10866947769,
+  "lat": 55.7313921,
+  "lon": 37.6087350,
+  "tags": {
+    "amenity": "bar",
+    "check_date": "2026-05-02",
+    "contact:vk": "https://vk.com/pzeppzep",
+    "name": "Цеппелинная"
+  }
+},
+{
+  "type": "node",
+  "id": 12041972681,
+  "lat": 55.7287759,
+  "lon": 37.6086607,
+  "tags": {
+    "amenity": "fast_food",
+    "fast_food": "cafeteria",
+    "name": "Центральная столовая",
+    "note": "реальное название"
+  }
+},
+{
+  "type": "node",
+  "id": 1316750801,
+  "lat": 55.7358898,
+  "lon": 37.5952501,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-25",
+    "name": "Хинкальная 53"
+  }
+},
+{
+  "type": "node",
+  "id": 6161704985,
+  "lat": 55.7360021,
+  "lon": 37.5952301,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-10-25",
+    "name": "Бистро",
+    "name:en": "Bistro",
+    "opening_hours:signed": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7995085881,
+  "lat": 55.7359135,
+  "lon": 37.5941192,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13256127282,
+  "lat": 55.7368433,
+  "lon": 37.5958001,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-25",
+    "contact:facebook": "https://www.facebook.com/lambicbar/",
+    "contact:instagram": "https://www.instagram.com/lambicrestaurant/",
+    "contact:phone": "+7 495 9666169",
+    "contact:website": "https://lambic.ru",
+    "cuisine": "belgian",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Brasserie Lambic",
+    "name:ru": "Брассери Ламбик"
+  }
+},
+{
+  "type": "node",
+  "id": 13430022442,
+  "lat": 55.7367851,
+  "lon": 37.5944327,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-01-04",
+    "name": "Буф а39"
+  }
+},
+{
+  "type": "node",
+  "id": 5694957121,
+  "lat": 55.7371829,
+  "lon": 37.6003688,
+  "tags": {
+    "amenity": "bar",
+    "contact:website": "https://winestate.ru/",
+    "name": "WineState",
+    "name:en": "WineState",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "shop": "wine"
+  }
+},
+{
+  "type": "node",
+  "id": 9456022817,
+  "lat": 55.7366055,
+  "lon": 37.6009608,
+  "tags": {
+    "amenity": "cafe",
+    "name": "The little door"
+  }
+},
+{
+  "type": "node",
+  "id": 9997588052,
+  "lat": 55.7364148,
+  "lon": 37.6006785,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+7 926 4099949",
+    "contact:website": "https://sansa.rest/",
+    "cuisine": "seafood",
+    "name": "Sansa"
+  }
+},
+{
+  "type": "node",
+  "id": 13228042093,
+  "lat": 55.7367244,
+  "lon": 37.6013705,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/remykitchenbakery",
+    "contact:instagram": "https://www.instagram.com/remykitchenbakery/",
+    "contact:phone": "+7 985 1829600",
+    "contact:website": "https://remykitchenbakery.ru/",
+    "name": "Remy Kitchen Bakery",
+    "opening_hours": "Mo-Su 08:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 14096865512,
+  "lat": 55.7373012,
+  "lon": 37.6090805,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-01-11",
+    "contact:website": "https://lacampania.ru/",
+    "cuisine": "italian",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Ля Кампания",
+    "name:it": "La Campania",
+    "seasonal": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 96600218,
+  "center": {
+    "lat": 55.7293971,
+    "lon": 37.5991604
+  },
+  "tags": {
+    "addr:city": "Москва",
+    "addr:housenumber": "9",
+    "addr:street": "улица Крымский Вал",
+    "amenity": "cafe",
+    "building": "yes",
+    "building:levels": "1",
+    "check_date": "2025-10-25",
+    "name": "Жаровня",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_electron": "yes",
+    "wheelchair": "limited"
+  }
+}
+
+  ]
+}

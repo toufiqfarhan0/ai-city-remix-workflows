@@ -1,0 +1,262 @@
+{
+  "city": {
+    "en": "Moscow",
+    "zh-CN": "莫斯科"
+  },
+  "span": 0.94,
+  "themes": [
+    {
+      "id": "noir",
+      "name": {
+        "en": "Noir",
+        "zh-CN": "夜墨"
+      },
+      "paper": "#101114",
+      "land": "#14161a",
+      "water": "#22324a",
+      "park": "#18241c",
+      "rail": "#4a4e57",
+      "roads": {
+        "path": "#3b3f47",
+        "minor": "#6d727d",
+        "mid": "#b8bcc5",
+        "major": "#f4f2ec"
+      },
+      "text": "#f4f2ec",
+      "accent": "#e3b25a",
+      "frame": "#f4f2ec",
+      "font": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "mono": "Menlo, Consolas, monospace",
+      "food": [
+        "#e3b25a",
+        "#f4f2ec",
+        "#e07a5f",
+        "#9fb7d6",
+        "#c49bd8",
+        "#7fc29b"
+      ]
+    },
+    {
+      "id": "paper",
+      "name": {
+        "en": "Paper",
+        "zh-CN": "纸本"
+      },
+      "paper": "#f4eee1",
+      "land": "#efe7d6",
+      "water": "#b7d0d8",
+      "park": "#d6dcc0",
+      "rail": "#a99f8f",
+      "roads": {
+        "path": "#c9bfae",
+        "minor": "#8a8274",
+        "mid": "#4d4840",
+        "major": "#1e1c19"
+      },
+      "text": "#1e1c19",
+      "accent": "#b4452e",
+      "frame": "#1e1c19",
+      "font": "Georgia, 'Times New Roman', serif",
+      "mono": "Menlo, Consolas, monospace",
+      "titleWeight": 400,
+      "food": [
+        "#7a4b2a",
+        "#1e1c19",
+        "#c0862f",
+        "#b4452e",
+        "#5b7a9a",
+        "#5f8a4c"
+      ]
+    },
+    {
+      "id": "blueprint",
+      "name": {
+        "en": "Blueprint",
+        "zh-CN": "蓝图"
+      },
+      "paper": "#1d4b80",
+      "land": "#215188",
+      "water": "#163d6a",
+      "park": "#25578f",
+      "rail": "#6f95c2",
+      "roads": {
+        "path": "#4c74a6",
+        "minor": "#86aad6",
+        "mid": "#c6daf0",
+        "major": "#ffffff"
+      },
+      "text": "#ffffff",
+      "accent": "#ffd166",
+      "frame": "#c6daf0",
+      "font": "Menlo, Consolas, 'Courier New', monospace",
+      "mono": "Menlo, Consolas, monospace",
+      "weight": 0.9,
+      "food": [
+        "#ffd166",
+        "#ffffff",
+        "#ff9f6e",
+        "#9fe0ff",
+        "#f4a6d7",
+        "#b8f2a6"
+      ]
+    },
+    {
+      "id": "sunset",
+      "name": {
+        "en": "Sunset",
+        "zh-CN": "晚霞"
+      },
+      "paper": "#231831",
+      "land": "#271b37",
+      "water": "#33294f",
+      "park": "#2c2737",
+      "rail": "#5d4767",
+      "roads": {
+        "path": "#4a3550",
+        "minor": "#8c5c7e",
+        "mid": "#df7a5e",
+        "major": "#f3cd8f"
+      },
+      "text": "#f3cd8f",
+      "accent": "#df7a5e",
+      "frame": "#f3cd8f",
+      "font": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "mono": "Menlo, Consolas, monospace",
+      "food": [
+        "#f3cd8f",
+        "#df7a5e",
+        "#ffb38a",
+        "#b789c9",
+        "#ffe3a3",
+        "#8fc6b5"
+      ]
+    },
+    {
+      "id": "mint",
+      "name": {
+        "en": "Mint",
+        "zh-CN": "薄荷"
+      },
+      "paper": "#e8f1ec",
+      "land": "#e1ece6",
+      "water": "#9fcbd0",
+      "park": "#c6dfcd",
+      "rail": "#9db3aa",
+      "roads": {
+        "path": "#bfd2c9",
+        "minor": "#6f9c92",
+        "mid": "#2f7a70",
+        "major": "#0f3b3a"
+      },
+      "text": "#0f3b3a",
+      "accent": "#e2725b",
+      "frame": "#0f3b3a",
+      "font": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "mono": "Menlo, Consolas, monospace",
+      "titleWeight": 300,
+      "food": [
+        "#a35e3c",
+        "#0f3b3a",
+        "#e2725b",
+        "#3f6fb0",
+        "#c9902c",
+        "#4c9a5c"
+      ]
+    }
+  ],
+  "film": {
+    "duration": 60,
+    "posterAt": 11,
+    "wipe": 1.4,
+    "reveal": {
+      "water": [
+        0.2,
+        3.4
+      ],
+      "parks": [
+        0.8,
+        4.2
+      ],
+      "rail": [
+        1.6,
+        5.2
+      ],
+      "major": [
+        1,
+        4.6
+      ],
+      "mid": [
+        2.2,
+        6.6
+      ],
+      "minor": [
+        3.4,
+        8.6
+      ],
+      "path": [
+        4,
+        9
+      ],
+      "text": [
+        6.6,
+        8.6
+      ],
+      "marks": [
+        8.2,
+        9.2
+      ]
+    },
+    "sequence": [
+      {
+        "t": 0,
+        "theme": "noir",
+        "shape": "full",
+        "kind": "map"
+      },
+      {
+        "t": 13,
+        "theme": "paper",
+        "shape": "full",
+        "kind": "map"
+      },
+      {
+        "t": 19,
+        "theme": "blueprint",
+        "shape": "full",
+        "kind": "skyline"
+      },
+      {
+        "t": 26,
+        "theme": "noir",
+        "shape": "full",
+        "kind": "food"
+      },
+      {
+        "t": 33,
+        "theme": "paper",
+        "shape": "full",
+        "kind": "landmark",
+        "landmark": 0
+      },
+      {
+        "t": 39,
+        "theme": "mint",
+        "shape": "full",
+        "kind": "landmark",
+        "landmark": 1
+      },
+      {
+        "t": 45,
+        "theme": "sunset",
+        "shape": "full",
+        "kind": "skyline"
+      },
+      {
+        "t": 51,
+        "theme": "noir",
+        "shape": "circle",
+        "kind": "map"
+      }
+    ]
+  }
+}
