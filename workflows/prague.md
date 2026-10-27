@@ -9,7 +9,7 @@
 | **Film Title** | *Prague: Chronicle of a Hundred Spires* |
 | **Film Duration** | 60.00s |
 | **Automated Verification** | ✅ 45/45 Checks Passed |
-| **Status** | Production Complete · Ready for Entry ID & Token |
+| **Status** | **Submitted** (`pending`) · [Live Contest Entry `e4d6874f`](https://www.sandbase.ai/lab/event/aicityremix/e/e4d6874f-e805-43f3-8bbb-4821b64f289a) |
 | **Open-Source Repo** | [https://github.com/toufiqfarhan0/ai-city-remix-workflows.git](https://github.com/toufiqfarhan0/ai-city-remix-workflows.git) |
 
 ---
