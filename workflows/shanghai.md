@@ -9,7 +9,7 @@
 | **Film Title** | *Shanghai: The Vertical Surge of Pudong* |
 | **Film Duration** | 81.00s |
 | **Automated Verification** | ✅ 100% Passing (`check.mjs --film`) |
-| **Status** | Production Complete · Ready for Entry ID & Token |
+| **Status** | **Submitted** (`pending`) · [Live Contest Entry `6f9f2721`](https://www.sandbase.ai/lab/event/aicityremix/e/6f9f2721-1abc-4ba4-8afb-39378df7b5e8) |
 | **Open-Source Repo** | [https://github.com/toufiqfarhan0/ai-city-remix-workflows.git](https://github.com/toufiqfarhan0/ai-city-remix-workflows.git) |
 
 ---
