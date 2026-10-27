@@ -12,6 +12,8 @@
 | **Pinned Landmarks** | 8 Shinjuku Skyscraper Highlights |
 | **Automated Verification** | ✅ 40/40 Checks Passed |
 | **Lab Status** | `pending` |
+| **Entry ID** | `9b9a053a-2388-45d7-933b-3f3717a601e0` |
+| **Live Contest Link** | [🔗 https://www.sandbase.ai/lab/event/aicityremix/e/9b9a053a-2388-45d7-933b-3f3717a601e0](https://www.sandbase.ai/lab/event/aicityremix/e/9b9a053a-2388-45d7-933b-3f3717a601e0) |
 
 ---
 

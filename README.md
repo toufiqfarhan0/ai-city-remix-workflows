@@ -19,12 +19,12 @@
 
 ## 🏆 Submitted City Entries & Workflows
 
-| City | Assigned Official Skill | Film Title | Cover & Preview | Duration | Status | Documentation |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Delhi** | `stone-stars-city` | *Delhi: Seven Cities Under the Open Sky* | <img src="assets/covers/delhi_cover.jpg" width="180" style="border-radius:6px;" alt="Delhi Cover"/> | `60.00s` | **Submitted** (`pending`) | [Delhi Workflow](workflows/delhi.md) |
-| **New York** | `city-through-time` | *New York: Eight Eras in Stone and Steel* | <img src="assets/covers/new_york_cover.jpg" width="180" style="border-radius:6px;" alt="New York Cover"/> | `103.40s` | **Submitted** (`pending`) | [New York Workflow](workflows/new-york.md) |
-| **Tokyo** | `pixel-iso-city` | *Tokyo: The Map That Learned to Breathe* | <img src="assets/covers/tokyo_cover.jpg" width="180" style="border-radius:6px;" alt="Tokyo Cover"/> | `60.00s` | **Submitted** (`pending`) | [Tokyo Workflow](workflows/tokyo.md) |
-| **Jerusalem** | `manhattan-miniature` *(adapted)* | *Jerusalem in Stone: A Life from Daybreak to Starlight* | <img src="assets/covers/jerusalem_cover.jpg" width="180" style="border-radius:6px;" alt="Jerusalem Cover"/> | `60.00s` | **Submitted** (`pending`) | [Jerusalem Workflow](workflows/jerusalem.md) |
+| City | Assigned Official Skill | Film Title | Cover & Preview | Duration | Status | Live Contest Entry | Workflow Doc |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Delhi** | `stone-stars-city` | *Delhi: Seven Cities Under the Open Sky* | <img src="assets/covers/delhi_cover.jpg" width="170" style="border-radius:6px;" alt="Delhi Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `4fd000af`](https://www.sandbase.ai/lab/event/aicityremix/e/4fd000af-47fe-4d56-a76c-afb3b3c91690) | [Delhi Workflow](workflows/delhi.md) |
+| **New York** | `city-through-time` | *New York: Eight Eras in Stone and Steel* | <img src="assets/covers/new_york_cover.jpg" width="170" style="border-radius:6px;" alt="New York Cover"/> | `103.40s` | **Submitted** (`pending`) | [🔗 View Entry `3de5c12a`](https://www.sandbase.ai/lab/event/aicityremix/e/3de5c12a-6883-44dc-b65a-3b759eb2f2f1) | [New York Workflow](workflows/new-york.md) |
+| **Tokyo** | `pixel-iso-city` | *Tokyo: The Map That Learned to Breathe* | <img src="assets/covers/tokyo_cover.jpg" width="170" style="border-radius:6px;" alt="Tokyo Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `9b9a053a`](https://www.sandbase.ai/lab/event/aicityremix/e/9b9a053a-2388-45d7-933b-3f3717a601e0) | [Tokyo Workflow](workflows/tokyo.md) |
+| **Jerusalem** | `manhattan-miniature` *(adapted)* | *Jerusalem in Stone: A Life from Daybreak to Starlight* | <img src="assets/covers/jerusalem_cover.jpg" width="170" style="border-radius:6px;" alt="Jerusalem Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `83a67a57`](https://www.sandbase.ai/lab/event/aicityremix/e/83a67a57-1482-4ec4-b151-35af89fefb0e) | [Jerusalem Workflow](workflows/jerusalem.md) |
 
 > 📌 *Note: In accordance with contest rules and strict uniqueness criteria, no Skill/template is ever reused across entries. For details on upcoming cities (Berlin, Athens, Shanghai, Venice, Prague, Moscow, Bangkok), see the [Upcoming Cities Roadmap](workflows/upcoming-cities.md).*
 

@@ -10,6 +10,8 @@
 | **Film Duration** | 60.00s |
 | **Automated Verification** | ✅ 50/50 Checks Passed |
 | **Lab Status** | `pending` |
+| **Entry ID** | `83a67a57-1482-4ec4-b151-35af89fefb0e` |
+| **Live Contest Link** | [🔗 https://www.sandbase.ai/lab/event/aicityremix/e/83a67a57-1482-4ec4-b151-35af89fefb0e](https://www.sandbase.ai/lab/event/aicityremix/e/83a67a57-1482-4ec4-b151-35af89fefb0e) |
 
 ---
 
