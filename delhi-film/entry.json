@@ -1,0 +1,20 @@
+{
+  "title": "Delhi: Seven Cities Under the Open Sky",
+  "summary": "From the ancient citadel to modern avenues, journey across Delhi's seven historic cities and the cosmic stones of Jantar Mantar, returning to the open sky above a living capital.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "delhi",
+    "place_lat": 28.6139,
+    "place_lng": 77.2090,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Directed with MiniMax M3.1 Flash (model minimax/minimax-m3.1-flash via SandBase API). Brief: Adapt stone-stars-city to tell the story of Delhi's seven historic cities and the solar instruments of Jantar Mantar from dawn to starlight. Produced using stone-stars-city, MiniMax Speech 2.8 HD English narration, custom architectural geometry, and celestial sun/star choreography.",
+    "sources": [
+      "https://www.britannica.com/place/Delhi",
+      "https://whc.unesco.org/en/list/1338",
+      "https://asi.nic.in/"
+    ],
+    "my_city_line": "Delhi: seven cities buried, one life breathing under the stars."
+  }
+}

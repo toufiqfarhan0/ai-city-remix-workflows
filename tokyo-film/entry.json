@@ -2,11 +2,13 @@
   "title": "The Map That Learned to Breathe",
   "summary": "Urban cartographer Emi crosses Shinjuku from dawn to neon, following data lines until a city of 14 million becomes one breathing human map.",
   "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
   "fields": {
     "city_id": "tokyo",
     "place_lat": 35.6894,
     "place_lng": 139.6917,
     "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
     "director_notes": "Directed with MiniMax M3.1 Flash (model minimax/minimax-m3.1-flash via SandBase API). Brief: Turn Shinjuku into an isometric pixel-art journey from dawn to night across 8 mapped landmarks. Built using pixel-iso-city, MiniMax Speech 2.8 HD narration, real OpenStreetMap building footprints, heights, and roads, rendered via isometric canvas engine.",
     "sources": [
       "https://www.openstreetmap.org/copyright",

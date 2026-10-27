@@ -26,8 +26,9 @@ def main():
     parser.add_argument('--entry', required=True)
     parser.add_argument('--contest', default='city-life')
     parser.add_argument('--metadata', required=True)
-    parser.add_argument('--video', required=True)
-    parser.add_argument('--cover', required=True)
+    parser.add_argument('--video', required=False)
+    parser.add_argument('--cover', required=False)
+    parser.add_argument('--update-metadata', action='store_true', help='Update metadata/workflow_url on an existing entry without re-uploading video/cover')
     args = parser.parse_args()
     import re
     if not re.fullmatch(r'[0-9a-f-]{36}', args.entry) or not re.fullmatch(r'[a-z0-9-]{2,40}', args.contest):
@@ -64,11 +65,21 @@ def main():
         return result['data']
 
     metadata = json.loads(Path(args.metadata).read_text())
+    current = request()
+    if args.update_metadata:
+        print(f'Updating metadata on {current.get("status", "draft")} entry with open-source workflow URL...')
+        request(method='PUT', data=metadata)
+        result = request('/submit', 'POST')
+        print(f'Successfully updated metadata and resubmitted for review (status: {result.get("status")})!')
+        return
+
+    if not args.video or not args.cover:
+        raise RuntimeError('--video and --cover are required for initial submission')
+
     video = Path(args.video)
     cover = Path(args.cover)
     if not 0 < video.stat().st_size <= 100 * 1024 * 1024 or not 0 < cover.stat().st_size <= 5 * 1024 * 1024:
         raise RuntimeError('Files must be nonempty; video at most 100 MiB, cover at most 5 MiB.')
-    current = request()
     if current.get('status') in ('pending', 'approved'):
         print('Already submitted:', current['status'])
         return
