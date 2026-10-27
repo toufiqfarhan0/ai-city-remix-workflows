@@ -1,0 +1,226 @@
+{
+ "en": {
+  "imperial": {
+   "name": "Bohemian Seat",
+   "desc": "High above the Vltava River, stone palaces and royal fortifications establish the seat of the Přemyslid princes.",
+   "changes": [
+    "Prague Castle crowns the promontory above the Vltava",
+    "Pre-Romanesque masonry and royal halls take shape",
+    "A vital river crossing unites Bohemia's trade routes"
+   ],
+   "fact": "Prince Bořivoj I establishes Prague Castle around 870 AD, founding the heart of Bohemian royalty."
+  },
+  "late-antique": {
+   "name": "Bohemian Transition",
+   "desc": "Early stone fortifications expand along the Vltava as royal administration and religious settlements coalesce.",
+   "changes": [
+    "Romanesque basilica foundations expand across the acropolis",
+    "Stone townhouses frame the early marketplace",
+    "Trade flourishes across the riverbanks"
+   ],
+   "fact": "The original St. Vitus rotunda of 925 AD expands into an ambitious Romanesque basilica."
+  },
+  "medieval-settlement": {
+   "name": "Civic Golden Epoch",
+   "desc": "Master masons and scholars arrive from across Europe to build Charles University and the New Town.",
+   "changes": [
+    "Matthias of Arras and Peter Parler erect Gothic masterworks",
+    "Fortified bridge towers guard the Vltava crossings",
+    "Civic guilds gather beneath the Astronomical Clock"
+   ],
+   "fact": "Completed in the early 1400s, Charles Bridge remains the sole stone connection across the Vltava for centuries."
+  },
+  "medieval": {
+   "name": "Gothic Golden Age",
+   "desc": "Under Holy Roman Emperor Charles IV, Prague becomes the jewel of Europe, crowned by towering Gothic spires.",
+   "changes": [
+    "St. Vitus Cathedral rises with soaring rib vaults and spires",
+    "Charles Bridge spans the Vltava with sixteen sandstone arches",
+    "The Old Town Hall installs the Astronomical Clock (Orloj)"
+   ],
+   "fact": "In 1357, Charles IV lays the foundation stone of the Charles Bridge, designed by Peter Parler."
+  },
+  "renaissance": {
+   "name": "Habsburg Flourishing",
+   "desc": "Emperor Rudolf II makes Prague the artistic and alchemical capital of the Holy Roman Empire.",
+   "changes": [
+    "Italianate palaces and mannerist gardens line the Hradčany ridge",
+    "Astronomers Johannes Kepler and Tycho Brahe formulate celestial laws",
+    "Gilded spires multiply across both riverbanks"
+   ],
+   "fact": "Rudolf II gathers Europe's foremost astronomers, artists, and scholars at Prague Castle."
+  },
+  "renaissance-expansion": {
+   "name": "Habsburg Flourishing",
+   "desc": "Emperor Rudolf II makes Prague the artistic and alchemical capital of the Holy Roman Empire.",
+   "changes": [
+    "Italianate palaces and mannerist gardens line the Hradčany ridge",
+    "Astronomers Johannes Kepler and Tycho Brahe formulate celestial laws",
+    "Gilded spires multiply across both riverbanks"
+   ],
+   "fact": "Rudolf II gathers Europe's foremost astronomers, artists, and scholars at Prague Castle."
+  },
+  "baroque": {
+   "name": "Baroque Spires",
+   "desc": "Thirty expressive stone statues line Charles Bridge while green copper domes and grand palazzi rise across Malá Strana.",
+   "changes": [
+    "Baroque statues of saints populate the parapets of Charles Bridge",
+    "Monumental copper domes and aristocratic palaces reshape the skyline",
+    "St. Vitus Great South Tower receives its distinctive Renaissance crown"
+   ],
+   "fact": "Baroque master sculptors line the Charles Bridge with thirty monumental statues of saints."
+  },
+  "archaeology": {
+   "name": "National Revival & Cathedral Completion",
+   "desc": "Bohemian cultural awakening sparks the historic revival and the monumental completion of St. Vitus Cathedral.",
+   "changes": [
+    "The Union for the Completion of the Cathedral resumes building works",
+    "Neo-Gothic western towers rise to complete the medieval vision",
+    "The National Theatre and Rudolfinum crown the Vltava embankment"
+   ],
+   "fact": "After nearly six centuries of pause, the cathedral's western facade is consecrated in 1929."
+  },
+  "living-capital": {
+   "name": "Velvet Renaissance",
+   "desc": "Following the Velvet Revolution, Prague preserves its intact historic center as a UNESCO treasure.",
+   "changes": [
+    "Historic spires and bridges undergo meticulous heritage conservation",
+    "Trams glide past Gothic, Renaissance, and Baroque facades",
+    "The world honors the City of a Hundred Spires as a global cultural capital"
+   ],
+   "fact": "In 1992, the Historic Center of Prague is inscribed as a UNESCO World Heritage Site."
+  },
+  "post-war-modern": {
+   "name": "Velvet Renaissance",
+   "desc": "Following the Velvet Revolution, Prague preserves its intact historic center as a UNESCO treasure.",
+   "changes": [
+    "Historic spires and bridges undergo meticulous heritage conservation",
+    "Trams glide past Gothic, Renaissance, and Baroque facades",
+    "The world honors the City of a Hundred Spires as a global cultural capital"
+   ],
+   "fact": "In 1992, the Historic Center of Prague is inscribed as a UNESCO World Heritage Site."
+  },
+  "modern": {
+   "name": "Modern Prague",
+   "desc": "A living metropolis and UNESCO World Heritage treasure, celebrated as the City of a Hundred Spires.",
+   "changes": [
+    "St. Vitus Cathedral completes its western facade in 1929",
+    "Pedestrians and artists animate the historic bridge and Old Town Square",
+    "A millennium of architectural dialogue endures beneath the Bohemian sky"
+   ],
+   "fact": "Consecrated in 1929 after nearly six centuries, St. Vitus Cathedral anchors the modern castle skyline."
+  }
+ },
+ "zh-CN": {
+  "imperial": {
+   "name": "波希米亚王畿",
+   "desc": "伏尔塔瓦河畔的石造城堡与王家要塞，奠定了普热米斯尔王朝的千年基业。",
+   "changes": [
+    "布拉格城堡高踞伏尔塔瓦河畔崖头",
+    "早期罗曼式石造建筑与大厅初具规模",
+    "横跨河岸的渡口汇聚了波希米亚的商路"
+   ],
+   "fact": "公元 870 年左右，博日沃伊一世奠基布拉格城堡，开创波希米亚王室中心。"
+  },
+  "late-antique": {
+   "name": "早期变迁",
+   "desc": "石造防御工事沿伏尔塔瓦河延伸，王权与信仰在卫城高地融合。",
+   "changes": [
+    "罗曼式巴西利卡地基在城堡高地展开",
+    "石造街坊环抱最初的贸易集市",
+    "伏尔塔瓦河两岸商旅络绎不绝"
+   ],
+   "fact": "公元 925 年的圣维特圆厅逐步扩建为规模宏大的罗曼式长方形教堂。"
+  },
+  "medieval-settlement": {
+   "name": "鼎盛都邑",
+   "desc": "来自欧洲各地的石匠与学者汇聚于此，查理大学与新城相继诞生。",
+   "changes": [
+    "阿拉斯的马蒂亚斯与帕尔莱日铸就哥特经典",
+    "坚固的桥塔守护着伏尔塔瓦河通道",
+    "市民行会聚首于老城天文钟下"
+   ],
+   "fact": "十五世纪初竣工的查理大桥，在随后的数个世纪里始终是唯一的跨河石桥。"
+  },
+  "medieval": {
+   "name": "哥特黄金时代",
+   "desc": "在神圣罗马帝国皇帝查理四世治下，布拉格成为欧洲文化明珠与帝都。",
+   "changes": [
+    "圣维特大教堂拔地而起，飞扶壁与尖顶耸入云霄",
+    "查理大桥以十六座砂岩桥孔横跨伏尔塔瓦河",
+    "老城广场钟楼安放天文钟 (Orloj)"
+   ],
+   "fact": "公元 1357 年，查理四世为查理大桥奠基，由彼得·帕尔莱日亲自操刀设计。"
+  },
+  "renaissance": {
+   "name": "鲁道夫盛世",
+   "desc": "鲁道夫二世将宫廷迁至布拉格，使其成为欧洲炼金术、艺术与科学之都。",
+   "changes": [
+    "意大利风格宫邸与矫饰主义花园点缀城堡山脊",
+    "天文学家开普勒与第谷在城堡中潜心演算天体运行轨道",
+    "镀金尖顶在伏尔塔瓦河两岸交相辉映"
+   ],
+   "fact": "鲁道夫二世在布拉格城堡召集了全欧最负盛名的天文学家与艺术家。"
+  },
+  "renaissance-expansion": {
+   "name": "鲁道夫盛世",
+   "desc": "鲁道夫二世将宫廷迁至布拉格，使其成为欧洲炼金术、艺术与科学之都。",
+   "changes": [
+    "意大利风格宫邸与矫饰主义花园点缀城堡山脊",
+    "天文学家开普勒与第谷在城堡中潜心演算天体运行轨道",
+    "镀金尖顶在伏尔塔瓦河两岸交相辉映"
+   ],
+   "fact": "鲁道夫二世在布拉格城堡召集了全欧最负盛名的天文学家与艺术家。"
+  },
+  "baroque": {
+   "name": "巴洛克百塔",
+   "desc": "三十尊圣徒雕像立于查理大桥两侧，铜绿圆顶与宏伟宫邸点缀小城区的轮廓。",
+   "changes": [
+    "三十尊巴洛克圣像矗立于查理大桥两侧栏杆",
+    "华美的铜绿圆顶与贵族宫邸重塑天际线",
+    "圣维特大教堂南塔加冕文艺复兴式盔状穹顶"
+   ],
+   "fact": "巴洛克大师们在查理大桥两翼雕琢三十尊栩栩如生的圣徒雕像。"
+  },
+  "archaeology": {
+   "name": "民族复兴与大教堂终成",
+   "desc": "波希米亚文化复兴推动了圣维特大教堂的最终完工与历史名胜的保护。",
+   "changes": [
+    "大教堂完工联盟重启了停滞数百年的建造工程",
+    "新哥特式西立面与双塔高耸入云，实现中世纪构想",
+    "国家剧院与鲁道夫音乐厅装点伏尔塔瓦河畔"
+   ],
+   "fact": "历经近六百年风雨，大教堂西立面于 1929 年举行落成典礼。"
+  },
+  "living-capital": {
+   "name": "天鹅绒新生",
+   "desc": "天鹅绒革命后，布拉格完好无损的历史核心被作为人类共同财富守护。",
+   "changes": [
+    "数百座历史尖塔与查理大桥接受精密古迹修缮",
+    "红色有轨电车穿梭于古老石巷与宏伟广场之间",
+    "百塔之城以无与伦比的历史风貌跻身世界文化遗产"
+   ],
+   "fact": "1992 年，布拉格历史中心被联合国教科文组织正式列为世界文化遗产。"
+  },
+  "post-war-modern": {
+   "name": "天鹅绒新生",
+   "desc": "天鹅绒革命后，布拉格完好无损的历史核心被作为人类共同财富守护。",
+   "changes": [
+    "数百座历史尖塔与查理大桥接受精密古迹修缮",
+    "红色有轨电车穿梭于古老石巷与宏伟广场之间",
+    "百塔之城以无与伦比的历史风貌跻身世界文化遗产"
+   ],
+   "fact": "1992 年，布拉格历史中心被联合国教科文组织正式列为世界文化遗产。"
+  },
+  "modern": {
+   "name": "当代布拉格",
+   "desc": "生机盎然的现代文化之都，联合国教科文组织世界遗产，享誉全球的百塔之城。",
+   "changes": [
+    "圣维特大教堂历经近六百年营建于 1929 年全面完工",
+    "老城广场与查理大桥游人如织，艺术氛围馥郁",
+    "跨越千年的建筑乐章在伏尔塔瓦河畔历久弥新"
+   ],
+   "fact": "1929 年举行落成典礼的圣维特大教堂，成为今日布拉格最巍峨的地标。"
+  }
+ }
+}

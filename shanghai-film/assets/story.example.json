@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "title": {
+    "en": "London: Every Building, Year by Year"
+  },
+  "subtitle": "Two thousand years on one square mile and its neighbours",
+  "city": {
+    "name": "London",
+    "bbox": [
+      51.495,
+      -0.15,
+      51.525,
+      -0.07
+    ],
+    "center": [
+      51.5085,
+      -0.1075
+    ]
+  },
+  "voice": "English_CaptivatingStoryteller",
+  "intro": "This is central London today. Let us take every building away, and give each one back in the year it was built.",
+  "outro": "The grey buildings are standing today, but no one has recorded their year yet. Every coloured one has a date, and a source.",
+  "sources": [
+    "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/",
+    "https://www.themonument.org.uk/great-fire-london-faqs",
+    "https://historicengland.org.uk/whats-new/features/blitz-stories/st-paul-s-cathedral/",
+    "https://centreforlondon.org/reader/london-crossroads/londons-people/",
+    "https://www.cityoflondon.gov.uk/things-to-do/architecture/modern-architecture/tower-42",
+    "https://zenodo.org/records/21282700",
+    "https://colouringbritain.org/"
+  ],
+  "credits": [
+    "Building years: Colouring London contributors (ODbL)",
+    "Footprints: © OpenStreetMap contributors (ODbL)",
+    "1890s London: Petitpierre et al. 2026 (CC BY 4.0)",
+    "Landmark dates: Wikidata (CC0)",
+    "Roman and medieval outlines are reconstructions"
+  ],
+  "landmarks": [
+    {
+      "id": "tower",
+      "name": "Tower of London",
+      "year": 1078,
+      "at": [
+        51.5082,
+        -0.0762
+      ]
+    },
+    {
+      "id": "abbey",
+      "name": "Westminster Abbey",
+      "year": 1269,
+      "at": [
+        51.49929,
+        -0.12729
+      ]
+    },
+    {
+      "id": "monument",
+      "name": "The Monument",
+      "year": 1677,
+      "at": [
+        51.51013,
+        -0.08597
+      ]
+    },
+    {
+      "id": "pauls",
+      "name": "St Paul's Cathedral",
+      "year": 1710,
+      "at": [
+        51.51381,
+        -0.0984
+      ]
+    },
+    {
+      "id": "parliament",
+      "name": "Palace of Westminster",
+      "year": 1870,
+      "at": [
+        51.49944,
+        -0.12417
+      ]
+    },
+    {
+      "id": "bigben",
+      "name": "Elizabeth Tower",
+      "year": 1859,
+      "at": [
+        51.50067,
+        -0.12457
+      ],
+      "height": 96
+    },
+    {
+      "id": "tower42",
+      "name": "Tower 42",
+      "year": 1980,
+      "at": [
+        51.51528,
+        -0.08389
+      ],
+      "height": 183
+    },
+    {
+      "id": "gherkin",
+      "name": "The Gherkin",
+      "year": 2004,
+      "at": [
+        51.51445,
+        -0.08033
+      ],
+      "height": 180
+    },
+    {
+      "id": "shard",
+      "name": "The Shard",
+      "year": 2012,
+      "at": [
+        51.50449,
+        -0.0865
+      ],
+      "height": 306
+    }
+  ],
+  "outlines": [
+    {
+      "id": "wall",
+      "name": "Roman wall (reconstruction)",
+      "from": 200,
+      "to": 1680,
+      "ring": [
+        [
+          51.5089,
+          -0.076
+        ],
+        [
+          51.5123,
+          -0.075
+        ],
+        [
+          51.516,
+          -0.077
+        ],
+        [
+          51.5178,
+          -0.081
+        ],
+        [
+          51.519,
+          -0.088
+        ],
+        [
+          51.5188,
+          -0.095
+        ],
+        [
+          51.517,
+          -0.1
+        ],
+        [
+          51.5155,
+          -0.1028
+        ],
+        [
+          51.5125,
+          -0.104
+        ],
+        [
+          51.51,
+          -0.104
+        ],
+        [
+          51.5095,
+          -0.076
+        ]
+      ]
+    }
+  ],
+  "eras": [
+    {
+      "id": "rome",
+      "from": 47,
+      "to": 200,
+      "seconds": 7,
+      "label": "Londinium · AD 47-200",
+      "narration": "The Romans founded Londinium between 47 and 50 AD, on the north bank of the Thames. Around 200 they walled it.",
+      "camera": {
+        "target": [
+          51.5135,
+          -0.09
+        ],
+        "dist": 2600,
+        "pitch": 52,
+        "yaw": -18,
+        "to": {
+          "dist": 2200,
+          "yaw": -8
+        }
+      },
+      "events": [
+        {
+          "kind": "flash",
+          "year": 61,
+          "at": [
+            51.5115,
+            -0.088
+          ],
+          "radius": 600
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "from": 1066,
+      "to": 1300,
+      "seconds": 7,
+      "label": "Norman and medieval · 1066-1300",
+      "narration": "William the Conqueror began the White Tower around 1078. Upriver, Henry the Third's Westminster Abbey was consecrated in 1269.",
+      "camera": {
+        "target": [
+          51.507,
+          -0.1
+        ],
+        "dist": 5200,
+        "pitch": 48,
+        "yaw": -6,
+        "to": {
+          "dist": 4600,
+          "yaw": 4
+        }
+      }
+    },
+    {
+      "id": "fire",
+      "from": 1640,
+      "to": 1670,
+      "seconds": 7,
+      "label": "The Great Fire · 1666",
+      "narration": "In September 1666 the Great Fire destroyed about thirteen thousand two hundred houses, eighty-seven parish churches and old St Paul's.",
+      "camera": {
+        "target": [
+          51.5125,
+          -0.092
+        ],
+        "dist": 3600,
+        "pitch": 54,
+        "yaw": -20,
+        "to": {
+          "dist": 3200,
+          "yaw": -10
+        }
+      },
+      "events": [
+        {
+          "kind": "fire",
+          "year": 1666,
+          "at": [
+            51.5125,
+            -0.09
+          ],
+          "radius": 1000
+        }
+      ]
+    },
+    {
+      "id": "wren",
+      "from": 1670,
+      "to": 1800,
+      "seconds": 7,
+      "label": "Rebuilding · 1667-1800",
+      "narration": "London rebuilt on its old streets. Wren's new St Paul's was begun in 1675 and declared complete in 1711.",
+      "camera": {
+        "target": [
+          51.5138,
+          -0.0984
+        ],
+        "dist": 1500,
+        "pitch": 40,
+        "yaw": -40,
+        "to": {
+          "dist": 1250,
+          "yaw": -20
+        }
+      }
+    },
+    {
+      "id": "georgian",
+      "from": 1800,
+      "to": 1890,
+      "seconds": 11,
+      "label": "The first census · 1801",
+      "narration": "The first census, in 1801, counted just over a million Londoners. After the fire of 1834, Parliament was rebuilt; its great clock started in 1859.",
+      "camera": {
+        "target": [
+          51.502,
+          -0.122
+        ],
+        "dist": 2200,
+        "pitch": 44,
+        "yaw": 20,
+        "to": {
+          "dist": 1700,
+          "yaw": 34
+        }
+      }
+    },
+    {
+      "id": "victorian",
+      "from": 1890,
+      "to": 1896,
+      "seconds": 10,
+      "label": "The Victorian city as surveyed · 1891-96",
+      "victorian": true,
+      "narration": "In the 1890s the Ordnance Survey mapped the city at five feet to the mile. Every footprint here is from that survey.",
+      "camera": {
+        "target": [
+          51.51,
+          -0.105
+        ],
+        "dist": 4800,
+        "pitch": 58,
+        "yaw": 0,
+        "to": {
+          "dist": 4300,
+          "yaw": 8
+        }
+      }
+    },
+    {
+      "id": "blitz",
+      "from": 1896,
+      "to": 1945,
+      "seconds": 11,
+      "label": "The Blitz · 29 December 1940",
+      "narration": "On the night of twenty-nine December 1940 a fire raid burned much of the City. St Paul's survived, struck by twenty-eight incendiaries.",
+      "camera": {
+        "target": [
+          51.514,
+          -0.096
+        ],
+        "dist": 2800,
+        "pitch": 48,
+        "yaw": -30,
+        "to": {
+          "dist": 2400,
+          "yaw": -18
+        }
+      },
+      "events": [
+        {
+          "kind": "blitz",
+          "year": 1940,
+          "at": [
+            51.515,
+            -0.095
+          ],
+          "radius": 800
+        }
+      ]
+    },
+    {
+      "id": "postwar",
+      "from": 1945,
+      "to": 2000,
+      "seconds": 11,
+      "label": "Rebuilding the City · 1945-2000",
+      "narration": "The City rebuilt again. The NatWest Tower, now Tower 42, was London's first skyscraper, finished in 1980 at a hundred and eighty-three metres.",
+      "camera": {
+        "target": [
+          51.5145,
+          -0.086
+        ],
+        "dist": 1700,
+        "pitch": 30,
+        "yaw": -55,
+        "to": {
+          "dist": 1400,
+          "yaw": -35
+        }
+      }
+    },
+    {
+      "id": "towers",
+      "from": 2000,
+      "to": 2026,
+      "seconds": 11,
+      "label": "The new skyline · 2000-today",
+      "narration": "The Gherkin opened in 2004, and across the river the Shard, three hundred and six metres, in 2012.",
+      "camera": {
+        "target": [
+          51.51,
+          -0.086
+        ],
+        "dist": 2600,
+        "pitch": 24,
+        "yaw": -75,
+        "to": {
+          "dist": 2300,
+          "yaw": -60
+        }
+      }
+    }
+  ]
+}

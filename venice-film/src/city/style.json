@@ -1,0 +1,73 @@
+{
+  "city": "Venice",
+  "sunBearing": 240,
+  "film": { "duration": 60, "hold": 2.5, "lane": 2.2, "tod": [0.05, 1], "startAt": 4800, "posterAt": 12 },
+  "facades": {
+    "house": ["#d87352", "#e8a476", "#f4e3c1", "#c75a40"],
+    "terrace": ["#d97350", "#e59866", "#f5e6cb", "#a8c0d2", "#d47a74", "#cfb88f", "#f2dfa8", "#b85437"],
+    "apartments": ["#eae0cb", "#e8be88", "#d2d8dc", "#db9372", "#efe9dc"],
+    "office": ["#688094", "#778794", "#566878"],
+    "shop": ["#f0dfc2", "#eab268", "#db8876"],
+    "civic": ["#ebe0c2", "#dfcb9a", "#f0e9d8"],
+    "church": ["#f0ebd8", "#e3d3b0"],
+    "industrial": ["#ab5a4c", "#9f998e", "#b87850"],
+    "warehouse": ["#bfb4a0", "#959d9f", "#b36b4e"],
+    "tower": ["#56728a", "#677987"]
+  },
+  "patterns": { "terrace": { "name": "tiles", "share": 0.15 }, "apartments": { "name": "tiles", "share": 0.08 } },
+  "tileColours": ["#b23b2b", "#eef2f7"],
+  "awnings": ["#a82e24", "#235c44", "#264372", "#c47a20"],
+  "trim": "#f8f5ed",
+  "roof": "#b85032",
+  "glass": "#34485b",
+  "windowLit": "#ffe5a3",
+  "windowWarm": "#ffc870",
+  "door": "#4f3123",
+  "landmarkStone": "#eee7d2",
+  "landmarkShade": "#c4b595",
+  "landmarkRoof": "#5a7a6e",
+  "landmarkAccent": "#b53b2b",
+  "tree": "#4d8036",
+  "treeDark": "#335928",
+  "trunk": "#5f402a",
+  "lamp": "#fff2bc",
+  "pole": "#343a40",
+  "ground": {
+    "road": "#46484e",
+    "line": "#ece9e0",
+    "centre": "#ece9e0",
+    "kerb": "#cac3b3",
+    "walk": "#e7dfcb",
+    "walkPattern": "#373635",
+    "plaza": "#b8b09f",
+    "grass": "#6f9c42",
+    "grassDark": "#558034",
+    "water": "#2b6b7a",
+    "waterLight": "#9ed5db"
+  },
+  "bridge": { "deck": "#85878a", "pier": "#9e9a90", "tower": "#b53c28" },
+  "signs": { "street": "#1f5f39", "landmark": "#6e3f1e", "ink": "#f5f2e8" },
+  "vehicle": { "kind": "car", "body": "#e03a3a", "shade": "#252528", "tail": "#b02a24" },
+  "notes": {
+    "Batteria S. Antonio": {
+      "en": "Historic maritime military battery guarding the shallow waters of the Venetian Lagoon.",
+      "zh-CN": "威尼斯潟湖浅滩上的历史海防炮台。"
+    },
+    "Chiesa di San Giobbe": {
+      "en": "Early Renaissance church in Cannaregio, celebrated for its Bellini altarpieces.",
+      "zh-CN": "卡纳雷吉欧区早期的文艺复兴风格教堂，以贝利尼祭坛画闻名。"
+    },
+    "Chiesa del Nome di Gesu": {
+      "en": "Neoclassical nineteenth-century church greeting travelers near Santa Chiara and Piazzale Roma.",
+      "zh-CN": "罗马广场入口附近的新古典主义教堂。"
+    },
+    "Chiesa di San Simeon Piccolo": {
+      "en": "Iconic copper-domed circular church directly facing the Grand Canal and Santa Lucia.",
+      "zh-CN": "面对大运河与火车站的著名圆顶圣西米翁皮科洛教堂。"
+    },
+    "Sant'Andrea della Zirada": {
+      "en": "Fourteenth-century Gothic convent and church standing at Venice's western maritime threshold.",
+      "zh-CN": "坐落于威尼斯西侧入口的十四世纪哥特式修道院与教堂。"
+    }
+  }
+}

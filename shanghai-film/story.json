@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "title": {
+    "en": "Shanghai: The Vertical Surge of Pudong"
+  },
+  "subtitle": "How a curve in the Huangpu River rose into the sky",
+  "city": {
+    "name": "Shanghai",
+    "bbox": [
+      31.228,
+      121.482,
+      31.248,
+      121.516
+    ],
+    "center": [
+      31.238,
+      121.499
+    ]
+  },
+  "voice": "English_CaptivatingStoryteller",
+  "intro": "This is Shanghai today where the Huangpu curves past the Bund into Pudong. Let us take every building away, and watch it rise from mudflats into the sky.",
+  "outro": "In thirty years, Pudong transformed from farmland into the world's most dramatic vertical skyline.",
+  "sources": [
+    "https://whc.unesco.org/",
+    "https://www.ctbuh.org",
+    "https://skyscraperpage.com/cities/?cityID=7",
+    "https://www.shanghai.gov.cn"
+  ],
+  "credits": [
+    "Footprints & Heights: © OpenStreetMap contributors (ODbL)",
+    "Historical dates: Shanghai Municipal Archives & CTBUH",
+    "Basemap: OpenFreeMap & OpenMapTiles",
+    "Directed by MiniMax M3.1 Flash via SandBase",
+    "Voiced by MiniMax Speech 2.8 HD"
+  ],
+  "landmarks": [
+    {
+      "id": "customs",
+      "name": "Customs House",
+      "year": 1927,
+      "at": [
+        31.2372,
+        121.4893
+      ],
+      "height": 79.0
+    },
+    {
+      "id": "peace",
+      "name": "Peace Hotel",
+      "year": 1929,
+      "at": [
+        31.2407,
+        121.4889
+      ],
+      "height": 77.0
+    },
+    {
+      "id": "boc",
+      "name": "Bank of China",
+      "year": 1937,
+      "at": [
+        31.2413,
+        121.4886
+      ],
+      "height": 74.0
+    },
+    {
+      "id": "oriental_pearl",
+      "name": "Oriental Pearl Tower",
+      "year": 1994,
+      "at": [
+        31.2397,
+        121.4998
+      ],
+      "height": 468.0
+    },
+    {
+      "id": "jin_mao",
+      "name": "Jin Mao Tower",
+      "year": 1999,
+      "at": [
+        31.2375,
+        121.5058
+      ],
+      "height": 420.5
+    },
+    {
+      "id": "swfc",
+      "name": "Shanghai World Financial Center",
+      "year": 2008,
+      "at": [
+        31.2367,
+        121.5078
+      ],
+      "height": 492.0
+    },
+    {
+      "id": "shanghai_tower",
+      "name": "Shanghai Tower",
+      "year": 2015,
+      "at": [
+        31.2355,
+        121.5055
+      ],
+      "height": 632.0
+    }
+  ],
+  "eras": [
+    {
+      "id": "era1_treaty_port",
+      "from": 1843,
+      "to": 1910,
+      "seconds": 8,
+      "label": "The Treaty Port · 1843–1910",
+      "narration": "Along the western mudflats of the Huangpu, international merchants laid the first stone quays of the Bund.",
+      "camera": {
+        "target": [
+          31.238,
+          121.489
+        ],
+        "dist": 2400,
+        "pitch": 55,
+        "yaw": -30,
+        "to": {
+          "dist": 2200,
+          "yaw": -15
+        }
+      }
+    },
+    {
+      "id": "era2_bund_stone",
+      "from": 1911,
+      "to": 1937,
+      "seconds": 9,
+      "label": "Stone Along the Bund · 1911–1937",
+      "narration": "Granite banks, the Customs clock tower, and the art-deco crown of the Peace Hotel transformed Shanghai into Paris of the East.",
+      "camera": {
+        "target": [
+          31.239,
+          121.49
+        ],
+        "dist": 2000,
+        "pitch": 50,
+        "yaw": -20,
+        "to": {
+          "dist": 1800,
+          "yaw": 0
+        }
+      }
+    },
+    {
+      "id": "era3_farmland_quiet",
+      "from": 1938,
+      "to": 1989,
+      "seconds": 8,
+      "label": "Farmland Across the River · 1938–1989",
+      "narration": "For fifty years, while the western shore hummed with density, the eastern peninsula of Pudong remained quiet farmland, warehouses, and shipyards.",
+      "camera": {
+        "target": [
+          31.238,
+          121.495
+        ],
+        "dist": 3000,
+        "pitch": 52,
+        "yaw": 45,
+        "to": {
+          "dist": 2800,
+          "yaw": 60
+        }
+      }
+    },
+    {
+      "id": "era4_pudong_awakening",
+      "from": 1990,
+      "to": 1994,
+      "seconds": 8,
+      "label": "The Great Awakening · 1990–1994",
+      "narration": "In nineteen ninety, China designated Pudong a Special Economic Zone. Four years later, the Oriental Pearl Tower sparked a vertical renaissance.",
+      "camera": {
+        "target": [
+          31.2397,
+          121.4998
+        ],
+        "dist": 2200,
+        "pitch": 48,
+        "yaw": 70,
+        "to": {
+          "dist": 2000,
+          "yaw": 85
+        }
+      }
+    },
+    {
+      "id": "era5_jinmao_pagoda",
+      "from": 1995,
+      "to": 2000,
+      "seconds": 8,
+      "label": "Pagoda in Steel · 1995–2000",
+      "narration": "Rising eighty-eight storeys, Jin Mao Tower joined traditional Chinese pagoda symmetry with eighty-eight floors of steel and glass.",
+      "camera": {
+        "target": [
+          31.2375,
+          121.5058
+        ],
+        "dist": 2000,
+        "pitch": 50,
+        "yaw": 90,
+        "to": {
+          "dist": 1800,
+          "yaw": 110
+        }
+      }
+    },
+    {
+      "id": "era6_supertall_trinity",
+      "from": 2001,
+      "to": 2015,
+      "seconds": 9,
+      "label": "The Supertall Trinity · 2001–2015",
+      "narration": "The World Financial Center carved a portal into the clouds, before the spiraling dragon form of Shanghai Tower topped out at six hundred thirty-two metres.",
+      "camera": {
+        "target": [
+          31.2365,
+          121.5065
+        ],
+        "dist": 2400,
+        "pitch": 52,
+        "yaw": 120,
+        "to": {
+          "dist": 2100,
+          "yaw": 140
+        }
+      }
+    },
+    {
+      "id": "era7_vertical_metropolis",
+      "from": 2016,
+      "to": 2026,
+      "seconds": 8,
+      "label": "The Vertical Horizon · 2016–2026",
+      "narration": "Across two centuries of water and ambition, Shanghai built the highest density of human ingenuity on earth.",
+      "camera": {
+        "target": [
+          31.238,
+          121.5
+        ],
+        "dist": 3200,
+        "pitch": 45,
+        "yaw": 160,
+        "to": {
+          "dist": 2800,
+          "yaw": 180
+        }
+      }
+    }
+  ]
+}
