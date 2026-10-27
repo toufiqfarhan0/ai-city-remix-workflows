@@ -9,7 +9,7 @@
 | **Film Title** | *Venice: The Threshold Across the Lagoon* |
 | **Film Duration** | 60.00s |
 | **Automated Verification** | ✅ 39/39 Checks Passed |
-| **Status** | Production Complete · Ready for Entry ID & Token |
+| **Status** | **Submitted** (`pending`) · [Live Contest Entry `2e72cb7d`](https://www.sandbase.ai/lab/event/aicityremix/e/2e72cb7d-ff0a-4cce-9f2d-d9e007fb978e) |
 | **Open-Source Repo** | [https://github.com/toufiqfarhan0/ai-city-remix-workflows.git](https://github.com/toufiqfarhan0/ai-city-remix-workflows.git) |
 
 ---
