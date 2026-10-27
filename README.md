@@ -26,8 +26,9 @@
 | **Tokyo** | `pixel-iso-city` | *Tokyo: The Map That Learned to Breathe* | <img src="assets/covers/tokyo_cover.jpg" width="170" style="border-radius:6px;" alt="Tokyo Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `9b9a053a`](https://www.sandbase.ai/lab/event/aicityremix/e/9b9a053a-2388-45d7-933b-3f3717a601e0) | [Tokyo Workflow](workflows/tokyo.md) |
 | **Jerusalem** | `manhattan-miniature` *(adapted)* | *Jerusalem in Stone: A Life from Daybreak to Starlight* | <img src="assets/covers/jerusalem_cover.jpg" width="170" style="border-radius:6px;" alt="Jerusalem Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `83a67a57`](https://www.sandbase.ai/lab/event/aicityremix/e/83a67a57-1482-4ec4-b151-35af89fefb0e) | [Jerusalem Workflow](workflows/jerusalem.md) |
 | **Berlin** | `landmark-buildup` | *The Gate That Remembered Berlin* | <img src="assets/covers/berlin_cover.jpg" width="170" style="border-radius:6px;" alt="Berlin Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `4b3714c7`](https://www.sandbase.ai/lab/event/aicityremix/e/4b3714c7-e59c-4821-8673-a2569af5b6c7) | [Berlin Workflow](workflows/berlin.md) |
+| **Athens** | `architecture-night-day` | *The Stone That Remembered Athens* | <img src="assets/covers/athens_cover.jpg" width="170" style="border-radius:6px;" alt="Athens Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `9365bf25`](https://www.sandbase.ai/lab/event/aicityremix/e/9365bf25-705b-4d9b-8207-f8007912d793) | [Athens Workflow](workflows/athens.md) |
 
-> 📌 *Note: In accordance with contest rules and strict uniqueness criteria, no Skill/template is ever reused across entries. For details on upcoming cities (Athens, Shanghai, Venice, Prague, Moscow, Bangkok), see the [Upcoming Cities Roadmap](workflows/upcoming-cities.md).*
+> 📌 *Note: In accordance with contest rules and strict uniqueness criteria, no Skill/template is ever reused across entries. For details on upcoming cities (Shanghai, Venice, Prague, Moscow, Bangkok), see the [Upcoming Cities Roadmap](workflows/upcoming-cities.md).*
 
 ---
 
@@ -43,6 +44,7 @@ ai-city-remix-workflows/
 │   ├── tokyo.md                       # Pixel-Iso-City workflow (Tokyo 3,544 OSM building bake)
 │   ├── jerusalem.md                   # Miniature Diorama workflow (Jerusalem day-to-starlight)
 │   ├── berlin.md                      # Landmark-Buildup workflow (Berlin Brandenburg Gate)
+│   ├── athens.md                      # Architecture-Night-Day workflow (Acropolis ensemble)
 │   └── upcoming-cities.md             # Skill allocation matrix for queued global cities
 ├── assets/                            # Visual media assets for documentation
 │   ├── covers/                        # High-resolution film cover posters

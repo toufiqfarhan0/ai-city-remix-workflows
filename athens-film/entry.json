@@ -1,0 +1,20 @@
+{
+  "title": "The Stone That Remembered Athens",
+  "summary": "Across a night-to-day passage, Athens’ monuments inherit memory from worshippers, conquerors, theatergoers, and citizens—until marble becomes morning.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "athens",
+    "place_lat": 37.9842,
+    "place_lng": 23.7281,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt architecture-night-day to reveal the Acropolis architectural ensemble (Parthenon, Erechtheion & Caryatids, Propylaea, Temple of Athena Nike, Odeon of Herodes Atticus) from starlit night to radiant Aegean daylight. MiniMax M3.1 Flash role: Directed camera choreography alternating between sweeping orbit and intimate detail framing, continuous day/night lighting curves, and voiceover timing. Visuals: Classical Pentelic marble architecture with fluted Doric and Ionic orders. Audio: MiniMax Speech 2.8 HD English narration synchronized to monumental vistas. Human involvement: Camera framing, lighting choreographies, subtitle alignment, and verification.",
+    "sources": [
+      "https://whc.unesco.org/en/list/404/",
+      "http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384",
+      "https://www.theacropolismuseum.gr/en"
+    ],
+    "my_city_line": "Marble remembers; dawn awakens Athens."
+  }
+}
