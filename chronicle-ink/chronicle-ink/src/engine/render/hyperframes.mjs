@@ -36,7 +36,8 @@ export function needsLowMemory({ seconds, fps = 30, width = 1920, height = 1080,
 
 /** [command, prefix args] of the HyperFrames CLI. */
 export function hyperframesCommand(env = process.env) {
-  return env.HYPERFRAMES_CLI ? [process.execPath, [env.HYPERFRAMES_CLI]] : ['npx', ['--yes', HYPERFRAMES]]
+  const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx'
+  return env.HYPERFRAMES_CLI ? [process.execPath, [env.HYPERFRAMES_CLI]] : [npx, ['--yes', HYPERFRAMES]]
 }
 
 /** Runs a render; hyperframes_failed (exit 7) with the redacted last 40 lines on failure. */

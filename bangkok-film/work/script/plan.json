@@ -1,0 +1,142 @@
+{
+  "schema": "chronicle-plan/2",
+  "theme": "ink-theme",
+  "seconds": 120,
+  "bpm": 88,
+  "bar_s": 2.7273,
+  "total_bars": 44,
+  "aspect": "16:9",
+  "lang": "en",
+  "subject": "city",
+  "structure": "life",
+  "sections": [
+    {
+      "id": "intro",
+      "start_bar": 0,
+      "bars": 4,
+      "music": "intro",
+      "role": "hook",
+      "start": 0,
+      "end": 10.909,
+      "kp_allowed": false
+    },
+    {
+      "id": "verse",
+      "start_bar": 4,
+      "bars": 8,
+      "music": "verse",
+      "role": "origin",
+      "start": 10.909,
+      "end": 32.727,
+      "kp_allowed": true
+    },
+    {
+      "id": "build",
+      "start_bar": 12,
+      "bars": 4,
+      "music": "build",
+      "role": "turn",
+      "start": 32.727,
+      "end": 43.636,
+      "kp_allowed": true
+    },
+    {
+      "id": "drop",
+      "start_bar": 16,
+      "bars": 8,
+      "music": "drop",
+      "role": "climax1",
+      "start": 43.636,
+      "end": 65.455,
+      "kp_allowed": true
+    },
+    {
+      "id": "breakdown",
+      "start_bar": 24,
+      "bars": 6,
+      "music": "breakdown",
+      "role": "cost",
+      "start": 65.455,
+      "end": 81.818,
+      "kp_allowed": true
+    },
+    {
+      "id": "build2",
+      "start_bar": 30,
+      "bars": 2,
+      "music": "build",
+      "role": "suspense",
+      "start": 81.818,
+      "end": 87.273,
+      "kp_allowed": true
+    },
+    {
+      "id": "drop2",
+      "start_bar": 32,
+      "bars": 8,
+      "music": "drop",
+      "role": "climax2",
+      "start": 87.273,
+      "end": 109.091,
+      "kp_allowed": true
+    },
+    {
+      "id": "outro",
+      "start_bar": 40,
+      "bars": 4,
+      "music": "outro",
+      "role": "echo",
+      "start": 109.091,
+      "end": 120,
+      "kp_allowed": false
+    }
+  ],
+  "rehooks": [
+    {
+      "i": 0,
+      "bar": 0,
+      "kind": "hook",
+      "section": "intro",
+      "t": 0
+    },
+    {
+      "i": 1,
+      "bar": 12,
+      "kind": "turn",
+      "section": "build",
+      "t": 32.727
+    },
+    {
+      "i": 2,
+      "bar": 24,
+      "kind": "turn",
+      "section": "breakdown",
+      "t": 65.455
+    },
+    {
+      "i": 3,
+      "bar": 30,
+      "kind": "turn",
+      "section": "build2",
+      "t": 81.818
+    },
+    {
+      "i": 4,
+      "bar": 40,
+      "kind": "final",
+      "section": "outro",
+      "t": 109.091
+    }
+  ],
+  "end_card_bars": 2,
+  "shot_bars": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "kp": {
+    "min": 4,
+    "max": 6
+  }
+}

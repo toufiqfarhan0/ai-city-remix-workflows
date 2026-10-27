@@ -1,0 +1,1426 @@
+<!doctype html>
+<html lang="en" dir="ltr"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob:; connect-src 'none'; media-src 'self'; worker-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>Bangkok: Life Along the River of Kings</title><style>
+@font-face{font-family:"LXGW WenKai";src:url("assets/fonts/LXGWWenKai-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Serif";src:url("assets/fonts/noto-serif-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Serif";src:url("assets/fonts/noto-serif-latin-ext-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Serif";src:url("assets/fonts/noto-serif-vietnamese-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Serif";src:url("assets/fonts/noto-serif-greek-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Serif";src:url("assets/fonts/noto-serif-cyrillic-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Serif";src:url("assets/fonts/noto-serif-latin-700-normal.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Sans";src:url("assets/fonts/noto-sans-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Sans";src:url("assets/fonts/noto-sans-devanagari-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Noto Naskh Arabic";src:url("assets/fonts/noto-naskh-arabic-arabic-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+html,body{margin:0;padding:0;width:1920px;height:1080px;overflow:hidden;background:#EFE6D2}
+#stage{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:"Noto Serif", "Noto Naskh Arabic", "Noto Sans", "LXGW WenKai", serif;--ci-caption-size:54.00px;--ci-caption-width:1497.60px;--ci-caption-bottom:81.00px;--ci-title-size:84.24px;--ci-title-top:151.20px;--ci-card-title-size:38.88px;--ci-card-value-size:91.80px;--ci-card-width:460.80px;--ci-card-right:115.20px;--ci-card-top:129.60px;--ci-badge-size:23.76px;--ci-paper-texture:none}
+
+:root {
+  --ci-paper: #EFE6D2;
+  --ci-ink: #1D1B18;
+  --ci-ink-soft: #4A453D;
+  --ci-cinnabar: #B5332A;
+  --ci-halo: rgba(239, 230, 210, 0.92);
+}
+#ci-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ci-overlay { position: absolute; pointer-events: none; }
+#ci-caption {
+  left: 50%;
+  width: var(--ci-caption-width);
+  bottom: var(--ci-caption-bottom);
+  margin-left: calc(var(--ci-caption-width) / -2);
+  text-align: center;
+  color: var(--ci-ink);
+  font-size: var(--ci-caption-size);
+  line-height: 1.38;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  text-shadow:
+    0 0 2px var(--ci-halo), 0 0 2px var(--ci-halo), 2px 0 0 var(--ci-halo), -2px 0 0 var(--ci-halo),
+    0 2px 0 var(--ci-halo), 0 -2px 0 var(--ci-halo), 3px 3px 0 var(--ci-halo), -3px -3px 0 var(--ci-halo),
+    3px -3px 0 var(--ci-halo), -3px 3px 0 var(--ci-halo);
+}
+#ci-caption .ci-line { display: block; white-space: nowrap; }
+#ci-caption .ci-em { color: var(--ci-cinnabar); }
+#ci-caption[dir="rtl"] { direction: rtl; unicode-bidi: isolate; }
+#ci-card {
+  right: var(--ci-card-right);
+  top: var(--ci-card-top);
+  width: var(--ci-card-width);
+  padding: calc(var(--ci-card-title-size) * 0.7) calc(var(--ci-card-title-size) * 0.8);
+  background: rgba(243, 235, 216, 0.94);
+  border: 3px solid var(--ci-ink);
+  outline: 1px solid rgba(29, 27, 24, 0.35);
+  outline-offset: 6px;
+  color: var(--ci-ink);
+  opacity: 0;
+  text-align: center;
+}
+#ci-card .ci-card-seal {
+  position: absolute;
+  right: calc(var(--ci-card-title-size) * -0.9);
+  top: calc(var(--ci-card-title-size) * -0.9);
+  width: calc(var(--ci-card-title-size) * 1.9);
+  height: calc(var(--ci-card-title-size) * 1.9);
+  background: var(--ci-cinnabar);
+  color: var(--ci-paper);
+  font-size: calc(var(--ci-card-title-size) * 1.2);
+  line-height: calc(var(--ci-card-title-size) * 1.9);
+  transform-origin: 50% 50%;
+}
+#ci-card .ci-card-title { font-size: var(--ci-card-title-size); color: var(--ci-ink-soft); letter-spacing: 0.08em; }
+#ci-card .ci-card-value { font-size: var(--ci-card-value-size); line-height: 1.15; margin-top: 0.15em; color: var(--ci-ink); white-space: nowrap; }
+#ci-title {
+  left: 12%; right: 12%; top: var(--ci-title-top);
+  text-align: center;
+  text-wrap: balance;
+  line-height: 1.25;
+  font-size: var(--ci-title-size);
+  color: var(--ci-ink);
+  letter-spacing: 0.06em;
+  opacity: 0;
+  text-shadow: 0 0 3px var(--ci-halo), 4px 4px 0 var(--ci-halo), -4px -4px 0 var(--ci-halo), 4px -4px 0 var(--ci-halo), -4px 4px 0 var(--ci-halo);
+}
+#ci-badge {
+  left: 2.2%; top: 3%;
+  padding: 0.25em 0.6em;
+  font-size: var(--ci-badge-size);
+  color: var(--ci-paper);
+  background: rgba(29, 27, 24, 0.72);
+  letter-spacing: 0.05em;
+}
+#ci-endcard {
+  inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: calc(var(--ci-caption-size) * 0.6);
+  background: var(--ci-paper) var(--ci-paper-texture) center / cover no-repeat;
+  color: var(--ci-ink);
+  opacity: 0;
+}
+#ci-endcard .ci-end-line { font-size: calc(var(--ci-title-size) * 0.62); letter-spacing: 0.05em; text-align: center; max-width: 80%; }
+#ci-endcard .ci-end-seal { width: calc(var(--ci-title-size) * 1.1); height: calc(var(--ci-title-size) * 1.1); background: var(--ci-cinnabar); color: var(--ci-paper); font-size: calc(var(--ci-title-size) * 0.8); line-height: calc(var(--ci-title-size) * 1.1); text-align: center; }
+#ci-endcard .ci-end-series { font-size: calc(var(--ci-caption-size) * 0.8); color: var(--ci-ink-soft); letter-spacing: 0.12em; }
+#ci-endcard .ci-end-aigc { font-size: calc(var(--ci-caption-size) * 0.55); color: var(--ci-ink-soft); }
+
+</style></head><body><div id="stage" data-composition-id="chronicle" data-start="0" data-duration="120" data-width="1920" data-height="1080" data-fps="30"><canvas id="ci-canvas" width="1920" height="1080"></canvas><div class="ci-overlay" id="ci-caption" dir="ltr" lang="en"></div><div class="ci-overlay" id="ci-card" lang="en"><div class="ci-card-seal">泰</div><div class="ci-card-title"></div><div class="ci-card-value"></div></div><div class="ci-overlay" id="ci-title" lang="en" dir="ltr">Bangkok: Life Along the River of Kings</div><div class="ci-overlay" id="ci-badge" lang="en">AI-generated</div><div class="ci-overlay" id="ci-endcard" lang="en"><div class="ci-end-line" dir="ltr">Life Along the River of Kings: Bangkok.</div><div class="ci-end-seal">泰</div><div class="ci-end-series" lang="en">Vibe Knowledge · Ink · No. 1</div><div class="ci-end-aigc" id="ci-aigc-label" lang="en">AI-generated: drawn and scored by code written by an AI agent. Illustrative only.</div></div></div>
+<script src="assets/gsap.min.js"></script>
+<script>
+const tl=gsap.timeline({paused:true});tl.set('#stage',{opacity:1},120);
+window.__timelines=window.__timelines||{};window.__timelines["chronicle"]=tl;
+window.CI_TIMELINE={"schema":"chronicle-timeline/2","theme":"ink-theme","seconds":120,"fps":30,"frames":3600,"aspect":"16:9","lang":"en","dir":"ltr","bpm":88,"bar_s":2.727,"beat_s":0.682,"sections":[{"id":"intro","start":0,"end":10.9,"start_frame":0,"start_bar":0,"bars":4},{"id":"verse","start":10.9,"end":32.733333333333334,"start_frame":327,"start_bar":4,"bars":8},{"id":"build","start":32.733333333333334,"end":43.63333333333333,"start_frame":982,"start_bar":12,"bars":4},{"id":"drop","start":43.63333333333333,"end":65.46666666666667,"start_frame":1309,"start_bar":16,"bars":8},{"id":"breakdown","start":65.46666666666667,"end":81.83333333333333,"start_frame":1964,"start_bar":24,"bars":6},{"id":"build2","start":81.83333333333333,"end":87.26666666666667,"start_frame":2455,"start_bar":30,"bars":2},{"id":"drop2","start":87.26666666666667,"end":109.1,"start_frame":2618,"start_bar":32,"bars":8},{"id":"outro","start":109.1,"end":120,"start_frame":3273,"start_bar":40,"bars":4}],"shots":[{"id":"S01","section":"intro","scene":"river-mist","params":{"title":true,"boat":true},"size":"wide","camera":"push-in","transition":"cut","transition_s":0,"start":0,"end":5.466666666666667,"start_frame":0,"end_frame":164,"start_bar":0,"bars":2,"kp":null,"rehook":true,"title":true,"description":"The Chao Phraya River stretches into morning mist with traditional boats","claims":["agent.001"]},{"id":"S02","section":"intro","scene":"ink-name","params":{"text":"曼谷","stamp_beat":6},"size":"close","camera":"hold","transition":"ink-bleed","transition_s":1.3666666666666667,"start":5.466666666666667,"end":10.9,"start_frame":164,"end_frame":327,"start_bar":2,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Calligraphy strokes write the name of Bangkok on aged parchment","claims":["agent.003"]},{"id":"S03","section":"verse","scene":"river-mist","params":{"dawn":true,"boat":true},"size":"wide","camera":"pan-right","transition":"ink-bleed","transition_s":1.3666666666666667,"start":10.9,"end":16.366666666666667,"start_frame":327,"end_frame":491,"start_bar":4,"bars":2,"kp":"kp1","rehook":false,"title":false,"description":"Royal barges arrive at the bend of the Chao Phraya River","claims":["agent.003"]},{"id":"S04","section":"verse","scene":"temple","params":{"palace":true},"size":"medium","camera":"hold","transition":"cut","transition_s":0,"start":16.366666666666667,"end":21.833333333333332,"start_frame":491,"end_frame":655,"start_bar":6,"bars":2,"kp":"kp2","rehook":false,"title":false,"description":"King Rama I establishes the fortified citadel on the east bank","claims":["agent.005"]},{"id":"S05","section":"verse","scene":"temple","params":{"palace":true,"gold":true},"size":"wide","camera":"parallax","transition":"ink-bleed","transition_s":1.3666666666666667,"start":21.833333333333332,"end":27.266666666666666,"start_frame":655,"end_frame":818,"start_bar":8,"bars":2,"kp":"kp3","rehook":false,"title":false,"description":"Tiered gables and spires of the Grand Palace emerge in gold wash","claims":["agent.007"]},{"id":"S06","section":"verse","scene":"temple","params":{"prang":true},"size":"wide","camera":"pan-left","transition":"cut","transition_s":0,"start":27.266666666666666,"end":32.733333333333334,"start_frame":818,"end_frame":982,"start_bar":10,"bars":2,"kp":"kp4","rehook":false,"title":false,"description":"The porcelain central prang of Wat Arun catches the first morning light","claims":["agent.009"]},{"id":"S07","section":"build","scene":"river-mist","params":{"boat":true},"size":"wide","camera":"push-in","transition":"ink-bleed","transition_s":1.3666666666666667,"start":32.733333333333334,"end":38.166666666666664,"start_frame":982,"end_frame":1145,"start_bar":12,"bars":2,"kp":null,"rehook":true,"title":false,"description":"Intricate canal networks connect the city in vibrant waterways","claims":["agent.001"]},{"id":"S08","section":"build","scene":"temple","params":{"buddha":true},"size":"medium","camera":"pan-right","transition":"cut","transition_s":0,"start":38.166666666666664,"end":43.63333333333333,"start_frame":1145,"end_frame":1309,"start_bar":14,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Monks and scholars gather at Wat Pho, center of wisdom","claims":["agent.011"]},{"id":"S09","section":"drop","scene":"temple","params":{"palace":true,"gold":true},"size":"wide","camera":"parallax","transition":"ink-bleed","transition_s":1.3666666666666667,"start":43.63333333333333,"end":49.1,"start_frame":1309,"end_frame":1473,"start_bar":16,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Golden spires of the Grand Palace and Wat Phra Kaew shine","claims":["agent.007"]},{"id":"S10","section":"drop","scene":"temple","params":{"buddha":true,"gold":true},"size":"close","camera":"hold","transition":"cut","transition_s":0,"start":49.1,"end":54.53333333333333,"start_frame":1473,"end_frame":1636,"start_bar":18,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Gilded profile of the monumental Reclining Buddha inside Wat Pho","claims":["agent.011"]},{"id":"S11","section":"drop","scene":"river-mist","params":{"boat":true},"size":"wide","camera":"push-in","transition":"ink-bleed","transition_s":1.3666666666666667,"start":54.53333333333333,"end":60,"start_frame":1636,"end_frame":1800,"start_bar":20,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Merchant vessels and floating markets crowd the Chao Phraya River","claims":["agent.001"]},{"id":"S12","section":"drop","scene":"temple","params":{"prang":true,"gold":true},"size":"wide","camera":"pan-right","transition":"cut","transition_s":0,"start":60,"end":65.46666666666667,"start_frame":1800,"end_frame":1964,"start_bar":22,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Sunset highlights the mosaic porcelain decorations of Wat Arun","claims":["agent.009"]},{"id":"S13","section":"breakdown","scene":"river-mist","params":{"fade":true},"size":"wide","camera":"hold","transition":"ink-bleed","transition_s":1.3666666666666667,"start":65.46666666666667,"end":70.9,"start_frame":1964,"end_frame":2127,"start_bar":24,"bars":2,"kp":null,"rehook":true,"title":false,"description":"Monsoon rains swell the riverbanks and low plains","claims":["agent.001"]},{"id":"S14","section":"breakdown","scene":"temple","params":{"palace":true},"size":"medium","camera":"pan-left","transition":"cut","transition_s":0,"start":70.9,"end":76.36666666666666,"start_frame":2127,"end_frame":2291,"start_bar":26,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Strong stone barriers protect the Grand Palace perimeter","claims":["agent.007"]},{"id":"S15","section":"breakdown","scene":"temple","params":{"buddha":true},"size":"medium","camera":"push-in","transition":"ink-bleed","transition_s":1.3666666666666667,"start":76.36666666666666,"end":81.83333333333333,"start_frame":2291,"end_frame":2455,"start_bar":28,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Citizens and monks find refuge within Wat Pho's sanctuaries","claims":["agent.011"]},{"id":"S16","section":"build2","scene":"temple","params":{"prang":true,"gold":true},"size":"wide","camera":"push-in","transition":"cut","transition_s":0,"start":81.83333333333333,"end":87.26666666666667,"start_frame":2455,"end_frame":2618,"start_bar":30,"bars":2,"kp":null,"rehook":true,"title":false,"description":"Morning sun rises behind the spire of Wat Arun","claims":["agent.009"]},{"id":"S17","section":"drop2","scene":"river-mist","params":{"boat":true},"size":"wide","camera":"parallax","transition":"ink-bleed","transition_s":1.3666666666666667,"start":87.26666666666667,"end":92.73333333333333,"start_frame":2618,"end_frame":2782,"start_bar":32,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Modern bridges and ferries cross the Chao Phraya River","claims":["agent.001"]},{"id":"S18","section":"drop2","scene":"temple","params":{"palace":true,"gold":true},"size":"medium","camera":"pan-right","transition":"cut","transition_s":0,"start":92.73333333333333,"end":98.16666666666667,"start_frame":2782,"end_frame":2945,"start_bar":34,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Visitors from around the globe marvel at the Grand Palace","claims":["agent.007"]},{"id":"S19","section":"drop2","scene":"temple","params":{"buddha":true,"gold":true},"size":"close","camera":"hold","transition":"ink-bleed","transition_s":1.3666666666666667,"start":98.16666666666667,"end":103.63333333333334,"start_frame":2945,"end_frame":3109,"start_bar":36,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Traditional massage schools and inscriptions at Wat Pho thrive","claims":["agent.011"]},{"id":"S20","section":"drop2","scene":"temple","params":{"palace":true},"size":"wide","camera":"push-in","transition":"cut","transition_s":0,"start":103.63333333333334,"end":109.1,"start_frame":3109,"end_frame":3273,"start_bar":38,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Monumental view of Bangkok founded by Rama I","claims":["agent.005"]},{"id":"S21","section":"outro","scene":"river-mist","params":{"dawn":true,"boat":true},"size":"wide","camera":"pull-out","transition":"ink-bleed","transition_s":1.3666666666666667,"start":109.1,"end":114.53333333333333,"start_frame":3273,"end_frame":3436,"start_bar":40,"bars":2,"kp":null,"rehook":true,"title":false,"description":"Quiet dawn mist over the Chao Phraya River with a lone boat drifting","claims":["agent.001"]},{"id":"S22","section":"outro","scene":"river-mist","params":{"fade":true},"size":"wide","camera":"hold","transition":"cut","transition_s":0,"start":114.53333333333333,"end":120,"start_frame":3436,"end_frame":3600,"start_bar":42,"bars":2,"kp":null,"rehook":false,"title":false,"description":"Negative space opens on the ink-washed paper for the closing title and end card","claims":["agent.003"]}],"captions":[{"shot":"S01","start":0.3333333333333333,"end":5.466666666666667,"lines":["The Chao Phraya River","carries centuries of memory."],"em":["Chao Phraya River"],"dir":"ltr"},{"shot":"S02","start":5.8,"end":10.9,"lines":["In 1782, a new royal capital took root."],"em":["1782"],"dir":"ltr"},{"shot":"S03","start":11.233333333333333,"end":16.366666666666667,"lines":["In 1782, the Chakri","dynasty began its reign."],"em":["1782"],"dir":"ltr"},{"shot":"S04","start":16.7,"end":21.833333333333332,"lines":["King Rama I founded the city","on Rattanakosin Island."],"em":["Rama I"],"dir":"ltr"},{"shot":"S05","start":22.166666666666668,"end":27.266666666666666,"lines":["The Grand Palace rose","as the majestic throne."],"em":["Grand Palace"],"dir":"ltr"},{"shot":"S06","start":27.6,"end":32.733333333333334,"lines":["Wat Arun illuminated the","dawn across the river."],"em":["Wat Arun"],"dir":"ltr"},{"shot":"S07","start":33.06666666666667,"end":38.166666666666664,"lines":["Canals branched from","the Chao Phraya River."],"em":["Chao Phraya River"],"dir":"ltr"},{"shot":"S08","start":38.5,"end":43.63333333333333,"lines":["Wat Pho preserved sacred","Buddhist traditions."],"em":["Wat Pho"],"dir":"ltr"},{"shot":"S09","start":43.96666666666667,"end":49.1,"lines":["The Grand Palace sparkled","with sacred emerald."],"em":["Grand Palace"],"dir":"ltr"},{"shot":"S10","start":49.43333333333333,"end":54.53333333333333,"lines":["Wat Pho housed the","world-renowned gilded Buddha."],"em":["Wat Pho"],"dir":"ltr"},{"shot":"S11","start":54.86666666666667,"end":60,"lines":["The Chao Phraya River","became a bustling corridor."],"em":["Chao Phraya River"],"dir":"ltr"},{"shot":"S12","start":60.333333333333336,"end":65.46666666666667,"lines":["Wat Arun towered above the river sunset."],"em":["Wat Arun"],"dir":"ltr"},{"shot":"S13","start":65.8,"end":70.9,"lines":["The Chao Phraya River","tested the city in floods."],"em":["Chao Phraya River"],"dir":"ltr"},{"shot":"S14","start":71.23333333333333,"end":76.36666666666666,"lines":["The Grand Palace stood","resolute through storms."],"em":["Grand Palace"],"dir":"ltr"},{"shot":"S15","start":76.7,"end":81.83333333333333,"lines":["Wat Pho provided peace","and enduring shelter."],"em":["Wat Pho"],"dir":"ltr"},{"shot":"S16","start":82.16666666666667,"end":87.26666666666667,"lines":["Wat Arun heralded a new dawn of rebirth."],"em":["Wat Arun"],"dir":"ltr"},{"shot":"S17","start":87.6,"end":92.73333333333333,"lines":["The Chao Phraya River","links past and present."],"em":["Chao Phraya River"],"dir":"ltr"},{"shot":"S18","start":93.06666666666666,"end":98.16666666666667,"lines":["The Grand Palace welcomes","travelers from every land."],"em":["Grand Palace"],"dir":"ltr"},{"shot":"S19","start":98.5,"end":103.63333333333334,"lines":["Wat Pho preserves world","cultural wisdom today."],"em":["Wat Pho"],"dir":"ltr"},{"shot":"S20","start":103.96666666666667,"end":109.1,"lines":["King Rama I gifted an everlasting capital."],"em":["Rama I"],"dir":"ltr"},{"shot":"S21","start":109.43333333333334,"end":114.53333333333333,"lines":["The Chao Phraya River","flows onward into forever."],"em":["Chao Phraya River"],"dir":"ltr"},{"shot":"S22","start":114.86666666666666,"end":114.53333333333333,"lines":["In 1782, Bangkok began its eternal story."],"em":["1782"],"dir":"ltr"}],"kp_cards":[{"id":"kp1","shot":"S03","start":11.566666666666666,"end":16.2,"title":"Founded as Capital","value":"1782","count":1782,"count_s":1.3666666666666667},{"id":"kp2","shot":"S04","start":17.033333333333335,"end":21.666666666666668,"title":"Founder & Ruler","value":"Rama I","count":null,"count_s":0},{"id":"kp3","shot":"S05","start":22.5,"end":27.1,"title":"Royal Residence","value":"Grand Palace","count":null,"count_s":0},{"id":"kp4","shot":"S06","start":27.933333333333334,"end":32.56666666666667,"title":"Temple of Dawn","value":"Wat Arun","count":null,"count_s":0}],"sfx":[{"shot":"S01","t":0.6666666666666666,"frame":20,"kind":"reveal","tier":"emphasis","source":"auto","id":"x001"},{"shot":"S01","t":1.3666666666666667,"frame":41,"kind":"brush","tier":"normal","source":"shot","dur":1.364,"step":0,"id":"x002"},{"shot":"S02","t":5.466666666666667,"frame":164,"kind":"transition","tier":"normal","source":"auto","dur":1.367,"id":"x003"},{"shot":"S02","t":5.466666666666667,"frame":164,"kind":"brush","tier":"normal","source":"shot","dur":2.045,"step":0,"id":"x004"},{"shot":"S02","t":9.566666666666666,"frame":287,"kind":"seal","tier":"emphasis","source":"shot","step":1,"id":"x005"},{"shot":"S03","t":10.9,"frame":327,"kind":"transition","tier":"normal","source":"auto","dur":1.367,"id":"x006"},{"shot":"S03","t":11.566666666666666,"frame":347,"kind":"seal","tier":"emphasis","source":"auto","id":"x007"},{"shot":"S03","t":12.266666666666667,"frame":368,"kind":"appear","tier":"normal","source":"shot","step":0,"id":"x008"},{"shot":"S03","t":12.933333333333334,"frame":388,"kind":"count","tier":"emphasis","source":"auto","dur":1.3666666666666667,"id":"x009"},{"shot":"S04","t":16.366666666666667,"frame":491,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x010"},{"shot":"S04","t":17.033333333333335,"frame":511,"kind":"seal","tier":"emphasis","source":"auto","id":"x011"},{"shot":"S04","t":17.733333333333334,"frame":532,"kind":"reveal","tier":"normal","source":"shot","step":0,"id":"x012"},{"shot":"S05","t":21.833333333333332,"frame":655,"kind":"transition","tier":"normal","source":"auto","dur":1.367,"id":"x013"},{"shot":"S05","t":22.5,"frame":675,"kind":"seal","tier":"emphasis","source":"auto","id":"x014"},{"shot":"S05","t":23.2,"frame":696,"kind":"appear","tier":"emphasis","source":"shot","step":0,"id":"x015"},{"shot":"S06","t":27.266666666666666,"frame":818,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x016"},{"shot":"S06","t":27.933333333333334,"frame":838,"kind":"seal","tier":"emphasis","source":"auto","id":"x017"},{"shot":"S06","t":28.633333333333333,"frame":859,"kind":"appear","tier":"normal","source":"shot","step":0,"id":"x018"},{"shot":"S07","t":32.733333333333334,"frame":982,"kind":"transition","tier":"emphasis","source":"auto","dur":1.367,"id":"x019"},{"shot":"S07","t":34.1,"frame":1023,"kind":"route","tier":"normal","source":"shot","step":0,"id":"x020"},{"shot":"S08","t":38.166666666666664,"frame":1145,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x021"},{"shot":"S08","t":39.53333333333333,"frame":1186,"kind":"scroll","tier":"normal","source":"shot","step":0,"id":"x022"},{"shot":"S09","t":43.63333333333333,"frame":1309,"kind":"reveal","tier":"climax","source":"auto","id":"x023"},{"shot":"S09","t":45,"frame":1350,"kind":"reveal","tier":"emphasis","source":"shot","step":0,"id":"x024"},{"shot":"S10","t":49.1,"frame":1473,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x025"},{"shot":"S10","t":50.46666666666667,"frame":1514,"kind":"appear","tier":"normal","source":"shot","step":0,"id":"x026"},{"shot":"S11","t":54.53333333333333,"frame":1636,"kind":"transition","tier":"normal","source":"auto","dur":1.367,"id":"x027"},{"shot":"S11","t":55.9,"frame":1677,"kind":"route","tier":"normal","source":"shot","step":0,"id":"x028"},{"shot":"S12","t":60,"frame":1800,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x029"},{"shot":"S12","t":61.36666666666667,"frame":1841,"kind":"reveal","tier":"emphasis","source":"shot","step":0,"id":"x030"},{"shot":"S13","t":65.46666666666667,"frame":1964,"kind":"transition","tier":"emphasis","source":"auto","dur":1.367,"id":"x031"},{"shot":"S13","t":66.83333333333333,"frame":2005,"kind":"brush","tier":"emphasis","source":"shot","step":0,"id":"x032"},{"shot":"S14","t":70.9,"frame":2127,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x033"},{"shot":"S14","t":72.26666666666667,"frame":2168,"kind":"reveal","tier":"normal","source":"shot","step":0,"id":"x034"},{"shot":"S15","t":76.36666666666666,"frame":2291,"kind":"transition","tier":"normal","source":"auto","dur":1.367,"id":"x035"},{"shot":"S15","t":77.73333333333333,"frame":2332,"kind":"appear","tier":"normal","source":"shot","step":0,"id":"x036"},{"shot":"S16","t":81.83333333333333,"frame":2455,"kind":"transition","tier":"emphasis","source":"auto","dur":0.682,"id":"x037"},{"shot":"S16","t":83.2,"frame":2496,"kind":"reveal","tier":"emphasis","source":"shot","step":0,"id":"x038"},{"shot":"S17","t":87.26666666666667,"frame":2618,"kind":"reveal","tier":"climax","source":"auto","id":"x039"},{"shot":"S17","t":88.63333333333334,"frame":2659,"kind":"route","tier":"normal","source":"shot","step":0,"id":"x040"},{"shot":"S18","t":92.73333333333333,"frame":2782,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x041"},{"shot":"S18","t":94.1,"frame":2823,"kind":"appear","tier":"normal","source":"shot","step":0,"id":"x042"},{"shot":"S19","t":98.16666666666667,"frame":2945,"kind":"transition","tier":"normal","source":"auto","dur":1.367,"id":"x043"},{"shot":"S19","t":99.53333333333333,"frame":2986,"kind":"appear","tier":"normal","source":"shot","step":0,"id":"x044"},{"shot":"S20","t":103.63333333333334,"frame":3109,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x045"},{"shot":"S20","t":105,"frame":3150,"kind":"reveal","tier":"emphasis","source":"shot","step":0,"id":"x046"},{"shot":"S21","t":109.1,"frame":3273,"kind":"transition","tier":"emphasis","source":"auto","dur":1.367,"id":"x047"},{"shot":"S22","t":114.53333333333333,"frame":3436,"kind":"seal","tier":"emphasis","source":"auto","id":"x048"},{"shot":"S22","t":114.53333333333333,"frame":3436,"kind":"transition","tier":"normal","source":"auto","dur":0.682,"id":"x049"}],"title":{"text":"Bangkok: Life Along the River of Kings","shot":"S01","start":0.6666666666666666,"end":5.133333333333334},"end_card":{"line":"Life Along the River of Kings: Bangkok.","start":114.53333333333333,"end":120},"badge":{"kind":"aigc","start":0,"end":3},"rehooks":[{"i":0,"bar":0,"kind":"hook","section":"intro","t":0},{"i":1,"bar":12,"kind":"turn","section":"build","t":32.727},{"i":2,"bar":24,"kind":"turn","section":"breakdown","t":65.455},{"i":3,"bar":30,"kind":"turn","section":"build2","t":81.818},{"i":4,"bar":40,"kind":"final","section":"outro","t":109.091}],"segments":[{"id":"s1","name":"opening","sections":["intro"],"start":0,"end":10.9,"from_frame":0,"to_frame":327},{"id":"s2","name":"verse","sections":["verse"],"start":10.9,"end":32.733333333333334,"from_frame":327,"to_frame":982},{"id":"s3","name":"build-drop","sections":["build","drop"],"start":32.733333333333334,"end":65.46666666666667,"from_frame":982,"to_frame":1964},{"id":"s4","name":"breakdown-build2","sections":["breakdown","build2"],"start":65.46666666666667,"end":87.26666666666667,"from_frame":1964,"to_frame":2618},{"id":"s5","name":"drop2-outro","sections":["drop2","outro"],"start":87.26666666666667,"end":120,"from_frame":2618,"to_frame":3600}],"width":1920,"height":1080,"fonts":["LXGW WenKai","Noto Serif","Noto Sans","Noto Naskh Arabic"],"font_sample":"Bangko: LifeAlthRvrKs.TCPycumI1782,wpdbGjW-F&DV·泰034569\"曼谷","seal_text":"泰"};
+window.CI_WINDOW={"from":0,"to":120};
+window.CI_PHOTOS=[];
+window.CI_GEO=null;
+window.CI_SCENES={};
+/* Ink-scroll drawing kit (browser, Canvas 2D). Everything a scene needs to paint in the chronicle-ink
+ * style without images or models: seeded noise, brush strokes (wet, dry, tapered), washes, ink bleeds,
+ * xuan paper, composition guides for wide / medium / close / detail, 2.5D parallax layers and a library
+ * of motifs (mountains, water, boat, pavilion, scroll, bamboo, moon, inkstone, brush, seal, plum, geese,
+ * robed figure silhouette, text reveal, map route without borders, timeline, count-up).
+ *
+ * Rules: deterministic (seeded rng only; no Math.random, no clock), no network, no realistic faces —
+ * people are silhouettes seen from behind or far away. Draw static layers once with s.cache().
+ * Exposed as window.CI_KIT; scenes receive it as s.kit. */
+(function () {
+  'use strict'
+  var TAU = Math.PI * 2
+  var PAL = { paper: '#EFE6D2', paperShadow: '#D9CDB2', ink: '#1D1B18', inkSoft: '#4A453D', cinnabar: '#B5332A', ochre: '#A87C4F', indigo: '#3E5566', mist: '#C9C2B2' }
+  // ---------- numbers ----------
+  function rng(seed) {
+    var a = (seed >>> 0) || 0x9e3779b9
+    return function () {
+      a = (a + 0x6d2b79f5) >>> 0
+      var t = a
+      t = Math.imul(t ^ (t >>> 15), t | 1)
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+    }
+  }
+  function hash2(x, y, seed) {
+    var h = (Math.imul(x | 0, 374761393) + Math.imul(y | 0, 668265263) + Math.imul(seed | 0, 2147483647)) | 0
+    h = Math.imul(h ^ (h >>> 13), 1274126177)
+    return ((h ^ (h >>> 16)) >>> 0) / 4294967296
+  }
+  function smooth(t) { return t * t * (3 - 2 * t) }
+  /** Value noise in [0,1]. */
+  function noise(x, y, seed) {
+    var xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi
+    var a = hash2(xi, yi, seed), b = hash2(xi + 1, yi, seed), c = hash2(xi, yi + 1, seed), d = hash2(xi + 1, yi + 1, seed)
+    var u = smooth(xf), v = smooth(yf)
+    return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v
+  }
+  function fbm(x, y, seed, oct) {
+    var s = 0, amp = 0.5, f = 1, n = 0
+    for (var i = 0; i < (oct || 4); i++) { s += amp * noise(x * f, y * f, seed + i * 17); n += amp; amp *= 0.5; f *= 2 }
+    return s / n
+  }
+  var ease = {
+    in: function (t) { return t * t * t },
+    out: function (t) { return 1 - Math.pow(1 - t, 3) },
+    inOut: function (t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2 },
+    back: function (t) { var c = 1.4; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2) },
+  }
+  function clamp(x, a, b) { return x < a ? a : x > b ? b : x }
+  /** 0..1 progress of t inside [a, b] (eased). */
+  function prog(t, a, b, e) { var p = clamp((t - a) / Math.max(1e-6, b - a), 0, 1); return e ? ease[e](p) : p }
+  function rgba(hex, a) {
+    var n = parseInt(hex.slice(1), 16)
+    return 'rgba(' + ((n >> 16) & 255) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')'
+  }
+  // ---------- paper ----------
+  /** Xuan paper: warm base, fibre flecks, soft mottling and a gentle vignette. Cache it. */
+  function paper(g, W, H, seed, tone) {
+    var r = rng(seed || 7)
+    g.fillStyle = tone || PAL.paper
+    g.fillRect(0, 0, W, H)
+    var cell = 48
+    for (var y = 0; y < H; y += cell) for (var x = 0; x < W; x += cell) {
+      var n = fbm(x / 420, y / 420, seed || 7, 3)
+      g.fillStyle = n > 0.5 ? 'rgba(120,96,60,' + ((n - 0.5) * 0.10).toFixed(3) + ')' : 'rgba(255,250,236,' + ((0.5 - n) * 0.16).toFixed(3) + ')'
+      g.fillRect(x, y, cell, cell)
+    }
+    // Smooth the mottling into the paper with large faint washes.
+    for (var i = 0; i < 26; i++) {
+      var cx = r() * W, cy = r() * H, rad = (0.1 + r() * 0.25) * W
+      var gr = g.createRadialGradient(cx, cy, 0, cx, cy, rad)
+      gr.addColorStop(0, 'rgba(160,130,90,' + (0.035 * r()).toFixed(3) + ')')
+      gr.addColorStop(1, 'rgba(160,130,90,0)')
+      g.fillStyle = gr
+      g.fillRect(cx - rad, cy - rad, rad * 2, rad * 2)
+    }
+    g.lineCap = 'round'
+    for (var k = 0; k < 900; k++) {
+      var fx = r() * W, fy = r() * H, len = 4 + r() * 18, ang = r() * TAU
+      g.strokeStyle = 'rgba(90,70,40,' + (0.04 + r() * 0.08).toFixed(3) + ')'
+      g.lineWidth = 0.5 + r() * 0.8
+      g.beginPath(); g.moveTo(fx, fy); g.quadraticCurveTo(fx + Math.cos(ang) * len * 0.5 + (r() - 0.5) * 4, fy + Math.sin(ang) * len * 0.5 + (r() - 0.5) * 4, fx + Math.cos(ang) * len, fy + Math.sin(ang) * len); g.stroke()
+    }
+    var v = g.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.35, W / 2, H / 2, Math.max(W, H) * 0.75)
+    v.addColorStop(0, 'rgba(80,60,30,0)')
+    v.addColorStop(1, 'rgba(80,60,30,0.22)')
+    g.fillStyle = v
+    g.fillRect(0, 0, W, H)
+  }
+  // ---------- brush ----------
+  /** Resamples a polyline to points every `step` px: [[x, y, t(0..1)]]. */
+  function resample(pts, step) {
+    var out = [], total = 0, segs = []
+    for (var i = 1; i < pts.length; i++) { var l = Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); segs.push(l); total += l }
+    if (!total) return [[pts[0][0], pts[0][1], 0]]
+    var n = Math.max(2, Math.ceil(total / step))
+    var si = 0, acc = 0
+    for (var k = 0; k <= n; k++) {
+      var d = (k / n) * total
+      while (si < segs.length - 1 && acc + segs[si] < d) { acc += segs[si]; si++ }
+      var f = segs[si] ? (d - acc) / segs[si] : 0
+      out.push([pts[si][0] + (pts[si + 1][0] - pts[si][0]) * f, pts[si][1] + (pts[si + 1][1] - pts[si][1]) * f, k / n])
+    }
+    return out
+  }
+  /** Smooth curve through control points (Catmull-Rom) -> dense polyline. */
+  function curve(ctrl, perSeg) {
+    var out = [], m = perSeg || 12
+    for (var i = 0; i < ctrl.length - 1; i++) {
+      var p0 = ctrl[Math.max(0, i - 1)], p1 = ctrl[i], p2 = ctrl[i + 1], p3 = ctrl[Math.min(ctrl.length - 1, i + 2)]
+      for (var k = 0; k < m; k++) {
+        var t = k / m, t2 = t * t, t3 = t2 * t
+        out.push([
+          0.5 * (2 * p1[0] + (-p0[0] + p2[0]) * t + (2 * p0[0] - 5 * p1[0] + 4 * p2[0] - p3[0]) * t2 + (-p0[0] + 3 * p1[0] - 3 * p2[0] + p3[0]) * t3),
+          0.5 * (2 * p1[1] + (-p0[1] + p2[1]) * t + (2 * p0[1] - 5 * p1[1] + 4 * p2[1] - p3[1]) * t2 + (-p0[1] + 3 * p1[1] - 3 * p2[1] + p3[1]) * t3),
+        ])
+      }
+    }
+    out.push(ctrl[ctrl.length - 1])
+    return out
+  }
+  /**
+   * Brush stroke along a polyline.
+   * o: { w (max width), color, alpha, dry (0 wet .. 1 dry), taper ([start, end] 0..1), p (draw progress), seed, bristles }
+   * Wet strokes are a solid tapered ribbon with a soft darker spine; dry strokes break into bristle
+   * tracks with gaps driven by noise (feibai, the "flying white").
+   */
+  function stroke(g, pts, o) {
+    o = o || {}
+    var w = o.w || 8, col = o.color || PAL.ink, alpha = o.alpha == null ? 0.9 : o.alpha, dry = o.dry || 0, seed = o.seed || 1
+    var p = o.p == null ? 1 : o.p
+    if (p <= 0) return
+    var taper = o.taper || [0.15, 0.35]
+    var path = resample(pts, Math.max(1.5, w / 5))
+    var last = Math.max(2, Math.floor(path.length * p))
+    var widthAt = function (t) {
+      var a = taper[0] ? clamp(t / taper[0], 0, 1) : 1
+      var b = taper[1] ? clamp((1 - t) / taper[1], 0, 1) : 1
+      return w * (0.25 + 0.75 * Math.sqrt(a)) * (0.15 + 0.85 * Math.sqrt(b)) * (0.85 + 0.3 * noise(t * 6, 0, seed))
+    }
+    var norm = function (i) {
+      var a = path[Math.max(0, i - 1)], b = path[Math.min(path.length - 1, i + 1)]
+      var dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy) || 1
+      return [-dy / l, dx / l]
+    }
+    if (dry < 0.5) {
+      // Ribbon fill.
+      var left = [], right = []
+      for (var i = 0; i < last; i++) {
+        var n = norm(i), hw = widthAt(path[i][2]) / 2
+        left.push([path[i][0] + n[0] * hw, path[i][1] + n[1] * hw])
+        right.push([path[i][0] - n[0] * hw, path[i][1] - n[1] * hw])
+      }
+      g.fillStyle = rgba(col, alpha * (1 - dry * 0.6))
+      g.beginPath()
+      g.moveTo(left[0][0], left[0][1])
+      for (var k = 1; k < left.length; k++) g.lineTo(left[k][0], left[k][1])
+      for (var j = right.length - 1; j >= 0; j--) g.lineTo(right[j][0], right[j][1])
+      g.closePath()
+      g.fill()
+      // Wet edge: the pigment pools along the rim.
+      g.strokeStyle = rgba(col, alpha * 0.25)
+      g.lineWidth = Math.max(0.6, w * 0.06)
+      g.stroke()
+    }
+    if (dry > 0) {
+      var br = o.bristles || Math.max(5, Math.round(w / 2.2))
+      g.lineCap = 'round'
+      for (var b = 0; b < br; b++) {
+        var off = (b / (br - 1) - 0.5)
+        var bw = Math.max(0.6, (w / br) * 1.3)
+        g.strokeStyle = rgba(col, alpha * (0.55 + 0.4 * hash2(b, 3, seed)))
+        g.lineWidth = bw
+        var drawing = false
+        g.beginPath()
+        for (var q = 0; q < last; q++) {
+          var t = path[q][2]
+          var gap = noise(t * (8 + 10 * dry), b * 1.7, seed) < dry * (0.25 + 0.6 * t)
+          if (gap) { drawing = false; continue }
+          var nn = norm(q), hw2 = widthAt(t)
+          var x = path[q][0] + nn[0] * off * hw2, y = path[q][1] + nn[1] * off * hw2
+          if (!drawing) { g.moveTo(x, y); drawing = true } else g.lineTo(x, y)
+        }
+        g.stroke()
+      }
+    }
+  }
+  /** Soft wash blob (layered radial gradients with a noisy outline). */
+  function wash(g, x, y, rx, ry, o) {
+    o = o || {}
+    var col = o.color || PAL.ink, a = o.alpha == null ? 0.12 : o.alpha, r = rng(o.seed || 3)
+    for (var i = 0; i < (o.layers || 6); i++) {
+      var cx = x + (r() - 0.5) * rx * 0.5, cy = y + (r() - 0.5) * ry * 0.5
+      var rr = Math.max(rx, ry) * (0.6 + r() * 0.5)
+      var gr = g.createRadialGradient(cx, cy, 0, cx, cy, rr)
+      gr.addColorStop(0, rgba(col, a))
+      gr.addColorStop(0.6, rgba(col, a * 0.5))
+      gr.addColorStop(1, rgba(col, 0))
+      g.save()
+      g.translate(cx, cy); g.scale(rx / Math.max(rx, ry), ry / Math.max(rx, ry)); g.translate(-cx, -cy)
+      g.fillStyle = gr
+      g.fillRect(cx - rr, cy - rr, rr * 2, rr * 2)
+      g.restore()
+    }
+  }
+  /** Ink drop spreading on paper: irregular blot with a darker tide line. p = spread 0..1. */
+  function bleed(g, x, y, r, o) {
+    o = o || {}
+    var p = o.p == null ? 1 : o.p, col = o.color || PAL.ink, seed = o.seed || 5
+    if (p <= 0) return
+    var R = r * ease.out(p)
+    var rings = 5
+    for (var k = rings; k >= 1; k--) {
+      var rr = R * (k / rings)
+      g.beginPath()
+      for (var i = 0; i <= 64; i++) {
+        var a = (i / 64) * TAU
+        var n = fbm(Math.cos(a) * 1.5 + k, Math.sin(a) * 1.5, seed, 3)
+        var d = rr * (0.75 + 0.5 * n)
+        if (i) g.lineTo(x + Math.cos(a) * d, y + Math.sin(a) * d)
+        else g.moveTo(x + Math.cos(a) * d, y + Math.sin(a) * d)
+      }
+      g.closePath()
+      g.fillStyle = rgba(col, (o.alpha || 0.5) * (0.12 + 0.1 * (rings - k) / rings))
+      g.fill()
+      if (k === rings) { g.strokeStyle = rgba(col, (o.alpha || 0.5) * 0.35); g.lineWidth = Math.max(1, r * 0.02); g.stroke() }
+    }
+  }
+  /** Horizontal mist band that fades the layers behind it. */
+  function mist(g, W, y, h, o) {
+    o = o || {}
+    var gr = g.createLinearGradient(0, y - h, 0, y + h)
+    var c = o.color || PAL.paper
+    gr.addColorStop(0, rgba(c, 0))
+    gr.addColorStop(0.5, rgba(c, o.alpha == null ? 0.85 : o.alpha))
+    gr.addColorStop(1, rgba(c, 0))
+    g.fillStyle = gr
+    g.fillRect(-W, y - h, W * 3, h * 2)
+  }
+  // ---------- composition ----------
+  /**
+   * Composition guides by shot size: horizon (y), focal point, subject scale, margins.
+   *   wide: tiny subject, high negative space, horizon at 0.62 H (the Song "level distance")
+   *   medium: subject ~ 0.45 H, horizon low; close: subject fills ~0.8 H; detail: macro objects
+   */
+  function frame(size, W, H, side) {
+    var right = side !== 'left'
+    var fx = right ? 0.64 : 0.36
+    switch (size) {
+      case 'wide': return { horizon: H * 0.62, fx: W * fx, fy: H * 0.5, scale: 0.18, margin: W * 0.06 }
+      case 'medium': return { horizon: H * 0.74, fx: W * fx, fy: H * 0.55, scale: 0.45, margin: W * 0.08 }
+      case 'close': return { horizon: H * 0.88, fx: W * (right ? 0.6 : 0.4), fy: H * 0.55, scale: 0.8, margin: W * 0.1 }
+      default: return { horizon: H * 0.9, fx: W * 0.5, fy: H * 0.5, scale: 1.2, margin: W * 0.12 }
+    }
+  }
+  /**
+   * 2.5D parallax layer: depth 0 = paper (fixed), 1 = mid ground, >1 foreground. Uses s.cam.
+   */
+  function layer(g, s, depth, fn) {
+    var c = s.cam || { zoom: 1, x: 0, y: 0 }
+    g.save()
+    g.translate(s.W / 2, s.H / 2)
+    var z = 1 + (c.zoom - 1) * depth
+    g.scale(z, z)
+    g.translate(-s.W / 2 + c.x * depth, -s.H / 2 + c.y * depth)
+    fn(g)
+    g.restore()
+  }
+  // ---------- motifs ----------
+  /** Mountain range: fbm ridge, ink gradient fading into mist, cun texture strokes on the slopes. */
+  function mountains(g, o) {
+    var W = o.W, base = o.base, h = o.height, seed = o.seed || 11, col = o.color || PAL.ink
+    var x0 = o.x0 == null ? -W * 0.2 : o.x0, x1 = o.x1 == null ? W * 1.2 : o.x1
+    var peaks = o.peaks || 3
+    var pts = []
+    for (var x = x0; x <= x1; x += 6) {
+      var u = (x - x0) / (x1 - x0)
+      var env = Math.pow(Math.sin(Math.PI * clamp(u, 0, 1)), 0.6)
+      var ridge = 0.55 * Math.pow(Math.abs(Math.sin(u * Math.PI * peaks + seed)), 1.6) + 0.45 * fbm(u * 6, 0, seed, 5)
+      pts.push([x, base - h * env * ridge])
+    }
+    var top = base - h
+    var gr = g.createLinearGradient(0, top, 0, base)
+    gr.addColorStop(0, rgba(col, o.alpha == null ? 0.75 : o.alpha))
+    gr.addColorStop(0.55, rgba(col, (o.alpha == null ? 0.75 : o.alpha) * 0.35))
+    gr.addColorStop(1, rgba(col, 0))
+    g.fillStyle = gr
+    g.beginPath(); g.moveTo(x0, base)
+    for (var i = 0; i < pts.length; i++) g.lineTo(pts[i][0], pts[i][1])
+    g.lineTo(x1, base); g.closePath(); g.fill()
+    // Ridge line in dry brush.
+    stroke(g, pts, { w: o.line || 3, color: col, alpha: (o.alpha == null ? 0.75 : o.alpha) * 0.9, dry: 0.35, taper: [0.05, 0.05], seed: seed })
+    // Cun strokes: short dry hemp-fibre strokes under the ridge.
+    if (o.texture !== false) {
+      var r = rng(seed + 3)
+      for (var k = 0; k < (o.cun || 40); k++) {
+        var pi = Math.floor(r() * pts.length)
+        var px = pts[pi][0], py = pts[pi][1] + 6 + r() * h * 0.35
+        if (py > base - 4) continue
+        var len = 10 + r() * 28
+        stroke(g, [[px, py], [px - len * 0.3, py + len * 0.6], [px - len * 0.2, py + len]], { w: 1.5 + r() * 2.5, alpha: 0.25 + 0.25 * r(), dry: 0.7, seed: seed + k, taper: [0.2, 0.6] })
+      }
+    }
+    return pts
+  }
+  /** Water: thin ripple strokes; t animates the drift. */
+  function water(g, o) {
+    var r = rng(o.seed || 21), t = o.t || 0
+    for (var i = 0; i < (o.lines || 26); i++) {
+      var y = o.y0 + (o.y1 - o.y0) * Math.pow(r(), 0.8)
+      var depth = (y - o.y0) / Math.max(1, o.y1 - o.y0)
+      var len = (40 + r() * 140) * (0.5 + depth)
+      var x = ((r() * (o.W + 400) + t * (12 + 20 * depth)) % (o.W + 400)) - 200
+      var pts = []
+      for (var k = 0; k <= 8; k++) pts.push([x + (k / 8) * len, y + Math.sin(k * 0.9 + t * 1.3 + i) * 1.4])
+      stroke(g, pts, { w: 1 + depth * 2.2, alpha: 0.18 + 0.25 * depth, dry: 0.4, seed: i + 3, taper: [0.4, 0.4] })
+    }
+  }
+  /** Small boat (sampan) with an optional seated figure silhouette under a hat. */
+  function boat(g, x, y, s, o) {
+    o = o || {}
+    g.save(); g.translate(x, y); g.scale(s, s)
+    stroke(g, curve([[-60, -4], [-30, 6], [30, 6], [64, -8]]), { w: 9, alpha: 0.88, taper: [0.2, 0.3], seed: 3 })
+    stroke(g, [[-40, 0], [44, 0]], { w: 4, alpha: 0.5, dry: 0.5, seed: 4 })
+    if (o.awning !== false) { g.fillStyle = rgba(PAL.ink, 0.72); g.beginPath(); g.moveTo(-26, -2); g.quadraticCurveTo(-8, -30, 14, -2); g.closePath(); g.fill() }
+    if (o.figure !== false) figure(g, 30, -2, 0.42, { pose: 'seated', hat: 'straw' })
+    if (o.pole) stroke(g, [[44, -6], [80, -70]], { w: 2, alpha: 0.8, seed: 6, taper: [0, 0.2] })
+    g.restore()
+  }
+  /** Pavilion (ting) with upturned eaves. */
+  function pavilion(g, x, y, s, o) {
+    o = o || {}
+    g.save(); g.translate(x, y); g.scale(s, s)
+    var a = o.alpha == null ? 0.85 : o.alpha
+    stroke(g, curve([[-70, -78], [-40, -88], [0, -110], [40, -88], [70, -78]]), { w: 7, alpha: a, taper: [0.1, 0.1], seed: 31 })
+    stroke(g, [[-78, -72], [-66, -80]], { w: 5, alpha: a, seed: 32 })
+    stroke(g, [[66, -80], [78, -72]], { w: 5, alpha: a, seed: 33 })
+    stroke(g, [[0, -110], [0, -128]], { w: 3, alpha: a, seed: 34 })
+    for (var i = -1; i <= 1; i += 2) stroke(g, [[i * 42, -82], [i * 42, 0]], { w: 4, alpha: a, dry: 0.3, seed: 35 + i, taper: [0, 0] })
+    stroke(g, [[-56, 0], [56, 0]], { w: 5, alpha: a * 0.8, dry: 0.5, seed: 38 })
+    stroke(g, [[-44, -36], [44, -36]], { w: 2, alpha: a * 0.6, dry: 0.6, seed: 39 })
+    g.restore()
+  }
+  /** Handscroll with wooden rods; open = 0..1 unroll. Returns the inner rect. */
+  function scroll(g, x, y, w, h, o) {
+    o = o || {}
+    var open = o.open == null ? 1 : o.open
+    var cw = w * open
+    g.save()
+    g.fillStyle = '#F3EBD8'
+    g.shadowColor = 'rgba(0,0,0,0)'
+    g.fillRect(x, y, cw, h)
+    g.strokeStyle = rgba(PAL.ochre, 0.6); g.lineWidth = 2
+    g.strokeRect(x + 10, y + 10, Math.max(0, cw - 20), h - 20)
+    g.restore()
+    rod(g, x, y, h)
+    rod(g, x + cw, y, h)
+    return { x: x + 18, y: y + 18, w: Math.max(0, cw - 36), h: h - 36 }
+  }
+  function rod(g, x, y, h) {
+    var gr = g.createLinearGradient(x - 9, 0, x + 9, 0)
+    gr.addColorStop(0, '#3B2A1C'); gr.addColorStop(0.5, '#7A5634'); gr.addColorStop(1, '#2A1D12')
+    g.fillStyle = gr
+    g.fillRect(x - 9, y - 16, 18, h + 32)
+    g.fillStyle = '#1D1B18'
+    g.fillRect(x - 11, y - 22, 22, 8); g.fillRect(x - 11, y + h + 14, 22, 8)
+  }
+  /** Scroll rod at a vertical edge (the scroll-pan transition). */
+  function scrollRod(g, x, H, shade) {
+    g.save()
+    var sh = g.createLinearGradient(x - 60, 0, x, 0)
+    sh.addColorStop(0, 'rgba(30,20,10,0)'); sh.addColorStop(1, 'rgba(30,20,10,' + (0.25 * (shade == null ? 1 : shade)).toFixed(3) + ')')
+    g.fillStyle = sh
+    g.fillRect(x - 60, 0, 60, H)
+    rod(g, x, 0, H)
+    g.restore()
+  }
+  /** Bamboo stalks with leaves; t sways the leaves. */
+  function bamboo(g, x, y, h, o) {
+    o = o || {}
+    var r = rng(o.seed || 41), t = o.t || 0, a = o.alpha == null ? 0.85 : o.alpha
+    var segs = o.segments || 6
+    var sway = Math.sin(t * 0.9 + (o.seed || 0)) * 4
+    for (var i = 0; i < segs; i++) {
+      var y0 = y - (i / segs) * h, y1 = y - ((i + 1) / segs) * h + 6
+      var bx = x + sway * (i / segs)
+      stroke(g, [[bx, y0], [bx + sway / segs, y1]], { w: o.w || 12, alpha: a * (0.75 + 0.2 * r()), taper: [0.02, 0.02], dry: 0.25, seed: 50 + i })
+      stroke(g, [[bx - (o.w || 12) * 0.7, y1 + 3], [bx + (o.w || 12) * 0.7, y1 + 1]], { w: 3, alpha: a, seed: 70 + i, taper: [0.3, 0.3] })
+    }
+    var leaves = o.leaves || 9
+    for (var k = 0; k < leaves; k++) {
+      var ly = y - h * (0.45 + 0.55 * r())
+      var dir = r() < 0.5 ? -1 : 1
+      var len = 50 + r() * 50
+      var ang = (0.2 + r() * 0.6) * dir + Math.sin(t * 1.4 + k) * 0.06
+      var lx = x + sway
+      stroke(g, [[lx, ly], [lx + Math.cos(ang) * len * 0.5 * dir, ly + Math.sin(Math.abs(ang)) * len * 0.3], [lx + Math.cos(ang) * len * dir, ly + Math.sin(Math.abs(ang)) * len * 0.55]], { w: 10 + r() * 6, alpha: a * (0.6 + 0.4 * r()), taper: [0.15, 0.85], seed: 90 + k })
+    }
+  }
+  /** Moon: pale disc with a soft halo; `ink` true draws it as an ink circle on paper. */
+  function moon(g, x, y, r, o) {
+    o = o || {}
+    var gr = g.createRadialGradient(x, y, r * 0.8, x, y, r * 3)
+    gr.addColorStop(0, 'rgba(255,250,235,0.55)'); gr.addColorStop(1, 'rgba(255,250,235,0)')
+    g.fillStyle = gr; g.fillRect(x - r * 3, y - r * 3, r * 6, r * 6)
+    g.fillStyle = o.color || '#FBF6E8'
+    g.beginPath(); g.arc(x, y, r, 0, TAU); g.fill()
+    g.strokeStyle = rgba(PAL.ink, 0.35); g.lineWidth = 1.5; g.stroke()
+  }
+  /** Inkstone with a pool of ink. */
+  function inkstone(g, x, y, s) {
+    g.save(); g.translate(x, y); g.scale(s, s)
+    g.fillStyle = '#2B2925'
+    roundRect(g, -110, -60, 220, 120, 26); g.fill()
+    g.fillStyle = '#121110'
+    g.beginPath(); g.ellipse(-30, 8, 52, 30, 0, 0, TAU); g.fill()
+    g.fillStyle = 'rgba(255,255,255,0.08)'
+    g.beginPath(); g.ellipse(-42, -2, 20, 7, -0.3, 0, TAU); g.fill()
+    g.strokeStyle = 'rgba(255,255,255,0.12)'; g.lineWidth = 2
+    roundRect(g, -100, -50, 200, 100, 20); g.stroke()
+    g.restore()
+  }
+  /** Writing brush (maobi) lying at an angle. */
+  function brush(g, x, y, s, angle) {
+    g.save(); g.translate(x, y); g.rotate(angle || 0); g.scale(s, s)
+    var gr = g.createLinearGradient(0, -6, 0, 6)
+    gr.addColorStop(0, '#6E4A2A'); gr.addColorStop(0.5, '#A8794A'); gr.addColorStop(1, '#5A3B20')
+    g.fillStyle = gr
+    roundRect(g, -160, -6, 260, 12, 6); g.fill()
+    g.fillStyle = '#1D1B18'
+    g.beginPath(); g.moveTo(100, -8); g.quadraticCurveTo(150, -6, 175, 0); g.quadraticCurveTo(150, 6, 100, 8); g.closePath(); g.fill()
+    g.fillStyle = '#B5332A'; g.fillRect(-165, -7, 8, 14)
+    g.restore()
+  }
+  function roundRect(g, x, y, w, h, r) {
+    g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath()
+  }
+  /** Square cinnabar seal with carved text (1–4 characters). o: { alpha, font, rot, seed } */
+  function seal(g, x, y, size, text, o) {
+    o = o || {}
+    var a = o.alpha == null ? 1 : o.alpha
+    if (a <= 0) return
+    g.save(); g.translate(x, y); g.rotate(o.rot == null ? -0.04 : o.rot); g.globalAlpha *= a
+    var r = rng(o.seed || 9)
+    g.fillStyle = PAL.cinnabar
+    g.beginPath()
+    var hs = size / 2
+    var corners = [[-hs, -hs], [hs, -hs], [hs, hs], [-hs, hs]]
+    for (var c = 0; c < 4; c++) {
+      var p0 = corners[c], p1 = corners[(c + 1) % 4]
+      for (var k = 0; k < 8; k++) {
+        var f = k / 8
+        var jx = (r() - 0.5) * size * 0.025, jy = (r() - 0.5) * size * 0.025
+        var px = p0[0] + (p1[0] - p0[0]) * f + jx, py = p0[1] + (p1[1] - p0[1]) * f + jy
+        if (c === 0 && k === 0) g.moveTo(px, py); else g.lineTo(px, py)
+      }
+    }
+    g.closePath(); g.fill()
+    g.globalCompositeOperation = 'destination-out'
+    var chars = Array.from(String(text || '印'))
+    g.fillStyle = '#000'
+    g.textAlign = 'center'; g.textBaseline = 'middle'
+    var fam = o.font || '"LXGW WenKai", serif'
+    if (chars.length === 1) { g.font = Math.round(size * 0.72) + 'px ' + fam; g.fillText(chars[0], 0, size * 0.03) }
+    else {
+      var cols = 2, rows = Math.ceil(chars.length / 2)
+      g.font = Math.round(size * 0.42) + 'px ' + fam
+      for (var i = 0; i < chars.length; i++) {
+        var col = cols - 1 - Math.floor(i / rows), row = i % rows
+        g.fillText(chars[i], (col - 0.5) * size * 0.44, (row - (rows - 1) / 2) * size * 0.44 + size * 0.02)
+      }
+    }
+    // Worn specks.
+    for (var s2 = 0; s2 < 30; s2++) { g.beginPath(); g.arc((r() - 0.5) * size, (r() - 0.5) * size, r() * size * 0.012, 0, TAU); g.fill() }
+    g.restore()
+  }
+  /** Plum branch with blossoms (cinnabar dots); p grows it. */
+  function plum(g, x, y, s, o) {
+    o = o || {}
+    var p = o.p == null ? 1 : o.p
+    g.save(); g.translate(x, y); g.scale(s, s)
+    var main = curve([[0, 0], [60, -40], [110, -50], [170, -110], [230, -120]])
+    stroke(g, main, { w: 14, alpha: 0.85, dry: 0.45, p: p, seed: 12, taper: [0.02, 0.7] })
+    stroke(g, curve([[110, -50], [140, -10], [190, 0]]), { w: 7, alpha: 0.8, dry: 0.4, p: clamp(p * 1.5 - 0.4, 0, 1), seed: 13, taper: [0.05, 0.8] })
+    var r = rng(o.seed || 14)
+    var flowers = [[175, -112], [230, -122], [140, -12], [192, 0], [86, -48], [205, -100], [60, -36]]
+    for (var i = 0; i < flowers.length; i++) {
+      var fp = clamp((p - 0.4 - i * 0.07) / 0.2, 0, 1)
+      if (fp <= 0) continue
+      for (var k = 0; k < 5; k++) {
+        var a = (k / 5) * TAU + r()
+        g.fillStyle = rgba(PAL.cinnabar, 0.75 * fp)
+        g.beginPath(); g.arc(flowers[i][0] + Math.cos(a) * 6 * fp, flowers[i][1] + Math.sin(a) * 6 * fp, 5.5 * fp, 0, TAU); g.fill()
+      }
+      g.fillStyle = rgba(PAL.ink, 0.8 * fp); g.beginPath(); g.arc(flowers[i][0], flowers[i][1], 1.8, 0, TAU); g.fill()
+    }
+    g.restore()
+  }
+  /** A line of geese (simple brush chevrons); t moves them. */
+  function geese(g, x, y, n, s, t) {
+    for (var i = 0; i < n; i++) {
+      var gx = x + i * 34 * s + (t || 0) * 30, gy = y + Math.abs(i - (n - 1) / 2) * 12 * s
+      var flap = Math.sin((t || 0) * 6 + i) * 3 * s
+      stroke(g, [[gx - 9 * s, gy - flap], [gx, gy + 3 * s], [gx + 9 * s, gy - flap]], { w: 2.4 * s, alpha: 0.75, seed: 60 + i, taper: [0.3, 0.3] })
+    }
+  }
+  /**
+   * Robed scholar silhouette, never with a face: seen from behind or in profile as a solid ink shape.
+   * pose: standing | walking | seated | bowing; hat: tall (Dongpo-style square scholar's hat) | straw | none.
+   */
+  function figure(g, x, y, s, o) {
+    o = o || {}
+    var a = o.alpha == null ? 0.9 : o.alpha
+    var col = o.color || PAL.ink
+    g.save(); g.translate(x, y); g.scale(s * (o.flip ? -1 : 1), s)
+    g.fillStyle = rgba(col, a)
+    var pose = o.pose || 'standing'
+    var sway = o.t ? Math.sin(o.t * 1.6) * 3 : 0
+    if (pose === 'seated') {
+      g.beginPath(); g.moveTo(-34, 0); g.quadraticCurveTo(-30, -46, -12, -70); g.lineTo(14, -70); g.quadraticCurveTo(30, -40, 40, 0); g.closePath(); g.fill()
+      g.beginPath(); g.arc(0, -84, 13, 0, TAU); g.fill()
+    } else {
+      var lean = pose === 'bowing' ? 0.25 : pose === 'walking' ? 0.08 : 0
+      g.rotate(lean)
+      // Robe: wide flowing hem, sleeves.
+      g.beginPath()
+      g.moveTo(-14, -150)
+      g.quadraticCurveTo(-34, -110, -40 + sway, -40)
+      g.quadraticCurveTo(-52 + sway, -6, -46 + sway * 1.5, 0)
+      g.lineTo(46 + sway * 1.5, 0)
+      g.quadraticCurveTo(44 + sway, -50, 30, -110)
+      g.quadraticCurveTo(24, -140, 14, -150)
+      g.closePath(); g.fill()
+      // Sleeve.
+      g.beginPath(); g.moveTo(16, -128); g.quadraticCurveTo(54, -96, 46 + sway, -60); g.quadraticCurveTo(30, -64, 18, -90); g.closePath(); g.fill()
+      // Head (plain disc: no facial features).
+      g.beginPath(); g.ellipse(0, -164, 13, 15, 0, 0, TAU); g.fill()
+    }
+    var hat = o.hat || 'tall'
+    var hy = pose === 'seated' ? -96 : -176
+    if (hat === 'tall') { g.fillRect(-12, hy - 22, 24, 26); g.fillRect(-15, hy - 2, 30, 5) }
+    else if (hat === 'straw') { g.beginPath(); g.moveTo(-30, hy + 8); g.lineTo(0, hy - 14); g.lineTo(30, hy + 8); g.closePath(); g.fill() }
+    // Robe sash in a dry stroke for texture.
+    if (pose !== 'seated') stroke(g, [[-30, -78], [36, -72]], { w: 3, color: PAL.paper, alpha: 0.25, dry: 0.7, seed: 77 })
+    g.restore()
+  }
+  /** Writes text in brush calligraphy with a wipe reveal. o: { size, p, font, color, vertical, align, bleed } */
+  function textReveal(g, text, x, y, o) {
+    o = o || {}
+    var p = o.p == null ? 1 : o.p
+    if (p <= 0) return
+    var size = o.size || 96
+    var chars = Array.from(String(text))
+    g.save()
+    g.font = (o.weight || '') + ' ' + size + 'px ' + (o.font || '"LXGW WenKai", "Noto Serif", serif')
+    g.fillStyle = o.color || PAL.ink
+    g.textBaseline = 'middle'
+    if (o.vertical) {
+      g.textAlign = 'center'
+      for (var i = 0; i < chars.length; i++) {
+        var cp = clamp(p * chars.length - i, 0, 1)
+        if (cp <= 0) break
+        g.save()
+        g.beginPath(); g.rect(x - size, y + i * size * 1.08 - size * 0.55, size * 2, size * 1.1 * ease.out(cp)); g.clip()
+        g.globalAlpha *= 0.4 + 0.6 * cp
+        g.fillText(chars[i], x, y + i * size * 1.08)
+        g.restore()
+      }
+    } else {
+      g.textAlign = o.align || 'center'
+      var w = g.measureText(text).width
+      var left = o.align === 'left' ? x : o.align === 'right' ? x - w : x - w / 2
+      g.beginPath(); g.rect(left - size * 0.1, y - size, (w + size * 0.2) * ease.out(p), size * 2); g.clip()
+      g.fillText(text, x, y)
+    }
+    g.restore()
+  }
+  /**
+   * Map route on an abstract terrain (rivers and hills only; never national or provincial borders).
+   * stops: [{ x, y, label }] in pixels; p = route progress 0..1 (stops appear as the brush reaches them).
+   */
+  function route(g, stops, p, o) {
+    o = o || {}
+    var pts = curve(stops.map(function (s) { return [s.x, s.y] }), 16)
+    stroke(g, pts, { w: o.w || 5, color: o.color || PAL.cinnabar, alpha: 0.85, dry: 0.3, p: p, seed: 81, taper: [0.02, 0.05] })
+    var n = stops.length
+    for (var i = 0; i < n; i++) {
+      var at = n > 1 ? i / (n - 1) : 0
+      var sp = clamp((p - at) / 0.06 + 1, 0, 1)
+      if (sp <= 0) continue
+      g.fillStyle = rgba(PAL.cinnabar, sp)
+      g.beginPath(); g.arc(stops[i].x, stops[i].y, (o.dot || 9) * ease.back(sp), 0, TAU); g.fill()
+      g.strokeStyle = rgba(PAL.ink, 0.7 * sp); g.lineWidth = 2; g.stroke()
+      if (stops[i].label) {
+        g.save()
+        g.globalAlpha *= sp
+        g.font = (o.labelSize || 34) + 'px ' + (o.font || '"LXGW WenKai", "Noto Serif", serif')
+        g.fillStyle = PAL.ink
+        g.textAlign = stops[i].align || 'left'; g.textBaseline = 'middle'
+        var dx = stops[i].align === 'right' ? -18 : 18
+        g.fillText(stops[i].label, stops[i].x + dx, stops[i].y + (stops[i].dy || 0))
+        g.restore()
+      }
+    }
+  }
+  /** Rivers for an abstract map backdrop (wash lines). */
+  function river(g, ctrl, o) {
+    o = o || {}
+    stroke(g, curve(ctrl, 16), { w: o.w || 10, color: o.color || PAL.indigo, alpha: o.alpha == null ? 0.35 : o.alpha, dry: 0.2, seed: o.seed || 90, taper: [0.1, 0.1] })
+  }
+  /** Timeline: brush line with year ticks; items [{ x, label, sub }]; p reveals left to right. */
+  function timeline(g, x0, x1, y, items, p, o) {
+    o = o || {}
+    stroke(g, [[x0, y], [x1, y]], { w: 4, alpha: 0.8, dry: 0.4, p: p, seed: 101, taper: [0.02, 0.02] })
+    for (var i = 0; i < items.length; i++) {
+      var at = (items[i].x - x0) / (x1 - x0)
+      var ip = clamp((p - at) / 0.08 + 1, 0, 1)
+      if (ip <= 0) continue
+      g.save(); g.globalAlpha *= ip
+      stroke(g, [[items[i].x, y - 14], [items[i].x, y + 14]], { w: 4, alpha: 0.9, seed: 110 + i })
+      g.font = (o.size || 40) + 'px ' + (o.font || '"LXGW WenKai", "Noto Serif", serif')
+      g.textAlign = 'center'; g.textBaseline = 'alphabetic'
+      g.fillStyle = items[i].hot ? PAL.cinnabar : PAL.ink
+      g.fillText(items[i].label, items[i].x, y - 30)
+      if (items[i].sub) { g.font = Math.round((o.size || 40) * 0.7) + 'px ' + (o.font || '"LXGW WenKai", "Noto Serif", serif'); g.fillStyle = PAL.inkSoft; g.textBaseline = 'top'; g.fillText(items[i].sub, items[i].x, y + 28) }
+      g.restore()
+    }
+  }
+  /** Number string for a count-up at progress p (no grouping for years). */
+  function countUp(value, p) {
+    var v = value * ease.out(clamp(p, 0, 1))
+    return String(Math.round(v))
+  }
+  /** Willow / grass strokes along the ground. */
+  function grass(g, x0, x1, y, o) {
+    o = o || {}
+    var r = rng(o.seed || 121)
+    for (var i = 0; i < (o.n || 40); i++) {
+      var x = x0 + r() * (x1 - x0), h = 10 + r() * (o.h || 30)
+      stroke(g, [[x, y], [x + (r() - 0.5) * 10 + (o.wind || 0), y - h]], { w: 2 + r() * 2, alpha: 0.5 + 0.3 * r(), seed: 130 + i, taper: [0, 0.9] })
+    }
+  }
+  /** Rain streaks (deterministic in t). */
+  function rain(g, W, H, t, o) {
+    o = o || {}
+    var r = rng(o.seed || 141)
+    g.strokeStyle = rgba(PAL.ink, o.alpha || 0.18)
+    g.lineWidth = 1.2
+    g.beginPath()
+    for (var i = 0; i < (o.n || 160); i++) {
+      var x = r() * W, y = (r() * H + t * 900) % H
+      g.moveTo(x, y); g.lineTo(x - 6, y + 26)
+    }
+    g.stroke()
+  }
+  /** Prison bars / window lattice in brush. */
+  function lattice(g, x, y, w, h, o) {
+    o = o || {}
+    var n = o.n || 7
+    for (var i = 0; i <= n; i++) stroke(g, [[x + (i / n) * w, y], [x + (i / n) * w + 2, y + h]], { w: o.w || 10, alpha: 0.85, dry: 0.35, seed: 150 + i, taper: [0.02, 0.02] })
+    stroke(g, [[x - 10, y + 6], [x + w + 10, y + 2]], { w: 14, alpha: 0.9, dry: 0.3, seed: 170 })
+    stroke(g, [[x - 10, y + h - 4], [x + w + 10, y + h]], { w: 14, alpha: 0.9, dry: 0.3, seed: 171 })
+  }
+  /** Cliff face (Red Cliff): a tall dark rock mass with ochre wash and vertical cun. */
+  function cliff(g, x, y, w, h, o) {
+    o = o || {}
+    var seed = o.seed || 181
+    var pts = []
+    for (var i = 0; i <= 30; i++) {
+      var u = i / 30
+      pts.push([x + w * (0.2 * fbm(u * 4, 1, seed, 3) + (u < 0.5 ? 0 : 0)) + w * 0.8 * Math.pow(u, 1.4) * 0.0, y + h * u])
+    }
+    g.fillStyle = rgba(PAL.ink, 0.82)
+    g.beginPath(); g.moveTo(x - w, y)
+    for (var k = 0; k < pts.length; k++) g.lineTo(pts[k][0] + w * 0.25 * fbm(k / 6, 0, seed, 3), pts[k][1])
+    g.lineTo(x - w, y + h); g.closePath(); g.fill()
+    wash(g, x - w * 0.4, y + h * 0.4, w * 0.5, h * 0.4, { color: o.tint || PAL.cinnabar, alpha: 0.22, seed: seed + 1 })
+    var r = rng(seed + 2)
+    for (var c = 0; c < 26; c++) {
+      var cx = x - w * r() * 0.9, cy = y + r() * h * 0.9
+      stroke(g, [[cx, cy], [cx + 4, cy + 30 + r() * 60]], { w: 2 + r() * 3, color: PAL.paper, alpha: 0.18, dry: 0.8, seed: seed + 10 + c })
+    }
+  }
+  /** Dry-brush fill of a rectangle: horizontal broken strokes plus a wet outline (walls, banks, slabs). */
+  function dryFill(g, x, y, w, h, o) {
+    o = o || {}
+    var a = o.alpha == null ? 0.6 : o.alpha, seed = o.seed || 201
+    var r = rng(seed)
+    var rows = Math.max(3, Math.round(h / (o.row || 7)))
+    for (var i = 0; i < rows; i++) {
+      var yy = y + (i + 0.5) * (h / rows)
+      stroke(g, [[x + r() * 6, yy + (r() - 0.5) * 2], [x + w - r() * 6, yy + (r() - 0.5) * 2]], { w: (h / rows) * 1.25, alpha: a * (0.45 + 0.35 * r()), dry: 0.55, seed: seed + i, taper: [0.02, 0.04] })
+    }
+    stroke(g, [[x, y], [x + w, y]], { w: Math.max(2, h * 0.08), alpha: a, dry: 0.25, seed: seed + 99, taper: [0.02, 0.02] })
+    stroke(g, [[x, y + h], [x + w, y + h]], { w: Math.max(2, h * 0.06), alpha: a * 0.8, dry: 0.4, seed: seed + 98, taper: [0.02, 0.02] })
+  }
+  /** City wall with crenellations and dry-brush masonry. */
+  function wall(g, x, y, w, h, o) {
+    o = o || {}
+    dryFill(g, x, y, w, h, { alpha: o.alpha == null ? 0.55 : o.alpha, seed: o.seed || 211 })
+    var a = o.alpha == null ? 0.55 : o.alpha
+    for (var cx = x; cx < x + w - 10; cx += h * 0.45) stroke(g, [[cx, y - h * 0.16], [cx + h * 0.22, y - h * 0.16]], { w: h * 0.18, alpha: a, dry: 0.3, seed: 221 + Math.round(cx), taper: [0, 0] })
+  }
+  /** Small house: plastered wall, dark tiled roof with upturned eave ends. */
+  function house(g, x, y, s, o) {
+    o = o || {}
+    var a = o.alpha == null ? 0.8 : o.alpha
+    g.save(); g.translate(x, y); g.scale(s, s)
+    g.fillStyle = rgba(PAL.paper, 0.95)
+    g.fillRect(-40, -34, 80, 34)
+    stroke(g, [[-40, -34], [-40, 0]], { w: 2.5, alpha: a * 0.7, seed: 231 })
+    stroke(g, [[40, -34], [40, 0]], { w: 2.5, alpha: a * 0.7, seed: 232 })
+    stroke(g, [[-14, -20], [-14, 0], [2, 0], [2, -20]], { w: 2, alpha: a * 0.6, seed: 233 })
+    g.fillStyle = rgba(PAL.ink, a)
+    g.beginPath(); g.moveTo(-58, -30); g.quadraticCurveTo(-44, -36, -34, -56); g.lineTo(34, -56); g.quadraticCurveTo(44, -36, 58, -30); g.quadraticCurveTo(0, -38, -58, -30); g.closePath(); g.fill()
+    stroke(g, [[-36, -57], [36, -57]], { w: 4, alpha: a, seed: 234, taper: [0, 0] })
+    g.restore()
+  }
+  // ---------- city map (subject 'city'; data = s.geo from scripts/geo.mjs, OpenStreetMap) ----------
+  /** Interpolated map view between a and b ({ x, y, km } = centre in km and half-width in km). */
+  function geoView(a, b, p) {
+    var e = ease.inOut(clamp(p, 0, 1))
+    return { x: a.x + (b.x - a.x) * e, y: a.y + (b.y - a.y) * e, km: Math.exp(Math.log(a.km) + (Math.log(b.km) - Math.log(a.km)) * e) }
+  }
+  function geoLabel(item, lang) {
+    var l = (item && item.label) || {}
+    return l[lang] || l[String(lang).split('-')[0]] || l.en || l['zh-CN'] || ''
+  }
+  /** Organic ink-wash outline of radius r (px) around (cx, cy); p grows it from 0 to full. */
+  function blobPath(g, cx, cy, r, seed) {
+    g.beginPath()
+    for (var i = 0; i <= 72; i++) {
+      var a = (i / 72) * TAU
+      var k = 0.78 + 0.34 * fbm(Math.cos(a) * 1.6 + 5, Math.sin(a) * 1.6 + 5, seed, 3)
+      var x = cx + Math.cos(a) * r * k, y = cy + Math.sin(a) * r * k
+      if (i) g.lineTo(x, y); else g.moveTo(x, y)
+    }
+    g.closePath()
+  }
+  /**
+   * Real-geography ink map of the city. Water, rivers and coast come from OpenStreetMap (s.geo); the
+   * modern road and rail network fades in with o.roads (0..1) and must stay faint before modern times.
+   * o.view { x, y, km } · o.areas [{ id | x,y,radius_km, p, color, label }] (historic extents are
+   * approximate: the "AI illustration" tag is drawn on each) · o.places [{ id, p, hot, lost, label }]
+   * · o.lang · o.water (alpha). Returns { px(xkm, ykm) -> [x, y], scale } for the scene's own marks.
+   */
+  function cityMap(g, s, o) {
+    o = o || {}
+    var geo = s.geo
+    var W = s.W, H = s.H, v = o.view || { x: 0, y: 0, km: (geo && geo.radius_km) || 8 }
+    var sc = W / (2 * v.km)
+    var px = function (x, y) { return [W / 2 + (x - v.x) * sc, H / 2 - (y - v.y) * sc] }
+    var lang = o.lang || s.lang
+    var line = function (pts) { g.beginPath(); for (var i = 0; i < pts.length; i++) { var q = px(pts[i][0], pts[i][1]); if (i) g.lineTo(q[0], q[1]); else g.moveTo(q[0], q[1]) } }
+    if (!geo) return { px: px, scale: sc }
+    g.save()
+    g.lineCap = 'round'; g.lineJoin = 'round'
+    var wa = o.water == null ? 1 : o.water
+    // water bodies: indigo wash with a darker bank line
+    for (var i = 0; i < geo.water.length; i++) {
+      line(geo.water[i]); g.closePath()
+      g.fillStyle = rgba(PAL.indigo, 0.30 * wa); g.fill()
+      g.strokeStyle = rgba(PAL.ink, 0.35 * wa); g.lineWidth = 1.4; g.stroke()
+    }
+    for (var c = 0; c < geo.coast.length; c++) {
+      line(geo.coast[c]); g.strokeStyle = rgba(PAL.indigo, 0.25 * wa); g.lineWidth = Math.max(8, 0.35 * sc); g.stroke()
+      line(geo.coast[c]); g.strokeStyle = rgba(PAL.ink, 0.6 * wa); g.lineWidth = 2; g.stroke()
+    }
+    // rivers: wide soft wash + ink centre line (canals thinner)
+    for (var rI = 0; rI < geo.rivers.length; rI++) {
+      var rv = geo.rivers[rI]
+      line(rv.pts); g.strokeStyle = rgba(PAL.indigo, 0.26 * wa); g.lineWidth = Math.max(rv.canal ? 3 : 7, (rv.canal ? 0.03 : 0.12) * sc); g.stroke()
+      line(rv.pts); g.strokeStyle = rgba(PAL.indigo, 0.7 * wa); g.lineWidth = rv.canal ? 1.2 : 2.4; g.stroke()
+    }
+    var ra = o.roads || 0
+    if (ra > 0) {
+      for (var k = 0; k < geo.roads.length; k++) {
+        var rd = geo.roads[k]
+        line(rd.pts); g.strokeStyle = rgba(PAL.ink, ra * [0.55, 0.45, 0.34, 0.2][rd.rank]); g.lineWidth = [3, 2.4, 1.7, 1.1][rd.rank]; g.stroke()
+      }
+      g.setLineDash([10, 8])
+      for (var q = 0; q < geo.rail.length; q++) { line(geo.rail[q]); g.strokeStyle = rgba(PAL.inkSoft, 0.35 * ra); g.lineWidth = 1.6; g.stroke() }
+      g.setLineDash([])
+    }
+    var byId = {}
+    for (var a0 = 0; a0 < (geo.areas || []).length; a0++) byId['area:' + geo.areas[a0].id] = geo.areas[a0]
+    for (var p0 = 0; p0 < (geo.places || []).length; p0++) byId[geo.places[p0].id] = geo.places[p0]
+    // historic extents: approximate washes, always tagged as AI illustration
+    var tag = /^zh/.test(lang) ? 'AI 示意' : 'AI illustration'
+    var areas = o.areas || []
+    for (var ai = 0; ai < areas.length; ai++) {
+      var ar = areas[ai], base = ar.id ? byId['area:' + ar.id] || {} : {}
+      var ap = ar.p == null ? 1 : clamp(ar.p, 0, 1)
+      if (ap <= 0) continue
+      var cx = ar.x != null ? ar.x : base.x || 0, cy = ar.y != null ? ar.y : base.y || 0
+      var rk = (ar.radius_km || base.radius_km || 1) * ease.out(ap)
+      var cc = px(cx, cy), rr = rk * sc
+      var col = ar.color || PAL.ochre
+      for (var w = 0; w < 3; w++) { blobPath(g, cc[0], cc[1], rr * (1 - w * 0.08), (ar.seed || 300 + ai) + w); g.fillStyle = rgba(col, 0.12 * ap); g.fill() }
+      blobPath(g, cc[0], cc[1], rr, ar.seed || 300 + ai)
+      g.setLineDash([14, 10]); g.strokeStyle = rgba(ar.color || PAL.ink, 0.7 * ap); g.lineWidth = 2.6; g.stroke(); g.setLineDash([])
+      var al = ar.label || geoLabel(base, lang)
+      // label sits on the top edge of the wash, kept inside the frame when the wash is larger than it
+      var ty = Math.max(H * 0.1, cc[1] - rr * 0.98), tx = clamp(cc[0], W * 0.12, W * 0.88)
+      g.font = '26px "LXGW WenKai", "Noto Serif", serif'; g.textAlign = 'center'; g.textBaseline = 'bottom'
+      g.globalAlpha = ap
+      if (al) { g.lineWidth = 6; g.strokeStyle = rgba(PAL.paper, 0.85); g.strokeText(al, tx, ty - 22); g.fillStyle = PAL.ink; g.fillText(al, tx, ty - 22) }
+      g.font = '20px "Noto Sans", "LXGW WenKai", sans-serif'; g.fillStyle = rgba(PAL.cinnabar, 0.9)
+      g.lineWidth = 5; g.strokeStyle = rgba(PAL.paper, 0.85); g.strokeText(tag, tx, ty - (al ? 0 : 4))
+      g.fillText(tag, tx, ty - (al ? 0 : 4))
+      g.globalAlpha = 1
+    }
+    // places: cinnabar dots with labels on a paper halo; lost places are grey with a cross
+    var places = o.places || []
+    for (var pi = 0; pi < places.length; pi++) {
+      var pl = places[pi], d = byId[pl.id]
+      if (!d) continue
+      var pp = pl.p == null ? 1 : clamp(pl.p, 0, 1)
+      if (pp <= 0) continue
+      var pt = px(d.x, d.y), lost = !!pl.lost
+      var rad = (pl.hot ? 13 : 9) * ease.back(pp)
+      g.fillStyle = lost ? rgba(PAL.inkSoft, 0.6 * pp) : rgba(PAL.cinnabar, pp)
+      g.beginPath(); g.arc(pt[0], pt[1], rad, 0, TAU); g.fill()
+      g.strokeStyle = rgba(PAL.ink, 0.75 * pp); g.lineWidth = 2; g.stroke()
+      if (pl.hot) { g.strokeStyle = rgba(PAL.cinnabar, 0.5 * pp * (1 - (s.t % 1.4) / 1.4)); g.lineWidth = 3; g.beginPath(); g.arc(pt[0], pt[1], rad + 10 + 26 * ((s.t % 1.4) / 1.4), 0, TAU); g.stroke() }
+      if (lost) { g.strokeStyle = rgba(PAL.ink, 0.8 * pp); g.lineWidth = 3; g.beginPath(); g.moveTo(pt[0] - 10, pt[1] - 10); g.lineTo(pt[0] + 10, pt[1] + 10); g.moveTo(pt[0] + 10, pt[1] - 10); g.lineTo(pt[0] - 10, pt[1] + 10); g.stroke() }
+      var lb = pl.label || geoLabel(d, lang)
+      if (!lb) continue
+      var right = pl.align === 'left'
+      g.save(); g.globalAlpha *= pp
+      g.font = (pl.hot ? 36 : 30) + 'px "LXGW WenKai", "Noto Serif", serif'
+      g.textAlign = right ? 'right' : 'left'; g.textBaseline = 'middle'
+      var lx = pt[0] + (right ? -22 : 22), ly = pt[1] + (pl.dy || 0)
+      g.lineWidth = 8; g.strokeStyle = rgba(PAL.paper, 0.9); g.strokeText(lb, lx, ly)
+      g.fillStyle = lost ? PAL.inkSoft : PAL.ink; g.fillText(lb, lx, ly)
+      g.restore()
+    }
+    g.restore()
+    return { px: px, scale: sc }
+  }
+  /** Map scale bar (km) in the upper-left corner, kept clear of the caption band. */
+  function scaleBar(g, s, view, o) {
+    o = o || {}
+    var sc = s.W / (2 * view.km)
+    var steps = [0.2, 0.5, 1, 2, 5, 10, 20], km = steps[0]
+    for (var i = 0; i < steps.length; i++) if (steps[i] * sc <= s.W * 0.14) km = steps[i]
+    var x = o.x || s.W * 0.05, y = o.y || s.H * 0.1, w = km * sc
+    g.save(); g.strokeStyle = rgba(PAL.ink, 0.75); g.lineWidth = 3
+    g.beginPath(); g.moveTo(x, y - 8); g.lineTo(x, y); g.lineTo(x + w, y); g.lineTo(x + w, y - 8); g.stroke()
+    g.font = '22px "Noto Serif", serif'; g.fillStyle = PAL.ink; g.textBaseline = 'bottom'; g.textAlign = 'left'
+    g.fillText(km + ' km', x + w + 10, y + 4)
+    g.restore()
+  }
+  /** Large year marker (era stamp), e.g. "753 BCE" / "公元前753年", top-left under the scale bar. */
+  function yearMark(g, s, text, p, o) {
+    o = o || {}
+    var a = clamp(p == null ? 1 : p, 0, 1)
+    if (a <= 0 || !text) return
+    g.save(); g.globalAlpha = a
+    g.font = (o.size || 76) + 'px "LXGW WenKai", "Noto Serif", serif'
+    g.textAlign = o.align || 'left'; g.textBaseline = 'top'
+    var x = o.x == null ? s.W * 0.05 : o.x, y = o.y == null ? s.H * 0.13 : o.y
+    g.lineWidth = 10; g.strokeStyle = rgba(PAL.paper, 0.85); g.strokeText(text, x, y)
+    g.fillStyle = o.color || PAL.ink; g.fillText(text, x, y)
+    g.restore()
+  }
+  window.CI_KIT = {
+    cityMap: cityMap, geoView: geoView, geoLabel: geoLabel, scaleBar: scaleBar, yearMark: yearMark,
+    dryFill: dryFill, wall: wall, house: house,
+    PAL: PAL, rng: rng, noise: noise, fbm: fbm, ease: ease, clamp: clamp, prog: prog, rgba: rgba,
+    paper: paper, stroke: stroke, curve: curve, wash: wash, bleed: bleed, mist: mist,
+    frame: frame, layer: layer,
+    mountains: mountains, water: water, boat: boat, pavilion: pavilion, scroll: scroll, scrollRod: scrollRod,
+    bamboo: bamboo, moon: moon, inkstone: inkstone, brush: brush, seal: seal, plum: plum, geese: geese,
+    figure: figure, textReveal: textReveal, route: route, river: river, timeline: timeline, countUp: countUp,
+    grass: grass, rain: rain, lattice: lattice, cliff: cliff, roundRect: roundRect,
+  }
+})()
+
+/* scene river-mist */
+;(function(scene,Math,fetch,XMLHttpRequest,WebSocket,EventSource,Worker,SharedWorker,importScripts,navigator,localStorage,sessionStorage,indexedDB,caches,Date,performance,setTimeout,setInterval,requestAnimationFrame,Image,Audio,open,location){'use strict';
+// Wide river in layered mist: far peaks, mid hills, water ripples, optional moon and boat.
+// params: { moon, boat, empty, dawn, fade, title }
+scene('river-mist', function (g, s) {
+  const k = s.kit
+  const W = s.W
+  const H = s.H
+  const p = s.params
+  const f = k.frame(s.size, W, H)
+  // Paper (static, cached once per page).
+  g.drawImage(s.cache(p.dawn ? 'paper-dawn' : 'paper', W, H, (c) => k.paper(c, W, H, p.dawn ? 17 : 7, p.dawn ? '#F1E9D6' : '#E9DFC8')), 0, 0)
+  // Far range: pale, barely moving.
+  k.layer(g, s, 0.25, () => {
+    if (p.moon) k.moon(g, W * 0.84, H * 0.26, H * 0.05)
+    g.drawImage(s.cache('far', W, H, (c) => k.mountains(c, { W, base: f.horizon - H * 0.04, height: H * 0.26, seed: 4, alpha: 0.22, peaks: 2, cun: 20 })), 0, 0)
+  })
+  k.mist(g, W, f.horizon - H * 0.08, H * 0.07, { alpha: 0.7 })
+  // Mid hills on the left bank.
+  k.layer(g, s, 0.6, () => {
+    g.drawImage(s.cache('mid', W, H, (c) => k.mountains(c, { W, x0: -W * 0.15, x1: W * 0.55, base: f.horizon + H * 0.02, height: H * 0.3, seed: 9, alpha: 0.55, peaks: 2, cun: 46 })), 0, 0)
+  })
+  k.mist(g, W, f.horizon + H * 0.02, H * 0.05, { alpha: 0.75 })
+  // Water: ripples drift with time.
+  k.layer(g, s, 1, () => {
+    k.water(g, { W, y0: f.horizon + H * 0.03, y1: H * 0.98, t: s.t, seed: 21, lines: 30 })
+    if (p.boat) {
+      const bx = W * 0.6 + s.t * 6
+      k.boat(g, bx, f.horizon + H * 0.13, 1.1, { figure: !p.empty, awning: true })
+      // Reflection: a few broken strokes under the hull.
+      k.stroke(g, [[bx - 50, f.horizon + H * 0.15], [bx + 55, f.horizon + H * 0.152]], { w: 3, alpha: 0.25, dry: 0.8, seed: 5 })
+    }
+  })
+  // Foreground reeds, strongest parallax.
+  k.layer(g, s, 1.5, () => {
+    k.grass(g, -W * 0.05, W * 0.22, H * 1.02, { n: 34, h: H * 0.16, seed: 31, wind: Math.sin(s.t * 0.8) * 6 })
+  })
+  // Fade: mist rises to an almost blank sheet (end card).
+  if (p.fade) {
+    g.fillStyle = k.rgba(k.PAL.paper, 0.85 * k.prog(s.t, 0, s.dur * 0.6, 'inOut'))
+    g.fillRect(0, 0, W, H)
+  }
+})
+
+})(function(n,f){if(typeof f!=='function')throw new Error('scene '+n+': draw must be a function');window.CI_SCENES[n]=f},Object.freeze(Object.assign(Object.create(Math),{random:function(){throw new Error('Math.random is not allowed: use s.kit.rng(seed)')}})));
+
+/* scene ink-name */
+;(function(scene,Math,fetch,XMLHttpRequest,WebSocket,EventSource,Worker,SharedWorker,importScripts,navigator,localStorage,sessionStorage,indexedDB,caches,Date,performance,setTimeout,setInterval,requestAnimationFrame,Image,Audio,open,location){'use strict';
+// Close-up calligraphy: characters are brushed onto xuan paper, ink pools at the stroke starts, then a
+// cinnabar seal is pressed. params: { text, stamp_beat, vertical, final }
+scene('ink-name', function (g, s) {
+  const k = s.kit
+  const W = s.W
+  const H = s.H
+  const p = s.params
+  const chars = Array.from(String(p.text || '东坡'))
+  g.drawImage(s.cache('paper', W, H, (c) => k.paper(c, W, H, 23, '#F0E7D3')), 0, 0)
+  // Soft grey wash behind the writing (the brush was wet).
+  // (no soft wash: it read as a grey blur on the contact sheet)
+  const write = k.prog(s.beat, 0, chars.length * 1.2 + 0.6)
+  k.layer(g, s, 1, () => {
+    const size = p.vertical ? H * 0.17 : H * 0.34
+    const x = p.vertical ? W * 0.5 : W * 0.47
+    const y = p.vertical ? H * 0.5 - ((chars.length - 1) * size * 1.08) / 2 : H * 0.47
+    // Ink bleeds where each character starts.
+    chars.forEach((_, i) => {
+      const at = i / chars.length
+      const cx = p.vertical ? x : x - (chars.length - 1) * size * 0.5 + i * size
+      const cy = p.vertical ? y + i * size * 1.08 : y
+      k.bleed(g, cx - size * 0.25, cy - size * 0.2, size * (p.final ? 0.75 : 0.45), { p: k.clamp((write - at) * 3, 0, 1), alpha: p.final ? 0.35 : 0.22, seed: 40 + i })
+    })
+    if (p.vertical) k.textReveal(g, chars.join(''), x, y, { size, p: write, vertical: true, font: '"LXGW WenKai", serif' })
+    else k.textReveal(g, chars.join(''), x, y, { size, p: write, font: '"LXGW WenKai", serif' })
+  })
+  // The writing brush rests on the right, slightly lifted while writing.
+  k.layer(g, s, 1.3, () => {
+    const lift = write < 1 ? Math.sin(write * Math.PI) * H * 0.02 : 0
+    k.brush(g, W * 0.82, H * 0.76 - lift, 1.25, -0.5)
+  })
+  // Seal: pressed on its beat (scale down + full opacity on the hit frame).
+  const stampAt = (p.stamp_beat ?? 6) * s.beat_s
+  if (s.t >= stampAt - s.beat_s * 0.25) {
+    const sp = k.prog(s.t, stampAt - s.beat_s * 0.25, stampAt)
+    const size = H * 0.13 * (1.5 - 0.5 * k.ease.in(sp))
+    const sx = p.vertical ? W * 0.62 : W * 0.72
+    const sy = p.vertical ? H * 0.8 : H * 0.66
+    k.seal(g, sx, sy, size, '坡', { alpha: sp, rot: -0.06 })
+  }
+})
+
+})(function(n,f){if(typeof f!=='function')throw new Error('scene '+n+': draw must be a function');window.CI_SCENES[n]=f},Object.freeze(Object.assign(Object.create(Math),{random:function(){throw new Error('Math.random is not allowed: use s.kit.rng(seed)')}})));
+
+/* scene temple */
+;(function(scene,Math,fetch,XMLHttpRequest,WebSocket,EventSource,Worker,SharedWorker,importScripts,navigator,localStorage,sessionStorage,indexedDB,caches,Date,performance,setTimeout,setInterval,requestAnimationFrame,Image,Audio,open,location){'use strict';
+// Traditional Thai temple and royal palace architecture in ink wash.
+// params: { prang, palace, buddha, gold, night }
+scene('temple', function (g, s) {
+  const k = s.kit
+  const W = s.W
+  const H = s.H
+  const p = s.params
+  const f = k.frame(s.size, W, H)
+
+  // Paper background
+  const paperBg = p.night ? '#E5DCB8' : '#F2EBD9'
+  g.drawImage(s.cache(p.night ? 'paper-temple-night' : 'paper-temple', W, H, (c) => k.paper(c, W, H, 15, paperBg)), 0, 0)
+
+  // Distant mist and soft hills
+  k.layer(g, s, 0.3, () => {
+    k.mist(g, W, f.horizon - H * 0.05, H * 0.08, { alpha: 0.6 })
+    g.drawImage(s.cache('temple-far', W, H, (c) => k.mountains(c, { W, base: f.horizon + H * 0.02, height: H * 0.22, seed: 12, alpha: 0.25, peaks: 3 })), 0, 0)
+  })
+
+  // Central architectural element: Pagoda Prang / Tiered Roofs / Pavilion
+  k.layer(g, s, 0.8, () => {
+    const cx = W * 0.5
+    const cy = f.horizon + H * 0.15
+    const baseW = W * 0.35
+    const peakH = H * 0.45
+
+    // Soft wash behind the architecture
+    const washColor = p.gold ? k.rgba('#D4AF37', 0.25) : k.rgba(k.PAL.ink, 0.15)
+    g.fillStyle = washColor
+    g.beginPath()
+    g.moveTo(cx - baseW * 0.5, cy)
+    g.lineTo(cx, cy - peakH)
+    g.lineTo(cx + baseW * 0.5, cy)
+    g.closePath()
+    g.fill()
+
+    // Multiple tiered prang / roof silhouettes
+    const tiers = p.prang ? 7 : 4
+    for (let i = 0; i < tiers; i++) {
+      const ty = cy - (peakH / tiers) * i
+      const tw = baseW * (1 - i / tiers) * 0.9
+      const th = (peakH / tiers) * 0.8
+      
+      // Tier roofline
+      g.strokeStyle = k.rgba(k.PAL.ink, 0.7)
+      g.lineWidth = 2.5
+      g.beginPath()
+      g.moveTo(cx - tw * 0.5, ty)
+      g.quadraticCurveTo(cx - tw * 0.2, ty - th * 0.4, cx, ty - th)
+      g.quadraticCurveTo(cx + tw * 0.2, ty - th * 0.4, cx + tw * 0.5, ty)
+      g.stroke()
+
+      // Ornate roof finial upward curlicue
+      g.beginPath()
+      g.moveTo(cx - tw * 0.5, ty)
+      g.quadraticCurveTo(cx - tw * 0.55, ty - 8, cx - tw * 0.58, ty - 16)
+      g.moveTo(cx + tw * 0.5, ty)
+      g.quadraticCurveTo(cx + tw * 0.55, ty - 8, cx + tw * 0.58, ty - 16)
+      g.stroke()
+    }
+
+    // Central finial spire
+    g.beginPath()
+    g.moveTo(cx, cy - peakH)
+    g.lineTo(cx, cy - peakH - H * 0.12)
+    g.lineWidth = 3
+    g.strokeStyle = k.rgba(k.PAL.cinnabar, 0.85)
+    g.stroke()
+  })
+
+  // Foreground water / temple courtyard
+  k.layer(g, s, 1.2, () => {
+    k.water(g, { W, y0: f.horizon + H * 0.16, y1: H * 0.98, t: s.t, seed: 44, lines: 24 })
+  })
+})
+
+})(function(n,f){if(typeof f!=='function')throw new Error('scene '+n+': draw must be a function');window.CI_SCENES[n]=f},Object.freeze(Object.assign(Object.create(Math),{random:function(){throw new Error('Math.random is not allowed: use s.kit.rng(seed)')}})));
+
+/* Chronicle film runtime (browser). Draws one frame for a time t on every HyperFrames `hf-seek`:
+ *   picture   the active shot's scene code draws on an offscreen canvas; during a transition the outgoing
+ *             and incoming shots are composited (ink-bleed dissolve, scroll pan, seal stamp, hard cut)
+ *   overlays  captions, knowledge-point cards (count-up), title, AIGC badge and end card are DOM text,
+ *             so every script (CJK, RTL, Indic) is shaped by the browser with the bundled fonts
+ * Pure function of t: no clock, no randomness (the kit's rng is seeded), no network. Every page worker
+ * renders an arbitrary subset of frames, so nothing may depend on the previous frame.
+ * Globals: window.CI_TIMELINE (timeline.json), window.CI_WINDOW ({ from, to } seconds), window.CI_KIT. */
+(function () {
+  'use strict'
+  var T = window.CI_TIMELINE
+  var WIN = window.CI_WINDOW || { from: 0, to: T.seconds }
+  var KIT = window.CI_KIT
+  var W = T.width, H = T.height
+  var stage = document.getElementById('stage')
+  var main = document.getElementById('ci-canvas')
+  var g = main.getContext('2d')
+  var bufA = document.createElement('canvas'); bufA.width = W; bufA.height = H
+  var bufB = document.createElement('canvas'); bufB.width = W; bufB.height = H
+  var mask = document.createElement('canvas'); mask.width = Math.round(W / 4); mask.height = Math.round(H / 4)
+  var scenes = (window.CI_SCENES = window.CI_SCENES || {})
+  var errors = (window.CI_ERRORS = [])
+  var cache = {}
+  function clamp(x, a, b) { return x < a ? a : x > b ? b : x }
+  /** Camera of a shot at progress u: { zoom, x, y } (pixels at depth 1). */
+  function camera(shot, u) {
+    var e = KIT.ease.inOut(u)
+    switch (shot.camera) {
+      case 'push-in': return { zoom: 1 + 0.12 * e, x: 0, y: 0 }
+      case 'pull-out': return { zoom: 1.12 - 0.12 * e, x: 0, y: 0 }
+      case 'pan-left': return { zoom: 1.06, x: W * 0.05 * (1 - 2 * e), y: 0 }
+      case 'pan-right': return { zoom: 1.06, x: -W * 0.05 * (1 - 2 * e), y: 0 }
+      case 'rise': return { zoom: 1.06, x: 0, y: -H * 0.05 * (1 - 2 * e) }
+      case 'parallax': return { zoom: 1.04, x: W * 0.04 * (1 - 2 * e), y: 0 }
+      default: return { zoom: 1 + 0.02 * u, x: 0, y: 0 }
+    }
+  }
+  function shotContext(shot, t) {
+    var local = t - shot.start
+    var dur = shot.end - shot.start
+    var u = clamp(local / dur, 0, 1)
+    var cues = T.sfx.filter(function (c) { return c.shot === shot.id }).map(function (c) { return { t: c.t - shot.start, kind: c.kind, tier: c.tier, dur: c.dur || 0, id: c.id } })
+    var kp = null
+    for (var i = 0; i < T.kp_cards.length; i++) if (T.kp_cards[i].shot === shot.id) kp = T.kp_cards[i]
+    return {
+      t: local, u: u, dur: dur, beat: local / T.beat_s, bar: local / T.bar_s, beat_s: T.beat_s, bar_s: T.bar_s,
+      W: W, H: H, shot: shot, params: shot.params || {}, size: shot.size, lang: T.lang, dir: T.dir,
+      cam: camera(shot, u), cues: cues,
+      /** Local time of the i-th cue of a kind in this shot (null when absent). */
+      cue: function (kind, i) { var list = cues.filter(function (c) { return c.kind === kind }); var c = list[i || 0]; return c ? c.t : null },
+      kp: kp ? { title: kp.title, value: kp.value, count: kp.count, start: kp.start - shot.start, end: kp.end - shot.start } : null,
+      title: T.title && T.title.shot === shot.id ? T.title.text : null,
+      fonts: T.fonts,
+      /** Memoised offscreen canvas (deterministic content only): cache(key, w, h, draw(g2)). */
+      cache: function (key, w, h, draw) {
+        var k = shot.scene + '|' + key + '|' + w + 'x' + h
+        if (!cache[k]) {
+          var c = document.createElement('canvas'); c.width = w; c.height = h
+          draw(c.getContext('2d'))
+          cache[k] = c
+        }
+        return cache[k]
+      },
+      /**
+       * Memoised offscreen WebGL canvas: gl(key, w, h, init(gl) -> state) returns { canvas, gl, state }.
+       * init runs once (build buffers and programs); draw into it every frame and blit with drawImage.
+       * The context keeps its drawing buffer; the CPU render path rasterises it in software, so the
+       * output stays identical between runs.
+       */
+      gl: function (key, w, h, init) {
+        var k = 'gl|' + shot.scene + '|' + key + '|' + w + 'x' + h
+        // a software context can be lost under memory pressure: build a fresh one instead of drawing black
+        if (cache[k] && cache[k].gl.isContextLost()) delete cache[k]
+        if (!cache[k]) {
+          var c = document.createElement('canvas'); c.width = w; c.height = h
+          var ctx = c.getContext('webgl', { antialias: true, preserveDrawingBuffer: true, alpha: false, premultipliedAlpha: false })
+          if (!ctx) { errors.push('webgl_unavailable'); return null }
+          cache[k] = { canvas: c, gl: ctx, state: init ? init(ctx) : null }
+        }
+        return cache[k]
+      },
+      kit: KIT,
+      /** geo/basemap.json (OpenStreetMap, km around the city centre) or null. */
+      geo: window.CI_GEO || null,
+      /** A photograph from geo/photos.json: { img, credit } or null. */
+      photo: function (id) { return PHOTOS[id] || null },
+    }
+  }
+  function drawShot(shot, t, target) {
+    var c = target.getContext('2d')
+    c.setTransform(1, 0, 0, 1, 0, 0)
+    c.globalAlpha = 1
+    c.globalCompositeOperation = 'source-over'
+    var scene = scenes[shot.scene]
+    if (!scene) {
+      errors.push('scene_missing:' + shot.scene)
+      c.fillStyle = '#EFE6D2'; c.fillRect(0, 0, W, H)
+      return
+    }
+    try {
+      c.save()
+      scene(c, shotContext(shot, t))
+      c.restore()
+    } catch (e) {
+      errors.push('scene_error:' + shot.scene + ':' + String(e && e.message || e).slice(0, 200))
+    }
+  }
+  function activeShot(t) {
+    var s = T.shots
+    for (var i = s.length - 1; i >= 0; i--) if (t >= s[i].start - 1e-6) return i
+    return 0
+  }
+  // ---------- transitions ----------
+  function inkBleed(p, seed) {
+    // Soft ink-blot threshold over value noise, drawn at quarter resolution and scaled up (soft edge).
+    var mw = mask.width, mh = mask.height
+    var m = mask.getContext('2d')
+    var img = m.createImageData(mw, mh)
+    var d = img.data
+    var cx = mw * 0.5, cy = mh * 0.55
+    for (var y = 0; y < mh; y++) for (var x = 0; x < mw; x++) {
+      var n = KIT.fbm(x / 22, y / 22, seed, 4)
+      var r = Math.sqrt(((x - cx) / mw) * ((x - cx) / mw) * 1.6 + ((y - cy) / mh) * ((y - cy) / mh)) / 0.75
+      var v = 0.55 * r + 0.45 * n
+      var a = clamp((p * 1.35 - v) / 0.09, 0, 1)
+      var o = (y * mw + x) * 4
+      d[o] = d[o + 1] = d[o + 2] = 0
+      d[o + 3] = Math.round(a * 255)
+    }
+    m.putImageData(img, 0, 0)
+    return mask
+  }
+  function composite(t) {
+    var i = activeShot(t)
+    var shot = T.shots[i]
+    var local = t - shot.start
+    var tr = shot.transition, td = shot.transition_s
+    g.setTransform(1, 0, 0, 1, 0, 0)
+    g.globalAlpha = 1
+    g.globalCompositeOperation = 'source-over'
+    if (i === 0 || tr === 'cut' || !(local < td)) {
+      drawShot(shot, t, bufB)
+      g.drawImage(bufB, 0, 0)
+      return
+    }
+    var prev = T.shots[i - 1]
+    var p = clamp(local / td, 0, 1)
+    drawShot(prev, t, bufA)
+    drawShot(shot, t, bufB)
+    if (tr === 'ink-bleed') {
+      g.drawImage(bufA, 0, 0)
+      var mk = inkBleed(KIT.ease.out(p), i * 131 + 7)
+      var bctx = bufB.getContext('2d')
+      bctx.save()
+      bctx.globalCompositeOperation = 'destination-in'
+      bctx.imageSmoothingEnabled = true
+      bctx.drawImage(mk, 0, 0, W, H)
+      bctx.restore()
+      // Ink rim: a dark wash where the blot is spreading.
+      g.save()
+      g.globalAlpha = 0.18 * Math.sin(Math.PI * p)
+      g.drawImage(mk, 0, 0, W, H)
+      g.restore()
+      g.drawImage(bufB, 0, 0)
+    } else if (tr === 'scroll-pan') {
+      var e = KIT.ease.inOut(p)
+      var edge = W * (1 - e)
+      g.drawImage(bufA, -W * 0.25 * e, 0)
+      g.save()
+      g.beginPath(); g.rect(edge, 0, W - edge, H); g.clip()
+      g.drawImage(bufB, 0, 0)
+      g.restore()
+      KIT.scrollRod(g, edge, H, 1 - p)
+    } else if (tr === 'seal-stamp') {
+      g.drawImage(p < 0.5 ? bufA : bufB, 0, 0)
+      var s = p < 0.5 ? 1.8 - 1.6 * KIT.ease.in(p * 2) : 1
+      var a = p < 0.5 ? KIT.ease.out(p * 2) : 1 - KIT.ease.in((p - 0.5) * 2)
+      KIT.seal(g, W / 2, H / 2, H * 0.16 * s, T.seal_text, { alpha: a })
+    } else g.drawImage(bufB, 0, 0)
+  }
+  // ---------- overlays (DOM) ----------
+  var capEl = document.getElementById('ci-caption')
+  var cardEl = document.getElementById('ci-card')
+  var titleEl = document.getElementById('ci-title')
+  var badgeEl = document.getElementById('ci-badge')
+  var endEl = document.getElementById('ci-endcard')
+  var lastCap = -1
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] }) }
+  function markup(line, em) {
+    var html = esc(line)
+    for (var k = 0; k < em.length; k++) if (em[k]) html = html.split(esc(em[k])).join('<span class="ci-em">' + esc(em[k]) + '</span>')
+    return html
+  }
+  function countText(card, t) {
+    if (card.count == null) return card.value
+    var p = clamp((t - card.start) / Math.max(1e-3, card.count_s), 0, 1)
+    if (p >= 1) return card.value
+    var v = card.count * KIT.ease.out(p)
+    var n = Math.abs(card.count) < 10000 ? String(Math.round(v)) : new Intl.NumberFormat(T.lang).format(Math.round(v))
+    return n
+  }
+  function overlays(t) {
+    var ci = -1
+    for (var i = 0; i < T.captions.length; i++) if (t >= T.captions[i].start && t < T.captions[i].end) ci = i
+    if (ci !== lastCap) {
+      capEl.innerHTML = ci < 0 ? '' : T.captions[ci].lines.map(function (l) { return '<div class="ci-line">' + markup(l, T.captions[ci].em) + '</div>' }).join('')
+      capEl.setAttribute('dir', ci < 0 ? T.dir : T.captions[ci].dir)
+      lastCap = ci
+    }
+    var c = ci < 0 ? null : T.captions[ci]
+    capEl.style.opacity = c ? String(clamp((t - c.start) / 0.18, 0, 1) * clamp((c.end - t) / 0.12, 0, 1)) : '0'
+    capEl.style.transform = c ? 'translateY(' + (8 * (1 - KIT.ease.out(clamp((t - c.start) / 0.25, 0, 1)))).toFixed(2) + 'px)' : 'none'
+    var card = null
+    for (var k = 0; k < T.kp_cards.length; k++) if (t >= T.kp_cards[k].start && t < T.kp_cards[k].end) card = T.kp_cards[k]
+    if (card) {
+      cardEl.style.opacity = String(clamp((t - card.start) / 0.12, 0, 1) * clamp((card.end - t) / 0.2, 0, 1))
+      var sp = clamp((t - card.start) / (T.beat_s * 0.5), 0, 1)
+      cardEl.querySelector('.ci-card-seal').style.transform = 'scale(' + (1.5 - 0.5 * KIT.ease.in(sp)).toFixed(3) + ')'
+      cardEl.querySelector('.ci-card-title').textContent = card.title
+      cardEl.querySelector('.ci-card-value').textContent = countText(card, t)
+    } else cardEl.style.opacity = '0'
+    var ti = T.title
+    if (ti && ti.start != null && t >= ti.start && t < ti.end) {
+      var tp = clamp((t - ti.start) / (T.beat_s * 2), 0, 1)
+      titleEl.style.opacity = String(KIT.ease.out(tp) * clamp((ti.end - t) / 0.3, 0, 1))
+      titleEl.style.clipPath = 'inset(0 ' + ((1 - KIT.ease.out(tp)) * 100).toFixed(2) + '% 0 0)'
+    } else titleEl.style.opacity = '0'
+    badgeEl.style.opacity = t < T.badge.end ? '1' : '0'
+    var ec = T.end_card
+    endEl.style.opacity = t >= ec.start ? String(clamp((t - ec.start) / 0.6, 0, 1)) : '0'
+  }
+  function render(time) {
+    var t = Math.min(WIN.to - 1e-6, WIN.from + time)
+    composite(t)
+    overlays(t)
+    stage.setAttribute('data-ci-t', t.toFixed(3))
+  }
+  var ready = null
+  // Photographs (geo/photos.json): decoded once before the first frame; scenes read s.photo(id).
+  var PHOTOS = {}
+  function photosReady() {
+    return Promise.all((window.CI_PHOTOS || []).map(function (p) {
+      return new Promise(function (ok) {
+        var im = new window.Image(); im.onload = function () { (im.decode ? im.decode() : Promise.resolve()).then(function () { PHOTOS[p.id] = { id: p.id, img: im, credit: p.credit }; ok() }, function () { ok() }) }; im.onerror = function () { ok() }; im.src = p.src
+      })
+    }))
+  }
+  function fontsReady() {
+    if (ready) return ready
+    var loads = (T.fonts || []).map(function (f) { return document.fonts.load('40px "' + f + '"', T.font_sample || 'Aa') }).concat([photosReady()])
+    ready = Promise.all(loads).then(function () { return document.fonts.ready }).catch(function () {})
+    return ready
+  }
+  window.addEventListener('hf-seek', function (e) {
+    var time = Number(e.detail && e.detail.time) || 0
+    if (e.detail && typeof e.detail.waitUntil === 'function') e.detail.waitUntil(fontsReady().then(function () { render(time) }))
+    else render(time)
+  })
+  window.CI_RENDER = function (time) { return fontsReady().then(function () { render(time) }) }
+})()
+
+</script>
+</body></html>

@@ -1,0 +1,23 @@
+{
+  "schema": "chronicle-hints/1",
+  "hints": [
+    {
+      "source_id": "s02",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1782"
+    },
+    {
+      "source_id": "s03",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1782"
+    },
+    {
+      "source_id": "s04",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1782"
+    }
+  ]
+}

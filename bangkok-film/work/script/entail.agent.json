@@ -1,0 +1,174 @@
+{
+  "schema": "chronicle-entail/1",
+  "script_sha256": "14fba2a3086532ed71c9aa3e93650af885d36dda21ae5309bb5086434d1375bf",
+  "answers": [
+    {
+      "id": "title",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S01",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S02",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S10",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S11",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S12",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S13",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S14",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S15",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S16",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S17",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S18",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S19",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S20",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S21",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S22",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp1",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp2",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp3",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp4",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "end_card",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    }
+  ]
+}

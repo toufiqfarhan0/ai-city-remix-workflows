@@ -1,0 +1,568 @@
+{
+  "schema": "chronicle-facts/1",
+  "entity": {
+    "qid": "Q1861",
+    "label": {
+      "en": "Bangkok",
+      "zh-CN": "曼谷"
+    },
+    "subject": "city",
+    "lock_rule": "qid",
+    "alternatives": [],
+    "living": false,
+    "portrait_policy": "allowed"
+  },
+  "claims": [
+    {
+      "id": "agent.001",
+      "predicate": "river",
+      "type": "label",
+      "status": "verified",
+      "instance": "river#1",
+      "cluster": "river#1/c1",
+      "value": {
+        "label": {
+          "en": "Chao Phraya River",
+          "zh-CN": "昭披耶河"
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok is situated along the Chao Phraya River.",
+        "zh-CN": "曼谷坐落于昭披耶河畔。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Bangkok",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Chao Phraya River",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.002",
+      "predicate": "river",
+      "type": "label",
+      "status": "verified",
+      "instance": "river#1",
+      "cluster": "river#1/c1",
+      "value": {
+        "label": {
+          "en": "Chao Phraya River",
+          "zh-CN": "昭披耶河"
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok is situated along the Chao Phraya River.",
+        "zh-CN": "曼谷坐落于昭披耶河畔。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s03",
+          "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "en",
+          "excerpt": "Chao Phraya River",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.003",
+      "predicate": "founded",
+      "type": "date",
+      "status": "verified",
+      "instance": "founded#1",
+      "cluster": "founded#1/c1",
+      "value": {
+        "raw": "1782",
+        "y": 1782,
+        "precision": "year",
+        "calendar": "unknown",
+        "approx": false
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok was founded as capital in 1782.",
+        "zh-CN": "曼谷于1782年建都。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Bangkok",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "1782",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.004",
+      "predicate": "founded",
+      "type": "date",
+      "status": "verified",
+      "instance": "founded#1",
+      "cluster": "founded#1/c1",
+      "value": {
+        "raw": "1782",
+        "y": 1782,
+        "precision": "year",
+        "calendar": "unknown",
+        "approx": false
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok was founded as capital in 1782.",
+        "zh-CN": "曼谷于1782年建都。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s03",
+          "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "en",
+          "excerpt": "1782",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.005",
+      "predicate": "ruled_by",
+      "type": "event",
+      "status": "verified",
+      "instance": "ruled_by#1",
+      "cluster": "ruled_by#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Rama I",
+            "zh-CN": "拉玛一世"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok was ruled and established by King Rama I.",
+        "zh-CN": "曼谷由拉玛一世统治并奠基。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Bangkok",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Rama I",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.006",
+      "predicate": "ruled_by",
+      "type": "event",
+      "status": "verified",
+      "instance": "ruled_by#1",
+      "cluster": "ruled_by#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Rama I",
+            "zh-CN": "拉玛一世"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok was ruled and established by King Rama I.",
+        "zh-CN": "曼谷由拉玛一世统治并奠基。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s03",
+          "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "en",
+          "excerpt": "Rama I",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.007",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#1",
+      "cluster": "structure_built#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Grand Palace",
+            "zh-CN": "曼谷大皇宫"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Grand Palace was built as the royal residence.",
+        "zh-CN": "曼谷大皇宫被建造为王室宫殿。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Bangkok",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Grand Palace",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.008",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#1",
+      "cluster": "structure_built#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Grand Palace",
+            "zh-CN": "曼谷大皇宫"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Grand Palace was built as the royal residence.",
+        "zh-CN": "曼谷大皇宫被建造为王室宫殿。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s03",
+          "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "en",
+          "excerpt": "Grand Palace",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.009",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#2",
+      "cluster": "structure_built#2/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Arun",
+            "zh-CN": "黎明寺"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Wat Arun was erected along the riverbank.",
+        "zh-CN": "黎明寺耸立在河畔。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Bangkok",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Wat Arun",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.010",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#2",
+      "cluster": "structure_built#2/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Arun",
+            "zh-CN": "黎明寺"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Wat Arun was erected along the riverbank.",
+        "zh-CN": "黎明寺耸立在河畔。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s03",
+          "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "en",
+          "excerpt": "Wat Arun",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.011",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#3",
+      "cluster": "structure_built#3/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Pho",
+            "zh-CN": "卧佛寺"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Wat Pho was constructed as an ancient temple center.",
+        "zh-CN": "卧佛寺作为古老佛寺落成。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Bangkok",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Wat Pho",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.012",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#3",
+      "cluster": "structure_built#3/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Pho",
+            "zh-CN": "卧佛寺"
+          }
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Wat Pho was constructed as an ancient temple center.",
+        "zh-CN": "卧佛寺作为古老佛寺落成。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s03",
+          "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "en",
+          "excerpt": "Wat Pho",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.001",
+      "predicate": "located_in",
+      "type": "label",
+      "status": "single-source",
+      "instance": "located_in#1",
+      "cluster": "located_in#1/c1",
+      "value": {
+        "label": {
+          "en": "Thailand",
+          "zh-CN": "泰国"
+        },
+        "qid": "Q869"
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok is located in Thailand",
+        "zh-CN": "曼谷位于泰国"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1861&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q869\"",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.002",
+      "predicate": "founded",
+      "type": "date",
+      "status": "verified",
+      "instance": "founded#1",
+      "cluster": "founded#1/c1",
+      "value": {
+        "raw": "+1782-04-21T00:00:00Z",
+        "y": 1782,
+        "precision": "day",
+        "calendar": "gregorian",
+        "approx": false,
+        "m": 4,
+        "d": 21
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Bangkok was founded on 21 April 1782",
+        "zh-CN": "曼谷建城于1782年4月21日"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1861&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"+1782-04-21T00:00:00Z\"",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.003",
+      "predicate": "river",
+      "type": "label",
+      "status": "single-source",
+      "instance": "river#2",
+      "cluster": "river#2/c1",
+      "value": {
+        "label": {},
+        "qid": "Q118850"
+      },
+      "scope": null,
+      "flags": [
+        "label_fallback"
+      ],
+      "text": {
+        "en": "Bangkok lies on ",
+        "zh-CN": "曼谷坐落在畔"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1861&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q118850\"",
+          "retrieved_at": "2026-10-27T12:15:13.456Z"
+        }
+      ],
+      "lines": []
+    }
+  ],
+  "hints": [
+    {
+      "source_id": "s02",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1782"
+    },
+    {
+      "source_id": "s03",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1782"
+    },
+    {
+      "source_id": "s04",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1782"
+    }
+  ],
+  "disputed": [],
+  "value_invalid_count": 0,
+  "subject_mismatch_count": 0,
+  "rejected_count": 0,
+  "excerpt_not_found_count": 0,
+  "visual_checks": [],
+  "human_review": {
+    "facts": false,
+    "visuals": false,
+    "listening": false
+  },
+  "warnings": [
+    "fetch_http:403:www.britannica.com"
+  ]
+}

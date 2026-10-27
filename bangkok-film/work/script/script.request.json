@@ -1,0 +1,560 @@
+{
+  "schema": "chronicle-script-request/2",
+  "answer_file": "script.json",
+  "topic": "Bangkok",
+  "brief": {
+    "lang": "en",
+    "seconds": 120,
+    "aspect": "16:9",
+    "subject": "city",
+    "structure": "life",
+    "angle": null,
+    "audience": "general-12+"
+  },
+  "entity": {
+    "qid": "Q1861",
+    "label": {
+      "en": "Bangkok",
+      "zh-CN": "曼谷"
+    },
+    "subject": "city",
+    "lock_rule": "qid",
+    "alternatives": [],
+    "living": false,
+    "portrait_policy": "allowed"
+  },
+  "plan": {
+    "schema": "chronicle-plan/2",
+    "theme": "ink-theme",
+    "seconds": 120,
+    "bpm": 88,
+    "bar_s": 2.7273,
+    "total_bars": 44,
+    "aspect": "16:9",
+    "lang": "en",
+    "subject": "city",
+    "structure": "life",
+    "sections": [
+      {
+        "id": "intro",
+        "start_bar": 0,
+        "bars": 4,
+        "music": "intro",
+        "role": "hook",
+        "start": 0,
+        "end": 10.909,
+        "kp_allowed": false
+      },
+      {
+        "id": "verse",
+        "start_bar": 4,
+        "bars": 8,
+        "music": "verse",
+        "role": "origin",
+        "start": 10.909,
+        "end": 32.727,
+        "kp_allowed": true
+      },
+      {
+        "id": "build",
+        "start_bar": 12,
+        "bars": 4,
+        "music": "build",
+        "role": "turn",
+        "start": 32.727,
+        "end": 43.636,
+        "kp_allowed": true
+      },
+      {
+        "id": "drop",
+        "start_bar": 16,
+        "bars": 8,
+        "music": "drop",
+        "role": "climax1",
+        "start": 43.636,
+        "end": 65.455,
+        "kp_allowed": true
+      },
+      {
+        "id": "breakdown",
+        "start_bar": 24,
+        "bars": 6,
+        "music": "breakdown",
+        "role": "cost",
+        "start": 65.455,
+        "end": 81.818,
+        "kp_allowed": true
+      },
+      {
+        "id": "build2",
+        "start_bar": 30,
+        "bars": 2,
+        "music": "build",
+        "role": "suspense",
+        "start": 81.818,
+        "end": 87.273,
+        "kp_allowed": true
+      },
+      {
+        "id": "drop2",
+        "start_bar": 32,
+        "bars": 8,
+        "music": "drop",
+        "role": "climax2",
+        "start": 87.273,
+        "end": 109.091,
+        "kp_allowed": true
+      },
+      {
+        "id": "outro",
+        "start_bar": 40,
+        "bars": 4,
+        "music": "outro",
+        "role": "echo",
+        "start": 109.091,
+        "end": 120,
+        "kp_allowed": false
+      }
+    ],
+    "rehooks": [
+      {
+        "i": 0,
+        "bar": 0,
+        "kind": "hook",
+        "section": "intro",
+        "t": 0
+      },
+      {
+        "i": 1,
+        "bar": 12,
+        "kind": "turn",
+        "section": "build",
+        "t": 32.727
+      },
+      {
+        "i": 2,
+        "bar": 24,
+        "kind": "turn",
+        "section": "breakdown",
+        "t": 65.455
+      },
+      {
+        "i": 3,
+        "bar": 30,
+        "kind": "turn",
+        "section": "build2",
+        "t": 81.818
+      },
+      {
+        "i": 4,
+        "bar": 40,
+        "kind": "final",
+        "section": "outro",
+        "t": 109.091
+      }
+    ],
+    "end_card_bars": 2,
+    "shot_bars": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "kp": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  "roles": {
+    "intro": {
+      "en": "the city today plus the question of its age",
+      "zh-CN": "今天的城市 + 它有多老的问题"
+    },
+    "verse": {
+      "en": "birth: the river or site, the founding date, the name",
+      "zh-CN": "诞生：河流与地形、建城年代、名字由来"
+    },
+    "build": {
+      "en": "growth begins: trade, roads, becoming a capital (map: the built-up area spreads)",
+      "zh-CN": "成长开始：商贸、道路、成为都城（地图：城区扩张）"
+    },
+    "drop": {
+      "en": "the height of its first life, with a number (population, walls, area)",
+      "zh-CN": "第一次鼎盛，配一个数字（人口、城墙、面积）"
+    },
+    "breakdown": {
+      "en": "scars: sack, fire, plague, war, a lost wall or river (hedged when disputed)",
+      "zh-CN": "伤痕：劫掠、大火、瘟疫、战争、消失的城墙或河道（有争议就 hedge）"
+    },
+    "build2": {
+      "en": "the suspense of a rebirth",
+      "zh-CN": "重生的悬念"
+    },
+    "drop2": {
+      "en": "today: the same map then and now",
+      "zh-CN": "今天：同一张地图的今昔"
+    },
+    "outro": {
+      "en": "echo, optionally the author's line \"me and this city\"",
+      "zh-CN": "回响，可选作者的「我和这座城」"
+    }
+  },
+  "claims": [
+    {
+      "id": "agent.001",
+      "predicate": "river",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok is situated along the Chao Phraya River.",
+        "zh-CN": "曼谷坐落于昭披耶河畔。"
+      },
+      "value": {
+        "label": {
+          "en": "Chao Phraya River",
+          "zh-CN": "昭披耶河"
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.002",
+      "predicate": "river",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok is situated along the Chao Phraya River.",
+        "zh-CN": "曼谷坐落于昭披耶河畔。"
+      },
+      "value": {
+        "label": {
+          "en": "Chao Phraya River",
+          "zh-CN": "昭披耶河"
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.003",
+      "predicate": "founded",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok was founded as capital in 1782.",
+        "zh-CN": "曼谷于1782年建都。"
+      },
+      "value": {
+        "raw": "1782",
+        "y": 1782,
+        "precision": "year",
+        "calendar": "unknown",
+        "approx": false
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.004",
+      "predicate": "founded",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok was founded as capital in 1782.",
+        "zh-CN": "曼谷于1782年建都。"
+      },
+      "value": {
+        "raw": "1782",
+        "y": 1782,
+        "precision": "year",
+        "calendar": "unknown",
+        "approx": false
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.005",
+      "predicate": "ruled_by",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok was ruled and established by King Rama I.",
+        "zh-CN": "曼谷由拉玛一世统治并奠基。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Rama I",
+            "zh-CN": "拉玛一世"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.006",
+      "predicate": "ruled_by",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok was ruled and established by King Rama I.",
+        "zh-CN": "曼谷由拉玛一世统治并奠基。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Rama I",
+            "zh-CN": "拉玛一世"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.007",
+      "predicate": "structure_built",
+      "status": "verified",
+      "text": {
+        "en": "The Grand Palace was built as the royal residence.",
+        "zh-CN": "曼谷大皇宫被建造为王室宫殿。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Grand Palace",
+            "zh-CN": "曼谷大皇宫"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.008",
+      "predicate": "structure_built",
+      "status": "verified",
+      "text": {
+        "en": "The Grand Palace was built as the royal residence.",
+        "zh-CN": "曼谷大皇宫被建造为王室宫殿。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Grand Palace",
+            "zh-CN": "曼谷大皇宫"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.009",
+      "predicate": "structure_built",
+      "status": "verified",
+      "text": {
+        "en": "Wat Arun was erected along the riverbank.",
+        "zh-CN": "黎明寺耸立在河畔。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Arun",
+            "zh-CN": "黎明寺"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.010",
+      "predicate": "structure_built",
+      "status": "verified",
+      "text": {
+        "en": "Wat Arun was erected along the riverbank.",
+        "zh-CN": "黎明寺耸立在河畔。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Arun",
+            "zh-CN": "黎明寺"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.011",
+      "predicate": "structure_built",
+      "status": "verified",
+      "text": {
+        "en": "Wat Pho was constructed as an ancient temple center.",
+        "zh-CN": "卧佛寺作为古老佛寺落成。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Pho",
+            "zh-CN": "卧佛寺"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "agent.012",
+      "predicate": "structure_built",
+      "status": "verified",
+      "text": {
+        "en": "Wat Pho was constructed as an ancient temple center.",
+        "zh-CN": "卧佛寺作为古老佛寺落成。"
+      },
+      "value": {
+        "object": {
+          "label": {
+            "en": "Wat Pho",
+            "zh-CN": "卧佛寺"
+          }
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "s01.001",
+      "predicate": "located_in",
+      "status": "single-source",
+      "text": {
+        "en": "Bangkok is located in Thailand",
+        "zh-CN": "曼谷位于泰国"
+      },
+      "value": {
+        "label": {
+          "en": "Thailand",
+          "zh-CN": "泰国"
+        },
+        "qid": "Q869"
+      },
+      "flags": []
+    },
+    {
+      "id": "s01.002",
+      "predicate": "founded",
+      "status": "verified",
+      "text": {
+        "en": "Bangkok was founded on 21 April 1782",
+        "zh-CN": "曼谷建城于1782年4月21日"
+      },
+      "value": {
+        "raw": "+1782-04-21T00:00:00Z",
+        "y": 1782,
+        "precision": "day",
+        "calendar": "gregorian",
+        "approx": false,
+        "m": 4,
+        "d": 21
+      },
+      "flags": []
+    },
+    {
+      "id": "s01.003",
+      "predicate": "river",
+      "status": "single-source",
+      "text": {
+        "en": "Bangkok lies on ",
+        "zh-CN": "曼谷坐落在畔"
+      },
+      "value": {
+        "label": {},
+        "qid": "Q118850"
+      },
+      "flags": [
+        "label_fallback"
+      ]
+    }
+  ],
+  "rules": {
+    "shots": "shots tile every section in theme order; each shot is 1-4 whole bars, so every cut lands on a downbeat; the last outro shot is >= 2 bars (end card)",
+    "captions": "one short caption per shot saying what the picture shows, bound to verified claim ids; CJK <= 16 characters per line, other scripts <= 9 words / 42 characters per line, <= 2 lines; readable in the shot (CJK 7 chars/s, others 3.3 words/s)",
+    "keywords": "caption.em lists the 1-2 key words to highlight (each must occur in the caption text)",
+    "fact_lines": "kind \"fact\" binds >= 1 claim; rejected claims are never bound; prefer verified claims",
+    "single_source": "hedge \"attributed\" + an attribution phrase (zh 据记载/相传, en according to/records say); <= 2 shots; never in intro or drops",
+    "disputed": "hedge \"one-account\" + 一说 / \"one account\"",
+    "numbers": "every date or number in any text (title, captions, cards, end card) must be in the bound claims",
+    "names": "place, person and work names of any claim appear only in captions bound to that claim",
+    "rehooks": "each plan.rehooks[i] needs a shot with rehook: true starting within 1 bar of it (gaps <= 35 s)",
+    "knowledge_points": "plan.kp.min-max cards; each kp is shown by exactly one shot (>= 2 bars) in verse/build/drop/breakdown/build2/drop2; card.value equals a claim value; count = number to count up to",
+    "sfx": "annotate every key action of the scene (element appears, number counts, seal, route draws, reveal) with { beat, kind, tier }; transitions, drops, cards, title and end card get automatic cues",
+    "portraits": "never draw a realistic face; living people are never depicted (params.depicts_person)"
+  },
+  "script_shape": {
+    "schema": "chronicle-script/2",
+    "seconds": 150,
+    "aspect": "16:9",
+    "subject": "person",
+    "structure": "arc",
+    "seal": "坡",
+    "title": {
+      "en": "…",
+      "zh-CN": "…"
+    },
+    "title_claims": [],
+    "shots": [
+      {
+        "id": "S01",
+        "section": "intro",
+        "bars": 2,
+        "size": "wide|medium|close|detail",
+        "camera": "hold|push-in|pull-out|pan-left|pan-right|rise|parallax",
+        "transition": "cut|ink-bleed|scroll-pan|seal-stamp",
+        "scene": "river-night",
+        "params": {
+          "title": true
+        },
+        "description": "what the picture shows",
+        "motion": "what moves and when (beats)",
+        "sfx": [
+          {
+            "beat": 2,
+            "kind": "transition|appear|count|seal|route|reveal|brush|scroll",
+            "tier": "normal|emphasis|climax",
+            "dur_beats": 2
+          }
+        ],
+        "kind": "fact|bridge|question|rehook|quote",
+        "hedge": null,
+        "claims": [],
+        "kp": null,
+        "rehook": true,
+        "caption": {
+          "en": {
+            "text": "…",
+            "em": [
+              "…"
+            ]
+          },
+          "zh-CN": {
+            "text": "…",
+            "em": [
+              "…"
+            ]
+          }
+        }
+      }
+    ],
+    "knowledge_points": [
+      {
+        "id": "kp1",
+        "claims": [],
+        "count": 1057,
+        "card": {
+          "en": {
+            "title": "…",
+            "value": "…"
+          },
+          "zh-CN": {
+            "title": "…",
+            "value": "…"
+          }
+        }
+      }
+    ],
+    "end_card": {
+      "line": {
+        "en": "…",
+        "zh-CN": "…"
+      },
+      "claims": []
+    }
+  }
+}

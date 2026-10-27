@@ -1,0 +1,30 @@
+{
+  "schema": "chronicle-scan/1",
+  "scenes": [
+    {
+      "name": "river-mist",
+      "ok": true,
+      "problems": [],
+      "registers": [
+        "river-mist"
+      ]
+    },
+    {
+      "name": "ink-name",
+      "ok": true,
+      "problems": [],
+      "registers": [
+        "ink-name"
+      ]
+    },
+    {
+      "name": "temple",
+      "ok": true,
+      "problems": [],
+      "registers": [
+        "temple"
+      ]
+    }
+  ],
+  "ok": true
+}

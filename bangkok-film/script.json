@@ -1,0 +1,822 @@
+{
+  "schema": "chronicle-script/2",
+  "seconds": 120,
+  "aspect": "16:9",
+  "subject": "city",
+  "structure": "life",
+  "seal": "泰",
+  "title": {
+    "en": "Bangkok: Life Along the River of Kings",
+    "zh-CN": "曼谷：王者之河的生命传奇"
+  },
+  "title_claims": ["agent.001", "agent.003"],
+  "shots": [
+    {
+      "id": "S01",
+      "section": "intro",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "scene": "river-mist",
+      "params": {
+        "title": true,
+        "boat": true
+      },
+      "description": "The Chao Phraya River stretches into morning mist with traditional boats",
+      "motion": "slow push-in as title appears",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "normal",
+          "dur_beats": 2
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.001"],
+      "rehook": true,
+      "caption": {
+        "en": {
+          "text": "The Chao Phraya River carries centuries of memory.",
+          "em": ["Chao Phraya River"]
+        },
+        "zh-CN": {
+          "text": "昭披耶河承载着数百年的历史记忆。",
+          "em": ["昭披耶河"]
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "section": "intro",
+      "bars": 2,
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "scene": "ink-name",
+      "params": {
+        "text": "曼谷",
+        "stamp_beat": 6
+      },
+      "description": "Calligraphy strokes write the name of Bangkok on aged parchment",
+      "motion": "strokes appear across beats; cinnabar seal stamps on beat 6",
+      "sfx": [
+        {
+          "beat": 0,
+          "kind": "brush",
+          "tier": "normal",
+          "dur_beats": 3
+        },
+        {
+          "beat": 6,
+          "kind": "seal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.003"],
+      "caption": {
+        "en": {
+          "text": "In 1782, a new royal capital took root.",
+          "em": ["1782"]
+        },
+        "zh-CN": {
+          "text": "1782年，一座全新的王国之都诞生于此。",
+          "em": ["1782"]
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true
+      },
+      "description": "Royal barges arrive at the bend of the Chao Phraya River",
+      "motion": "pan right across layered water ripples",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.003"],
+      "kp": "kp1",
+      "caption": {
+        "en": {
+          "text": "In 1782, the Chakri dynasty began its reign.",
+          "em": ["1782"]
+        },
+        "zh-CN": {
+          "text": "1782年，扎克里王朝开启了辉煌统治。",
+          "em": ["1782"]
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "section": "verse",
+      "bars": 2,
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "palace": true
+      },
+      "description": "King Rama I establishes the fortified citadel on the east bank",
+      "motion": "citadel walls rise in ink lines",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "reveal",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.005"],
+      "kp": "kp2",
+      "caption": {
+        "en": {
+          "text": "King Rama I founded the city on Rattanakosin Island.",
+          "em": ["Rama I"]
+        },
+        "zh-CN": {
+          "text": "拉玛一世在拉达那哥欣岛奠定了王都根基。",
+          "em": ["拉玛一世"]
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "scene": "temple",
+      "params": {
+        "palace": true,
+        "gold": true
+      },
+      "description": "Tiered gables and spires of the Grand Palace emerge in gold wash",
+      "motion": "palace roofs unroll across depth planes",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.007"],
+      "kp": "kp3",
+      "caption": {
+        "en": {
+          "text": "The Grand Palace rose as the majestic throne.",
+          "em": ["Grand Palace"]
+        },
+        "zh-CN": {
+          "text": "曼谷大皇宫拔地而起，成为王权的象征。",
+          "em": ["曼谷大皇宫"]
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "prang": true
+      },
+      "description": "The porcelain central prang of Wat Arun catches the first morning light",
+      "motion": "pan left toward the towering spire",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.009"],
+      "kp": "kp4",
+      "caption": {
+        "en": {
+          "text": "Wat Arun illuminated the dawn across the river.",
+          "em": ["Wat Arun"]
+        },
+        "zh-CN": {
+          "text": "黎明寺在晨光中倒映于母亲河之上。",
+          "em": ["黎明寺"]
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "section": "build",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "description": "Intricate canal networks connect the city in vibrant waterways",
+      "motion": "canal routes draw outward from the river",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "route",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.001"],
+      "rehook": true,
+      "caption": {
+        "en": {
+          "text": "Canals branched from the Chao Phraya River.",
+          "em": ["Chao Phraya River"]
+        },
+        "zh-CN": {
+          "text": "密布的运河从昭披耶河向四周延伸。",
+          "em": ["昭披耶河"]
+        }
+      }
+    },
+    {
+      "id": "S08",
+      "section": "build",
+      "bars": 2,
+      "size": "medium",
+      "camera": "pan-right",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "buddha": true
+      },
+      "description": "Monks and scholars gather at Wat Pho, center of wisdom",
+      "motion": "scroll motifs unfold beside temple pavilions",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "scroll",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.011"],
+      "caption": {
+        "en": {
+          "text": "Wat Pho preserved sacred Buddhist traditions.",
+          "em": ["Wat Pho"]
+        },
+        "zh-CN": {
+          "text": "卧佛寺典藏着神圣的佛教与医药传统。",
+          "em": ["卧佛寺"]
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "section": "drop",
+      "bars": 2,
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "scene": "temple",
+      "params": {
+        "palace": true,
+        "gold": true
+      },
+      "description": "Golden spires of the Grand Palace and Wat Phra Kaew shine",
+      "motion": "multi-layered depth parallax reveals tiered roofs",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "reveal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.007"],
+      "caption": {
+        "en": {
+          "text": "The Grand Palace sparkled with sacred emerald.",
+          "em": ["Grand Palace"]
+        },
+        "zh-CN": {
+          "text": "曼谷大皇宫中供奉着神圣的玉佛珍宝。",
+          "em": ["曼谷大皇宫"]
+        }
+      }
+    },
+    {
+      "id": "S10",
+      "section": "drop",
+      "bars": 2,
+      "size": "close",
+      "camera": "hold",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "buddha": true,
+        "gold": true
+      },
+      "description": "Gilded profile of the monumental Reclining Buddha inside Wat Pho",
+      "motion": "gold leaf shimmer effect",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.011"],
+      "caption": {
+        "en": {
+          "text": "Wat Pho housed the world-renowned gilded Buddha.",
+          "em": ["Wat Pho"]
+        },
+        "zh-CN": {
+          "text": "卧佛寺静卧着举世闻名的金身巨佛。",
+          "em": ["卧佛寺"]
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "section": "drop",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "description": "Merchant vessels and floating markets crowd the Chao Phraya River",
+      "motion": "boats navigate the flowing river channel",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "route",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.001"],
+      "caption": {
+        "en": {
+          "text": "The Chao Phraya River became a bustling corridor.",
+          "em": ["Chao Phraya River"]
+        },
+        "zh-CN": {
+          "text": "昭披耶河成为了万商云集的水上繁华要道。",
+          "em": ["昭披耶河"]
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "section": "drop",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "prang": true,
+        "gold": true
+      },
+      "description": "Sunset highlights the mosaic porcelain decorations of Wat Arun",
+      "motion": "pan right catching the evening glow",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "reveal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.009"],
+      "caption": {
+        "en": {
+          "text": "Wat Arun towered above the river sunset.",
+          "em": ["Wat Arun"]
+        },
+        "zh-CN": {
+          "text": "黎明寺在日落晚霞中傲然耸立于河畔。",
+          "em": ["黎明寺"]
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "wide",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "fade": true
+      },
+      "description": "Monsoon rains swell the riverbanks and low plains",
+      "motion": "mist and rain streaks across dark ink washes",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.001"],
+      "rehook": true,
+      "caption": {
+        "en": {
+          "text": "The Chao Phraya River tested the city in floods.",
+          "em": ["Chao Phraya River"]
+        },
+        "zh-CN": {
+          "text": "季风时节，昭披耶河的水位考验着古城。",
+          "em": ["昭披耶河"]
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "medium",
+      "camera": "pan-left",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "palace": true
+      },
+      "description": "Strong stone barriers protect the Grand Palace perimeter",
+      "motion": "water recedes as protective dykes hold",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "reveal",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.007"],
+      "caption": {
+        "en": {
+          "text": "The Grand Palace stood resolute through storms.",
+          "em": ["Grand Palace"]
+        },
+        "zh-CN": {
+          "text": "曼谷大皇宫在风雨洗礼中屹立不倒。",
+          "em": ["曼谷大皇宫"]
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "scene": "temple",
+      "params": {
+        "buddha": true
+      },
+      "description": "Citizens and monks find refuge within Wat Pho's sanctuaries",
+      "motion": "push-in toward glowing temple lamps",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.011"],
+      "caption": {
+        "en": {
+          "text": "Wat Pho provided peace and enduring shelter.",
+          "em": ["Wat Pho"]
+        },
+        "zh-CN": {
+          "text": "卧佛寺始终给予世人宁静与庇护。",
+          "em": ["卧佛寺"]
+        }
+      }
+    },
+    {
+      "id": "S16",
+      "section": "build2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "prang": true,
+        "gold": true
+      },
+      "description": "Morning sun rises behind the spire of Wat Arun",
+      "motion": "brightening light across the sky",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "reveal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.009"],
+      "rehook": true,
+      "caption": {
+        "en": {
+          "text": "Wat Arun heralded a new dawn of rebirth.",
+          "em": ["Wat Arun"]
+        },
+        "zh-CN": {
+          "text": "黎明寺迎来了重生的金色朝阳。",
+          "em": ["黎明寺"]
+        }
+      }
+    },
+    {
+      "id": "S17",
+      "section": "drop2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "description": "Modern bridges and ferries cross the Chao Phraya River",
+      "motion": "fast river ferries drift alongside historic longtail boats",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "route",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.001"],
+      "caption": {
+        "en": {
+          "text": "The Chao Phraya River links past and present.",
+          "em": ["Chao Phraya River"]
+        },
+        "zh-CN": {
+          "text": "昭披耶河连接着古老的过去与崭新的现代。",
+          "em": ["昭披耶河"]
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "section": "drop2",
+      "bars": 2,
+      "size": "medium",
+      "camera": "pan-right",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "palace": true,
+        "gold": true
+      },
+      "description": "Visitors from around the globe marvel at the Grand Palace",
+      "motion": "pan right across courtyards filled with travelers",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.007"],
+      "caption": {
+        "en": {
+          "text": "The Grand Palace welcomes travelers from every land.",
+          "em": ["Grand Palace"]
+        },
+        "zh-CN": {
+          "text": "曼谷大皇宫迎接着来自五湖四海的旅人。",
+          "em": ["曼谷大皇宫"]
+        }
+      }
+    },
+    {
+      "id": "S19",
+      "section": "drop2",
+      "bars": 2,
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "scene": "temple",
+      "params": {
+        "buddha": true,
+        "gold": true
+      },
+      "description": "Traditional massage schools and inscriptions at Wat Pho thrive",
+      "motion": "warm candle flames flicker in temple cloisters",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.011"],
+      "caption": {
+        "en": {
+          "text": "Wat Pho preserves world cultural wisdom today.",
+          "em": ["Wat Pho"]
+        },
+        "zh-CN": {
+          "text": "卧佛寺至今仍传承着世界级文化精髓。",
+          "em": ["卧佛寺"]
+        }
+      }
+    },
+    {
+      "id": "S20",
+      "section": "drop2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "scene": "temple",
+      "params": {
+        "palace": true
+      },
+      "description": "Monumental view of Bangkok founded by Rama I",
+      "motion": "slow push-in taking in the sweeping metropolitan landscape",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "reveal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": ["agent.005"],
+      "caption": {
+        "en": {
+          "text": "King Rama I gifted an everlasting capital.",
+          "em": ["Rama I"]
+        },
+        "zh-CN": {
+          "text": "拉玛一世留下了这片生生不息的繁荣之城。",
+          "em": ["拉玛一世"]
+        }
+      }
+    },
+    {
+      "id": "S21",
+      "section": "outro",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true
+      },
+      "description": "Quiet dawn mist over the Chao Phraya River with a lone boat drifting",
+      "motion": "slow pull-out into soft white space",
+      "sfx": [],
+      "kind": "fact",
+      "claims": ["agent.001"],
+      "rehook": true,
+      "caption": {
+        "en": {
+          "text": "The Chao Phraya River flows onward into forever.",
+          "em": ["Chao Phraya River"]
+        },
+        "zh-CN": {
+          "text": "昭披耶河浩荡奔流，流向永恒的未来。",
+          "em": ["昭披耶河"]
+        }
+      }
+    },
+    {
+      "id": "S22",
+      "section": "outro",
+      "bars": 2,
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "scene": "river-mist",
+      "params": {
+        "fade": true
+      },
+      "description": "Negative space opens on the ink-washed paper for the closing title and end card",
+      "motion": "gentle mist fade as the closing seal rests",
+      "sfx": [],
+      "kind": "fact",
+      "claims": ["agent.003"],
+      "caption": {
+        "en": {
+          "text": "In 1782, Bangkok began its eternal story.",
+          "em": ["1782"]
+        },
+        "zh-CN": {
+          "text": "1782年，曼谷翻开了永不褪色的篇章。",
+          "em": ["1782"]
+        }
+      }
+    }
+  ],
+  "knowledge_points": [
+    {
+      "id": "kp1",
+      "claims": ["agent.003"],
+      "count": 1782,
+      "card": {
+        "en": {
+          "title": "Founded as Capital",
+          "value": "1782"
+        },
+        "zh-CN": {
+          "title": "建立首都",
+          "value": "1782"
+        }
+      }
+    },
+    {
+      "id": "kp2",
+      "claims": ["agent.005"],
+      "card": {
+        "en": {
+          "title": "Founder & Ruler",
+          "value": "Rama I"
+        },
+        "zh-CN": {
+          "title": "建立者",
+          "value": "拉玛一世"
+        }
+      }
+    },
+    {
+      "id": "kp3",
+      "claims": ["agent.007"],
+      "card": {
+        "en": {
+          "title": "Royal Residence",
+          "value": "Grand Palace"
+        },
+        "zh-CN": {
+          "title": "王家宫殿",
+          "value": "曼谷大皇宫"
+        }
+      }
+    },
+    {
+      "id": "kp4",
+      "claims": ["agent.009"],
+      "card": {
+        "en": {
+          "title": "Temple of Dawn",
+          "value": "Wat Arun"
+        },
+        "zh-CN": {
+          "title": "黎明寺",
+          "value": "黎明寺"
+        }
+      }
+    }
+  ],
+  "end_card": {
+    "line": {
+      "en": "Life Along the River of Kings: Bangkok.",
+      "zh-CN": "王者之河的生命传奇：曼谷。"
+    },
+    "claims": ["agent.001"]
+  }
+}

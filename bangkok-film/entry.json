@@ -1,0 +1,25 @@
+{
+  "title": "Bangkok: Life Along the River of Kings",
+  "summary": "From Rattanakosin Island and the Grand Palace to Wat Arun and Wat Pho, journey through the sacred monuments along Bangkok's historic Chao Phraya River.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "bangkok",
+    "place_lat": 13.756,
+    "place_lng": 100.502,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt the procedural ink knowledge showcase workflow (chronicle-ink) to chronicle Bangkok's sacred architecture along the Chao Phraya River. MiniMax M3.1 Flash role: Directed historical facts research across Britannica and Wikidata archives, verified claims on King Rama I (1782), Grand Palace, Wat Pho, and Wat Arun; authored bilingual captions and camera choreographies across canvas ink wash scenes. Audio: MiniMax Speech 2.8 HD English narration synchronized to historical milestones.",
+    "sources": [
+      "https://www.britannica.com/place/Bangkok",
+      "https://en.wikipedia.org/wiki/Bangkok",
+      "https://en.wikipedia.org/wiki/Grand_Palace",
+      "https://en.wikipedia.org/wiki/Wat_Phra_Kaew",
+      "https://en.wikipedia.org/wiki/Wat_Arun",
+      "https://en.wikipedia.org/wiki/Wat_Pho",
+      "https://en.wikipedia.org/wiki/Chao_Phraya_River",
+      "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom"
+    ],
+    "my_city_line": "Where the River of Kings remembers: Bangkok."
+  }
+}

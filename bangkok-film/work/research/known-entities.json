@@ -1,0 +1,671 @@
+{
+  "schema": "chronicle-known-entities/1",
+  "entities": {
+    "Q1037676": {
+      "labels": {
+        "zh": "黑色五月 (1992年)",
+        "en": "Black May"
+      },
+      "aliases": {
+        "zh": [
+          "五月之變"
+        ],
+        "en": [
+          "Bloody May"
+        ]
+      }
+    },
+    "Q1059090": {
+      "labels": {
+        "zh-hans": "2010年泰国反政府示威",
+        "zh-hant": "2010年泰國反政府示威",
+        "zh": "2010年泰国反政府示威",
+        "en": "2010 Thai political protests"
+      },
+      "aliases": {}
+    },
+    "Q1062422": {
+      "labels": {
+        "zh-hans": "贡榜王朝",
+        "zh-hant": "貢榜王朝",
+        "zh": "贡榜王朝",
+        "en": "Konbaung dynasty"
+      },
+      "aliases": {
+        "zh": [
+          "雍笈牙王朝",
+          "貢榜王朝",
+          "雍籍牙王朝"
+        ],
+        "en": [
+          "Alaungphara Dynasty",
+          "Third Myanmar Empire",
+          "Konbaung Empire",
+          "Third Burmese Empire"
+        ]
+      }
+    },
+    "Q108011023": {
+      "labels": {
+        "en": "100th anniversary of the founding of Rattanakosin"
+      },
+      "aliases": {}
+    },
+    "Q108012077": {
+      "labels": {
+        "en": "150th anniversary of the founding of Rattanakosin"
+      },
+      "aliases": {}
+    },
+    "Q109849672": {
+      "labels": {
+        "zh": "2022年泰國APEC峰會",
+        "en": "APEC Thailand 2022"
+      },
+      "aliases": {
+        "zh": [
+          "2022年泰国APEC峰会",
+          "2022年APEC泰國峰會",
+          "2022年泰國峰會",
+          "亚太经合组织第二十九次领导人非正式会议"
+        ]
+      }
+    },
+    "Q1115291": {
+      "labels": {
+        "zh": "吞武里王朝",
+        "en": "Thonburi Kingdom"
+      },
+      "aliases": {}
+    },
+    "Q1151804": {
+      "labels": {
+        "zh-hans": "2009年曼谷夜总会大火",
+        "zh-hant": "2009年曼谷夜總會大火",
+        "zh": "2009年曼谷夜總會大火",
+        "en": "Santika Club fire"
+      },
+      "aliases": {
+        "zh": [
+          "2009年曼谷Santika夜總會大火"
+        ]
+      }
+    },
+    "Q1155700": {
+      "labels": {
+        "zh-hant": "拉達那哥欣王國",
+        "zh": "拉达那哥欣王国",
+        "en": "Rattanakosin Kingdom"
+      },
+      "aliases": {
+        "zh-hant": [
+          "拉達那哥欣時代"
+        ],
+        "en": [
+          "Empire of Thailand (1782–1932)",
+          "Siamese Empire"
+        ]
+      }
+    },
+    "Q122923597": {
+      "labels": {
+        "zh": "2023年曼谷暹罗百丽宫枪击案",
+        "en": "Siam Paragon shooting"
+      },
+      "aliases": {}
+    },
+    "Q13012458": {
+      "labels": {
+        "zh": "1985年泰國未遂政變",
+        "en": "1985 Thai coup attempt"
+      },
+      "aliases": {}
+    },
+    "Q13012468": {
+      "labels": {
+        "zh": "1981年泰國軍事叛亂",
+        "en": "1981 Thai military rebellion"
+      },
+      "aliases": {}
+    },
+    "Q13017674": {
+      "labels": {
+        "en": "Rattanakosin Bicentennia cerebretion"
+      },
+      "aliases": {}
+    },
+    "Q13019386": {
+      "labels": {
+        "zh": "國家行政改革委員會",
+        "en": "1976 Thai coup d'état"
+      },
+      "aliases": {}
+    },
+    "Q13025928": {
+      "labels": {
+        "en": "1979 Train crash in Bangkok"
+      },
+      "aliases": {}
+    },
+    "Q13025944": {
+      "labels": {
+        "en": "1986 Locomotive crash at Bangkok Station"
+      },
+      "aliases": {}
+    },
+    "Q1317784": {
+      "labels": {
+        "zh": "1967年東南亞運動會",
+        "en": "1967 Southeast Asian Peninsular Games"
+      },
+      "aliases": {
+        "en": [
+          "1967 SEAP Games"
+        ]
+      }
+    },
+    "Q1317803": {
+      "labels": {
+        "zh": "1975年東南亞運動會",
+        "en": "1975 Southeast Asian Peninsular Games"
+      },
+      "aliases": {
+        "en": [
+          "1975 SEAP Games"
+        ]
+      }
+    },
+    "Q134988484": {
+      "labels": {
+        "en": "2025 Thai political crisis"
+      },
+      "aliases": {}
+    },
+    "Q1369952": {
+      "labels": {
+        "zh": "1959年東南亞運動會",
+        "en": "1959 Southeast Asian Peninsular Games"
+      },
+      "aliases": {}
+    },
+    "Q1370107": {
+      "labels": {
+        "zh": "1985年東南亞運動會",
+        "en": "1985 Southeast Asian Games"
+      },
+      "aliases": {}
+    },
+    "Q15243731": {
+      "labels": {
+        "zh": "2013年泰國反政府示威",
+        "en": "2013–14 Thai political crisis"
+      },
+      "aliases": {}
+    },
+    "Q16304149": {
+      "labels": {
+        "en": "Peace Rebellion"
+      },
+      "aliases": {}
+    },
+    "Q16914766": {
+      "labels": {
+        "zh": "2014年泰國軍事政變",
+        "en": "2014 Thai coup d'état"
+      },
+      "aliases": {}
+    },
+    "Q186416": {
+      "labels": {
+        "zh": "1970年亚洲运动会",
+        "en": "1970 Asian Games"
+      },
+      "aliases": {
+        "en": [
+          "Sixth Asian Games",
+          "Bangkok 1970"
+        ]
+      }
+    },
+    "Q18676622": {
+      "labels": {
+        "en": "1967 Thailand National Games"
+      },
+      "aliases": {
+        "en": [
+          "I Thailand regional Games"
+        ]
+      }
+    },
+    "Q18676625": {
+      "labels": {
+        "en": "11th Thailand National Games"
+      },
+      "aliases": {}
+    },
+    "Q1907348": {
+      "labels": {
+        "zh": "泰國法政大學屠殺事件",
+        "en": "Thammasat University massacre"
+      },
+      "aliases": {
+        "zh": [
+          "法政大学大屠杀"
+        ],
+        "en": [
+          "6 October event"
+        ]
+      }
+    },
+    "Q2014893": {
+      "labels": {
+        "zh-hans": "2008年－2009年泰国政治危机",
+        "zh-hant": "2008年－2009年泰國政治危機",
+        "zh": "2008年－2009年泰國政治危機",
+        "en": "2008–2010 Thai political crisis"
+      },
+      "aliases": {
+        "zh": [
+          "2008年泰國政治危機",
+          "2008年泰國反政府示威"
+        ]
+      }
+    },
+    "Q20556420": {
+      "labels": {
+        "zh": "1977年3月泰國未遂政變",
+        "en": "March 1977 Thai coup d'état attempt"
+      },
+      "aliases": {}
+    },
+    "Q20826727": {
+      "labels": {
+        "zh": "2015年曼谷爆炸案",
+        "en": "2015 Bangkok bombing"
+      },
+      "aliases": {}
+    },
+    "Q2119303": {
+      "labels": {
+        "zh": "1933年6月暹羅政變",
+        "en": "June 1933 Siamese coup d'état"
+      },
+      "aliases": {
+        "en": [
+          "Siamese coup d'état of 1933"
+        ]
+      }
+    },
+    "Q2119306": {
+      "labels": {
+        "zh": "1947年暹羅政變",
+        "en": "1947 Thai coup d'état"
+      },
+      "aliases": {
+        "zh": [
+          "1947年泰国政变"
+        ]
+      }
+    },
+    "Q2120252": {
+      "labels": {
+        "zh-hans": "不流血宪政革命",
+        "zh-hant": "不流血憲政革命",
+        "zh": "暹羅立憲革命",
+        "en": "Siamese revolution of 1932"
+      },
+      "aliases": {
+        "zh": [
+          "不流血宪政革命"
+        ]
+      }
+    },
+    "Q2495687": {
+      "labels": {
+        "zh-hans": "2006年跨年曼谷连环爆炸案",
+        "zh-hant": "2006年跨年曼谷連環爆炸案",
+        "zh": "2006年跨年曼谷連環爆炸案",
+        "en": "2006 Bangkok bombings"
+      },
+      "aliases": {
+        "zh": [
+          "2006年曼谷連環爆炸案"
+        ]
+      }
+    },
+    "Q25041680": {
+      "labels": {
+        "zh": "2025年东南亚运动会",
+        "en": "2025 SEA Games"
+      },
+      "aliases": {
+        "en": [
+          "33rd Southeast Asian Games",
+          "Bangkok-Chonburi-Songkhla 2025",
+          "2025 South East Asian Games",
+          "2025 Southeast Asian Games"
+        ]
+      }
+    },
+    "Q25055842": {
+      "labels": {
+        "en": "1990 Bangkok gas explosion"
+      },
+      "aliases": {}
+    },
+    "Q27496544": {
+      "labels": {
+        "en": "APEC Thailand 1992"
+      },
+      "aliases": {}
+    },
+    "Q27496595": {
+      "labels": {
+        "zh-hans": "2003年泰国APEC峰会",
+        "zh-hant": "亞太經合組織第十一次領導人非正式會議",
+        "zh": "2003年泰國APEC峰會",
+        "en": "APEC Thailand 2003"
+      },
+      "aliases": {
+        "zh-hans": [
+          "亚太经合组织第十一次领导人非正式会议"
+        ],
+        "zh-hant": [
+          "2003年泰國APEC峯會"
+        ],
+        "zh": [
+          "2003年泰国APEC峰会",
+          "亚太经合组织第十一次领导人非正式会议"
+        ]
+      }
+    },
+    "Q2893473": {
+      "labels": {
+        "zh-hant": "1972年以色列駐泰國大使館人質危機",
+        "zh": "1972年以色列駐泰國大使館人質危機",
+        "en": "1972 Israeli Bangkok Embassy hostage crisis"
+      },
+      "aliases": {
+        "en": [
+          "Israeli Bangkok Embassy hostage crisis"
+        ]
+      }
+    },
+    "Q4575745": {
+      "labels": {
+        "zh-hans": "1973年泰国人民起义",
+        "zh-hant": "泰國學運",
+        "zh": "1973年泰國學運",
+        "en": "1973 Thai popular uprising"
+      },
+      "aliases": {
+        "zh-hant": [
+          "1973年泰國人民起義"
+        ],
+        "zh": [
+          "1973年泰国人民起义"
+        ]
+      }
+    },
+    "Q4594554": {
+      "labels": {
+        "en": "1999 Burmese Embassy Siege"
+      },
+      "aliases": {}
+    },
+    "Q4597905": {
+      "labels": {
+        "en": "2000 Thailand National Games"
+      },
+      "aliases": {}
+    },
+    "Q4781939": {
+      "labels": {
+        "zh-hans": "2009年泰国政治動蕩",
+        "zh-hant": "2009年泰國政治風波",
+        "zh": "2009年泰国政治动荡",
+        "en": "April 2009 Thai political unrest"
+      },
+      "aliases": {
+        "zh-hans": [
+          "2009年泰国政治动荡"
+        ],
+        "zh-hant": [
+          "2009年泰國政治動蕩",
+          "2009年泰國政治動盪"
+        ],
+        "zh": [
+          "2009年泰国政治動蕩",
+          "2009年泰国政治骚乱"
+        ]
+      }
+    },
+    "Q4918562": {
+      "labels": {
+        "zh": "2005－2006年泰国政治危机",
+        "en": "2005–2006 Thai political crisis"
+      },
+      "aliases": {}
+    },
+    "Q4940687": {
+      "labels": {
+        "zh": "曼谷空襲",
+        "en": "Bombing of Bangkok in World War II"
+      },
+      "aliases": {
+        "zh": [
+          "曼谷轰炸"
+        ]
+      }
+    },
+    "Q5348315": {
+      "labels": {
+        "zh-hant": "4 = 埃及航空864號班機",
+        "zh": "埃及航空864號班機空難",
+        "en": "EgyptAir Flight 864"
+      },
+      "aliases": {}
+    },
+    "Q5505811": {
+      "labels": {
+        "zh": "前宫危机",
+        "en": "Front Palace crisis"
+      },
+      "aliases": {
+        "zh": [
+          "前宮事件"
+        ]
+      }
+    },
+    "Q6407100": {
+      "labels": {
+        "zh": "曼克頓叛亂",
+        "en": "Manhattan Rebellion"
+      },
+      "aliases": {}
+    },
+    "Q6407105": {
+      "labels": {
+        "zh": "頌素拉德叛亂",
+        "en": "Songsuradet Rebellion"
+      },
+      "aliases": {}
+    },
+    "Q6477515": {
+      "labels": {
+        "zh": "大皇宮叛亂",
+        "en": "Palace Rebellion"
+      },
+      "aliases": {}
+    },
+    "Q6585266": {
+      "labels": {
+        "zh": "1991年泰国军事政变",
+        "en": "1991 Thai coup d'état"
+      },
+      "aliases": {}
+    },
+    "Q67172726": {
+      "labels": {
+        "en": "2019 Bangkok bombings"
+      },
+      "aliases": {}
+    },
+    "Q6901623": {
+      "labels": {
+        "en": "2012 Bangkok bombings"
+      },
+      "aliases": {}
+    },
+    "Q729371": {
+      "labels": {
+        "zh-hans": "1966年亚洲运动会",
+        "zh-hant": "1966年亞洲運動會",
+        "zh": "1966年亚洲运动会",
+        "en": "1966 Asian Games"
+      },
+      "aliases": {
+        "zh": [
+          "第五届亚洲运动会",
+          "1966年亚运会",
+          "1966年亞洲運動會",
+          "第五屆亞洲運動會",
+          "第五屆亞運會"
+        ],
+        "en": [
+          "Fifth Asian Games",
+          "Bangkok 1966",
+          "V Asiad"
+        ]
+      }
+    },
+    "Q729484": {
+      "labels": {
+        "zh-hans": "1978年亚洲运动会",
+        "zh-hant": "1978年亞洲運動會",
+        "zh": "1978年亚洲运动会",
+        "en": "1978 Asian Games"
+      },
+      "aliases": {
+        "zh": [
+          "第八届亚洲运动会",
+          "1978年亚运会",
+          "1978年亞洲運動會",
+          "第八屆亞洲運動會",
+          "第八屆亞運會"
+        ],
+        "en": [
+          "8th Asian Games",
+          "Eighth Asian Games",
+          "Bangkok 1978"
+        ]
+      }
+    },
+    "Q729664": {
+      "labels": {
+        "zh-hans": "1998年亚洲运动会",
+        "zh-hant": "1998年亞洲運動會",
+        "zh": "1998年亚洲运动会",
+        "en": "1998 Asian Games"
+      },
+      "aliases": {
+        "zh": [
+          "第十三届亚洲运动会",
+          "1998年亚运会",
+          "1998年曼谷亞運會",
+          "第13屆亞運會",
+          "1998年亞洲運動會",
+          "第十三屆亞洲運動會",
+          "第十三屆亞運會"
+        ],
+        "en": [
+          "13th Asian Games",
+          "Bangkok 1998"
+        ]
+      }
+    },
+    "Q7509852": {
+      "labels": {
+        "zh-hans": "曼谷围城战",
+        "zh": "曼谷圍城戰",
+        "en": "Siege of Bangkok"
+      },
+      "aliases": {
+        "zh": [
+          "曼谷星形要塞",
+          "曼谷包圍戰",
+          "曼谷围城战"
+        ]
+      }
+    },
+    "Q841364": {
+      "labels": {
+        "zh-hans": "大城王国",
+        "zh-hant": "大城王國",
+        "zh": "大城王国",
+        "en": "Ayutthaya Kingdom"
+      },
+      "aliases": {
+        "zh": [
+          "Ayutthaya Kingdom",
+          "阿育陀耶王朝",
+          "阿瑜陀耶王国",
+          "大城王朝",
+          "阿育跎耶王国",
+          "阿瑜陀耶王國"
+        ]
+      }
+    },
+    "Q860423": {
+      "labels": {
+        "zh-hans": "2006年泰国军事政变",
+        "zh-hant": "2006年泰國軍事政變",
+        "zh": "2006年泰國軍事政變",
+        "en": "2006 Thai coup d'état"
+      },
+      "aliases": {
+        "zh": [
+          "2006年泰國政變",
+          "他信倒台事件"
+        ]
+      }
+    },
+    "Q869": {
+      "labels": {
+        "zh-hans": "泰国",
+        "zh-hant": "泰國",
+        "zh": "泰國",
+        "en": "Thailand"
+      },
+      "aliases": {
+        "zh-hant": [
+          "泰王國"
+        ],
+        "zh": [
+          "泰王國"
+        ],
+        "en": [
+          "Kingdom of Thailand",
+          "th",
+          "Kingdom of Siam",
+          "The Kingdom of Thailand",
+          "The Kingdom of Siam",
+          "Thai",
+          "Ratcha-anachak Thai",
+          "Prathet Thai"
+        ]
+      }
+    },
+    "Q97667436": {
+      "labels": {
+        "zh": "2020年泰國示威",
+        "en": "2020–2021 Thai protests"
+      },
+      "aliases": {
+        "zh": [
+          "2020年泰國抗議"
+        ]
+      }
+    }
+  }
+}

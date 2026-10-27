@@ -1,0 +1,124 @@
+{
+  "claims": [
+    {
+      "id": "a01",
+      "predicate": "river",
+      "subject_qid": "Q1861",
+      "value": { "label": { "en": "Chao Phraya River", "zh-CN": "昭披耶河" } },
+      "scope": null,
+      "text": { "en": "Bangkok is situated along the Chao Phraya River.", "zh-CN": "曼谷坐落于昭披耶河畔。" },
+      "excerpt": "Chao Phraya River",
+      "source_id": "s04"
+    },
+    {
+      "id": "a02",
+      "predicate": "river",
+      "subject_qid": "Q1861",
+      "value": { "label": { "en": "Chao Phraya River", "zh-CN": "昭披耶河" } },
+      "scope": null,
+      "text": { "en": "Bangkok is situated along the Chao Phraya River.", "zh-CN": "曼谷坐落于昭披耶河畔。" },
+      "excerpt": "Chao Phraya River",
+      "source_id": "s03"
+    },
+    {
+      "id": "a03",
+      "predicate": "founded",
+      "subject_qid": "Q1861",
+      "value": { "raw": "1782" },
+      "scope": null,
+      "text": { "en": "Bangkok was founded as capital in 1782.", "zh-CN": "曼谷于1782年建都。" },
+      "excerpt": "1782",
+      "source_id": "s04"
+    },
+    {
+      "id": "a04",
+      "predicate": "founded",
+      "subject_qid": "Q1861",
+      "value": { "raw": "1782" },
+      "scope": null,
+      "text": { "en": "Bangkok was founded as capital in 1782.", "zh-CN": "曼谷于1782年建都。" },
+      "excerpt": "1782",
+      "source_id": "s03"
+    },
+    {
+      "id": "a05",
+      "predicate": "ruled_by",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Rama I", "zh-CN": "拉玛一世" } } },
+      "scope": null,
+      "text": { "en": "Bangkok was ruled and established by King Rama I.", "zh-CN": "曼谷由拉玛一世统治并奠基。" },
+      "excerpt": "Rama I",
+      "source_id": "s04"
+    },
+    {
+      "id": "a06",
+      "predicate": "ruled_by",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Rama I", "zh-CN": "拉玛一世" } } },
+      "scope": null,
+      "text": { "en": "Bangkok was ruled and established by King Rama I.", "zh-CN": "曼谷由拉玛一世统治并奠基。" },
+      "excerpt": "Rama I",
+      "source_id": "s03"
+    },
+    {
+      "id": "a07",
+      "predicate": "structure_built",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Grand Palace", "zh-CN": "曼谷大皇宫" } } },
+      "scope": null,
+      "text": { "en": "The Grand Palace was built as the royal residence.", "zh-CN": "曼谷大皇宫被建造为王室宫殿。" },
+      "excerpt": "Grand Palace",
+      "source_id": "s04"
+    },
+    {
+      "id": "a08",
+      "predicate": "structure_built",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Grand Palace", "zh-CN": "曼谷大皇宫" } } },
+      "scope": null,
+      "text": { "en": "The Grand Palace was built as the royal residence.", "zh-CN": "曼谷大皇宫被建造为王室宫殿。" },
+      "excerpt": "Grand Palace",
+      "source_id": "s03"
+    },
+    {
+      "id": "a09",
+      "predicate": "structure_built",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Wat Arun", "zh-CN": "黎明寺" } } },
+      "scope": null,
+      "text": { "en": "Wat Arun was erected along the riverbank.", "zh-CN": "黎明寺耸立在河畔。" },
+      "excerpt": "Wat Arun",
+      "source_id": "s04"
+    },
+    {
+      "id": "a10",
+      "predicate": "structure_built",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Wat Arun", "zh-CN": "黎明寺" } } },
+      "scope": null,
+      "text": { "en": "Wat Arun was erected along the riverbank.", "zh-CN": "黎明寺耸立在河畔。" },
+      "excerpt": "Wat Arun",
+      "source_id": "s03"
+    },
+    {
+      "id": "a11",
+      "predicate": "structure_built",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Wat Pho", "zh-CN": "卧佛寺" } } },
+      "scope": null,
+      "text": { "en": "Wat Pho was constructed as an ancient temple center.", "zh-CN": "卧佛寺作为古老佛寺落成。" },
+      "excerpt": "Wat Pho",
+      "source_id": "s04"
+    },
+    {
+      "id": "a12",
+      "predicate": "structure_built",
+      "subject_qid": "Q1861",
+      "value": { "object": { "label": { "en": "Wat Pho", "zh-CN": "卧佛寺" } } },
+      "scope": null,
+      "text": { "en": "Wat Pho was constructed as an ancient temple center.", "zh-CN": "卧佛寺作为古老佛寺落成。" },
+      "excerpt": "Wat Pho",
+      "source_id": "s03"
+    }
+  ]
+}

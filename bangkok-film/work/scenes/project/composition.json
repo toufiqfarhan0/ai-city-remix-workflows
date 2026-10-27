@@ -1,0 +1,9 @@
+{
+  "schema": "chronicle-composition/2",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "from": 0,
+  "to": 120,
+  "duration": 120
+}

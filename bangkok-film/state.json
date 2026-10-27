@@ -1,0 +1,102 @@
+{
+  "schema": "chronicle-state/1",
+  "engine": "0.4.2",
+  "skill": "chronicle-ink@0.4.2",
+  "stages": {
+    "research": {
+      "status": "done",
+      "inputs_sha256": "eef62b5bafe566c34fcb2fc1767e0f7a25a9f320ef29a80da9fa0fc85fc5d3ad",
+      "outputs": {
+        "work/research/entity.json": "c7d15872493997a8f02da39eda0d3c5c554884f1d17138b9d58fe4efc2db5fb0",
+        "work/research/known-entities.json": "6f6cacf70e32a40cf448ab4903679f7d1f68c2d42efbbe2484a5a38f6e467518",
+        "work/research/sources/index.json": "b7b3cef6ffc244357ab7d8098306a4ca2827b82fe31c4e6f3bd72e9729e10ebe",
+        "work/research/sources/s01.json": "3e848cecb92a7a5086754f7f6751828f38b742ea12070ca706536329ebb1777d",
+        "work/research/sources/s02.json": "1a1484a857cf1732de02a22fdbf4ebb01cae4b9d9d7bdce6938a71da32f24bad",
+        "work/research/sources/s03.json": "dbfee92709a82617c51a602c5943acd4307ce5da7af58a3a84976f5a65dadd07",
+        "work/research/sources/s04.json": "c449461e37fc2bc8def9ee9d60c912adf72021733c23bdb843e40b3233d68002"
+      },
+      "finished_at": "2026-10-27T12:15:18.598Z",
+      "error": null,
+      "source": "run"
+    },
+    "facts": {
+      "status": "done",
+      "inputs_sha256": "ebe6d0582895d42e5a04d2d55958a9cc772ade0ae31feb44f254c50540412aa6",
+      "outputs": {
+        "work/facts/claims.json": "f99b2baefddf2a2193d8df5f21931f655408fb2688e164c04ab13b58e3422a77",
+        "work/facts/facts.json": "535a9da7eea1ddf02429522c996da0495b69d1661231443ba86e02cc26874722",
+        "work/facts/hints.json": "d9768f10cc0bb72f81ade3097beeddee749ec66e14474a8e907e6b2ec6f79927"
+      },
+      "finished_at": "2026-10-27T12:16:08.346Z",
+      "error": null,
+      "source": "run"
+    },
+    "script": {
+      "status": "done",
+      "inputs_sha256": "ccaa911dfb87fde7f51878cbce6a06435c885349506c8a6062d3e56b2291cdb1",
+      "outputs": {
+        "script.json": "65c37458cf60062ce3e0ee279f3643a02b155607ba79fa1a48b19f0aaf352c10",
+        "work/script/claim-lines.json": "5f4b13790316cfc3ac25db1b3a684782cfcbfbb69e9d86af0dd42b2c73b7e6fd",
+        "work/script/gate.json": "cddcd53308f197a1669be3e556625c628fc086382045fac69018b724d479e0fa",
+        "work/script/plan.json": "896961fd3c4982d87e9f51b09daf81e3ce24daa69df8fd0092442f4da95ab65e"
+      },
+      "finished_at": "2026-10-27T12:21:22.477Z",
+      "error": null,
+      "source": "run"
+    },
+    "timeline": {
+      "status": "done",
+      "inputs_sha256": "9a83ab60192e24774867a0d204d2e5519d9bfc6f84de74c2354b56e5db786352",
+      "outputs": {
+        "out/captions.vtt": "0e9b0f4799de6614882d93ce0c16adb7631f842abd470b7d0e1a7d2d80e3513c",
+        "work/timeline.json": "8424cd198feec7b0ddde70b4c97eff7f363788865bb27078f96911d83f5c8668"
+      },
+      "finished_at": "2026-10-27T12:21:35.721Z",
+      "error": null,
+      "source": "run"
+    },
+    "music": {
+      "status": "done",
+      "inputs_sha256": "9f98849cda63038bd17b7fa3215503b8a5edd4cc766dabf151bc2369518c1abb",
+      "outputs": {
+        "work/music/beatmap.json": "b4df5e8d1aed6f694c6663fe9fe9d336be6182039350f30d00b2b2a78477a47c",
+        "work/music/theme.wav": "fa7a400b3bdc4269dd891022343f4b9ec990452ab078c48a5a315098875187c2"
+      },
+      "finished_at": "2026-10-27T12:19:16.260Z",
+      "error": null,
+      "source": "run"
+    },
+    "scenes": {
+      "status": "done",
+      "inputs_sha256": "dec4ab573b043d03d723fb658c04cb097efe386280039bdded9136c93e7debe8",
+      "outputs": {
+        "work/scenes/project/assets/fonts/LXGWWenKai-Regular.ttf": "efdf69841720962ffed30d73cc1ae79e417e1d58869e871917c789fcc1531c25",
+        "work/scenes/project/assets/fonts/noto-naskh-arabic-arabic-400-normal.woff2": "9cc2d2e90f7b51904468558b4ed529de8a8206497c8edb5e33122bd077e0158c",
+        "work/scenes/project/assets/fonts/noto-sans-devanagari-400-normal.woff2": "1ccb720178c307d17a30f2f8eda43c2f9ffa831c02cb7f7d9d7b8708bcbaf43c",
+        "work/scenes/project/assets/fonts/noto-sans-latin-400-normal.woff2": "09aee8065d25508f23a4c3d92cd777ac869c52d93fd868a88f025d888a7937d6",
+        "work/scenes/project/assets/fonts/noto-serif-cyrillic-400-normal.woff2": "8deaf453448fb06f5cdd79262bc0a22a8af999541ef2639202f6dc44d0cae392",
+        "work/scenes/project/assets/fonts/noto-serif-greek-400-normal.woff2": "4f87b0a2fc2f0a9ce734414bb54edb9bb3e9f0143c4d17e3879881adf8058cfa",
+        "work/scenes/project/assets/fonts/noto-serif-latin-400-normal.woff2": "4c0cbe3eec50d260754d681c17ee2af49a43d7fd93ce42877f665fcb1a889b87",
+        "work/scenes/project/assets/fonts/noto-serif-latin-700-normal.woff2": "0d0b440760c93e6fec440ad438d10cea6c70367a0f5ecfcfa15cef0a85c67093",
+        "work/scenes/project/assets/fonts/noto-serif-latin-ext-400-normal.woff2": "536857e8de0e3b12176fefbf1233a294c7dece1f2f4d018d26cb386a8de75cd0",
+        "work/scenes/project/assets/fonts/noto-serif-vietnamese-400-normal.woff2": "207dac0723db2e3832fb864c23a416dd953df68b27289acaec79ed94cd37b7ee",
+        "work/scenes/project/assets/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+        "work/scenes/project/composition.json": "d97c53e1071df538ba78ad3fa9ef5285c567342e60d2233148620faa52662bdb",
+        "work/scenes/project/hyperframes.json": "74159d144e9db63ff50ea79d688f8da6f1382d9f396bf22363515c1f13a456e1",
+        "work/scenes/project/index.html": "57762aef67b91e485fb0e1711993654462ea976cec306b66d5d154861ae5d7e9",
+        "work/scenes/scan.json": "32784a51a1dc928cbc3284f46a46c48a759ec10974e05938f6f42a0e7404c3e0"
+      },
+      "finished_at": "2026-10-27T12:21:51.824Z",
+      "error": null,
+      "source": "run"
+    },
+    "render": {
+      "status": "failed",
+      "inputs_sha256": null,
+      "outputs": {},
+      "finished_at": "2026-10-27T12:22:05.146Z",
+      "error": "hyperframes_failed",
+      "source": "run"
+    }
+  }
+}

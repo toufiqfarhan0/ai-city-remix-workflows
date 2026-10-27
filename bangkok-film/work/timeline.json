@@ -1,0 +1,1566 @@
+{
+  "schema": "chronicle-timeline/2",
+  "theme": "ink-theme",
+  "seconds": 120,
+  "fps": 30,
+  "frames": 3600,
+  "aspect": "16:9",
+  "lang": "en",
+  "dir": "ltr",
+  "bpm": 88,
+  "bar_s": 2.727,
+  "beat_s": 0.682,
+  "sections": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 10.9,
+      "start_frame": 0,
+      "start_bar": 0,
+      "bars": 4
+    },
+    {
+      "id": "verse",
+      "start": 10.9,
+      "end": 32.733333333333334,
+      "start_frame": 327,
+      "start_bar": 4,
+      "bars": 8
+    },
+    {
+      "id": "build",
+      "start": 32.733333333333334,
+      "end": 43.63333333333333,
+      "start_frame": 982,
+      "start_bar": 12,
+      "bars": 4
+    },
+    {
+      "id": "drop",
+      "start": 43.63333333333333,
+      "end": 65.46666666666667,
+      "start_frame": 1309,
+      "start_bar": 16,
+      "bars": 8
+    },
+    {
+      "id": "breakdown",
+      "start": 65.46666666666667,
+      "end": 81.83333333333333,
+      "start_frame": 1964,
+      "start_bar": 24,
+      "bars": 6
+    },
+    {
+      "id": "build2",
+      "start": 81.83333333333333,
+      "end": 87.26666666666667,
+      "start_frame": 2455,
+      "start_bar": 30,
+      "bars": 2
+    },
+    {
+      "id": "drop2",
+      "start": 87.26666666666667,
+      "end": 109.1,
+      "start_frame": 2618,
+      "start_bar": 32,
+      "bars": 8
+    },
+    {
+      "id": "outro",
+      "start": 109.1,
+      "end": 120,
+      "start_frame": 3273,
+      "start_bar": 40,
+      "bars": 4
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "section": "intro",
+      "scene": "river-mist",
+      "params": {
+        "title": true,
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 0,
+      "end": 5.466666666666667,
+      "start_frame": 0,
+      "end_frame": 164,
+      "start_bar": 0,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": true,
+      "description": "The Chao Phraya River stretches into morning mist with traditional boats",
+      "claims": [
+        "agent.001"
+      ]
+    },
+    {
+      "id": "S02",
+      "section": "intro",
+      "scene": "ink-name",
+      "params": {
+        "text": "曼谷",
+        "stamp_beat": 6
+      },
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 5.466666666666667,
+      "end": 10.9,
+      "start_frame": 164,
+      "end_frame": 327,
+      "start_bar": 2,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Calligraphy strokes write the name of Bangkok on aged parchment",
+      "claims": [
+        "agent.003"
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "verse",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 10.9,
+      "end": 16.366666666666667,
+      "start_frame": 327,
+      "end_frame": 491,
+      "start_bar": 4,
+      "bars": 2,
+      "kp": "kp1",
+      "rehook": false,
+      "title": false,
+      "description": "Royal barges arrive at the bend of the Chao Phraya River",
+      "claims": [
+        "agent.003"
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "verse",
+      "scene": "temple",
+      "params": {
+        "palace": true
+      },
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 16.366666666666667,
+      "end": 21.833333333333332,
+      "start_frame": 491,
+      "end_frame": 655,
+      "start_bar": 6,
+      "bars": 2,
+      "kp": "kp2",
+      "rehook": false,
+      "title": false,
+      "description": "King Rama I establishes the fortified citadel on the east bank",
+      "claims": [
+        "agent.005"
+      ]
+    },
+    {
+      "id": "S05",
+      "section": "verse",
+      "scene": "temple",
+      "params": {
+        "palace": true,
+        "gold": true
+      },
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 21.833333333333332,
+      "end": 27.266666666666666,
+      "start_frame": 655,
+      "end_frame": 818,
+      "start_bar": 8,
+      "bars": 2,
+      "kp": "kp3",
+      "rehook": false,
+      "title": false,
+      "description": "Tiered gables and spires of the Grand Palace emerge in gold wash",
+      "claims": [
+        "agent.007"
+      ]
+    },
+    {
+      "id": "S06",
+      "section": "verse",
+      "scene": "temple",
+      "params": {
+        "prang": true
+      },
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 27.266666666666666,
+      "end": 32.733333333333334,
+      "start_frame": 818,
+      "end_frame": 982,
+      "start_bar": 10,
+      "bars": 2,
+      "kp": "kp4",
+      "rehook": false,
+      "title": false,
+      "description": "The porcelain central prang of Wat Arun catches the first morning light",
+      "claims": [
+        "agent.009"
+      ]
+    },
+    {
+      "id": "S07",
+      "section": "build",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 32.733333333333334,
+      "end": 38.166666666666664,
+      "start_frame": 982,
+      "end_frame": 1145,
+      "start_bar": 12,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Intricate canal networks connect the city in vibrant waterways",
+      "claims": [
+        "agent.001"
+      ]
+    },
+    {
+      "id": "S08",
+      "section": "build",
+      "scene": "temple",
+      "params": {
+        "buddha": true
+      },
+      "size": "medium",
+      "camera": "pan-right",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 38.166666666666664,
+      "end": 43.63333333333333,
+      "start_frame": 1145,
+      "end_frame": 1309,
+      "start_bar": 14,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Monks and scholars gather at Wat Pho, center of wisdom",
+      "claims": [
+        "agent.011"
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "drop",
+      "scene": "temple",
+      "params": {
+        "palace": true,
+        "gold": true
+      },
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 43.63333333333333,
+      "end": 49.1,
+      "start_frame": 1309,
+      "end_frame": 1473,
+      "start_bar": 16,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Golden spires of the Grand Palace and Wat Phra Kaew shine",
+      "claims": [
+        "agent.007"
+      ]
+    },
+    {
+      "id": "S10",
+      "section": "drop",
+      "scene": "temple",
+      "params": {
+        "buddha": true,
+        "gold": true
+      },
+      "size": "close",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 49.1,
+      "end": 54.53333333333333,
+      "start_frame": 1473,
+      "end_frame": 1636,
+      "start_bar": 18,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Gilded profile of the monumental Reclining Buddha inside Wat Pho",
+      "claims": [
+        "agent.011"
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "drop",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 54.53333333333333,
+      "end": 60,
+      "start_frame": 1636,
+      "end_frame": 1800,
+      "start_bar": 20,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Merchant vessels and floating markets crowd the Chao Phraya River",
+      "claims": [
+        "agent.001"
+      ]
+    },
+    {
+      "id": "S12",
+      "section": "drop",
+      "scene": "temple",
+      "params": {
+        "prang": true,
+        "gold": true
+      },
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 60,
+      "end": 65.46666666666667,
+      "start_frame": 1800,
+      "end_frame": 1964,
+      "start_bar": 22,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Sunset highlights the mosaic porcelain decorations of Wat Arun",
+      "claims": [
+        "agent.009"
+      ]
+    },
+    {
+      "id": "S13",
+      "section": "breakdown",
+      "scene": "river-mist",
+      "params": {
+        "fade": true
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 65.46666666666667,
+      "end": 70.9,
+      "start_frame": 1964,
+      "end_frame": 2127,
+      "start_bar": 24,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Monsoon rains swell the riverbanks and low plains",
+      "claims": [
+        "agent.001"
+      ]
+    },
+    {
+      "id": "S14",
+      "section": "breakdown",
+      "scene": "temple",
+      "params": {
+        "palace": true
+      },
+      "size": "medium",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 70.9,
+      "end": 76.36666666666666,
+      "start_frame": 2127,
+      "end_frame": 2291,
+      "start_bar": 26,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Strong stone barriers protect the Grand Palace perimeter",
+      "claims": [
+        "agent.007"
+      ]
+    },
+    {
+      "id": "S15",
+      "section": "breakdown",
+      "scene": "temple",
+      "params": {
+        "buddha": true
+      },
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 76.36666666666666,
+      "end": 81.83333333333333,
+      "start_frame": 2291,
+      "end_frame": 2455,
+      "start_bar": 28,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Citizens and monks find refuge within Wat Pho's sanctuaries",
+      "claims": [
+        "agent.011"
+      ]
+    },
+    {
+      "id": "S16",
+      "section": "build2",
+      "scene": "temple",
+      "params": {
+        "prang": true,
+        "gold": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 81.83333333333333,
+      "end": 87.26666666666667,
+      "start_frame": 2455,
+      "end_frame": 2618,
+      "start_bar": 30,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Morning sun rises behind the spire of Wat Arun",
+      "claims": [
+        "agent.009"
+      ]
+    },
+    {
+      "id": "S17",
+      "section": "drop2",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 87.26666666666667,
+      "end": 92.73333333333333,
+      "start_frame": 2618,
+      "end_frame": 2782,
+      "start_bar": 32,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Modern bridges and ferries cross the Chao Phraya River",
+      "claims": [
+        "agent.001"
+      ]
+    },
+    {
+      "id": "S18",
+      "section": "drop2",
+      "scene": "temple",
+      "params": {
+        "palace": true,
+        "gold": true
+      },
+      "size": "medium",
+      "camera": "pan-right",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 92.73333333333333,
+      "end": 98.16666666666667,
+      "start_frame": 2782,
+      "end_frame": 2945,
+      "start_bar": 34,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Visitors from around the globe marvel at the Grand Palace",
+      "claims": [
+        "agent.007"
+      ]
+    },
+    {
+      "id": "S19",
+      "section": "drop2",
+      "scene": "temple",
+      "params": {
+        "buddha": true,
+        "gold": true
+      },
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 98.16666666666667,
+      "end": 103.63333333333334,
+      "start_frame": 2945,
+      "end_frame": 3109,
+      "start_bar": 36,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Traditional massage schools and inscriptions at Wat Pho thrive",
+      "claims": [
+        "agent.011"
+      ]
+    },
+    {
+      "id": "S20",
+      "section": "drop2",
+      "scene": "temple",
+      "params": {
+        "palace": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 103.63333333333334,
+      "end": 109.1,
+      "start_frame": 3109,
+      "end_frame": 3273,
+      "start_bar": 38,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Monumental view of Bangkok founded by Rama I",
+      "claims": [
+        "agent.005"
+      ]
+    },
+    {
+      "id": "S21",
+      "section": "outro",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 109.1,
+      "end": 114.53333333333333,
+      "start_frame": 3273,
+      "end_frame": 3436,
+      "start_bar": 40,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Quiet dawn mist over the Chao Phraya River with a lone boat drifting",
+      "claims": [
+        "agent.001"
+      ]
+    },
+    {
+      "id": "S22",
+      "section": "outro",
+      "scene": "river-mist",
+      "params": {
+        "fade": true
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 114.53333333333333,
+      "end": 120,
+      "start_frame": 3436,
+      "end_frame": 3600,
+      "start_bar": 42,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Negative space opens on the ink-washed paper for the closing title and end card",
+      "claims": [
+        "agent.003"
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "shot": "S01",
+      "start": 0.3333333333333333,
+      "end": 5.466666666666667,
+      "lines": [
+        "The Chao Phraya River",
+        "carries centuries of memory."
+      ],
+      "em": [
+        "Chao Phraya River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S02",
+      "start": 5.8,
+      "end": 10.9,
+      "lines": [
+        "In 1782, a new royal capital took root."
+      ],
+      "em": [
+        "1782"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S03",
+      "start": 11.233333333333333,
+      "end": 16.366666666666667,
+      "lines": [
+        "In 1782, the Chakri",
+        "dynasty began its reign."
+      ],
+      "em": [
+        "1782"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S04",
+      "start": 16.7,
+      "end": 21.833333333333332,
+      "lines": [
+        "King Rama I founded the city",
+        "on Rattanakosin Island."
+      ],
+      "em": [
+        "Rama I"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S05",
+      "start": 22.166666666666668,
+      "end": 27.266666666666666,
+      "lines": [
+        "The Grand Palace rose",
+        "as the majestic throne."
+      ],
+      "em": [
+        "Grand Palace"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S06",
+      "start": 27.6,
+      "end": 32.733333333333334,
+      "lines": [
+        "Wat Arun illuminated the",
+        "dawn across the river."
+      ],
+      "em": [
+        "Wat Arun"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S07",
+      "start": 33.06666666666667,
+      "end": 38.166666666666664,
+      "lines": [
+        "Canals branched from",
+        "the Chao Phraya River."
+      ],
+      "em": [
+        "Chao Phraya River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S08",
+      "start": 38.5,
+      "end": 43.63333333333333,
+      "lines": [
+        "Wat Pho preserved sacred",
+        "Buddhist traditions."
+      ],
+      "em": [
+        "Wat Pho"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S09",
+      "start": 43.96666666666667,
+      "end": 49.1,
+      "lines": [
+        "The Grand Palace sparkled",
+        "with sacred emerald."
+      ],
+      "em": [
+        "Grand Palace"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S10",
+      "start": 49.43333333333333,
+      "end": 54.53333333333333,
+      "lines": [
+        "Wat Pho housed the",
+        "world-renowned gilded Buddha."
+      ],
+      "em": [
+        "Wat Pho"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S11",
+      "start": 54.86666666666667,
+      "end": 60,
+      "lines": [
+        "The Chao Phraya River",
+        "became a bustling corridor."
+      ],
+      "em": [
+        "Chao Phraya River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S12",
+      "start": 60.333333333333336,
+      "end": 65.46666666666667,
+      "lines": [
+        "Wat Arun towered above the river sunset."
+      ],
+      "em": [
+        "Wat Arun"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S13",
+      "start": 65.8,
+      "end": 70.9,
+      "lines": [
+        "The Chao Phraya River",
+        "tested the city in floods."
+      ],
+      "em": [
+        "Chao Phraya River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S14",
+      "start": 71.23333333333333,
+      "end": 76.36666666666666,
+      "lines": [
+        "The Grand Palace stood",
+        "resolute through storms."
+      ],
+      "em": [
+        "Grand Palace"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S15",
+      "start": 76.7,
+      "end": 81.83333333333333,
+      "lines": [
+        "Wat Pho provided peace",
+        "and enduring shelter."
+      ],
+      "em": [
+        "Wat Pho"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S16",
+      "start": 82.16666666666667,
+      "end": 87.26666666666667,
+      "lines": [
+        "Wat Arun heralded a new dawn of rebirth."
+      ],
+      "em": [
+        "Wat Arun"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S17",
+      "start": 87.6,
+      "end": 92.73333333333333,
+      "lines": [
+        "The Chao Phraya River",
+        "links past and present."
+      ],
+      "em": [
+        "Chao Phraya River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S18",
+      "start": 93.06666666666666,
+      "end": 98.16666666666667,
+      "lines": [
+        "The Grand Palace welcomes",
+        "travelers from every land."
+      ],
+      "em": [
+        "Grand Palace"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S19",
+      "start": 98.5,
+      "end": 103.63333333333334,
+      "lines": [
+        "Wat Pho preserves world",
+        "cultural wisdom today."
+      ],
+      "em": [
+        "Wat Pho"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S20",
+      "start": 103.96666666666667,
+      "end": 109.1,
+      "lines": [
+        "King Rama I gifted an everlasting capital."
+      ],
+      "em": [
+        "Rama I"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S21",
+      "start": 109.43333333333334,
+      "end": 114.53333333333333,
+      "lines": [
+        "The Chao Phraya River",
+        "flows onward into forever."
+      ],
+      "em": [
+        "Chao Phraya River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S22",
+      "start": 114.86666666666666,
+      "end": 114.53333333333333,
+      "lines": [
+        "In 1782, Bangkok began its eternal story."
+      ],
+      "em": [
+        "1782"
+      ],
+      "dir": "ltr"
+    }
+  ],
+  "kp_cards": [
+    {
+      "id": "kp1",
+      "shot": "S03",
+      "start": 11.566666666666666,
+      "end": 16.2,
+      "title": "Founded as Capital",
+      "value": "1782",
+      "count": 1782,
+      "count_s": 1.3666666666666667
+    },
+    {
+      "id": "kp2",
+      "shot": "S04",
+      "start": 17.033333333333335,
+      "end": 21.666666666666668,
+      "title": "Founder & Ruler",
+      "value": "Rama I",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp3",
+      "shot": "S05",
+      "start": 22.5,
+      "end": 27.1,
+      "title": "Royal Residence",
+      "value": "Grand Palace",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp4",
+      "shot": "S06",
+      "start": 27.933333333333334,
+      "end": 32.56666666666667,
+      "title": "Temple of Dawn",
+      "value": "Wat Arun",
+      "count": null,
+      "count_s": 0
+    }
+  ],
+  "sfx": [
+    {
+      "shot": "S01",
+      "t": 0.6666666666666666,
+      "frame": 20,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x001"
+    },
+    {
+      "shot": "S01",
+      "t": 1.3666666666666667,
+      "frame": 41,
+      "kind": "brush",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 1.364,
+      "step": 0,
+      "id": "x002"
+    },
+    {
+      "shot": "S02",
+      "t": 5.466666666666667,
+      "frame": 164,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x003"
+    },
+    {
+      "shot": "S02",
+      "t": 5.466666666666667,
+      "frame": 164,
+      "kind": "brush",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 2.045,
+      "step": 0,
+      "id": "x004"
+    },
+    {
+      "shot": "S02",
+      "t": 9.566666666666666,
+      "frame": 287,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 1,
+      "id": "x005"
+    },
+    {
+      "shot": "S03",
+      "t": 10.9,
+      "frame": 327,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x006"
+    },
+    {
+      "shot": "S03",
+      "t": 11.566666666666666,
+      "frame": 347,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x007"
+    },
+    {
+      "shot": "S03",
+      "t": 12.266666666666667,
+      "frame": 368,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x008"
+    },
+    {
+      "shot": "S03",
+      "t": 12.933333333333334,
+      "frame": 388,
+      "kind": "count",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.3666666666666667,
+      "id": "x009"
+    },
+    {
+      "shot": "S04",
+      "t": 16.366666666666667,
+      "frame": 491,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x010"
+    },
+    {
+      "shot": "S04",
+      "t": 17.033333333333335,
+      "frame": 511,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x011"
+    },
+    {
+      "shot": "S04",
+      "t": 17.733333333333334,
+      "frame": 532,
+      "kind": "reveal",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x012"
+    },
+    {
+      "shot": "S05",
+      "t": 21.833333333333332,
+      "frame": 655,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x013"
+    },
+    {
+      "shot": "S05",
+      "t": 22.5,
+      "frame": 675,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x014"
+    },
+    {
+      "shot": "S05",
+      "t": 23.2,
+      "frame": 696,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x015"
+    },
+    {
+      "shot": "S06",
+      "t": 27.266666666666666,
+      "frame": 818,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x016"
+    },
+    {
+      "shot": "S06",
+      "t": 27.933333333333334,
+      "frame": 838,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x017"
+    },
+    {
+      "shot": "S06",
+      "t": 28.633333333333333,
+      "frame": 859,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x018"
+    },
+    {
+      "shot": "S07",
+      "t": 32.733333333333334,
+      "frame": 982,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x019"
+    },
+    {
+      "shot": "S07",
+      "t": 34.1,
+      "frame": 1023,
+      "kind": "route",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x020"
+    },
+    {
+      "shot": "S08",
+      "t": 38.166666666666664,
+      "frame": 1145,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x021"
+    },
+    {
+      "shot": "S08",
+      "t": 39.53333333333333,
+      "frame": 1186,
+      "kind": "scroll",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x022"
+    },
+    {
+      "shot": "S09",
+      "t": 43.63333333333333,
+      "frame": 1309,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "auto",
+      "id": "x023"
+    },
+    {
+      "shot": "S09",
+      "t": 45,
+      "frame": 1350,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x024"
+    },
+    {
+      "shot": "S10",
+      "t": 49.1,
+      "frame": 1473,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x025"
+    },
+    {
+      "shot": "S10",
+      "t": 50.46666666666667,
+      "frame": 1514,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x026"
+    },
+    {
+      "shot": "S11",
+      "t": 54.53333333333333,
+      "frame": 1636,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x027"
+    },
+    {
+      "shot": "S11",
+      "t": 55.9,
+      "frame": 1677,
+      "kind": "route",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x028"
+    },
+    {
+      "shot": "S12",
+      "t": 60,
+      "frame": 1800,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x029"
+    },
+    {
+      "shot": "S12",
+      "t": 61.36666666666667,
+      "frame": 1841,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x030"
+    },
+    {
+      "shot": "S13",
+      "t": 65.46666666666667,
+      "frame": 1964,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x031"
+    },
+    {
+      "shot": "S13",
+      "t": 66.83333333333333,
+      "frame": 2005,
+      "kind": "brush",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x032"
+    },
+    {
+      "shot": "S14",
+      "t": 70.9,
+      "frame": 2127,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x033"
+    },
+    {
+      "shot": "S14",
+      "t": 72.26666666666667,
+      "frame": 2168,
+      "kind": "reveal",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x034"
+    },
+    {
+      "shot": "S15",
+      "t": 76.36666666666666,
+      "frame": 2291,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x035"
+    },
+    {
+      "shot": "S15",
+      "t": 77.73333333333333,
+      "frame": 2332,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x036"
+    },
+    {
+      "shot": "S16",
+      "t": 81.83333333333333,
+      "frame": 2455,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x037"
+    },
+    {
+      "shot": "S16",
+      "t": 83.2,
+      "frame": 2496,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x038"
+    },
+    {
+      "shot": "S17",
+      "t": 87.26666666666667,
+      "frame": 2618,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "auto",
+      "id": "x039"
+    },
+    {
+      "shot": "S17",
+      "t": 88.63333333333334,
+      "frame": 2659,
+      "kind": "route",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x040"
+    },
+    {
+      "shot": "S18",
+      "t": 92.73333333333333,
+      "frame": 2782,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x041"
+    },
+    {
+      "shot": "S18",
+      "t": 94.1,
+      "frame": 2823,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x042"
+    },
+    {
+      "shot": "S19",
+      "t": 98.16666666666667,
+      "frame": 2945,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x043"
+    },
+    {
+      "shot": "S19",
+      "t": 99.53333333333333,
+      "frame": 2986,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x044"
+    },
+    {
+      "shot": "S20",
+      "t": 103.63333333333334,
+      "frame": 3109,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x045"
+    },
+    {
+      "shot": "S20",
+      "t": 105,
+      "frame": 3150,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x046"
+    },
+    {
+      "shot": "S21",
+      "t": 109.1,
+      "frame": 3273,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x047"
+    },
+    {
+      "shot": "S22",
+      "t": 114.53333333333333,
+      "frame": 3436,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x048"
+    },
+    {
+      "shot": "S22",
+      "t": 114.53333333333333,
+      "frame": 3436,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x049"
+    }
+  ],
+  "title": {
+    "text": "Bangkok: Life Along the River of Kings",
+    "shot": "S01",
+    "start": 0.6666666666666666,
+    "end": 5.133333333333334
+  },
+  "end_card": {
+    "line": "Life Along the River of Kings: Bangkok.",
+    "start": 114.53333333333333,
+    "end": 120
+  },
+  "badge": {
+    "kind": "aigc",
+    "start": 0,
+    "end": 3
+  },
+  "rehooks": [
+    {
+      "i": 0,
+      "bar": 0,
+      "kind": "hook",
+      "section": "intro",
+      "t": 0
+    },
+    {
+      "i": 1,
+      "bar": 12,
+      "kind": "turn",
+      "section": "build",
+      "t": 32.727
+    },
+    {
+      "i": 2,
+      "bar": 24,
+      "kind": "turn",
+      "section": "breakdown",
+      "t": 65.455
+    },
+    {
+      "i": 3,
+      "bar": 30,
+      "kind": "turn",
+      "section": "build2",
+      "t": 81.818
+    },
+    {
+      "i": 4,
+      "bar": 40,
+      "kind": "final",
+      "section": "outro",
+      "t": 109.091
+    }
+  ],
+  "segments": [
+    {
+      "id": "s1",
+      "name": "opening",
+      "sections": [
+        "intro"
+      ],
+      "start": 0,
+      "end": 10.9,
+      "from_frame": 0,
+      "to_frame": 327
+    },
+    {
+      "id": "s2",
+      "name": "verse",
+      "sections": [
+        "verse"
+      ],
+      "start": 10.9,
+      "end": 32.733333333333334,
+      "from_frame": 327,
+      "to_frame": 982
+    },
+    {
+      "id": "s3",
+      "name": "build-drop",
+      "sections": [
+        "build",
+        "drop"
+      ],
+      "start": 32.733333333333334,
+      "end": 65.46666666666667,
+      "from_frame": 982,
+      "to_frame": 1964
+    },
+    {
+      "id": "s4",
+      "name": "breakdown-build2",
+      "sections": [
+        "breakdown",
+        "build2"
+      ],
+      "start": 65.46666666666667,
+      "end": 87.26666666666667,
+      "from_frame": 1964,
+      "to_frame": 2618
+    },
+    {
+      "id": "s5",
+      "name": "drop2-outro",
+      "sections": [
+        "drop2",
+        "outro"
+      ],
+      "start": 87.26666666666667,
+      "end": 120,
+      "from_frame": 2618,
+      "to_frame": 3600
+    }
+  ]
+}

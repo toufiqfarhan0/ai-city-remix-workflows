@@ -1,0 +1,58 @@
+{
+  "schema": "chronicle-sources-index/1",
+  "sources": [
+    {
+      "id": "s01",
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1861&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+      "final_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1861&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+      "tier": 2,
+      "publisher": "wikimedia",
+      "lang": null,
+      "retrieved_at": "2026-10-27T12:15:13.456Z",
+      "sha256": "3cfc7b6f567e2cc4d54917609067d7aa9f08d267dbede1146933cb207a3d0e98",
+      "bytes": 266102,
+      "kind": "wikidata"
+    },
+    {
+      "id": "s02",
+      "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E6%9B%BC%E8%B0%B7",
+      "final_url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E6%9B%BC%E8%B0%B7",
+      "tier": 2,
+      "publisher": "wikimedia",
+      "lang": "zh-CN",
+      "retrieved_at": "2026-10-27T12:15:13.456Z",
+      "sha256": "63f3ad6ad015558590f5015de9d1cb643c42a3761d033a84ab5f5105597a3216",
+      "bytes": 57760,
+      "kind": "text",
+      "variant": "zh-hans"
+    },
+    {
+      "id": "s03",
+      "url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+      "final_url": "https://en.wikipedia.org/api/rest_v1/page/html/Bangkok",
+      "tier": 2,
+      "publisher": "wikimedia",
+      "lang": "en",
+      "retrieved_at": "2026-10-27T12:15:13.456Z",
+      "sha256": "e248add211642f7885b2ff19d7580d3c9f8b181919bee4dfb0948900a7cd96cd",
+      "bytes": 126891,
+      "kind": "text"
+    },
+    {
+      "id": "s04",
+      "url": "https://www.britannica.com/place/Bangkok",
+      "final_url": "https://www.britannica.com/place/Bangkok",
+      "tier": 1,
+      "publisher": "britannica",
+      "lang": "en",
+      "retrieved_at": "2026-10-27T12:15:13.456Z",
+      "sha256": "9630eeab43563b8cc3181e0f3c05cc214a8c6823cea2f2066bb3a620779b3a6d",
+      "bytes": 1883,
+      "kind": "text",
+      "via": "agent"
+    }
+  ],
+  "warnings": [
+    "fetch_http:403:www.britannica.com"
+  ]
+}
