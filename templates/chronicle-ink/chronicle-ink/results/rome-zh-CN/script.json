@@ -1,0 +1,1936 @@
+{
+  "schema": "chronicle-script/2",
+  "seconds": 150,
+  "aspect": "16:9",
+  "subject": "city",
+  "structure": "life",
+  "seal": "罗",
+  "title": {
+    "en": "The Life of Rome",
+    "zh-CN": "罗马的一生"
+  },
+  "title_claims": [],
+  "shots": [
+    {
+      "id": "S01",
+      "section": "intro",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.6,
+          "y": 0.3,
+          "km": 6.5
+        },
+        "to": {
+          "x": -0.4,
+          "y": 0.2,
+          "km": 5
+        },
+        "roads": [
+          0.5,
+          0.5
+        ],
+        "title": true,
+        "places": [
+          {
+            "id": "tiber",
+            "beat": 3
+          }
+        ]
+      },
+      "description": "Today's Rome as an ink map: the river bend, faint modern streets",
+      "motion": "slow zoom in; the river label appears on beat 3",
+      "sfx": [
+        {
+          "beat": 3,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "question",
+      "claims": [],
+      "rehook": true,
+      "caption": {
+        "zh-CN": {
+          "text": "这座城，从哪里开始？",
+          "em": [
+            "从哪里"
+          ]
+        },
+        "en": {
+          "text": "Where did this city begin?",
+          "em": [
+            "begin"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "section": "intro",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true
+      },
+      "description": "Dawn mist over a slow river between low hills; a small boat",
+      "motion": "pan right; ripples drift",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 2
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.003",
+        "agent.004"
+      ],
+      "caption": {
+        "zh-CN": {
+          "text": "它就建在台伯河岸边。",
+          "em": [
+            "台伯河"
+          ]
+        },
+        "en": {
+          "text": "It was built on the banks of the Tiber.",
+          "em": [
+            "Tiber"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.6,
+          "y": 0.1,
+          "km": 4
+        },
+        "to": {
+          "x": -0.4,
+          "y": 0,
+          "km": 3
+        },
+        "river": true,
+        "places": [
+          {
+            "id": "tiber",
+            "beat": 1,
+            "hot": true
+          }
+        ]
+      },
+      "description": "Ink map: the Tiber glows as it bends through the site",
+      "motion": "the river glows beats 1-4; label pops on beat 1",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.003",
+        "agent.004"
+      ],
+      "kp": "kp2",
+      "caption": {
+        "zh-CN": {
+          "text": "城，就落在台伯河边。",
+          "em": [
+            "台伯河"
+          ]
+        },
+        "en": {
+          "text": "The city sits by the Tiber.",
+          "em": [
+            "Tiber"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "section": "verse",
+      "bars": 2,
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.2,
+          "y": -0.3,
+          "km": 2
+        },
+        "to": {
+          "x": 0.25,
+          "y": -0.35,
+          "km": 1.5
+        },
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 1,
+            "hot": true
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "early",
+            "from": 0,
+            "to": 1,
+            "a": 2,
+            "b": 6
+          }
+        ],
+        "year": "公元前753年",
+        "year_beat": 2
+      },
+      "description": "Close on the hills by the river: a first settlement washes in around the Palatine",
+      "motion": "Palatine dot on beat 1, year stamp on beat 2, settlement grows beats 2-6",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "appear",
+          "tier": "normal"
+        },
+        {
+          "beat": 2,
+          "kind": "seal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.001",
+        "agent.002"
+      ],
+      "kp": "kp1",
+      "caption": {
+        "zh-CN": {
+          "text": "相传公元前753年，罗马在此建城。",
+          "em": [
+            "公元前753年"
+          ]
+        },
+        "en": {
+          "text": "Legend dates the founding to 753 BC.",
+          "em": [
+            "753 BC"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "section": "verse",
+      "bars": 2,
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.2,
+          "y": -0.3,
+          "km": 1.6
+        },
+        "to": {
+          "x": 0.15,
+          "y": -0.2,
+          "km": 1.8
+        },
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 1
+          },
+          {
+            "id": "forum",
+            "beat": 3
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "early",
+            "from": 1
+          }
+        ]
+      },
+      "description": "The neighbouring hill and the valley between them appear on the map",
+      "motion": "Capitoline on beat 1, Forum on beat 3",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "appear",
+          "tier": "normal"
+        },
+        {
+          "beat": 3,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "rehook": true,
+      "caption": {
+        "zh-CN": {
+          "text": "先看河边的小山。",
+          "em": [
+            "小山"
+          ]
+        },
+        "en": {
+          "text": "Look at the hills by the river.",
+          "em": [
+            "hills"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.15,
+          "y": -0.2,
+          "km": 1.8
+        },
+        "to": {
+          "x": 0.1,
+          "y": -0.1,
+          "km": 2.6
+        },
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "early",
+            "from": 1
+          },
+          {
+            "id": "republic",
+            "from": 0,
+            "to": 0.5,
+            "a": 0,
+            "b": 8
+          }
+        ]
+      },
+      "description": "The settled area spreads beyond the first hill",
+      "motion": "wash spreads over the shot",
+      "sfx": [
+        {
+          "beat": 4,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 3
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "墨色，从山脚晕开。",
+          "em": [
+            "晕开"
+          ]
+        },
+        "en": {
+          "text": "The ink spreads from the hills.",
+          "em": [
+            "spreads"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "boat": true
+      },
+      "description": "River landscape with a working boat drifting downstream",
+      "motion": "parallax drift; the boat moves right",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "一条河，养大一座城。",
+          "em": [
+            "养大"
+          ]
+        },
+        "en": {
+          "text": "A river raises a city.",
+          "em": [
+            "raises"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S08",
+      "section": "verse",
+      "bars": 2,
+      "size": "wide",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.1,
+          "y": -0.1,
+          "km": 2.6
+        },
+        "to": {
+          "x": 0.1,
+          "y": -0.1,
+          "km": 2.8
+        },
+        "places": [
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "early",
+            "from": 1
+          },
+          {
+            "id": "republic",
+            "from": 0.5,
+            "to": 1,
+            "a": 0,
+            "b": 6
+          }
+        ]
+      },
+      "description": "The city wash keeps growing to a whole district",
+      "motion": "wash grows beats 0-6",
+      "sfx": [
+        {
+          "beat": 0,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 4
+        }
+      ],
+      "kind": "question",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "一个小城，凭什么长大？",
+          "em": [
+            "凭什么"
+          ]
+        },
+        "en": {
+          "text": "How did a small town grow so big?",
+          "em": [
+            "grow"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "section": "build",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "seal-stamp",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.1,
+          "y": -0.1,
+          "km": 2.8
+        },
+        "to": {
+          "x": 0.15,
+          "y": -0.1,
+          "km": 2.4
+        },
+        "places": [
+          {
+            "id": "forum",
+            "beat": 1,
+            "hot": true
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "republic",
+            "from": 1
+          }
+        ]
+      },
+      "description": "The Forum pulses as the centre of the republic",
+      "motion": "Forum pulse from beat 1",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "appear",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.005",
+        "agent.006"
+      ],
+      "kp": "kp3",
+      "rehook": true,
+      "caption": {
+        "zh-CN": {
+          "text": "它成了罗马共和国的中心。",
+          "em": [
+            "罗马共和国"
+          ]
+        },
+        "en": {
+          "text": "It became the centre of the Roman Republic.",
+          "em": [
+            "Roman Republic"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S10",
+      "section": "build",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.15,
+          "y": -0.1,
+          "km": 2.4
+        },
+        "to": {
+          "x": 0.1,
+          "y": 0,
+          "km": 3.2
+        },
+        "places": [
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "republic",
+            "from": 1
+          },
+          {
+            "id": "empire",
+            "from": 0,
+            "to": 0.4,
+            "a": 0,
+            "b": 8
+          }
+        ]
+      },
+      "description": "A wider wash starts beyond the republican city",
+      "motion": "outer wash grows",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 4
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "墨色，一圈圈往外走。",
+          "em": [
+            "往外走"
+          ]
+        },
+        "en": {
+          "text": "Ring after ring, the ink moves out.",
+          "em": [
+            "moves out"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "section": "drop",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "seal-stamp",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0.1,
+          "y": 0,
+          "km": 3.2
+        },
+        "to": {
+          "x": 0,
+          "y": 0.1,
+          "km": 3.8
+        },
+        "places": [
+          {
+            "id": "forum",
+            "beat": 0,
+            "hot": true
+          },
+          {
+            "id": "colosseum",
+            "beat": 2
+          },
+          {
+            "id": "pantheon",
+            "beat": 4
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "republic",
+            "from": 1
+          },
+          {
+            "id": "empire",
+            "from": 0.4,
+            "to": 1,
+            "a": 0,
+            "b": 6
+          }
+        ]
+      },
+      "description": "The imperial city spreads to its full extent; monuments appear",
+      "motion": "wash to full by beat 6; Colosseum beat 2, Pantheon beat 4",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "emphasis"
+        },
+        {
+          "beat": 4,
+          "kind": "appear",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.007",
+        "agent.008"
+      ],
+      "kp": "kp4",
+      "caption": {
+        "zh-CN": {
+          "text": "然后，是罗马帝国的中心。",
+          "em": [
+            "罗马帝国"
+          ]
+        },
+        "en": {
+          "text": "Then, the centre of the Roman Empire.",
+          "em": [
+            "Roman Empire"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "section": "drop",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0,
+          "y": 0.1,
+          "km": 3.8
+        },
+        "to": {
+          "x": -0.6,
+          "y": 0.4,
+          "km": 3.8
+        },
+        "places": [
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 3
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "empire",
+            "from": 1
+          }
+        ]
+      },
+      "description": "The map pans across the full imperial city to the river bank",
+      "motion": "pan left; Castel Sant'Angelo on beat 3",
+      "sfx": [
+        {
+          "beat": 3,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "镜头沿着河，往西看。",
+          "em": [
+            "往西"
+          ]
+        },
+        "en": {
+          "text": "Follow the river to the west.",
+          "em": [
+            "west"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "section": "drop",
+      "bars": 2,
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "scene": "ink-name",
+      "params": {
+        "text": "罗马",
+        "stamp_beat": 6,
+        "seal": "罗"
+      },
+      "description": "The two characters for Rome brushed in large ink, then a seal",
+      "motion": "strokes beats 0-3; seal on beat 6",
+      "sfx": [
+        {
+          "beat": 0,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 3
+        },
+        {
+          "beat": 6,
+          "kind": "seal",
+          "tier": "climax"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.007"
+      ],
+      "caption": {
+        "zh-CN": {
+          "text": "一个帝国的中心，就在这里。",
+          "em": [
+            "帝国"
+          ]
+        },
+        "en": {
+          "text": "The centre of an empire, right here.",
+          "em": [
+            "empire"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "section": "drop",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "ink-bleed",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0,
+          "y": 0.1,
+          "km": 3.8
+        },
+        "to": {
+          "x": -0.3,
+          "y": 0.2,
+          "km": 5.2
+        },
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "empire",
+            "from": 1
+          }
+        ]
+      },
+      "description": "Wide view of the whole ancient city on the river",
+      "motion": "slow pull-out",
+      "sfx": [
+        {
+          "beat": 6,
+          "kind": "transition",
+          "tier": "normal"
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "可再高的城，也会跌倒。",
+          "em": [
+            "跌倒"
+          ]
+        },
+        "en": {
+          "text": "But even the greatest city can fall.",
+          "em": [
+            "fall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0,
+          "y": 0.1,
+          "km": 4
+        },
+        "to": {
+          "x": 0,
+          "y": 0.1,
+          "km": 3.6
+        },
+        "places": [
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "empire",
+            "from": 1,
+            "color": "scar"
+          }
+        ],
+        "scar": 1,
+        "scar_beat": 1,
+        "year": "410年",
+        "year_beat": 1
+      },
+      "description": "The imperial city under a cinnabar wash with embers",
+      "motion": "red wash and embers from beat 1",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "reveal",
+          "tier": "climax"
+        }
+      ],
+      "kind": "fact",
+      "hedge": "attributed",
+      "claims": [
+        "agent.014"
+      ],
+      "rehook": true,
+      "caption": {
+        "zh-CN": {
+          "text": "据记载，410年罗马遭西哥特人洗劫。",
+          "em": [
+            "410年"
+          ]
+        },
+        "en": {
+          "text": "Records say the Visigoths sacked Rome in 410.",
+          "em": [
+            "410"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S16",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": 0,
+          "y": 0.1,
+          "km": 3.6
+        },
+        "to": {
+          "x": -0.2,
+          "y": 0.2,
+          "km": 3.4
+        },
+        "places": [
+          {
+            "id": "forum",
+            "beat": 0,
+            "lost": true
+          },
+          {
+            "id": "colosseum",
+            "beat": 0,
+            "lost": true
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "empire",
+            "from": 1,
+            "to": 0.3,
+            "a": 0,
+            "b": 8,
+            "color": "scar"
+          }
+        ],
+        "scar": 0.5
+      },
+      "description": "The city wash shrinks; old centres turn grey",
+      "motion": "wash shrinks over the shot",
+      "sfx": [
+        {
+          "beat": 0,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 3
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "墨色，开始褪去。",
+          "em": [
+            "褪去"
+          ]
+        },
+        "en": {
+          "text": "The ink begins to fade.",
+          "em": [
+            "fade"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S17",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.3,
+          "y": 0.3,
+          "km": 3
+        },
+        "to": {
+          "x": -0.5,
+          "y": 0.45,
+          "km": 2.2
+        },
+        "places": [
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0,
+            "lost": true
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "medieval",
+            "from": 0,
+            "to": 1,
+            "a": 2,
+            "b": 6,
+            "color": "indigo"
+          }
+        ]
+      },
+      "description": "A small town gathers in the river bend",
+      "motion": "small wash grows beats 2-6",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 4
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "墨色，缩成小小一团。",
+          "em": [
+            "一团"
+          ]
+        },
+        "en": {
+          "text": "The ink shrinks to a small patch.",
+          "em": [
+            "small patch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "section": "breakdown",
+      "bars": 2,
+      "size": "wide",
+      "camera": "rise",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "empty": true,
+        "boat": true
+      },
+      "description": "An empty boat on a grey river in thick mist",
+      "motion": "rise; mist drifts",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "question",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "它还能站起来吗？",
+          "em": [
+            "站起来"
+          ]
+        },
+        "en": {
+          "text": "Could it stand up again?",
+          "em": [
+            "stand up"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S19",
+      "section": "build2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.6,
+          "y": 0.5,
+          "km": 3.2
+        },
+        "to": {
+          "x": -0.9,
+          "y": 0.6,
+          "km": 3.2
+        },
+        "places": [
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 1
+          },
+          {
+            "id": "stpeter",
+            "beat": 3,
+            "hot": true
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "medieval",
+            "from": 1,
+            "color": "indigo"
+          }
+        ]
+      },
+      "description": "Across the river, a great church appears; the town is renewed",
+      "motion": "church pulse on beat 3",
+      "sfx": [
+        {
+          "beat": 3,
+          "kind": "appear",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "hedge": "attributed",
+      "claims": [
+        "agent.017"
+      ],
+      "rehook": true,
+      "caption": {
+        "zh-CN": {
+          "text": "据记载，15世纪起，教皇推动城市更新。",
+          "em": [
+            "教皇"
+          ]
+        },
+        "en": {
+          "text": "Records say the Popes renewed the city from the 15th century.",
+          "em": [
+            "Popes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S20",
+      "section": "build2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.9,
+          "y": 0.6,
+          "km": 3.2
+        },
+        "to": {
+          "x": -0.5,
+          "y": 0.3,
+          "km": 4.4
+        },
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 0
+          },
+          {
+            "id": "stpeter",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ],
+        "areas": [
+          {
+            "id": "medieval",
+            "from": 1,
+            "color": "indigo"
+          },
+          {
+            "id": "empire",
+            "from": 0,
+            "to": 0.6,
+            "a": 2,
+            "b": 8
+          }
+        ]
+      },
+      "description": "The town spreads again over the old city",
+      "motion": "wash spreads beats 2-8",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 4
+        }
+      ],
+      "kind": "question",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "旧城之上，会长出什么？",
+          "em": [
+            "旧城之上"
+          ]
+        },
+        "en": {
+          "text": "What will grow on top of the old city?",
+          "em": [
+            "old city"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S21",
+      "section": "drop2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "seal-stamp",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.5,
+          "y": 0.3,
+          "km": 4.4
+        },
+        "to": {
+          "x": -0.4,
+          "y": 0.3,
+          "km": 5.2
+        },
+        "roads": [
+          0,
+          0.6
+        ],
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 0
+          },
+          {
+            "id": "stpeter",
+            "beat": 0
+          },
+          {
+            "id": "tiber_island",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ]
+      },
+      "description": "Modern streets fade in on both banks",
+      "motion": "roads fade in over the shot",
+      "sfx": [
+        {
+          "beat": 0,
+          "kind": "reveal",
+          "tier": "climax"
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "今天的街道，一条条浮现。",
+          "em": [
+            "今天"
+          ]
+        },
+        "en": {
+          "text": "Today's streets appear one by one.",
+          "em": [
+            "Today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S22",
+      "section": "drop2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.4,
+          "y": 0.3,
+          "km": 5.2
+        },
+        "to": {
+          "x": -0.4,
+          "y": 0.3,
+          "km": 6.8
+        },
+        "roads": [
+          0.6,
+          0.9
+        ],
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 0
+          },
+          {
+            "id": "stpeter",
+            "beat": 0
+          },
+          {
+            "id": "tiber_island",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ]
+      },
+      "description": "The whole modern city spreads to the frame edges",
+      "motion": "pull-out",
+      "sfx": [
+        {
+          "beat": 4,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "城，长成了今天的样子。",
+          "em": [
+            "今天"
+          ]
+        },
+        "en": {
+          "text": "The city grew into what it is today.",
+          "em": [
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S23",
+      "section": "drop2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.4,
+          "y": 0.3,
+          "km": 4
+        },
+        "to": {
+          "x": -0.3,
+          "y": 0.2,
+          "km": 2.8
+        },
+        "roads": [
+          0.5,
+          0.4
+        ],
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0,
+            "hot": false
+          },
+          {
+            "id": "capitoline",
+            "beat": 0,
+            "hot": false
+          },
+          {
+            "id": "forum",
+            "beat": 0,
+            "hot": true
+          },
+          {
+            "id": "colosseum",
+            "beat": 0,
+            "hot": true
+          },
+          {
+            "id": "pantheon",
+            "beat": 0,
+            "hot": true
+          },
+          {
+            "id": "castel",
+            "beat": 0,
+            "hot": false
+          },
+          {
+            "id": "stpeter",
+            "beat": 0,
+            "hot": false
+          },
+          {
+            "id": "tiber_island",
+            "beat": 0,
+            "hot": false
+          },
+          {
+            "id": "tiber",
+            "beat": 0,
+            "hot": false
+          }
+        ],
+        "year": "1980年",
+        "year_beat": 1
+      },
+      "description": "Back to the historic centre; its monuments pulse",
+      "motion": "year stamp on beat 1",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "seal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.009",
+        "agent.010"
+      ],
+      "kp": "kp5",
+      "caption": {
+        "zh-CN": {
+          "text": "1980年，罗马历史中心列入世界遗产。",
+          "em": [
+            "世界遗产"
+          ]
+        },
+        "en": {
+          "text": "In 1980 its historic centre joined the World Heritage List.",
+          "em": [
+            "World Heritage"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "section": "drop2",
+      "bars": 2,
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "scene": "city-map",
+      "params": {
+        "from": {
+          "x": -0.3,
+          "y": 0.2,
+          "km": 3.2
+        },
+        "to": {
+          "x": -0.9,
+          "y": 0.2,
+          "km": 3.6
+        },
+        "roads": [
+          0.4,
+          0.4
+        ],
+        "river": true,
+        "places": [
+          {
+            "id": "palatine",
+            "beat": 0
+          },
+          {
+            "id": "capitoline",
+            "beat": 0
+          },
+          {
+            "id": "forum",
+            "beat": 0
+          },
+          {
+            "id": "colosseum",
+            "beat": 0
+          },
+          {
+            "id": "pantheon",
+            "beat": 0
+          },
+          {
+            "id": "castel",
+            "beat": 0
+          },
+          {
+            "id": "stpeter",
+            "beat": 0
+          },
+          {
+            "id": "tiber_island",
+            "beat": 0
+          },
+          {
+            "id": "tiber",
+            "beat": 0
+          }
+        ]
+      },
+      "description": "The Tiber glows through the modern city",
+      "motion": "river glow beats 1-4",
+      "sfx": [
+        {
+          "beat": 1,
+          "kind": "appear",
+          "tier": "normal"
+        }
+      ],
+      "kind": "fact",
+      "claims": [
+        "agent.003",
+        "agent.004"
+      ],
+      "caption": {
+        "zh-CN": {
+          "text": "台伯河，还在城边流淌。",
+          "em": [
+            "台伯河"
+          ]
+        },
+        "en": {
+          "text": "The Tiber still runs by the city.",
+          "em": [
+            "Tiber"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S25",
+      "section": "outro",
+      "bars": 3,
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "ink-bleed",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true
+      },
+      "description": "Dawn river again, the same view as the opening",
+      "motion": "slow pan; mist",
+      "sfx": [
+        {
+          "beat": 2,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 2
+        }
+      ],
+      "kind": "bridge",
+      "claims": [],
+      "rehook": true,
+      "caption": {
+        "zh-CN": {
+          "text": "每座城市，都有它的一生。",
+          "em": [
+            "一生"
+          ]
+        },
+        "en": {
+          "text": "Every city has a life story.",
+          "em": [
+            "life story"
+          ]
+        }
+      }
+    },
+    {
+      "id": "S26",
+      "section": "outro",
+      "bars": 4,
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "scene": "ink-name",
+      "params": {
+        "text": "城",
+        "stamp_beat": 5,
+        "seal": "城",
+        "final": true
+      },
+      "description": "One character for city brushed large, then a seal",
+      "motion": "stroke beats 0-2; seal on beat 5",
+      "sfx": [
+        {
+          "beat": 0,
+          "kind": "brush",
+          "tier": "emphasis",
+          "dur_beats": 2
+        },
+        {
+          "beat": 5,
+          "kind": "seal",
+          "tier": "emphasis"
+        }
+      ],
+      "kind": "question",
+      "claims": [],
+      "caption": {
+        "zh-CN": {
+          "text": "你的城市，又是从哪里开始？",
+          "em": [
+            "你的城市"
+          ]
+        },
+        "en": {
+          "text": "And where did your city begin?",
+          "em": [
+            "your city"
+          ]
+        }
+      }
+    }
+  ],
+  "knowledge_points": [
+    {
+      "id": "kp1",
+      "claims": [
+        "agent.001",
+        "agent.002"
+      ],
+      "card": {
+        "en": {
+          "title": "Founded (legend)",
+          "value": "753 BC"
+        },
+        "zh-CN": {
+          "title": "传说建城",
+          "value": "公元前753年"
+        }
+      }
+    },
+    {
+      "id": "kp2",
+      "claims": [
+        "agent.003",
+        "agent.004"
+      ],
+      "card": {
+        "en": {
+          "title": "Its river",
+          "value": "Tiber"
+        },
+        "zh-CN": {
+          "title": "城边的河",
+          "value": "台伯河"
+        }
+      }
+    },
+    {
+      "id": "kp3",
+      "claims": [
+        "agent.005",
+        "agent.006"
+      ],
+      "card": {
+        "en": {
+          "title": "Centre of",
+          "value": "Roman Republic"
+        },
+        "zh-CN": {
+          "title": "成为中心",
+          "value": "罗马共和国"
+        }
+      }
+    },
+    {
+      "id": "kp4",
+      "claims": [
+        "agent.007",
+        "agent.008"
+      ],
+      "card": {
+        "en": {
+          "title": "Centre of",
+          "value": "Roman Empire"
+        },
+        "zh-CN": {
+          "title": "帝国中心",
+          "value": "罗马帝国"
+        }
+      }
+    },
+    {
+      "id": "kp5",
+      "claims": [
+        "agent.009",
+        "agent.010"
+      ],
+      "card": {
+        "en": {
+          "title": "World Heritage",
+          "value": "1980"
+        },
+        "zh-CN": {
+          "title": "列入世界遗产",
+          "value": "1980"
+        }
+      }
+    }
+  ],
+  "end_card": {
+    "line": {
+      "en": "The life of Rome.",
+      "zh-CN": "罗马的一生。"
+    },
+    "claims": []
+  }
+}

@@ -1,0 +1,78 @@
+/* White-model projection overlays: a dark studio, light sans text, thin rules and monospace data.
+   Same element ids and CSS variables as the other styles; no filters (CPU rendering). */
+:root {
+  --ci-paper: #0E0F11;
+  --ci-ink: #F3F1EC;
+  --ci-ink-soft: #A9A7A1;
+  --ci-cinnabar: #E8C27A;
+  --ci-halo: rgba(14, 15, 17, 0.85);
+}
+#ci-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ci-overlay { position: absolute; pointer-events: none; }
+#ci-caption {
+  left: 50%;
+  width: var(--ci-caption-width);
+  bottom: var(--ci-caption-bottom);
+  margin-left: calc(var(--ci-caption-width) / -2);
+  text-align: center;
+  color: var(--ci-ink);
+  font-weight: 400;
+  font-size: calc(var(--ci-caption-size) * 0.62);
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(0, 0, 0, 0.6);
+}
+#ci-caption .ci-line { display: block; white-space: nowrap; }
+#ci-caption .ci-em { color: var(--ci-cinnabar); font-weight: 500; }
+#ci-caption[dir="rtl"] { direction: rtl; unicode-bidi: isolate; }
+#ci-card {
+  right: var(--ci-card-right);
+  top: var(--ci-card-top);
+  /* grows to the left to fit long values ("Roman Empire") instead of overflowing the frame */
+  min-width: var(--ci-card-width);
+  width: max-content;
+  padding: calc(var(--ci-card-title-size) * 0.6) calc(var(--ci-card-title-size) * 0.8);
+  background: rgba(14, 15, 17, 0.72);
+  border-left: 3px solid var(--ci-cinnabar);
+  color: var(--ci-ink);
+  opacity: 0;
+  text-align: left;
+}
+#ci-card .ci-card-seal { display: none; }
+#ci-card .ci-card-title { font-size: calc(var(--ci-card-title-size) * 0.8); color: var(--ci-ink-soft); letter-spacing: 0.16em; }
+#ci-card .ci-card-value { font-weight: 300; font-size: calc(var(--ci-card-value-size) * 0.8); line-height: 1.15; margin-top: 0.1em; color: var(--ci-ink); white-space: nowrap; }
+/* the title is shown on the end card only, as in data films */
+#ci-title {
+  display: none;
+  left: 6%; right: auto; top: auto; bottom: 30%;
+  text-align: left;
+  line-height: 1.25;
+  font-weight: 500;
+  font-size: calc(var(--ci-title-size) * 0.8);
+  color: var(--ci-ink);
+  letter-spacing: 0.14em;
+  opacity: 0;
+  text-shadow: 0 0 3px var(--ci-halo), 3px 3px 0 var(--ci-halo), -3px -3px 0 var(--ci-halo);
+}
+#ci-badge {
+  left: 2.2%; top: 3%;
+  padding: 0.2em 0.5em;
+  font-size: var(--ci-badge-size);
+  color: var(--ci-ink-soft);
+  border: 1px solid rgba(243, 241, 236, 0.3);
+  letter-spacing: 0.08em;
+}
+/* End card: left-aligned over the model with all its rings, like a data film's closing plate. */
+#ci-endcard {
+  left: 4%; top: 0; bottom: 0; width: 46%;
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+  gap: calc(var(--ci-caption-size) * 0.28);
+  background: linear-gradient(90deg, rgba(5, 5, 6, 0.78), rgba(5, 5, 6, 0));
+  color: var(--ci-ink);
+  opacity: 0;
+}
+#ci-endcard .ci-end-line { font-weight: 500; font-size: calc(var(--ci-title-size) * 0.5); letter-spacing: 0.06em; padding-bottom: 0.35em; border-bottom: 1px solid rgba(243, 241, 236, 0.35); }
+#ci-endcard .ci-end-seal { display: none; }
+#ci-endcard .ci-end-series { font-family: "JetBrains Mono", "Noto Sans SC", monospace; font-size: calc(var(--ci-caption-size) * 0.3); color: var(--ci-ink-soft); letter-spacing: 0.22em; text-transform: uppercase; margin-bottom: 0.6em; }
+#ci-endcard .ci-end-aigc { font-family: "JetBrains Mono", "Noto Sans SC", monospace; font-size: calc(var(--ci-caption-size) * 0.27); color: rgba(169, 167, 161, 0.85); }

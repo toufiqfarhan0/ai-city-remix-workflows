@@ -1,0 +1,542 @@
+{
+  "schema": "chronicle-claims/1",
+  "claims": [
+    {
+      "id": "a01",
+      "predicate": "founded",
+      "subject_qid": "Q406",
+      "value": {
+        "raw": "c. 657 BCE",
+        "gregorian_year_hint": -657
+      },
+      "scope": null,
+      "text": {
+        "en": "Istanbul was founded as Byzantium around 657 BCE by Greek colonists from Megara.",
+        "zh-CN": "伊斯坦布尔约于公元前657年由墨伽拉希腊殖民者建立。"
+      },
+      "excerpt": "The city was founded as Byzantium, probably around 657 BCE, by Greek colonists from Megara",
+      "source_id": "s04"
+    },
+    {
+      "id": "a02",
+      "predicate": "founded",
+      "subject_qid": "Q406",
+      "value": {
+        "raw": "660 BCE",
+        "gregorian_year_hint": -660
+      },
+      "scope": null,
+      "text": {
+        "en": "Byzantium was established c. 660 BCE by Megarian colonists on the Bosphorus.",
+        "zh-CN": "约公元前660年，来自墨伽拉的殖民者在博斯普鲁斯海峡欧洲一侧建立了拜占庭。"
+      },
+      "excerpt": "西元前660年，来自墨伽拉的希腊殖民者于博斯普鲁斯海峡的欧洲一侧建立了拜占庭",
+      "source_id": "s02"
+    },
+    {
+      "id": "a03",
+      "predicate": "other",
+      "subject_qid": "Q406",
+      "value": {
+        "text": "The colonists chose the site for its superb natural harbor the Golden Horn and strategic location commanding the strait."
+      },
+      "scope": null,
+      "text": {
+        "en": "The Golden Horn gave Byzantium one of the finest natural harbours in the ancient world.",
+        "zh-CN": "金角湾为拜占庭提供了古代世界最优良的天然港湾之一。"
+      },
+      "excerpt": "The colonists chose the site for its superb natural harbor (the Golden Horn) and strategic location",
+      "source_id": "s04"
+    },
+    {
+      "id": "a04",
+      "predicate": "other",
+      "subject_qid": "Q406",
+      "value": {
+        "text": "The Golden Horn provided one of the finest natural harbors in the ancient world."
+      },
+      "scope": null,
+      "text": {
+        "en": "The Golden Horn made Constantinople the preeminent commercial city of its age.",
+        "zh-CN": "金角湾使君士坦丁堡成为其时代最杰出的商业城市。"
+      },
+      "excerpt": "The Golden Horn provided one of the finest natural harbors in the ancient world, enabling Constantinople to become the preeminent commercial city of its age.",
+      "source_id": "s05"
+    },
+    {
+      "id": "a05",
+      "predicate": "capital_of",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Roman Empire",
+            "zh-CN": "罗马帝国"
+          },
+          "qid": "Q2277"
+        },
+        "date": {
+          "raw": "330 CE",
+          "gregorian_year_hint": 330
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In 330 CE, Emperor Constantine made Constantinople the new capital of the Roman Empire.",
+        "zh-CN": "公元330年，君士坦丁大帝将君士坦丁堡定为罗马帝国新首都。"
+      },
+      "excerpt": "In 330 CE, the emperor Constantine the Great made it the new capital of the Roman Empire",
+      "source_id": "s04"
+    },
+    {
+      "id": "a06",
+      "predicate": "capital_of",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Roman Empire",
+            "zh-CN": "罗马帝国"
+          },
+          "qid": "Q2277"
+        },
+        "date": {
+          "raw": "330",
+          "gregorian_year_hint": 330
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Constantinople was declared the full capital of the Roman Empire on 11 May 330 CE.",
+        "zh-CN": "公元330年5月11日，君士坦丁堡正式宣告成为全帝国首都。"
+      },
+      "excerpt": "于330年5月11日，君士坦丁堡宣告成为全帝国首都",
+      "source_id": "s02"
+    },
+    {
+      "id": "a07",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Hagia Sophia",
+            "zh-CN": "圣索菲亚大教堂"
+          },
+          "qid": "Q12506"
+        },
+        "date": {
+          "raw": "537 CE",
+          "gregorian_year_hint": 537
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Hagia Sophia was completed in 537 CE under Emperor Justinian I.",
+        "zh-CN": "圣索菲亚大教堂于公元537年查士丁尼一世统治期间建成。"
+      },
+      "excerpt": "The Hagia Sophia (Ayasofya), completed in 537 CE under Emperor Justinian I",
+      "source_id": "s05"
+    },
+    {
+      "id": "a08",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Hagia Sophia",
+            "zh-CN": "圣索菲亚大教堂"
+          },
+          "qid": "Q12506"
+        },
+        "date": {
+          "raw": "537 CE",
+          "gregorian_year_hint": 537
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Justinian I rebuilt the great church of Hagia Sophia, completed in 537 CE.",
+        "zh-CN": "查士丁尼一世重建了圣索菲亚大教堂，于537年完工。"
+      },
+      "excerpt": "The Hagia Sophia was completed in 537 CE. Constantinople served as the preeminent trade hub",
+      "source_id": "s04"
+    },
+    {
+      "id": "a09",
+      "predicate": "wall_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Theodosian Land Walls",
+            "zh-CN": "狄奥多西城墙"
+          }
+        },
+        "date": {
+          "raw": "412 CE",
+          "gregorian_year_hint": 412
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Theodosian Land Walls were built between 412 and 422 CE under Emperor Theodosius II.",
+        "zh-CN": "狄奥多西城墙于公元412至422年间由狄奥多西二世皇帝修建。"
+      },
+      "excerpt": "The Theodosian Land Walls, built between 412 and 422 CE under Emperor Theodosius II",
+      "source_id": "s05"
+    },
+    {
+      "id": "a10",
+      "predicate": "sacked",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Fourth Crusade",
+            "zh-CN": "第四次十字军"
+          }
+        },
+        "date": {
+          "raw": "1204 CE",
+          "gregorian_year_hint": 1204
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Constantinople was sacked in 1204 CE by the crusaders of the Fourth Crusade.",
+        "zh-CN": "公元1204年，君士坦丁堡遭第四次十字军东征掠夺。"
+      },
+      "excerpt": "在第四次十字军东征中君士坦丁堡受到劫掠和破坏，此后开始衰落",
+      "source_id": "s02"
+    },
+    {
+      "id": "a11",
+      "predicate": "sacked",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Ottoman conquest",
+            "zh-CN": "奥斯曼征服"
+          }
+        },
+        "date": {
+          "raw": "1453 CE",
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Constantinople fell to the Ottoman Turks under Sultan Mehmed II on 29 May 1453.",
+        "zh-CN": "1453年5月29日，君士坦丁堡陷落于苏丹穆罕默德二世率领的奥斯曼土耳其人之手。"
+      },
+      "excerpt": "on May 29, 1453, Constantinople fell to the Ottoman Turks under Sultan Mehmed II",
+      "source_id": "s04"
+    },
+    {
+      "id": "a12",
+      "predicate": "sacked",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Ottoman conquest",
+            "zh-CN": "奥斯曼征服"
+          }
+        },
+        "date": {
+          "raw": "1453",
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "On 29 May 1453, Sultan Mehmed II conquered Constantinople after an eight-week siege.",
+        "zh-CN": "1453年5月29日，苏丹穆罕默德二世经八周围城后攻陷君士坦丁堡。"
+      },
+      "excerpt": "最终于1453年5月29日，在八周的围城之后（其间最后一任罗马皇帝君士坦丁十一世阵亡），苏丹穆罕默德二世",
+      "source_id": "s02"
+    },
+    {
+      "id": "a13",
+      "predicate": "capital_of",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Ottoman Empire",
+            "zh-CN": "奥斯曼帝国"
+          },
+          "qid": "Q12560"
+        },
+        "date": {
+          "raw": "1453",
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Mehmed II made Istanbul the new capital of the Ottoman Empire after 1453.",
+        "zh-CN": "1453年后，穆罕默德二世将伊斯坦布尔定为奥斯曼帝国新首都。"
+      },
+      "excerpt": "Mehmed made the city the new capital of his empire",
+      "source_id": "s04"
+    },
+    {
+      "id": "a14",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Grand Bazaar",
+            "zh-CN": "大巴扎"
+          },
+          "qid": "Q190560"
+        },
+        "date": {
+          "raw": "1461 CE",
+          "gregorian_year_hint": 1461
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Grand Bazaar was begun c. 1461 under Mehmed II and is one of the oldest covered markets in the world.",
+        "zh-CN": "大巴扎约于1461年穆罕默德二世统治下开始修建，是世界上最古老的室内集市之一。"
+      },
+      "excerpt": "The Grand Bazaar (Kapali Carsi), begun in 1461 under Mehmed II, is one of the largest and oldest covered markets in the world.",
+      "source_id": "s05"
+    },
+    {
+      "id": "a15",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Suleymaniye Mosque",
+            "zh-CN": "苏莱曼尼清真寺"
+          },
+          "qid": "Q185312"
+        },
+        "date": {
+          "raw": "1557",
+          "gregorian_year_hint": 1557
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Suleymaniye Mosque, designed by architect Mimar Sinan, was completed in 1557.",
+        "zh-CN": "由建筑师米马尔·希南设计的苏莱曼尼清真寺于1557年竣工。"
+      },
+      "excerpt": "The Suleymaniye Mosque, designed by architect Mimar Sinan and completed in 1557",
+      "source_id": "s05"
+    },
+    {
+      "id": "a16",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Suleymaniye Mosque",
+            "zh-CN": "苏莱曼尼清真寺"
+          }
+        },
+        "date": {
+          "raw": "1557",
+          "gregorian_year_hint": 1557
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Suleymaniye Mosque was completed in 1557, designed by Mimar Sinan.",
+        "zh-CN": "苏莱曼尼清真寺于1557年建成，由米马尔·希南设计。"
+      },
+      "excerpt": "首席建筑师米马尔·希南设计城内的多座象征性建筑",
+      "source_id": "s02"
+    },
+    {
+      "id": "a17",
+      "predicate": "other",
+      "subject_qid": "Q406",
+      "value": {
+        "text": "The city served as the western terminus of the Silk Road."
+      },
+      "scope": null,
+      "text": {
+        "en": "Istanbul served as the western terminus of the Silk Road, where Eastern goods were exchanged for European products.",
+        "zh-CN": "伊斯坦布尔是古丝绸之路的西端终点，东方货物在此与欧洲商品交换。"
+      },
+      "excerpt": "The city served as the western terminus of the Silk Road, where goods from China, India and the East were exchanged for European products.",
+      "source_id": "s05"
+    },
+    {
+      "id": "a18",
+      "predicate": "other",
+      "subject_qid": "Q406",
+      "value": {
+        "text": "Istanbul is the only city in the world situated on two continents Europe and Asia."
+      },
+      "scope": null,
+      "text": {
+        "en": "Istanbul is the only major city in the world straddling two continents, Europe and Asia.",
+        "zh-CN": "伊斯坦布尔是世界上唯一横跨欧亚两大洲的大都市。"
+      },
+      "excerpt": "Istanbul is the only city in the world situated on two continents — Europe and Asia.",
+      "source_id": "s05"
+    },
+    {
+      "id": "a19",
+      "predicate": "heritage_listed",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "UNESCO World Heritage Site",
+            "zh-CN": "联合国教科文组织世界遗产"
+          }
+        },
+        "date": {
+          "raw": "1985",
+          "gregorian_year_hint": 1985
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Historic Areas of Istanbul were inscribed on the UNESCO World Heritage List in 1985.",
+        "zh-CN": "伊斯坦布尔历史区于1985年被列入联合国教科文组织世界遗产名录。"
+      },
+      "excerpt": "The Historic Areas of Istanbul were inscribed on the UNESCO World Heritage List in 1985",
+      "source_id": "s05"
+    },
+    {
+      "id": "a20",
+      "predicate": "heritage_listed",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "UNESCO World Heritage Site",
+            "zh-CN": "联合国教科文组织世界遗产"
+          }
+        },
+        "date": {
+          "raw": "1985",
+          "gregorian_year_hint": 1985
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Istanbul historic areas were collectively designated a UNESCO World Heritage site in 1985.",
+        "zh-CN": "伊斯坦布尔历史城区于1985年被集体列为联合国教科文组织世界遗产。"
+      },
+      "excerpt": "Around their slopes are ranged many of the mosques and other historic landmarks that were collectively designated a UNESCO World Heritage site in 1985.",
+      "source_id": "s04"
+    },
+    {
+      "id": "a21",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Marmaray rail tunnel",
+            "zh-CN": "马尔马拉伊铁路隧道"
+          }
+        },
+        "date": {
+          "raw": "2013",
+          "gregorian_year_hint": 2013
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Marmaray rail tunnel beneath the Bosphorus opened in 2013, linking Europe and Asia by rail.",
+        "zh-CN": "穿越博斯普鲁斯海峡的马尔马拉伊铁路隧道于2013年开通，将欧亚两洲铁路网相连。"
+      },
+      "excerpt": "The Marmaray Project, completed in 2013, created a rail tunnel beneath the Bosphorus",
+      "source_id": "s05"
+    },
+    {
+      "id": "a22",
+      "predicate": "structure_built",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Marmaray rail tunnel",
+            "zh-CN": "马尔马拉伊铁路隧道"
+          }
+        },
+        "date": {
+          "raw": "2013",
+          "gregorian_year_hint": 2013
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "The Marmaray rail tunnel opened in 2013, creating a continuous rail link beneath the Bosphorus.",
+        "zh-CN": "马尔马拉伊隧道于2013年开通，形成穿越博斯普鲁斯海峡的持续铁路连接。"
+      },
+      "excerpt": "The Marmaray rail tunnel beneath the Bosphorus opened in 2013, creating a continuous rail link",
+      "source_id": "s04"
+    },
+    {
+      "id": "a23",
+      "predicate": "population",
+      "subject_qid": "Q406",
+      "value": {
+        "raw": "15,149,358 people"
+      },
+      "scope": null,
+      "text": {
+        "en": "Istanbul population was 15,149,358 as of 31 December 2021.",
+        "zh-CN": "截至2021年12月31日，伊斯坦布尔人口为15,149,358人。"
+      },
+      "excerpt": "15,149,358人（土耳其第1大）",
+      "source_id": "s02"
+    },
+    {
+      "id": "a24",
+      "predicate": "other",
+      "subject_qid": "Q406",
+      "value": {
+        "text": "The Bosphorus connects the Black Sea to the Mediterranean making Istanbul the gateway between the two seas."
+      },
+      "scope": null,
+      "text": {
+        "en": "The Bosphorus connects the Black Sea to the Mediterranean, making Istanbul the sole gateway between the two seas.",
+        "zh-CN": "博斯普鲁斯海峡连接黑海与地中海，使伊斯坦布尔成为两海之间唯一的门户。"
+      },
+      "excerpt": "The Bosporus (Istanbul Bogazi) is the channel connecting the Black Sea (Karadeniz) to the Mediterranean",
+      "source_id": "s04"
+    },
+    {
+      "id": "a25",
+      "predicate": "rebuilt",
+      "subject_qid": "Q406",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Repopulation under Mehmed II",
+            "zh-CN": "穆罕默德二世复兴"
+          }
+        },
+        "date": {
+          "raw": "after 1453",
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "After 1453, Mehmed II repopulated Istanbul and began building the Grand Bazaar and Topkapi Palace.",
+        "zh-CN": "1453年后，穆罕默德二世重新安置居民，并开始修建大巴扎和托卡比皇宫。"
+      },
+      "excerpt": "Mehmed made the city the new capital of his empire. He converted the Hagia Sophia to a mosque and worked to repopulate and revitalize the city",
+      "source_id": "s04"
+    }
+  ]
+}

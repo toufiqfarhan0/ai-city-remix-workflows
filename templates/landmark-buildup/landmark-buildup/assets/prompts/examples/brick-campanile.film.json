@@ -1,0 +1,17 @@
+{
+  "duration": 30,
+  "build": [1, 22],
+  "light": [[0, 0.1], [22, 0.35], [30, 0.85]],
+  "cover": { "frames": 900, "posterAt": 20 },
+  "shots": [
+    { "id": "rise", "start": 0, "end": 23, "center": [[0, 4, 0], [0, 22, 0]], "yaw": [0.8, -0.6], "elev": [0.3, 0.18], "distance": [55, 62] },
+    { "id": "belfry", "start": 23, "end": 26.5, "center": [[0, 34.5, 0], [0, 35, 0]], "yaw": [0.4, 0.2], "elev": [0.1, 0.12], "distance": [16, 14] },
+    { "id": "dusk", "start": 26.5, "end": 30, "center": [[0, 22, 0], [0, 23, 0]], "yaw": [-0.3, -0.45], "elev": [0.12, 0.16], "distance": [62, 58] }
+  ],
+  "views": {
+    "overview": { "center": [0, 22, 0], "yaw": 0.6, "elev": 0.18, "distance": 60 },
+    "loggia": { "center": [0, 35, 0], "yaw": 0.3, "elev": 0.12, "distance": 15 },
+    "turret": { "center": [0, 3, 3.6], "yaw": 0.1, "elev": 0.1, "distance": 12 },
+    "crown": { "center": [0, 42, 0], "yaw": -0.4, "elev": 0.3, "distance": 22 }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "city": "Tokyo",
+  "driveSide": "left",
+  "place": {
+    "en": "Shinjuku, Tokyo",
+    "zh-CN": "东京新宿"
+  },
+  "film": {
+    "duration": 60,
+    "posterAt": 12,
+    "tod": [
+      0.04,
+      0.97
+    ],
+    "turns": 1,
+    "wide": 0.17,
+    "near": 0.42,
+    "order": [
+      "Tokyo Metropolitan Government Main Building 1",
+      "Shinjuku Park Tower",
+      "Shinjuku Nomura Building",
+      "Shinjuku Center Building",
+      "Shinjuku Mitsui Building",
+      "Mode Gakuen Cocoon Tower",
+      "JR Shinjuku Miraina Tower",
+      "Tokyu Kabukicho Tower"
+    ]
+  },
+  "ground": {
+    "land": "#cfc6b0",
+    "plaza": "#ddd3ba",
+    "green": "#7fae58",
+    "greenDark": "#5f9145",
+    "water": "#2f7f9e",
+    "waterLight": "#9fd8e6",
+    "road": "#55575f",
+    "roadMinor": "#6e6f74",
+    "path": "#e2d9c4",
+    "rail": "#7c6f62",
+    "kerb": "#c9c2b2",
+    "line": "#ece6d4"
+  },
+  "facades": {
+    "house": [
+      "#efe2c6",
+      "#e6c9a4",
+      "#f2ece0"
+    ],
+    "terrace": [
+      "#e9dcc2",
+      "#d9c6a6",
+      "#efe6d4",
+      "#c9b79a",
+      "#e4d0b6"
+    ],
+    "apartments": [
+      "#e8e1d2",
+      "#d8d2c4",
+      "#efe3c8",
+      "#cdd4d6",
+      "#e7cfb4"
+    ],
+    "office": [
+      "#7e93a8",
+      "#8b98a3",
+      "#6f8399",
+      "#a3acb3"
+    ],
+    "shop": [
+      "#efe4cc",
+      "#e9cfa0",
+      "#dcbca8"
+    ],
+    "civic": [
+      "#efe5cc",
+      "#e4d6b4",
+      "#f0ebe0"
+    ],
+    "church": [
+      "#ece2c8",
+      "#dfd0ac"
+    ],
+    "industrial": [
+      "#a9a49a",
+      "#b8836a",
+      "#9aa2a4"
+    ],
+    "warehouse": [
+      "#c2bcae",
+      "#a3aaab",
+      "#b9917a"
+    ],
+    "tower": [
+      "#6c87a3",
+      "#7d93a6",
+      "#5d7590",
+      "#8fa2b2",
+      "#a7b3bb"
+    ]
+  },
+  "roofs": {
+    "default": "#a29e96",
+    "house": "#b0674a",
+    "terrace": "#a9a59c",
+    "apartments": "#9e9a92",
+    "office": "#8e949a",
+    "tower": "#868d95",
+    "civic": "#8fa08f",
+    "church": "#8a6a52",
+    "shop": "#a6a198",
+    "industrial": "#8d9192",
+    "warehouse": "#9a9690"
+  },
+  "glass": "#2a425a",
+  "windowLit": "#ffe899",
+  "windowWarm": "#ffbf59",
+  "trim": "#ede6d8",
+  "tree": "#3d7a2e",
+  "treeDark": "#2a541e",
+  "trunk": "#5c3d26",
+  "lamp": "#fff3c2",
+  "cars": [
+    "#f5cc27",
+    "#1b6938",
+    "#111214",
+    "#e8e5db",
+    "#c72828",
+    "#2454a3"
+  ],
+  "notes": {
+    "Tokyo Metropolitan Government Main Building 1": {
+      "en": "Kenzo Tange’s 243-metre twin towers, clad in pale concrete, anchor the dawn with civic geometry and elevated observation decks.",
+      "zh-CN": "丹下健三设计的243米双塔覆以浅色混凝土，以纪念性几何和空中观景台迎接黎明。"
+    },
+    "Shinjuku Park Tower": {
+      "en": "Park Hyatt Tokyo rises as a stepped stack of granite volumes, its landscaped terraces translating vertical density into layered quiet.",
+      "zh-CN": "东京柏悦酒店所在的新宿公园塔由层叠花岗岩体量构成，阶台式平台把垂直密度转译为景观露台与静谧层次。"
+    },
+    "Shinjuku Nomura Building": {
+      "en": "A 210-metre white tower articulated by narrow vertical fins, its repetitive façade turning office floors into a precise urban barcode.",
+      "zh-CN": "210米高的白色巨塔布满细密竖向鳍片，重复的立面像一张精确的城市条形码。"
+    },
+    "Shinjuku Center Building": {
+      "en": "A 228-metre steel-and-glass corporate monolith whose disciplined curtain wall captures shifting weather and daylight.",
+      "zh-CN": "228米高的钢与玻璃企业巨构，以严谨幕墙捕捉东京不断变化的天气与天光。"
+    },
+    "Shinjuku Mitsui Building": {
+      "en": "A 225-metre dark tower made legible by monumental diagonal X-bracing, a structural signature that turns the skyline into circuitry.",
+      "zh-CN": "225米高的深色塔楼以巨型X形斜撑清晰可辨，结构签名把天际线化作流动电路。"
+    },
+    "Mode Gakuen Cocoon Tower": {
+      "en": "A 204-metre cocoon-like tower wrapped in diagonal steel strands and translucent envelopes, softening the corporate skyline with woven motion.",
+      "zh-CN": "204米高的茧形塔楼由交织斜向钢构与半透明表皮包裹，为商务天际线注入柔和的编织动势。"
+    },
+    "JR Shinjuku Miraina Tower": {
+      "en": "A 168-metre rail-linked slab above Shinjuku Station, compressing offices and transit into one sleek, heavily used urban threshold.",
+      "zh-CN": "168米高的里程碑塔立于新宿站上方，将办公空间与轨道交通压叠成高流量的城市门槛。"
+    },
+    "Tokyu Kabukicho Tower": {
+      "en": "A 225-metre glass tower crowned by a luminous spire, its theatrical fountain and cinema signs forming Kabukicho’s neon gateway.",
+      "zh-CN": "225米高的玻璃塔以发光尖顶收束，戏剧性喷泉和影院招牌共同构成歌舞伎町的霓虹门户。"
+    }
+  }
+}

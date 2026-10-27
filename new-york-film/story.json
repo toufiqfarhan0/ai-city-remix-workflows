@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "city": {
+    "name": "New York",
+    "lat": 40.7128,
+    "lon": -74.0061,
+    "note": "40.713°N, 74.006°W"
+  },
+  "title": {
+    "en": "New York in Eight Growth Rings",
+    "sub": "1626 to Present"
+  },
+  "intro": "At Manhattan's southern tip, a Dutch fort and palisade launch a city story carried by the Hudson, East River, streets, and bridges.",
+  "outro": "We return to the Battery, where the completed growth rings frame a five-borough harbor still reaching toward the world.",
+  "endCard": {
+    "title": "New York: Growth Through Time",
+    "sub": "From Palisade to Skyline"
+  },
+  "voice": "English_CaptivatingStoryteller",
+  "eras": [
+    {
+      "year": "1626",
+      "label": "New Amsterdam",
+      "stat": "Settlement approx. 0.35 km²",
+      "narration": "Dutch settlers establish New Amsterdam around the Battery, behind a defensive wall and palisade where the Hudson and East River meet.",
+      "color": "#e29d52",
+      "seed": [40.7042, -74.0138],
+      "shape": {
+        "polygons": [
+          [
+            [40.7005, -74.0135],
+            [40.7025, -74.0170],
+            [40.7055, -74.0175],
+            [40.7072, -74.0125],
+            [40.7065, -74.0080],
+            [40.7040, -74.0070],
+            [40.7015, -74.0090],
+            [40.7005, -74.0135]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7033, -74.0132],
+          "title": "The Battery & Fort Amsterdam",
+          "image": "the-battery"
+        }
+      ]
+    },
+    {
+      "year": "1700",
+      "label": "Colonial Harbor",
+      "stat": "About 5,000 residents by 1700",
+      "narration": "The colonial port pushes north past Wall Street as bustling wharves line the East River, drawing transatlantic trade toward the shoreline.",
+      "color": "#4382a4",
+      "seed": [40.7081, -74.0122],
+      "shape": {
+        "polygons": [
+          [
+            [40.7005, -74.0135],
+            [40.7030, -74.0180],
+            [40.7135, -74.0140],
+            [40.7150, -74.0030],
+            [40.7115, -73.9970],
+            [40.7050, -73.9980],
+            [40.7015, -74.0090],
+            [40.7005, -74.0135]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7075, -74.0113],
+          "title": "Wall Street & East River Docks",
+          "image": "wall-street"
+        }
+      ]
+    },
+    {
+      "year": "1811",
+      "label": "Commissioners' Plan",
+      "stat": "Rectilinear grid across Manhattan",
+      "narration": "The Commissioners' Plan of 1811 imposes a rectilinear street grid northward through Greenwich Village, defining the city's future avenues.",
+      "color": "#c45a38",
+      "seed": [40.7250, -74.0000],
+      "shape": {
+        "polygons": [
+          [
+            [40.7005, -74.0135],
+            [40.7060, -74.0185],
+            [40.7250, -74.0120],
+            [40.7380, -74.0080],
+            [40.7360, -73.9850],
+            [40.7240, -73.9740],
+            [40.7115, -73.9760],
+            [40.7040, -73.9980],
+            [40.7005, -74.0135]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7308, -74.0010],
+          "title": "Washington Square Park",
+          "image": "washington-square"
+        }
+      ]
+    },
+    {
+      "year": "1858",
+      "label": "Central Park & Midtown",
+      "stat": "Park spans 843 public acres",
+      "narration": "Olmsted and Vaux shape Central Park's Greensward plan as Midtown fills with avenues, hotels, and brownstones beyond the old city core.",
+      "color": "#4f8a4b",
+      "seed": [40.7600, -73.9800],
+      "shape": {
+        "polygons": [
+          [
+            [40.7005, -74.0135],
+            [40.7100, -74.0185],
+            [40.7400, -74.0100],
+            [40.7680, -73.9950],
+            [40.8000, -73.9600],
+            [40.7850, -73.9450],
+            [40.7550, -73.9600],
+            [40.7300, -73.9720],
+            [40.7100, -73.9760],
+            [40.7005, -74.0135]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7829, -73.9654],
+          "title": "Central Park Greensward",
+          "image": "central-park"
+        }
+      ]
+    },
+    {
+      "year": "1883",
+      "label": "Brooklyn Bridge",
+      "stat": "Suspension span 1,595 feet",
+      "narration": "The Brooklyn Bridge leaps across the East River, binding Brooklyn to Manhattan and turning the river into a metropolitan crossroads.",
+      "color": "#7a4e9f",
+      "seed": [40.7061, -73.9969],
+      "shape": {
+        "polygons": [
+          [
+            [40.6800, -74.0100],
+            [40.6850, -73.9750],
+            [40.7150, -73.9550],
+            [40.7500, -73.9500],
+            [40.8100, -73.9400],
+            [40.8150, -73.9600],
+            [40.7680, -73.9950],
+            [40.7250, -74.0120],
+            [40.7005, -74.0135],
+            [40.6800, -74.0100]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7061, -73.9969],
+          "title": "The Brooklyn Bridge",
+          "image": "brooklyn-bridge"
+        }
+      ]
+    },
+    {
+      "year": "1898",
+      "label": "Greater New York",
+      "stat": "Consolidation of Five Boroughs",
+      "narration": "Greater New York consolidates Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, uniting rivers, roads, and rail into one giant metropolis.",
+      "color": "#c99700",
+      "seed": [40.7127, -74.0060],
+      "shape": {
+        "polygons": [
+          [
+            [40.5700, -74.1500],
+            [40.6400, -74.0500],
+            [40.7200, -74.0200],
+            [40.8800, -73.9200],
+            [40.9000, -73.8500],
+            [40.8500, -73.7800],
+            [40.7600, -73.7500],
+            [40.6800, -73.7500],
+            [40.5800, -73.9500],
+            [40.5200, -74.2000],
+            [40.5700, -74.1500]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7127, -74.0060],
+          "title": "New York City Hall",
+          "image": "city-hall"
+        }
+      ]
+    },
+    {
+      "year": "1931",
+      "label": "Vertical Metropolis",
+      "stat": "Empire State rises 1,250 feet",
+      "narration": "Art deco spires spear into the clouds as the subway network rapidly expands, cementing New York's identity as a towering vertical titan.",
+      "color": "#375a7f",
+      "seed": [40.7484, -73.9857],
+      "shape": {
+        "polygons": [
+          [
+            [40.5500, -74.1800],
+            [40.6200, -74.0500],
+            [40.7200, -74.0200],
+            [40.8900, -73.9200],
+            [40.9150, -73.8300],
+            [40.8600, -73.7500],
+            [40.7600, -73.7200],
+            [40.6500, -73.7200],
+            [40.5600, -73.9200],
+            [40.5000, -74.2400],
+            [40.5500, -74.1800]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7484, -73.9857],
+          "title": "Empire State Building",
+          "image": "empire-state"
+        }
+      ]
+    },
+    {
+      "year": "Today",
+      "label": "Global Harbor Gateway",
+      "stat": "Over 8.3 million residents",
+      "narration": "Today waterfronts thrive across all five boroughs, as the outer growth rings complete their sweep and return to the historic harbor.",
+      "color": "#d14b5a",
+      "seed": [40.7033, -74.0132],
+      "shape": {
+        "polygons": [
+          [
+            [40.5000, -74.2500],
+            [40.5800, -74.1800],
+            [40.7000, -74.0400],
+            [40.9100, -73.9300],
+            [40.9200, -73.8000],
+            [40.8600, -73.7000],
+            [40.7500, -73.7000],
+            [40.6000, -73.7200],
+            [40.5400, -73.9200],
+            [40.4800, -74.2400],
+            [40.5000, -74.2500]
+          ]
+        ]
+      },
+      "events": [
+        {
+          "at": [40.7033, -74.0132],
+          "title": "The Battery & Harbor Return",
+          "image": "battery-return"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Jerusalem in Stone: A Life from Daybreak to Starlight",
+  "summary": "One persistent limestone miniature carries Jerusalem’s life story from documented Jaffa Gate at daybreak through green parks, sacred landmarks and the Mount of Olives, as light turns to starlight.",
+  "lang": "en",
+  "fields": {
+    "city_id": "jerusalem",
+    "place_lat": 31.7767,
+    "place_lng": 35.2342,
+    "used_m31_flash": true,
+    "director_notes": "Prompt: Adapt manhattan-miniature into a 60s diorama film of Jerusalem connecting documented Jaffa Gate through parks and public spaces to the Mount of Olives under changing day and night light. MiniMax M3.1 Flash role: Directed narrative structure, landmark sequencing, bilingual subtitles, and day-to-night lighting choreography. Diorama: 3D interactive diorama with custom limestone materials, road networks, and day/night transitions. Audio: MiniMax Speech 2.8 HD English narration synchronized to landmark flights. Human involvement: Camera choreography, timing alignment, subtitle muxing, and verification.",
+    "sources": [
+      "https://whc.unesco.org/en/list/1002/",
+      "https://www.tod.org.il/en/",
+      "https://www.thekotel.org/"
+    ],
+    "my_city_line": "Jerusalem: stone, paths, and the endless light"
+  }
+}

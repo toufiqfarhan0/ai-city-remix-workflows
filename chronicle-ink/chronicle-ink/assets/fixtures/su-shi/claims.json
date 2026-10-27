@@ -1,0 +1,2241 @@
+{
+  "schema": "chronicle-claims/1",
+  "claims": [
+    {
+      "id": "agent.001",
+      "predicate": "exam_passed",
+      "subject_qid": "Q36020",
+      "value": {
+        "object": {
+          "label": {
+            "en": "jinshi degree",
+            "zh-CN": "进士"
+          }
+        },
+        "date": {
+          "raw": "嘉祐二年（1057年）",
+          "y": 1057,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1057
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi passed the jinshi examination in 1057",
+        "zh-CN": "苏轼于1057年考中进士"
+      },
+      "excerpt": "嘉祐二年（1057年），苏轼才20岁，与弟弟苏辙一同进京参加会考，之后两人皆中进士。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "exam_passed#1",
+      "cluster": "exam_passed#1/c1"
+    },
+    {
+      "id": "agent.002",
+      "predicate": "exam_passed",
+      "subject_qid": "Q36020",
+      "value": {
+        "object": {
+          "label": {
+            "en": "jinshi degree",
+            "zh-CN": "进士"
+          }
+        },
+        "date": {
+          "raw": "1057",
+          "y": 1057,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1057
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi passed the jinshi examination in 1057",
+        "zh-CN": "苏轼于1057年考中进士"
+      },
+      "excerpt": "\"EntryCode\":\"\\u79d1\\u8209: \\u9032\\u58eb(\\u7c60\\u7d71)\",\"EntryCodeId\":\"36\",\"RuShiYear\":\"1057\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "exam_passed#1",
+      "cluster": "exam_passed#1/c1"
+    },
+    {
+      "id": "agent.003",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Hangzhou",
+            "zh-CN": "杭州"
+          }
+        },
+        "date": {
+          "raw": "熙宁四年",
+          "y": 1071,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1071
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi went to Hangzhou as vice-prefect in 1071",
+        "zh-CN": "苏轼于1071年赴杭州任通判"
+      },
+      "excerpt": "滞留京城至熙宁四年夏末，神宗批示“改通判杭州”，遂经由陈州赴杭，十一月到任。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#1",
+      "cluster": "lived_in#1/c1"
+    },
+    {
+      "id": "agent.004",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Hangzhou",
+            "zh-CN": "杭州"
+          }
+        },
+        "date": {
+          "raw": "1071",
+          "y": 1071,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1071
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Hangzhou from 1071",
+        "zh-CN": "苏轼自1071年起居于杭州"
+      },
+      "excerpt": "\"AddrId\":\"101088\",\"AddrName\":\"\\u676d\\u5dde\",\"MoveCount\":\"11\",\"FirstYear\":\"1071\",\"LastYear\":\"1074\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#1",
+      "cluster": "lived_in#1/c1"
+    },
+    {
+      "id": "agent.005",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Mizhou",
+            "zh-CN": "密州"
+          }
+        },
+        "date": {
+          "raw": "1074",
+          "y": 1074,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1074
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Mizhou from 1074",
+        "zh-CN": "苏轼自1074年起居于密州"
+      },
+      "excerpt": "\"AddrId\":\"11151\",\"AddrName\":\"\\u5bc6\\u5dde\",\"MoveCount\":\"12\",\"FirstYear\":\"1074\",\"LastYear\":\"1076\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#2",
+      "cluster": "lived_in#2/c1"
+    },
+    {
+      "id": "agent.006",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Mizhou",
+            "zh-CN": "密州"
+          }
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was ordered to Mizhou",
+        "zh-CN": "苏轼奉诏前往密州"
+      },
+      "excerpt": "至熙宁七年夏回到杭州。过了几个月接到诏命前往密州，九月二十日告别杭州道友，十月启程。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#2",
+      "cluster": "lived_in#2/c1"
+    },
+    {
+      "id": "agent.007",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Xuzhou",
+            "zh-CN": "徐州"
+          }
+        },
+        "date": {
+          "raw": "1077",
+          "y": 1077,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1077
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Xuzhou from 1077",
+        "zh-CN": "苏轼自1077年起居于徐州"
+      },
+      "excerpt": "\"AddrId\":\"11242\",\"AddrName\":\"\\u5f90\\u5dde\",\"MoveCount\":\"13\",\"FirstYear\":\"1077\",\"LastYear\":\"1079\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#3",
+      "cluster": "lived_in#3/c1"
+    },
+    {
+      "id": "agent.008",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Xuzhou",
+            "zh-CN": "徐州"
+          }
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi arrived in Xuzhou and joined the flood relief when the Yellow River broke its banks",
+        "zh-CN": "苏轼到徐州，黄河决口时参加救灾"
+      },
+      "excerpt": "四月二十一日，到徐州。是年七月七日，黄河决口，水困徐州，苏轼参加救灾。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#3",
+      "cluster": "lived_in#3/c1"
+    },
+    {
+      "id": "agent.009",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Huzhou",
+            "zh-CN": "湖州"
+          }
+        },
+        "date": {
+          "raw": "元丰二年（1079年）",
+          "y": 1079,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1079
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi became prefect of Huzhou in 1079",
+        "zh-CN": "苏轼于1079年移知湖州"
+      },
+      "excerpt": "元丰二年（1079年）三月，移知湖州。四月二十九日，到湖州任。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#4",
+      "cluster": "lived_in#4/c1"
+    },
+    {
+      "id": "agent.010",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Huzhou",
+            "zh-CN": "湖州"
+          }
+        },
+        "date": {
+          "raw": "1079",
+          "y": 1079,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1079
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Huzhou in 1079",
+        "zh-CN": "苏轼1079年居于湖州"
+      },
+      "excerpt": "\"AddrId\":\"101092\",\"AddrName\":\"\\u6e56\\u5dde\",\"MoveCount\":\"14\",\"FirstYear\":\"1079\",\"LastYear\":\"1079\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#4",
+      "cluster": "lived_in#4/c1"
+    },
+    {
+      "id": "agent.011",
+      "predicate": "imprisoned",
+      "subject_qid": "Q36020",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Crow Terrace poetry case",
+            "zh-CN": "乌台诗案"
+          }
+        },
+        "date": {
+          "raw": "元丰二年",
+          "y": 1079,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1079
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was jailed in 1079 over the Crow Terrace poetry case and nearly died",
+        "zh-CN": "苏轼于1079年因乌台诗案入狱，几乎丧命"
+      },
+      "excerpt": "八月十八日，下狱。十一月三十日结案。此次苏轼因乌台诗案入狱，几死",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "single-source",
+      "instance": "imprisoned#1",
+      "cluster": "imprisoned#1/c1"
+    },
+    {
+      "id": "agent.012",
+      "predicate": "office_held",
+      "subject_qid": "Q36020",
+      "value": {
+        "object": {
+          "label": {
+            "en": "deputy military training commissioner",
+            "zh-CN": "团练副使"
+          }
+        },
+        "place": {
+          "label": {
+            "en": "Huangzhou",
+            "zh-CN": "黄州"
+          }
+        },
+        "date": {
+          "raw": "1080",
+          "y": 1080,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1080
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi served as deputy military training commissioner of Huangzhou from 1080",
+        "zh-CN": "苏轼自1080年任黄州团练副使"
+      },
+      "excerpt": "\"OfficeName\":\"\\u5718\\u7df4\\u526f\\u4f7f\",\"AddrId\":\"12650\",\"AddrName\":\"\\u9ec3\\u5dde\",\"FirstYear\":\"1080\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "office_held#1",
+      "cluster": "office_held#1/c1"
+    },
+    {
+      "id": "agent.013",
+      "predicate": "office_held",
+      "subject_qid": "Q36020",
+      "value": {
+        "object": {
+          "label": {
+            "en": "deputy military training commissioner",
+            "zh-CN": "团练副使"
+          }
+        },
+        "place": {
+          "label": {
+            "en": "Huangzhou",
+            "zh-CN": "黄州"
+          }
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi escaped death and was demoted to deputy military training commissioner of Huangzhou",
+        "zh-CN": "苏轼免于一死，被贬为黄州团练副使"
+      },
+      "excerpt": "苏轼终免一死，贬谪为“检校尚书、水部员外郎、黄州团练副使，本州安置，不得签书公事”",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "office_held#1",
+      "cluster": "office_held#1/c1"
+    },
+    {
+      "id": "agent.014",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Huangzhou",
+            "zh-CN": "黄州"
+          }
+        },
+        "date": {
+          "raw": "1080",
+          "y": 1080,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1080
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Huangzhou from 1080 to 1084",
+        "zh-CN": "苏轼1080年至1084年居于黄州"
+      },
+      "excerpt": "\"AddrId\":\"12650\",\"AddrName\":\"\\u9ec3\\u5dde\",\"MoveCount\":\"16\",\"FirstYear\":\"1080\",\"LastYear\":\"1084\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#5",
+      "cluster": "lived_in#5/c1"
+    },
+    {
+      "id": "agent.015",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Huangzhou",
+            "zh-CN": "黄州"
+          }
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In Huangzhou Su Shi roamed the hills and rivers among fishermen and woodcutters",
+        "zh-CN": "苏轼在黄州放浪山水，与渔樵杂处"
+      },
+      "excerpt": "苏轼在黄州“深自闭塞，扁舟革履，放浪山水之间，与渔樵杂处”",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#5",
+      "cluster": "lived_in#5/c1"
+    },
+    {
+      "id": "agent.016",
+      "predicate": "art_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Dongpo Jushi",
+          "zh-CN": "东坡居士"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi used the art name Dongpo Jushi",
+        "zh-CN": "苏轼号东坡居士"
+      },
+      "excerpt": "\"AliasTypeId\":\"5\",\"AliasName\":\"\\u6771\\u5761\\u5c45\\u58eb\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "art_name#1",
+      "cluster": "art_name#1/c1"
+    },
+    {
+      "id": "agent.017",
+      "predicate": "art_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Dongpo Jushi",
+          "zh-CN": "东坡居士"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In Huangzhou Su Shi farmed a plot he named Dongpo and called himself Dongpo Jushi",
+        "zh-CN": "苏轼在黄州躬耕一块地，命名为东坡，自号东坡居士"
+      },
+      "excerpt": "朋友马正卿为苏轼请到了黄州营地以东一块地，苏轼躬耕其中，命名为“东坡”，复于元丰五年营造雪堂，自号东坡居士。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "art_name#1",
+      "cluster": "art_name#1/c1"
+    },
+    {
+      "id": "agent.018",
+      "predicate": "courtesy_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Zizhan",
+          "zh-CN": "子瞻"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi had the courtesy name Zizhan",
+        "zh-CN": "苏轼字子瞻"
+      },
+      "excerpt": "\"AliasTypeId\":\"4\",\"AliasName\":\"\\u5b50\\u77bb\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "courtesy_name#1",
+      "cluster": "courtesy_name#1/c1"
+    },
+    {
+      "id": "agent.019",
+      "predicate": "work_written",
+      "subject_qid": "Q36020",
+      "value": {
+        "object": {
+          "label": {
+            "en": "First Ode on the Red Cliff",
+            "zh-CN": "前赤壁赋"
+          }
+        },
+        "date": {
+          "raw": "元丰五年（1082年）",
+          "y": 1082,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1082
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi wrote the First Ode on the Red Cliff in 1082 after visiting the Red Cliff near Huangzhou",
+        "zh-CN": "苏轼于1082年游黄州赤壁，写下《前赤壁赋》"
+      },
+      "excerpt": "元丰五年（1082年），苏轼先后两次游览了黄州附近的赤壁，《前赤壁赋》写于首次游览黄州赤壁时。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "single-source",
+      "instance": "work_written#1",
+      "cluster": "work_written#1/c1"
+    },
+    {
+      "id": "agent.020",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Ruzhou",
+            "zh-CN": "汝州"
+          }
+        },
+        "date": {
+          "raw": "元丰七年（1084年）",
+          "y": 1084,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1084
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In 1084 Su Shi was moved from Huangzhou to Ruzhou",
+        "zh-CN": "1084年苏轼由黄州改任汝州团练副使，离开黄州"
+      },
+      "excerpt": "元丰七年（1084年）苏轼由黄州团练副使迁汝州团练副使，四月六日离开黄州",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#6",
+      "cluster": "lived_in#6/c1"
+    },
+    {
+      "id": "agent.021",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Ruzhou",
+            "zh-CN": "汝州"
+          }
+        },
+        "date": {
+          "raw": "1084",
+          "y": 1084,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1084
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Ruzhou from 1084",
+        "zh-CN": "苏轼自1084年起居于汝州"
+      },
+      "excerpt": "\"AddrId\":\"11520\",\"AddrName\":\"\\u6c5d\\u5dde\",\"MoveCount\":\"17\",\"FirstYear\":\"1084\",\"LastYear\":\"1085\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#6",
+      "cluster": "lived_in#6/c1"
+    },
+    {
+      "id": "agent.022",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Dingzhou",
+            "zh-CN": "定州"
+          }
+        },
+        "date": {
+          "raw": "元祐八年",
+          "y": 1093,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1093
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In 1093 Su Shi was impeached and sent out as prefect of Dingzhou",
+        "zh-CN": "1093年苏轼遭弹劾，出知定州"
+      },
+      "excerpt": "元祐八年，言官黄庆基、董敦逸弹劾苏轼。八九月间，苏轼出知定州。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#7",
+      "cluster": "lived_in#7/c1"
+    },
+    {
+      "id": "agent.023",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Dingzhou",
+            "zh-CN": "定州"
+          }
+        },
+        "date": {
+          "raw": "1093",
+          "y": 1093,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1093
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Dingzhou from 1093",
+        "zh-CN": "苏轼自1093年起居于定州"
+      },
+      "excerpt": "\"AddrName\":\"\\u5b9a\\u5dde\",\"MoveCount\":\"24\",\"FirstYear\":\"1093\",\"LastYear\":\"1094\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#7",
+      "cluster": "lived_in#7/c1"
+    },
+    {
+      "id": "agent.024",
+      "predicate": "exiled_to",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Huizhou",
+            "zh-CN": "惠州"
+          }
+        },
+        "date": {
+          "raw": "绍圣元年（1094年）",
+          "y": 1094,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1094
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was exiled to Huizhou in 1094",
+        "zh-CN": "苏轼于1094年被贬至惠州"
+      },
+      "excerpt": "绍圣元年（1094年），章惇、安焘执政，苏轼遭来之邵弹劾，遂被哲宗贬谪至惠州",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "exiled_to#1",
+      "cluster": "exiled_to#1/c1"
+    },
+    {
+      "id": "agent.025",
+      "predicate": "exiled_to",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Huizhou",
+            "zh-CN": "惠州"
+          }
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was placed under supervision in Huizhou",
+        "zh-CN": "苏轼被安置于惠州"
+      },
+      "excerpt": "\"Notes\":\"\\u4ee5\\u5be7\\u9060\\u8ecd\\u7bc0\\u5ea6\\u526f\\u4f7f\\u5b89\\u7f6e\\u60e0\\u5dde\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "exiled_to#1",
+      "cluster": "exiled_to#1/c1"
+    },
+    {
+      "id": "agent.026",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Changhua Military Prefecture",
+            "zh-CN": "昌化军"
+          }
+        },
+        "date": {
+          "raw": "1097",
+          "y": 1097,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1097
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Changhua Military Prefecture from 1097 to 1100",
+        "zh-CN": "苏轼1097年至1100年居于昌化军"
+      },
+      "excerpt": "\"AddrId\":\"101051\",\"AddrName\":\"\\u660c\\u5316\\u8ecd\",\"MoveCount\":\"26\",\"FirstYear\":\"1097\",\"LastYear\":\"1100\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#8",
+      "cluster": "lived_in#8/c1"
+    },
+    {
+      "id": "agent.027",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Changhua Military Prefecture",
+            "zh-CN": "昌化军"
+          }
+        },
+        "date": {
+          "raw": "绍圣四年（1097年）",
+          "y": 1097,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1097
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In 1097 Su Shi was demoted and placed under supervision in Changhua",
+        "zh-CN": "1097年苏轼被责授琼州别驾，昌化军安置"
+      },
+      "excerpt": "绍圣四年（1097年）二月十四日，营建白鹤峰新居。五月责授琼州别驾、昌化军安置。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#8",
+      "cluster": "lived_in#8/c1"
+    },
+    {
+      "id": "agent.028",
+      "predicate": "exiled_to",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Danzhou",
+            "zh-CN": "儋州"
+          }
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was exiled further, to Danzhou on Hainan Island",
+        "zh-CN": "苏轼又被贬至儋州（海南岛）"
+      },
+      "excerpt": "绍圣年间因新党的章惇为相，又加贬谪至儋州（海南岛）",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "single-source",
+      "instance": "exiled_to#2",
+      "cluster": "exiled_to#2/c1"
+    },
+    {
+      "id": "agent.029",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Lianzhou",
+            "zh-CN": "廉州"
+          }
+        },
+        "date": {
+          "raw": "元符三年（1100年）",
+          "y": 1100,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1100
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "In 1100 Su Shi's place of exile was moved to Lianzhou, and soon he was allowed to live in Yongzhou",
+        "zh-CN": "1100年苏轼的贬所移至廉州，随即又改为永州居住"
+      },
+      "excerpt": "元符三年（1100年），徙贬所于廉州，随即又任舒州节度副使、永州居住。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#9",
+      "cluster": "lived_in#9/c1"
+    },
+    {
+      "id": "agent.030",
+      "predicate": "lived_in",
+      "subject_qid": "Q36020",
+      "value": {
+        "place": {
+          "label": {
+            "en": "Lianzhou",
+            "zh-CN": "廉州"
+          }
+        },
+        "date": {
+          "raw": "1100",
+          "y": 1100,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1100
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi lived in Lianzhou from 1100",
+        "zh-CN": "苏轼自1100年起居于廉州"
+      },
+      "excerpt": "\"AddrId\":\"101134\",\"AddrName\":\"\\u5ec9\\u5dde\",\"MoveCount\":\"27\",\"FirstYear\":\"1100\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "lived_in#9",
+      "cluster": "lived_in#9/c1"
+    },
+    {
+      "id": "agent.031",
+      "predicate": "deathplace",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Changzhou",
+          "zh-CN": "常州"
+        },
+        "qid": "Q57970"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi died in Changzhou",
+        "zh-CN": "苏轼卒于常州"
+      },
+      "excerpt": "\"AddrType\":\"\\u6b7b\\u6240\",\"AddrId\":\"12721\",\"AddrName\":\"\\u5e38\\u5dde\"",
+      "source_id": "s02",
+      "origin": "agent",
+      "flags": [],
+      "status": "verified",
+      "instance": "deathplace#1",
+      "cluster": "deathplace#1/c1"
+    },
+    {
+      "id": "agent.033",
+      "predicate": "sibling",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Su Zhe",
+          "zh-CN": "苏辙"
+        },
+        "qid": "Q1155951"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi had a younger brother, Su Zhe",
+        "zh-CN": "苏轼有一个弟弟苏辙"
+      },
+      "excerpt": "苏轼有一个弟弟苏辙，小他两岁（1039年出生），两兄弟从小到大一起读书游玩，后来也同一年中进士。",
+      "source_id": "s03",
+      "origin": "agent",
+      "flags": [],
+      "status": "single-source",
+      "instance": "sibling#1",
+      "cluster": "sibling#1/c1"
+    },
+    {
+      "id": "s01.001",
+      "predicate": "born",
+      "subject_qid": "Q36020",
+      "value": {
+        "raw": "+1037-01-08T00:00:00Z",
+        "y": 1037,
+        "precision": "day",
+        "calendar": "julian",
+        "approx": false,
+        "m": 1,
+        "d": 8
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was born on 8 January 1037 (Julian)",
+        "zh-CN": "苏轼生于1037年1月8日（儒略历）"
+      },
+      "excerpt": "\"+1037-01-08T00:00:00Z\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [
+        "lunar_cross_year"
+      ],
+      "status": "verified",
+      "instance": "born#1",
+      "cluster": "born#1/c1"
+    },
+    {
+      "id": "s01.002",
+      "predicate": "died",
+      "subject_qid": "Q36020",
+      "value": {
+        "raw": "+1101-08-24T00:00:00Z",
+        "y": 1101,
+        "precision": "day",
+        "calendar": "julian",
+        "approx": false,
+        "m": 8,
+        "d": 24
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi died on 24 August 1101 (Julian)",
+        "zh-CN": "苏轼卒于1101年8月24日（儒略历）"
+      },
+      "excerpt": "\"+1101-08-24T00:00:00Z\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "verified",
+      "instance": "died#1",
+      "cluster": "died#1/c1"
+    },
+    {
+      "id": "s01.003",
+      "predicate": "birthplace",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Meishan",
+          "zh-CN": "眉山市"
+        },
+        "qid": "Q427097"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was born in Meishan",
+        "zh-CN": "苏轼出生于眉山市"
+      },
+      "excerpt": "\"Q427097\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "verified",
+      "instance": "birthplace#1",
+      "cluster": "birthplace#1/c1"
+    },
+    {
+      "id": "s01.004",
+      "predicate": "deathplace",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Changzhou",
+          "zh-CN": "常州市"
+        },
+        "qid": "Q57970"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi died in Changzhou",
+        "zh-CN": "苏轼逝世于常州市"
+      },
+      "excerpt": "\"Q57970\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "verified",
+      "instance": "deathplace#1",
+      "cluster": "deathplace#1/c1"
+    },
+    {
+      "id": "s01.005",
+      "predicate": "burial_place",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Jia County",
+          "zh-CN": "郏县"
+        },
+        "qid": "Q1198660"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was buried at Jia County",
+        "zh-CN": "苏轼葬于郏县"
+      },
+      "excerpt": "\"Q1198660\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "burial_place#1",
+      "cluster": "burial_place#1/c1"
+    },
+    {
+      "id": "s01.006",
+      "predicate": "courtesy_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "zh-CN": "子瞻"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's courtesy name was 子瞻",
+        "zh-CN": "苏轼字子瞻"
+      },
+      "excerpt": "\"子瞻\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [
+        "label_fallback"
+      ],
+      "status": "verified",
+      "instance": "courtesy_name#1",
+      "cluster": "courtesy_name#1/c1"
+    },
+    {
+      "id": "s01.007",
+      "predicate": "courtesy_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "zh-CN": "和仲"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's courtesy name was 和仲",
+        "zh-CN": "苏轼字和仲"
+      },
+      "excerpt": "\"和仲\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [
+        "label_fallback"
+      ],
+      "status": "single-source",
+      "instance": "courtesy_name#2",
+      "cluster": "courtesy_name#2/c1"
+    },
+    {
+      "id": "s01.008",
+      "predicate": "art_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "zh-CN": "东坡居士"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's art name was 东坡居士",
+        "zh-CN": "苏轼号东坡居士"
+      },
+      "excerpt": "\"东坡居士\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [
+        "label_fallback"
+      ],
+      "status": "verified",
+      "instance": "art_name#1",
+      "cluster": "art_name#1/c1"
+    },
+    {
+      "id": "s01.009",
+      "predicate": "art_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "zh-CN": "铁冠道人"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's art name was 铁冠道人",
+        "zh-CN": "苏轼号铁冠道人"
+      },
+      "excerpt": "\"铁冠道人\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [
+        "label_fallback"
+      ],
+      "status": "single-source",
+      "instance": "art_name#2",
+      "cluster": "art_name#2/c1"
+    },
+    {
+      "id": "s01.010",
+      "predicate": "art_name",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "zh-CN": "東坡居士"
+        }
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's art name was 東坡居士",
+        "zh-CN": "苏轼号東坡居士"
+      },
+      "excerpt": "\"東坡居士\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [
+        "label_fallback"
+      ],
+      "status": "single-source",
+      "instance": "art_name#3",
+      "cluster": "art_name#3/c1"
+    },
+    {
+      "id": "s01.011",
+      "predicate": "father",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Su Xun",
+          "zh-CN": "苏洵"
+        },
+        "qid": "Q947039"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's father was Su Xun",
+        "zh-CN": "苏轼的父亲是苏洵"
+      },
+      "excerpt": "\"Q947039\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "father#1",
+      "cluster": "father#1/c1"
+    },
+    {
+      "id": "s01.012",
+      "predicate": "mother",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Cheng（Wife of Su xun）",
+          "zh-CN": "武阳君"
+        },
+        "qid": "Q18654093"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's mother was Cheng（Wife of Su xun）",
+        "zh-CN": "苏轼的母亲是武阳君"
+      },
+      "excerpt": "\"Q18654093\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "mother#1",
+      "cluster": "mother#1/c1"
+    },
+    {
+      "id": "s01.013",
+      "predicate": "spouse",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Wang Fu",
+          "zh-CN": "王弗"
+        },
+        "qid": "Q16260880"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's spouse was Wang Fu",
+        "zh-CN": "苏轼的配偶是王弗"
+      },
+      "excerpt": "\"Q16260880\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "spouse#1",
+      "cluster": "spouse#1/c1"
+    },
+    {
+      "id": "s01.014",
+      "predicate": "spouse",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Wang Zhaoyun",
+          "zh-CN": "朝云"
+        },
+        "qid": "Q10415082"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's spouse was Wang Zhaoyun",
+        "zh-CN": "苏轼的配偶是朝云"
+      },
+      "excerpt": "\"Q10415082\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "spouse#2",
+      "cluster": "spouse#2/c1"
+    },
+    {
+      "id": "s01.015",
+      "predicate": "spouse",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Wang Runzhi",
+          "zh-CN": "王闰之"
+        },
+        "qid": "Q45364023"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's spouse was Wang Runzhi",
+        "zh-CN": "苏轼的配偶是王闰之"
+      },
+      "excerpt": "\"Q45364023\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "spouse#3",
+      "cluster": "spouse#3/c1"
+    },
+    {
+      "id": "s01.016",
+      "predicate": "child",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Su Guo",
+          "zh-CN": "苏过"
+        },
+        "qid": "Q10514231"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's child was Su Guo",
+        "zh-CN": "苏轼的子女有苏过"
+      },
+      "excerpt": "\"Q10514231\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "child#1",
+      "cluster": "child#1/c1"
+    },
+    {
+      "id": "s01.017",
+      "predicate": "child",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Su Dai",
+          "zh-CN": "苏迨"
+        },
+        "qid": "Q45362452"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's child was Su Dai",
+        "zh-CN": "苏轼的子女有苏迨"
+      },
+      "excerpt": "\"Q45362452\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "child#2",
+      "cluster": "child#2/c1"
+    },
+    {
+      "id": "s01.018",
+      "predicate": "child",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Su Mai",
+          "zh-CN": "苏迈"
+        },
+        "qid": "Q45391332"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's child was Su Mai",
+        "zh-CN": "苏轼的子女有苏迈"
+      },
+      "excerpt": "\"Q45391332\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "child#3",
+      "cluster": "child#3/c1"
+    },
+    {
+      "id": "s01.019",
+      "predicate": "sibling",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "en": "Su Zhe",
+          "zh-CN": "苏辙"
+        },
+        "qid": "Q1155951"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi's sibling was Su Zhe",
+        "zh-CN": "苏轼的兄弟姐妹有苏辙"
+      },
+      "excerpt": "\"Q1155951\"",
+      "source_id": "s01",
+      "origin": "structured",
+      "flags": [],
+      "status": "single-source",
+      "instance": "sibling#1",
+      "cluster": "sibling#1/c1"
+    },
+    {
+      "id": "s02.001",
+      "predicate": "born",
+      "subject_qid": "Q36020",
+      "value": {
+        "raw": "1036",
+        "y": 1036,
+        "precision": "year",
+        "calendar": "lunar-chinese",
+        "approx": false
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was born in 1036 (Chinese lunar year)",
+        "zh-CN": "苏轼生于1036年（农历年）"
+      },
+      "excerpt": "\"YearBirth\":\"1036\"",
+      "source_id": "s02",
+      "origin": "structured",
+      "flags": [],
+      "status": "verified",
+      "instance": "born#1",
+      "cluster": "born#1/c1"
+    },
+    {
+      "id": "s02.002",
+      "predicate": "died",
+      "subject_qid": "Q36020",
+      "value": {
+        "raw": "1101",
+        "y": 1101,
+        "precision": "year",
+        "calendar": "lunar-chinese",
+        "approx": false
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi died in 1101 (Chinese lunar year)",
+        "zh-CN": "苏轼卒于1101年（农历年）"
+      },
+      "excerpt": "\"YearDeath\":\"1101\"",
+      "source_id": "s02",
+      "origin": "structured",
+      "flags": [],
+      "status": "verified",
+      "instance": "died#1",
+      "cluster": "died#1/c1"
+    },
+    {
+      "id": "s02.003",
+      "predicate": "age_at_death",
+      "subject_qid": "Q36020",
+      "value": {
+        "years": 66,
+        "reckoning": "east-asian"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi died at the age of 66 (East Asian age reckoning)",
+        "zh-CN": "苏轼享年66岁（虚岁）"
+      },
+      "excerpt": "\"YearsLived\":\"66\"",
+      "source_id": "s02",
+      "origin": "structured",
+      "flags": [
+        "east_asian_reckoning"
+      ],
+      "status": "single-source",
+      "instance": "age_at_death#1",
+      "cluster": "age_at_death#1/c1"
+    },
+    {
+      "id": "s02.004",
+      "predicate": "birthplace",
+      "subject_qid": "Q36020",
+      "value": {
+        "label": {
+          "zh-CN": "眉山"
+        },
+        "qid": "Q427097"
+      },
+      "scope": null,
+      "text": {
+        "en": "Su Shi was born in Meishan",
+        "zh-CN": "苏轼出生于眉山市"
+      },
+      "excerpt": "\"IndexAddr\":\"\\u7709\\u5c71\"",
+      "source_id": "s02",
+      "origin": "structured",
+      "flags": [],
+      "status": "verified",
+      "instance": "birthplace#1",
+      "cluster": "birthplace#1/c1"
+    }
+  ],
+  "instances": [
+    {
+      "id": "age_at_death#1",
+      "predicate": "age_at_death",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "age_at_death#1/c1",
+          "claims": [
+            "s02.003"
+          ],
+          "publishers": [
+            "cbdb"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art_name#1",
+      "predicate": "art_name",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "art_name#1/c1",
+          "claims": [
+            "agent.016",
+            "agent.017",
+            "s01.008"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art_name#2",
+      "predicate": "art_name",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "art_name#2/c1",
+          "claims": [
+            "s01.009"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "art_name#3",
+      "predicate": "art_name",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "art_name#3/c1",
+          "claims": [
+            "s01.010"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "birthplace#1",
+      "predicate": "birthplace",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "birthplace#1/c1",
+          "claims": [
+            "s01.003",
+            "s02.004"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born#1",
+      "predicate": "born",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "born#1/c1",
+          "claims": [
+            "s01.001",
+            "s02.001"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burial_place#1",
+      "predicate": "burial_place",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "burial_place#1/c1",
+          "claims": [
+            "s01.005"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "child#1",
+      "predicate": "child",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "child#1/c1",
+          "claims": [
+            "s01.016"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "child#2",
+      "predicate": "child",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "child#2/c1",
+          "claims": [
+            "s01.017"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "child#3",
+      "predicate": "child",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "child#3/c1",
+          "claims": [
+            "s01.018"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "courtesy_name#1",
+      "predicate": "courtesy_name",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "courtesy_name#1/c1",
+          "claims": [
+            "agent.018",
+            "s01.006"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courtesy_name#2",
+      "predicate": "courtesy_name",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "courtesy_name#2/c1",
+          "claims": [
+            "s01.007"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "deathplace#1",
+      "predicate": "deathplace",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "deathplace#1/c1",
+          "claims": [
+            "agent.031",
+            "s01.004"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "died#1",
+      "predicate": "died",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "died#1/c1",
+          "claims": [
+            "s01.002",
+            "s02.002"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam_passed#1",
+      "predicate": "exam_passed",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "exam_passed#1/c1",
+          "claims": [
+            "agent.001",
+            "agent.002"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exiled_to#1",
+      "predicate": "exiled_to",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "exiled_to#1/c1",
+          "claims": [
+            "agent.024",
+            "agent.025"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exiled_to#2",
+      "predicate": "exiled_to",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "exiled_to#2/c1",
+          "claims": [
+            "agent.028"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "father#1",
+      "predicate": "father",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "father#1/c1",
+          "claims": [
+            "s01.011"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "imprisoned#1",
+      "predicate": "imprisoned",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "imprisoned#1/c1",
+          "claims": [
+            "agent.011"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "lived_in#1",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#1/c1",
+          "claims": [
+            "agent.003",
+            "agent.004"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#2",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#2/c1",
+          "claims": [
+            "agent.005",
+            "agent.006"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#3",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#3/c1",
+          "claims": [
+            "agent.007",
+            "agent.008"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#4",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#4/c1",
+          "claims": [
+            "agent.009",
+            "agent.010"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#5",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#5/c1",
+          "claims": [
+            "agent.014",
+            "agent.015"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#6",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#6/c1",
+          "claims": [
+            "agent.020",
+            "agent.021"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#7",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#7/c1",
+          "claims": [
+            "agent.022",
+            "agent.023"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#8",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#8/c1",
+          "claims": [
+            "agent.026",
+            "agent.027"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lived_in#9",
+      "predicate": "lived_in",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "lived_in#9/c1",
+          "claims": [
+            "agent.029",
+            "agent.030"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mother#1",
+      "predicate": "mother",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "mother#1/c1",
+          "claims": [
+            "s01.012"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "office_held#1",
+      "predicate": "office_held",
+      "scope_key": null,
+      "status": "verified",
+      "clusters": [
+        {
+          "id": "office_held#1/c1",
+          "claims": [
+            "agent.012",
+            "agent.013"
+          ],
+          "publishers": [
+            "cbdb",
+            "wikimedia"
+          ],
+          "tier1_publishers": [
+            "cbdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sibling#1",
+      "predicate": "sibling",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "sibling#1/c1",
+          "claims": [
+            "agent.033",
+            "s01.019"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "spouse#1",
+      "predicate": "spouse",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "spouse#1/c1",
+          "claims": [
+            "s01.013"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "spouse#2",
+      "predicate": "spouse",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "spouse#2/c1",
+          "claims": [
+            "s01.014"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "spouse#3",
+      "predicate": "spouse",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "spouse#3/c1",
+          "claims": [
+            "s01.015"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    },
+    {
+      "id": "work_written#1",
+      "predicate": "work_written",
+      "scope_key": null,
+      "status": "single-source",
+      "clusters": [
+        {
+          "id": "work_written#1/c1",
+          "claims": [
+            "agent.019"
+          ],
+          "publishers": [
+            "wikimedia"
+          ],
+          "tier1_publishers": []
+        }
+      ]
+    }
+  ]
+}

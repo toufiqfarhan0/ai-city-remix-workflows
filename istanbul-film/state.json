@@ -1,0 +1,36 @@
+{
+  "schema": "chronicle-state/1",
+  "engine": "0.4.2",
+  "skill": "chronicle-ink@0.4.2",
+  "stages": {
+    "research": {
+      "status": "done",
+      "inputs_sha256": "3fb51132a131c0526ee0d4bf8c57236cd03a16908b5cf8f5088a5743600d5059",
+      "outputs": {
+        "work/research/entity.json": "db3b09c608e494bcabfb6d418dbea49a3797fd4bc8a7eddc2b53f6e2bf29bb66",
+        "work/research/known-entities.json": "ec42b108c0e3d3c85d37f2503e48b8baa00575a81a621cbf4287dba8294c0a15",
+        "work/research/sources/index.json": "a32e09602f27e3532fca20b2ebd15698bee87fdb62f26db10a3ecae5384d5fbf",
+        "work/research/sources/s01.json": "f8beab65afb2357798b2b5e1c2229e6a7195cec8514d1a244accae026bdeec61",
+        "work/research/sources/s02.json": "fc4c66aea8c92e0eca0777e4dd73d2893bc143b70dff9dafdc489e84c64c2582",
+        "work/research/sources/s03.json": "9e34ec59b0bf7b71077f4c4e4c33da74ebd91b230781c0f08bbb642902b294ba",
+        "work/research/sources/s04.json": "3601f2589b56ff222b60b78d67add78811af6c69b34d5d6dcf94489162d66ec4",
+        "work/research/sources/s05.json": "4dbbcc46d7060bf16700f838647c1301a4217b44d231bab6e6ac96ef34f150bf"
+      },
+      "finished_at": "2026-10-23T17:16:47.432Z",
+      "error": null,
+      "source": "run"
+    },
+    "facts": {
+      "status": "done",
+      "inputs_sha256": "bc2516d8944b1964e0f81cffa8d97cda51986d4febed5be60300d4a0b5ba0ec3",
+      "outputs": {
+        "work/facts/claims.json": "364778dd98c75281f8b23b796e84a8e35032714d85040ff4352fc7b62b2f6c79",
+        "work/facts/facts.json": "3578c0b12977212e4ec530623218bef8d096cda801862f9401ef13225917c12f",
+        "work/facts/hints.json": "eadf5228408096bcd15d3b66f595e359a53a9971e52224ab2c0d69c0fd2a79c5"
+      },
+      "finished_at": "2026-10-23T17:22:41.735Z",
+      "error": null,
+      "source": "run"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Prompt slots
+Required string slots are city and area (a box as south, west, north and east, or a description an Agent can turn into one; keep it under 3.5 km on a side). Optional slots are landmarks (which to pin and what to say), look (palettes, water, traffic), light (the time-of-day arc), film (length, order and pacing), interaction and extraPrompt. Each is bounded to 2000 characters. The bilingual templates share the same placeholders. A second example, canal-ring.json, is Amsterdam's canal ring with low brick canal houses on the same code.

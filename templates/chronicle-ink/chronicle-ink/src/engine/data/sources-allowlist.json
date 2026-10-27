@@ -1,0 +1,32 @@
+{
+  "tier1": [
+    { "host": "britannica.com", "publisher": "britannica" },
+    { "host": "whc.unesco.org", "publisher": "unesco" },
+    { "host": "gbif.org", "publisher": "gbif" },
+    { "host": "api.gbif.org", "publisher": "gbif" },
+    { "host": "cbdb.fas.harvard.edu", "publisher": "cbdb" },
+    { "host": "dpm.org.cn", "publisher": "palace-museum" },
+    { "host": "britishmuseum.org", "publisher": "british-museum" },
+    { "host": "metmuseum.org", "publisher": "met" },
+    { "host": "collectionapi.metmuseum.org", "publisher": "met" },
+    { "host": "ncha.gov.cn", "publisher": "ncha" }
+  ],
+  "tier2": [
+    { "host": "wikidata.org", "publisher": "wikimedia" },
+    { "suffix": ".wikipedia.org", "publisher": "wikimedia" }
+  ],
+  "tier3": [
+    { "host": "reuters.com", "publisher": "reuters" },
+    { "host": "apnews.com", "publisher": "ap" },
+    { "host": "bbc.com", "publisher": "bbc" },
+    { "host": "xinhuanet.com", "publisher": "xinhua" }
+  ],
+  "lead_explicit": ["weibo.com", "zhihu.com", "baike.baidu.com", "x.com", "twitter.com", "reddit.com", "quora.com", "douyin.com", "xiaohongshu.com"],
+  "id_formatters": {
+    "P1417": { "fetch": "https://www.britannica.com/$1", "link": "https://www.britannica.com/$1" },
+    "P497": { "fetch": "https://cbdb.fas.harvard.edu/cbdbapi/person?id=$1", "link": "https://cbdb.fas.harvard.edu/cbdbapi/person?id=$1" },
+    "P757": { "fetch": "https://whc.unesco.org/en/list/$1", "link": "https://whc.unesco.org/en/list/$1" },
+    "P846": { "fetch": "https://api.gbif.org/v1/species/$1", "link": "https://www.gbif.org/species/$1" },
+    "P627": { "fetch": null, "link": "https://www.iucnredlist.org/details/$1/0" }
+  }
+}

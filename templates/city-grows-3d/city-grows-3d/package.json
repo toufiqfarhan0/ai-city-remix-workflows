@@ -1,0 +1,16 @@
+{
+  "name": "city-grows-3d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Narrated 3D film of a real city whose buildings rise in the year each was built, from one story.json and open building data.",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright-core": "1.56.1",
+    "three": "0.170.0",
+    "@mapbox/vector-tile": "3.0.0",
+    "pbf": "5.1.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "center": { "qid": "Q220" },
+  "radius_km": 7,
+  "places": [
+    { "id": "palatine", "qid": "Q200642", "label": { "en": "Palatine Hill", "zh-CN": "帕拉蒂尼山" } },
+    { "id": "capitoline", "qid": "Q34925", "label": { "en": "Capitoline Hill", "zh-CN": "卡比托利欧山" } },
+    { "id": "forum", "qid": "Q180212", "label": { "en": "Roman Forum", "zh-CN": "古罗马广场" } },
+    { "id": "colosseum", "qid": "Q10285", "label": { "en": "Colosseum", "zh-CN": "罗马斗兽场" } },
+    { "id": "pantheon", "qid": "Q99309", "label": { "en": "Pantheon", "zh-CN": "万神殿" } },
+    { "id": "castel", "qid": "Q486382", "label": { "en": "Castel Sant'Angelo", "zh-CN": "圣天使堡" } },
+    { "id": "stpeter", "qid": "Q12512", "label": { "en": "St Peter's Basilica", "zh-CN": "圣彼得大教堂" } },
+    { "id": "tiber_island", "qid": "Q545404", "label": { "en": "Tiber Island", "zh-CN": "台伯岛" } },
+    { "id": "tiber", "lat": 41.8936, "lon": 12.4689, "label": { "en": "Tiber", "zh-CN": "台伯河" } }
+  ],
+  "areas": [
+    { "id": "early", "around": "palatine", "radius_km": 0.45, "label": { "en": "first settlement", "zh-CN": "最早的聚落" } },
+    { "id": "republic", "around": "forum", "radius_km": 1.25, "label": { "en": "Republican city", "zh-CN": "共和国时期城区" } },
+    { "id": "empire", "around": "forum", "radius_km": 2.15, "label": { "en": "Imperial city", "zh-CN": "帝国时期城区" } },
+    { "id": "medieval", "around": "pantheon", "radius_km": 0.9, "label": { "en": "medieval town", "zh-CN": "中世纪城区" } }
+  ]
+}

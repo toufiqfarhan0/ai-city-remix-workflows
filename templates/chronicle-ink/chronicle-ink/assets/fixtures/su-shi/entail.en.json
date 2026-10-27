@@ -1,0 +1,210 @@
+{
+  "schema": "chronicle-entail/1",
+  "script_sha256": "852ebf50be1ae9f11fa4a849c6f279d90ce45be08eb78f1102e2fa90d9a7a783",
+  "answers": [
+    {
+      "id": "title",
+      "entailed": "partial",
+      "extra_facts": "no",
+      "note": "Living as Dongpo is an interpretation of the art name, not a separate fact"
+    },
+    {
+      "id": "S01",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S02",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S10",
+      "entailed": "n/a",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S11",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S12",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S13",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S14",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S15",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S16",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S17",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S18",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S19",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S20",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S21",
+      "entailed": "n/a",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S22",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S23",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S24",
+      "entailed": "partial",
+      "extra_facts": "no",
+      "note": "kept the name Dongpo is an interpretive summary of agent.016"
+    },
+    {
+      "id": "S25",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "S26",
+      "entailed": "n/a",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp1",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp2",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp3",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp4",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp5",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "kp6",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    },
+    {
+      "id": "end_card",
+      "entailed": "yes",
+      "extra_facts": "no",
+      "note": ""
+    }
+  ]
+}

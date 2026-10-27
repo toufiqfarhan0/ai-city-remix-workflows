@@ -1,0 +1,29 @@
+{
+  "schema": "chronicle-hints/1",
+  "hints": [
+    {
+      "source_id": "s03",
+      "claim_id": "s01.001",
+      "predicate": "born",
+      "match": "1037"
+    },
+    {
+      "source_id": "s03",
+      "claim_id": "s01.002",
+      "predicate": "died",
+      "match": "1101"
+    },
+    {
+      "source_id": "s03",
+      "claim_id": "s02.001",
+      "predicate": "born",
+      "match": "1036"
+    },
+    {
+      "source_id": "s03",
+      "claim_id": "s02.002",
+      "predicate": "died",
+      "match": "1101"
+    }
+  ]
+}

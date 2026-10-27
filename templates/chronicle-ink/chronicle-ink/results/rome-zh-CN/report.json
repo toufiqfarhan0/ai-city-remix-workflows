@@ -1,0 +1,2903 @@
+{
+  "schema": "chronicle-report/2",
+  "skill": {
+    "slug": "chronicle-ink",
+    "version": "0.3.0"
+  },
+  "engine_version": "0.3.0",
+  "mode": "real",
+  "generated_at": "2026-10-21T07:56:13.341Z",
+  "stages_missing": [],
+  "stages_stale": [],
+  "brief": {
+    "qid": "Q220",
+    "seconds": 150,
+    "aspect": "16:9",
+    "lang": "zh-CN",
+    "audience": "general-12+",
+    "seed": 1
+  },
+  "entity": {
+    "schema": "chronicle-entity/1",
+    "qid": "Q220",
+    "subject": "city",
+    "label": {
+      "en": "Rome",
+      "zh-CN": "罗马"
+    },
+    "labels": {
+      "zh-hans": "罗马",
+      "zh-hant": "羅馬",
+      "zh": "罗马",
+      "en": "Rome"
+    },
+    "aliases": {
+      "en": [
+        "The Eternal City",
+        "Rome, Italy",
+        "City of Seven Hills",
+        "Eternal City",
+        "The City of Marble",
+        "City of Marble",
+        "The Capital of the World",
+        "Capital of the World"
+      ]
+    },
+    "native_names": [],
+    "description": {
+      "en": "capital and largest city of Italy",
+      "zh-CN": "意大利首都及最大城市"
+    },
+    "sitelinks": 344,
+    "lock_rule": "qid",
+    "alternatives": [],
+    "living": false,
+    "portrait_policy": "allowed",
+    "born": null,
+    "died": null,
+    "external_ids": {
+      "P1417": "place/Rome"
+    }
+  },
+  "facts": {
+    "schema": "chronicle-facts/1",
+    "entity": {
+      "qid": "Q220",
+      "label": {
+        "en": "Rome",
+        "zh-CN": "罗马"
+      },
+      "subject": "city",
+      "lock_rule": "qid",
+      "alternatives": [],
+      "living": false,
+      "portrait_policy": "allowed"
+    },
+    "claims": [
+      {
+        "id": "agent.001",
+        "predicate": "founded",
+        "type": "date",
+        "status": "verified",
+        "instance": "founded#1",
+        "cluster": "founded#1/c1",
+        "value": {
+          "raw": "753 B.C.",
+          "y": -752,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "According to legend, Rome was founded in 753 BC",
+          "zh-CN": "据传说，罗马建城于公元前753年"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "Founded on the banks of the Tiber river in 753 B.C., according to legend, by Romulus and Remus",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S04",
+          "kp1"
+        ]
+      },
+      {
+        "id": "agent.002",
+        "predicate": "founded",
+        "type": "date",
+        "status": "verified",
+        "instance": "founded#1",
+        "cluster": "founded#1/c1",
+        "value": {
+          "raw": "753 BC",
+          "y": -752,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Roman mythology dates the founding of Rome at around 753 BC",
+          "zh-CN": "罗马神话把建城定在约公元前753年"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "While Roman mythology dates the founding of Rome at around 753 BC",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S04",
+          "kp1"
+        ]
+      },
+      {
+        "id": "agent.003",
+        "predicate": "river",
+        "type": "label",
+        "status": "verified",
+        "instance": "river#1",
+        "cluster": "river#1/c1",
+        "value": {
+          "label": {
+            "en": "Tiber",
+            "zh-CN": "台伯河"
+          },
+          "qid": "Q13712"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome was founded on the banks of the Tiber",
+          "zh-CN": "罗马建在台伯河岸边"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "Founded on the banks of the Tiber river in 753 B.C.",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S02",
+          "S03",
+          "S24",
+          "kp2"
+        ]
+      },
+      {
+        "id": "agent.004",
+        "predicate": "river",
+        "type": "label",
+        "status": "verified",
+        "instance": "river#1",
+        "cluster": "river#1/c1",
+        "value": {
+          "label": {
+            "en": "Tiber",
+            "zh-CN": "台伯河"
+          },
+          "qid": "Q13712"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome lies along the shores of the Tiber Valley",
+          "zh-CN": "罗马坐落在台伯河谷沿岸"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "along the shores of the Tiber Valley",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S02",
+          "S03",
+          "S24",
+          "kp2"
+        ]
+      },
+      {
+        "id": "agent.005",
+        "predicate": "capital_of",
+        "type": "event",
+        "status": "verified",
+        "instance": "capital_of#1",
+        "cluster": "capital_of#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Roman Republic",
+              "zh-CN": "罗马共和国"
+            },
+            "qid": "Q17167"
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome was the centre of the Roman Republic",
+          "zh-CN": "罗马是罗马共和国的中心"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "Rome was first the centre of the Roman Republic, then of the Roman Empire",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S09",
+          "kp3"
+        ]
+      },
+      {
+        "id": "agent.006",
+        "predicate": "capital_of",
+        "type": "event",
+        "status": "verified",
+        "instance": "capital_of#1",
+        "cluster": "capital_of#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Roman Republic",
+              "zh-CN": "罗马共和国"
+            },
+            "qid": "Q17167"
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome became the capital of the Roman Republic",
+          "zh-CN": "罗马成为罗马共和国的都城"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "the city successively became the capital of the Roman Kingdom, the Roman Republic and the Roman Empire",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S09",
+          "kp3"
+        ]
+      },
+      {
+        "id": "agent.007",
+        "predicate": "capital_of",
+        "type": "event",
+        "status": "verified",
+        "instance": "capital_of#2",
+        "cluster": "capital_of#2/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Roman Empire",
+              "zh-CN": "罗马帝国"
+            },
+            "qid": "Q2277"
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome was the centre of the Roman Empire",
+          "zh-CN": "罗马是罗马帝国的中心"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "Rome was first the centre of the Roman Republic, then of the Roman Empire",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S11",
+          "S13",
+          "kp4"
+        ]
+      },
+      {
+        "id": "agent.008",
+        "predicate": "capital_of",
+        "type": "event",
+        "status": "verified",
+        "instance": "capital_of#2",
+        "cluster": "capital_of#2/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Roman Empire",
+              "zh-CN": "罗马帝国"
+            },
+            "qid": "Q2277"
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome became the capital of the Roman Empire",
+          "zh-CN": "罗马成为罗马帝国的都城"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "the city successively became the capital of the Roman Kingdom, the Roman Republic and the Roman Empire",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S11",
+          "kp4"
+        ]
+      },
+      {
+        "id": "agent.009",
+        "predicate": "heritage_listed",
+        "type": "event",
+        "status": "verified",
+        "instance": "heritage_listed#1",
+        "cluster": "heritage_listed#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "World Heritage List",
+              "zh-CN": "世界遗产名录"
+            }
+          },
+          "date": {
+            "raw": "1980",
+            "y": 1980,
+            "precision": "year",
+            "calendar": "unknown",
+            "approx": false
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "The historic centre of Rome was first inscribed on the World Heritage List in 1980",
+          "zh-CN": "罗马历史中心于1980年首次列入世界遗产名录"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "first inscribed on the World Heritage List in 1980",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S23",
+          "kp5"
+        ]
+      },
+      {
+        "id": "agent.010",
+        "predicate": "heritage_listed",
+        "type": "event",
+        "status": "verified",
+        "instance": "heritage_listed#1",
+        "cluster": "heritage_listed#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "World Heritage List",
+              "zh-CN": "世界遗产名录"
+            }
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome's historic centre is listed by UNESCO as a World Heritage Site",
+          "zh-CN": "罗马历史中心被联合国教科文组织列为世界遗产"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "Its historic centre is listed by UNESCO as a World Heritage Site.",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S23",
+          "kp5"
+        ]
+      },
+      {
+        "id": "agent.011",
+        "predicate": "wall_built",
+        "type": "event",
+        "status": "single-source",
+        "instance": "wall_built#1",
+        "cluster": "wall_built#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Aurelian Walls",
+              "zh-CN": "奥勒良城墙"
+            },
+            "qid": "Q625149"
+          },
+          "date": {
+            "raw": "AD 271–275",
+            "y": 271,
+            "precision": "year",
+            "calendar": "unknown",
+            "approx": false,
+            "range": [
+              271,
+              275
+            ]
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "The Aurelian Walls were built between AD 271 and 275",
+          "zh-CN": "奥勒良城墙建于公元271年至275年"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s04",
+            "url": "https://en.wikipedia.org/wiki/History_of_Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "a gate in the Aurelian Walls, built between AD 271 and AD 275.",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.012",
+        "predicate": "wall_built",
+        "type": "event",
+        "status": "single-source",
+        "instance": "wall_built#2",
+        "cluster": "wall_built#2/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Servian Wall",
+              "zh-CN": "塞尔维乌斯城墙"
+            },
+            "qid": "Q281330"
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "The Servian Wall is the first true wall of Rome",
+          "zh-CN": "塞尔维乌斯城墙是罗马第一道真正的城墙"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s04",
+            "url": "https://en.wikipedia.org/wiki/History_of_Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "The Servian Wall takes its name from king Servius Tullius and is the first true wall of Rome.",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.013",
+        "predicate": "disaster",
+        "type": "event",
+        "status": "single-source",
+        "instance": "disaster#1",
+        "cluster": "disaster#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Great Fire of Rome",
+              "zh-CN": "罗马大火"
+            }
+          },
+          "date": {
+            "raw": "AD 64",
+            "y": 64,
+            "precision": "year",
+            "calendar": "unknown",
+            "approx": false
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "In AD 64 the Great Fire of Rome left much of the city destroyed",
+          "zh-CN": "公元64年，罗马大火烧毁了城市的大片区域"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s04",
+            "url": "https://en.wikipedia.org/wiki/History_of_Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "In AD 64, during the reign of Nero, the Great Fire of Rome left much of the city destroyed",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.014",
+        "predicate": "sacked",
+        "type": "event",
+        "status": "single-source",
+        "instance": "sacked#1",
+        "cluster": "sacked#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Visigoths",
+              "zh-CN": "西哥特人"
+            }
+          },
+          "date": {
+            "raw": "410",
+            "y": 410,
+            "precision": "year",
+            "calendar": "unknown",
+            "approx": false
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome was sacked in 410 by the Visigoths",
+          "zh-CN": "410年，罗马被西哥特人洗劫"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "was sacked in 410 by the Visigoths led by Alaric I",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S15"
+        ]
+      },
+      {
+        "id": "agent.015",
+        "predicate": "population",
+        "type": "number",
+        "status": "single-source",
+        "instance": "population#1",
+        "cluster": "population#1/c1",
+        "value": {
+          "raw": "100,000",
+          "value": 100000,
+          "unit": null,
+          "approx": false
+        },
+        "scope": null,
+        "flags": [
+          "unkeyed"
+        ],
+        "text": {
+          "en": "Rome's population declined to about 100,000 by AD 500",
+          "zh-CN": "到公元500年，罗马人口降到约10万"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "The population declined to 500,000 by 452 and 100,000 by AD 500",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.016",
+        "predicate": "sacked",
+        "type": "event",
+        "status": "single-source",
+        "instance": "sacked#2",
+        "cluster": "sacked#2/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Imperial troops of Charles V",
+              "zh-CN": "查理五世的帝国军队"
+            }
+          },
+          "date": {
+            "raw": "1527",
+            "y": 1527,
+            "precision": "year",
+            "calendar": "unknown",
+            "approx": false
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "In 1527 Rome was sacked by the imperial troops of Charles V",
+          "zh-CN": "1527年，罗马遭查理五世的帝国军队洗劫"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s04",
+            "url": "https://en.wikipedia.org/wiki/History_of_Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "resulted in the dramatic sack of the city by the unruly Imperial troops of Charles V, Holy Roman Emperor.",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.017",
+        "predicate": "rebuilt",
+        "type": "event",
+        "status": "single-source",
+        "instance": "rebuilt#1",
+        "cluster": "rebuilt#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "renewal by the Popes",
+              "zh-CN": "教皇主持的城市更新"
+            }
+          },
+          "date": {
+            "raw": "the 15th century",
+            "y": 1401,
+            "precision": "century",
+            "calendar": "unknown",
+            "approx": false,
+            "range": [
+              1401,
+              1500
+            ]
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "From the 15th century on, the Popes promoted a profound renewal of the city",
+          "zh-CN": "从15世纪起，历任教皇推动了罗马的全面更新"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "From the 15th century on, the Popes promoted a profound renewal of the city and its image",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": [
+          "S19"
+        ]
+      },
+      {
+        "id": "agent.018",
+        "predicate": "capital_of",
+        "type": "event",
+        "status": "single-source",
+        "instance": "capital_of#3",
+        "cluster": "capital_of#3/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Kingdom of Italy",
+              "zh-CN": "意大利王国"
+            },
+            "qid": "Q172579"
+          },
+          "date": {
+            "raw": "1871",
+            "y": 1871,
+            "precision": "year",
+            "calendar": "unknown",
+            "approx": false
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "In 1871 Rome became the capital of the Kingdom of Italy",
+          "zh-CN": "1871年，罗马成为意大利王国首都"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "In 1871, Rome became the capital of the Kingdom of Italy",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.019",
+        "predicate": "population",
+        "type": "number",
+        "status": "single-source",
+        "instance": "population#2",
+        "cluster": "population#2/c1",
+        "value": {
+          "raw": "2.7 million",
+          "value": 2700000,
+          "unit": null,
+          "approx": false
+        },
+        "scope": null,
+        "flags": [
+          "unkeyed"
+        ],
+        "text": {
+          "en": "Roma Capitale has a population of 2.7 million",
+          "zh-CN": "罗马市人口约270万"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "A special municipality named Roma Capitale with a population of 2.7 million",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.020",
+        "predicate": "other",
+        "type": "text",
+        "status": "single-source",
+        "instance": "other#2",
+        "cluster": "other#2/c1",
+        "value": {
+          "text": "Rome's history spans 28 centuries"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome's history spans 28 centuries",
+          "zh-CN": "罗马的历史跨越28个世纪"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "Rome's history spans 28 centuries.",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.021",
+        "predicate": "other",
+        "type": "text",
+        "status": "single-source",
+        "instance": "other#1",
+        "cluster": "other#1/c1",
+        "value": {
+          "text": "Rome became the capital of the Christian world in the fourth century"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "In the fourth century Rome became the capital of the Christian world",
+          "zh-CN": "4世纪，罗马成为基督教世界的中心"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s02",
+            "url": "https://whc.unesco.org/en/list/91/",
+            "tier": 1,
+            "publisher": "unesco",
+            "lang": "en",
+            "excerpt": "and in the fourth century, became the capital of the Christian world",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "agent.022",
+        "predicate": "ruled_by",
+        "type": "event",
+        "status": "single-source",
+        "instance": "ruled_by#1",
+        "cluster": "ruled_by#1/c1",
+        "value": {
+          "object": {
+            "label": {
+              "en": "Papal States",
+              "zh-CN": "教皇国"
+            },
+            "qid": "Q170174"
+          },
+          "date": {
+            "raw": "the 8th century",
+            "y": 701,
+            "precision": "century",
+            "calendar": "unknown",
+            "approx": false,
+            "range": [
+              701,
+              800
+            ]
+          }
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "In the 8th century Rome became the capital of the Papal States",
+          "zh-CN": "8世纪，罗马成为教皇国的首都"
+        },
+        "origin": "agent",
+        "sources": [
+          {
+            "id": "s03",
+            "url": "https://en.wikipedia.org/wiki/Rome",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": "en",
+            "excerpt": "in the 8th century, it became the capital of the Papal States, which lasted until 1870",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.001",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c1",
+        "value": {
+          "label": {
+            "en": "Province of Rome",
+            "zh-CN": "罗马省"
+          },
+          "qid": "Q15119"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Province of Rome",
+          "zh-CN": "罗马位于罗马省"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q15119\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.002",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c2",
+        "value": {
+          "label": {
+            "en": "Papal States",
+            "zh-CN": "教皇国"
+          },
+          "qid": "Q170174"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Papal States",
+          "zh-CN": "罗马位于教皇国"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q170174\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.003",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c3",
+        "value": {
+          "label": {
+            "en": "Rome",
+            "zh-CN": "羅馬（省）"
+          },
+          "qid": "Q1558632"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Rome",
+          "zh-CN": "罗马位于羅馬（省）"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q1558632\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.004",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c4",
+        "value": {
+          "label": {
+            "en": "Ancient Rome",
+            "zh-CN": "古罗马"
+          },
+          "qid": "Q1747689"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Ancient Rome",
+          "zh-CN": "罗马位于古罗马"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q1747689\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.005",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c5",
+        "value": {
+          "label": {
+            "en": "Roman Republic",
+            "zh-CN": "罗马共和国"
+          },
+          "qid": "Q17167"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Roman Republic",
+          "zh-CN": "罗马位于罗马共和国"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q17167\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.006",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c6",
+        "value": {
+          "label": {
+            "en": "Roman Empire",
+            "zh-CN": "罗马帝国"
+          },
+          "qid": "Q2277"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Roman Empire",
+          "zh-CN": "罗马位于罗马帝国"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q2277\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.007",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c7",
+        "value": {
+          "label": {
+            "en": "Western Roman Empire",
+            "zh-CN": "西罗马帝国"
+          },
+          "qid": "Q42834"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Western Roman Empire",
+          "zh-CN": "罗马位于西罗马帝国"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q42834\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.008",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c8",
+        "value": {
+          "label": {
+            "en": "Metropolitan City of Rome",
+            "zh-CN": "羅馬首都廣域市"
+          },
+          "qid": "Q18288160"
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome is located in Metropolitan City of Rome",
+          "zh-CN": "罗马位于羅馬首都廣域市"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q18288160\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.009",
+        "predicate": "located_in",
+        "type": "label",
+        "status": "disputed",
+        "instance": "located_in#1",
+        "cluster": "located_in#1/c9",
+        "value": {
+          "label": {
+            "en": "circle of Rome"
+          },
+          "qid": "Q3677829"
+        },
+        "scope": null,
+        "flags": [
+          "label_fallback"
+        ],
+        "text": {
+          "en": "Rome is located in circle of Rome",
+          "zh-CN": "罗马位于circle of Rome"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q3677829\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.010",
+        "predicate": "founded",
+        "type": "date",
+        "status": "verified",
+        "instance": "founded#1",
+        "cluster": "founded#1/c1",
+        "value": {
+          "raw": "-0753-04-21T00:00:00Z",
+          "y": -752,
+          "precision": "day",
+          "calendar": "julian",
+          "approx": false,
+          "m": 4,
+          "d": 21
+        },
+        "scope": null,
+        "flags": [],
+        "text": {
+          "en": "Rome was founded on 21 April 753 BCE (Julian)",
+          "zh-CN": "罗马建城于公元前753年4月21日（儒略历）"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"-0753-04-21T00:00:00Z\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.011",
+        "predicate": "river",
+        "type": "label",
+        "status": "verified",
+        "instance": "river#1",
+        "cluster": "river#1/c1",
+        "value": {
+          "label": {},
+          "qid": "Q13712"
+        },
+        "scope": null,
+        "flags": [
+          "label_fallback"
+        ],
+        "text": {
+          "en": "Rome lies on ",
+          "zh-CN": "罗马坐落在畔"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q13712\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.012",
+        "predicate": "river",
+        "type": "label",
+        "status": "single-source",
+        "instance": "river#2",
+        "cluster": "river#2/c1",
+        "value": {
+          "label": {},
+          "qid": "Q546600"
+        },
+        "scope": null,
+        "flags": [
+          "label_fallback"
+        ],
+        "text": {
+          "en": "Rome lies on ",
+          "zh-CN": "罗马坐落在畔"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q546600\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      },
+      {
+        "id": "s01.013",
+        "predicate": "river",
+        "type": "label",
+        "status": "single-source",
+        "instance": "river#3",
+        "cluster": "river#3/c1",
+        "value": {
+          "label": {},
+          "qid": "Q38882"
+        },
+        "scope": null,
+        "flags": [
+          "label_fallback"
+        ],
+        "text": {
+          "en": "Rome lies on ",
+          "zh-CN": "罗马坐落在畔"
+        },
+        "origin": "structured",
+        "sources": [
+          {
+            "id": "s01",
+            "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+            "tier": 2,
+            "publisher": "wikimedia",
+            "lang": null,
+            "excerpt": "\"Q38882\"",
+            "retrieved_at": "2026-10-21T07:43:59.412Z"
+          }
+        ],
+        "lines": []
+      }
+    ],
+    "hints": [],
+    "disputed": [
+      {
+        "instance": "located_in#1",
+        "predicate": "located_in",
+        "sides": [
+          {
+            "cluster": "located_in#1/c1",
+            "claims": [
+              "s01.001"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Province of Rome",
+                  "zh-CN": "罗马省"
+                },
+                "qid": "Q15119"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c2",
+            "claims": [
+              "s01.002"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Papal States",
+                  "zh-CN": "教皇国"
+                },
+                "qid": "Q170174"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c3",
+            "claims": [
+              "s01.003"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Rome",
+                  "zh-CN": "羅馬（省）"
+                },
+                "qid": "Q1558632"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c4",
+            "claims": [
+              "s01.004"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Ancient Rome",
+                  "zh-CN": "古罗马"
+                },
+                "qid": "Q1747689"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c5",
+            "claims": [
+              "s01.005"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Roman Republic",
+                  "zh-CN": "罗马共和国"
+                },
+                "qid": "Q17167"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c6",
+            "claims": [
+              "s01.006"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Roman Empire",
+                  "zh-CN": "罗马帝国"
+                },
+                "qid": "Q2277"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c7",
+            "claims": [
+              "s01.007"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Western Roman Empire",
+                  "zh-CN": "西罗马帝国"
+                },
+                "qid": "Q42834"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c8",
+            "claims": [
+              "s01.008"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "Metropolitan City of Rome",
+                  "zh-CN": "羅馬首都廣域市"
+                },
+                "qid": "Q18288160"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          },
+          {
+            "cluster": "located_in#1/c9",
+            "claims": [
+              "s01.009"
+            ],
+            "values": [
+              {
+                "label": {
+                  "en": "circle of Rome"
+                },
+                "qid": "Q3677829"
+              }
+            ],
+            "sources": [
+              {
+                "id": "s01",
+                "publisher": "wikimedia",
+                "tier": 2,
+                "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q220&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "value_invalid_count": 0,
+    "subject_mismatch_count": 0,
+    "rejected_count": 0,
+    "excerpt_not_found_count": 0,
+    "visual_checks": [],
+    "human_review": {
+      "facts": false,
+      "visuals": false,
+      "listening": false
+    },
+    "warnings": [
+      "fetch_failed:en.wikipedia.org",
+      "fetch_failed:zh.wikipedia.org",
+      "fetch_http:403:www.britannica.com"
+    ]
+  },
+  "script": {
+    "lang": "zh-CN",
+    "langs": [
+      "en",
+      "zh-CN"
+    ],
+    "title": "罗马的一生",
+    "entailment_by": "agent",
+    "gate": {
+      "status": "passed",
+      "exit": 0,
+      "errors": 0,
+      "warnings": [
+        "entailment_partial:S24"
+      ],
+      "budget": {
+        "unit": "chars",
+        "total": 256,
+        "lines": {
+          "S01": 8,
+          "S02": 9,
+          "S03": 8,
+          "S04": 15,
+          "S05": 7,
+          "S06": 7,
+          "S07": 8,
+          "S08": 9,
+          "S09": 11,
+          "S10": 8,
+          "S11": 10,
+          "S12": 8,
+          "S13": 11,
+          "S14": 9,
+          "S15": 16,
+          "S16": 6,
+          "S17": 8,
+          "S18": 7,
+          "S19": 16,
+          "S20": 9,
+          "S21": 10,
+          "S22": 9,
+          "S23": 17,
+          "S24": 9,
+          "S25": 10,
+          "S26": 11
+        }
+      }
+    },
+    "lines": [
+      {
+        "id": "S01",
+        "section": "intro",
+        "bars": 2,
+        "size": "wide",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "Today's Rome as an ink map: the river bend, faint modern streets",
+        "text": "这座城，从哪里开始？",
+        "claims": [],
+        "kind": "question",
+        "hedge": null,
+        "kp": null,
+        "rehook": true,
+        "sfx": 1
+      },
+      {
+        "id": "S02",
+        "section": "intro",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pan-right",
+        "scene": "river-mist",
+        "description": "Dawn mist over a slow river between low hills; a small boat",
+        "text": "它就建在台伯河岸边。",
+        "claims": [
+          "agent.003",
+          "agent.004"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S03",
+        "section": "verse",
+        "bars": 2,
+        "size": "wide",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "Ink map: the Tiber glows as it bends through the site",
+        "text": "城，就落在台伯河边。",
+        "claims": [
+          "agent.003",
+          "agent.004"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": "kp2",
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S04",
+        "section": "verse",
+        "bars": 2,
+        "size": "medium",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "Close on the hills by the river: a first settlement washes in around the Palatine",
+        "text": "相传公元前753年，罗马在此建城。",
+        "claims": [
+          "agent.001",
+          "agent.002"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": "kp1",
+        "rehook": false,
+        "sfx": 2
+      },
+      {
+        "id": "S05",
+        "section": "verse",
+        "bars": 2,
+        "size": "medium",
+        "camera": "hold",
+        "scene": "city-map",
+        "description": "The neighbouring hill and the valley between them appear on the map",
+        "text": "先看河边的小山。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": true,
+        "sfx": 2
+      },
+      {
+        "id": "S06",
+        "section": "verse",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "The settled area spreads beyond the first hill",
+        "text": "墨色，从山脚晕开。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S07",
+        "section": "verse",
+        "bars": 2,
+        "size": "wide",
+        "camera": "parallax",
+        "scene": "river-mist",
+        "description": "River landscape with a working boat drifting downstream",
+        "text": "一条河，养大一座城。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S08",
+        "section": "verse",
+        "bars": 2,
+        "size": "wide",
+        "camera": "hold",
+        "scene": "city-map",
+        "description": "The city wash keeps growing to a whole district",
+        "text": "一个小城，凭什么长大？",
+        "claims": [],
+        "kind": "question",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S09",
+        "section": "build",
+        "bars": 2,
+        "size": "wide",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "The Forum pulses as the centre of the republic",
+        "text": "它成了罗马共和国的中心。",
+        "claims": [
+          "agent.005",
+          "agent.006"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": "kp3",
+        "rehook": true,
+        "sfx": 1
+      },
+      {
+        "id": "S10",
+        "section": "build",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "A wider wash starts beyond the republican city",
+        "text": "墨色，一圈圈往外走。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S11",
+        "section": "drop",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "The imperial city spreads to its full extent; monuments appear",
+        "text": "然后，是罗马帝国的中心。",
+        "claims": [
+          "agent.007",
+          "agent.008"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": "kp4",
+        "rehook": false,
+        "sfx": 2
+      },
+      {
+        "id": "S12",
+        "section": "drop",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pan-left",
+        "scene": "city-map",
+        "description": "The map pans across the full imperial city to the river bank",
+        "text": "镜头沿着河，往西看。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S13",
+        "section": "drop",
+        "bars": 2,
+        "size": "close",
+        "camera": "hold",
+        "scene": "ink-name",
+        "description": "The two characters for Rome brushed in large ink, then a seal",
+        "text": "一个帝国的中心，就在这里。",
+        "claims": [
+          "agent.007"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 2
+      },
+      {
+        "id": "S14",
+        "section": "drop",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "Wide view of the whole ancient city on the river",
+        "text": "可再高的城，也会跌倒。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S15",
+        "section": "breakdown",
+        "bars": 2,
+        "size": "wide",
+        "camera": "hold",
+        "scene": "city-map",
+        "description": "The imperial city under a cinnabar wash with embers",
+        "text": "据记载，410年罗马遭西哥特人洗劫。",
+        "claims": [
+          "agent.014"
+        ],
+        "kind": "fact",
+        "hedge": "attributed",
+        "kp": null,
+        "rehook": true,
+        "sfx": 1
+      },
+      {
+        "id": "S16",
+        "section": "breakdown",
+        "bars": 2,
+        "size": "wide",
+        "camera": "hold",
+        "scene": "city-map",
+        "description": "The city wash shrinks; old centres turn grey",
+        "text": "墨色，开始褪去。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S17",
+        "section": "breakdown",
+        "bars": 2,
+        "size": "medium",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "A small town gathers in the river bend",
+        "text": "墨色，缩成小小一团。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S18",
+        "section": "breakdown",
+        "bars": 2,
+        "size": "wide",
+        "camera": "rise",
+        "scene": "river-mist",
+        "description": "An empty boat on a grey river in thick mist",
+        "text": "它还能站起来吗？",
+        "claims": [],
+        "kind": "question",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S19",
+        "section": "build2",
+        "bars": 2,
+        "size": "wide",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "Across the river, a great church appears; the town is renewed",
+        "text": "据记载，15世纪起，教皇推动城市更新。",
+        "claims": [
+          "agent.017"
+        ],
+        "kind": "fact",
+        "hedge": "attributed",
+        "kp": null,
+        "rehook": true,
+        "sfx": 1
+      },
+      {
+        "id": "S20",
+        "section": "build2",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "The town spreads again over the old city",
+        "text": "旧城之上，会长出什么？",
+        "claims": [],
+        "kind": "question",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S21",
+        "section": "drop2",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "Modern streets fade in on both banks",
+        "text": "今天的街道，一条条浮现。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S22",
+        "section": "drop2",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pull-out",
+        "scene": "city-map",
+        "description": "The whole modern city spreads to the frame edges",
+        "text": "城，长成了今天的样子。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S23",
+        "section": "drop2",
+        "bars": 2,
+        "size": "wide",
+        "camera": "push-in",
+        "scene": "city-map",
+        "description": "Back to the historic centre; its monuments pulse",
+        "text": "1980年，罗马历史中心列入世界遗产。",
+        "claims": [
+          "agent.009",
+          "agent.010"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": "kp5",
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S24",
+        "section": "drop2",
+        "bars": 2,
+        "size": "wide",
+        "camera": "pan-left",
+        "scene": "city-map",
+        "description": "The Tiber glows through the modern city",
+        "text": "台伯河，还在城边流淌。",
+        "claims": [
+          "agent.003",
+          "agent.004"
+        ],
+        "kind": "fact",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 1
+      },
+      {
+        "id": "S25",
+        "section": "outro",
+        "bars": 3,
+        "size": "wide",
+        "camera": "pan-right",
+        "scene": "river-mist",
+        "description": "Dawn river again, the same view as the opening",
+        "text": "每座城市，都有它的一生。",
+        "claims": [],
+        "kind": "bridge",
+        "hedge": null,
+        "kp": null,
+        "rehook": true,
+        "sfx": 1
+      },
+      {
+        "id": "S26",
+        "section": "outro",
+        "bars": 4,
+        "size": "close",
+        "camera": "hold",
+        "scene": "ink-name",
+        "description": "One character for city brushed large, then a seal",
+        "text": "你的城市，又是从哪里开始？",
+        "claims": [],
+        "kind": "question",
+        "hedge": null,
+        "kp": null,
+        "rehook": false,
+        "sfx": 2
+      }
+    ],
+    "knowledge_points": [
+      {
+        "id": "kp1",
+        "claims": [
+          "agent.001",
+          "agent.002"
+        ],
+        "card": {
+          "title": "传说建城",
+          "value": "公元前753年"
+        },
+        "count": null
+      },
+      {
+        "id": "kp2",
+        "claims": [
+          "agent.003",
+          "agent.004"
+        ],
+        "card": {
+          "title": "城边的河",
+          "value": "台伯河"
+        },
+        "count": null
+      },
+      {
+        "id": "kp3",
+        "claims": [
+          "agent.005",
+          "agent.006"
+        ],
+        "card": {
+          "title": "成为中心",
+          "value": "罗马共和国"
+        },
+        "count": null
+      },
+      {
+        "id": "kp4",
+        "claims": [
+          "agent.007",
+          "agent.008"
+        ],
+        "card": {
+          "title": "帝国中心",
+          "value": "罗马帝国"
+        },
+        "count": null
+      },
+      {
+        "id": "kp5",
+        "claims": [
+          "agent.009",
+          "agent.010"
+        ],
+        "card": {
+          "title": "列入世界遗产",
+          "value": "1980"
+        },
+        "count": null
+      }
+    ],
+    "end_card": {
+      "line": "罗马的一生。",
+      "claims": []
+    }
+  },
+  "plan": {
+    "schema": "chronicle-plan/2",
+    "theme": "ink-theme",
+    "seconds": 150,
+    "bpm": 88,
+    "bar_s": 2.7273,
+    "total_bars": 55,
+    "aspect": "16:9",
+    "lang": "zh-CN",
+    "subject": "city",
+    "structure": "life",
+    "sections": [
+      {
+        "id": "intro",
+        "start_bar": 0,
+        "bars": 4,
+        "music": "intro",
+        "role": "hook",
+        "start": 0,
+        "end": 10.909,
+        "kp_allowed": false
+      },
+      {
+        "id": "verse",
+        "start_bar": 4,
+        "bars": 12,
+        "music": "verse",
+        "role": "origin",
+        "start": 10.909,
+        "end": 43.636,
+        "kp_allowed": true
+      },
+      {
+        "id": "build",
+        "start_bar": 16,
+        "bars": 4,
+        "music": "build",
+        "role": "turn",
+        "start": 43.636,
+        "end": 54.545,
+        "kp_allowed": true
+      },
+      {
+        "id": "drop",
+        "start_bar": 20,
+        "bars": 8,
+        "music": "drop",
+        "role": "climax1",
+        "start": 54.545,
+        "end": 76.364,
+        "kp_allowed": true
+      },
+      {
+        "id": "breakdown",
+        "start_bar": 28,
+        "bars": 8,
+        "music": "breakdown",
+        "role": "cost",
+        "start": 76.364,
+        "end": 98.182,
+        "kp_allowed": true
+      },
+      {
+        "id": "build2",
+        "start_bar": 36,
+        "bars": 4,
+        "music": "build",
+        "role": "suspense",
+        "start": 98.182,
+        "end": 109.091,
+        "kp_allowed": true
+      },
+      {
+        "id": "drop2",
+        "start_bar": 40,
+        "bars": 8,
+        "music": "drop",
+        "role": "climax2",
+        "start": 109.091,
+        "end": 130.909,
+        "kp_allowed": true
+      },
+      {
+        "id": "outro",
+        "start_bar": 48,
+        "bars": 7,
+        "music": "outro",
+        "role": "echo",
+        "start": 130.909,
+        "end": 150,
+        "kp_allowed": false
+      }
+    ],
+    "rehooks": [
+      {
+        "i": 0,
+        "bar": 0,
+        "kind": "hook",
+        "section": "intro",
+        "t": 0
+      },
+      {
+        "i": 1,
+        "bar": 8,
+        "kind": "mid",
+        "section": "verse",
+        "t": 21.818
+      },
+      {
+        "i": 2,
+        "bar": 16,
+        "kind": "turn",
+        "section": "build",
+        "t": 43.636
+      },
+      {
+        "i": 3,
+        "bar": 28,
+        "kind": "turn",
+        "section": "breakdown",
+        "t": 76.364
+      },
+      {
+        "i": 4,
+        "bar": 36,
+        "kind": "turn",
+        "section": "build2",
+        "t": 98.182
+      },
+      {
+        "i": 5,
+        "bar": 48,
+        "kind": "final",
+        "section": "outro",
+        "t": 130.909
+      }
+    ],
+    "end_card_bars": 2,
+    "shot_bars": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "kp": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  "kp_cards": [
+    {
+      "id": "kp2",
+      "shot": "S03",
+      "start": 11.566666666666666,
+      "end": 16.2,
+      "title": "城边的河",
+      "value": "台伯河",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp1",
+      "shot": "S04",
+      "start": 17.033333333333335,
+      "end": 21.666666666666668,
+      "title": "传说建城",
+      "value": "公元前753年",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp3",
+      "shot": "S09",
+      "start": 44.3,
+      "end": 48.93333333333333,
+      "title": "成为中心",
+      "value": "罗马共和国",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp4",
+      "shot": "S11",
+      "start": 55.2,
+      "end": 59.833333333333336,
+      "title": "帝国中心",
+      "value": "罗马帝国",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp5",
+      "shot": "S23",
+      "start": 120.66666666666667,
+      "end": 125.3,
+      "title": "列入世界遗产",
+      "value": "1980",
+      "count": null,
+      "count_s": 0
+    }
+  ],
+  "music": {
+    "theme": "ink-theme",
+    "bpm": 88,
+    "key": "D",
+    "bars": 55,
+    "sections": [
+      {
+        "id": "intro",
+        "start_bar": 0,
+        "bars": 4,
+        "start": 0,
+        "end": 10.909091
+      },
+      {
+        "id": "verse",
+        "start_bar": 4,
+        "bars": 12,
+        "start": 10.909091,
+        "end": 43.636364
+      },
+      {
+        "id": "build",
+        "start_bar": 16,
+        "bars": 4,
+        "start": 43.636364,
+        "end": 54.545455
+      },
+      {
+        "id": "drop",
+        "start_bar": 20,
+        "bars": 8,
+        "start": 54.545455,
+        "end": 76.363636
+      },
+      {
+        "id": "breakdown",
+        "start_bar": 28,
+        "bars": 8,
+        "start": 76.363636,
+        "end": 98.181818
+      },
+      {
+        "id": "build2",
+        "start_bar": 36,
+        "bars": 4,
+        "start": 98.181818,
+        "end": 109.090909
+      },
+      {
+        "id": "drop2",
+        "start_bar": 40,
+        "bars": 8,
+        "start": 109.090909,
+        "end": 130.909091
+      },
+      {
+        "id": "outro",
+        "start_bar": 48,
+        "bars": 7,
+        "start": 130.909091,
+        "end": 150
+      }
+    ]
+  },
+  "scenes": {
+    "count": 3,
+    "scan_ok": true,
+    "review": {
+      "schema": "chronicle-review/1",
+      "segments": [
+        {
+          "id": "s1",
+          "rounds": [
+            {
+              "sheet": "out/segments/s1/sheet.jpg",
+              "findings": [
+                "no title on the opening map",
+                "scale bar collides with the AI badge in the top-left corner"
+              ],
+              "fixes": [
+                "S01 params.title = true",
+                "scale bar moved above the caption band (bottom-left)"
+              ],
+              "open_blocking": []
+            },
+            {
+              "sheet": "out/sheet.jpg",
+              "findings": [],
+              "fixes": [],
+              "open_blocking": []
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "rounds": [
+            {
+              "sheet": "out/segments/s2/sheet.jpg",
+              "findings": [
+                "map labels in the hill cluster overlap slightly at 2 km view"
+              ],
+              "fixes": [],
+              "open_blocking": []
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "rounds": [
+            {
+              "sheet": "out/sheet.jpg",
+              "findings": [
+                "seal-stamp transition printed the two-character seal right-to-left (马罗) over the map"
+              ],
+              "fixes": [
+                "script.seal set to the single character 罗"
+              ],
+              "open_blocking": []
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "rounds": [
+            {
+              "sheet": "out/sheet.jpg",
+              "findings": [],
+              "fixes": [],
+              "open_blocking": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "rounds": [
+            {
+              "sheet": "out/sheet.jpg",
+              "findings": [],
+              "fixes": [],
+              "open_blocking": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "timeline_summary": {
+    "seconds": 150,
+    "fps": 30,
+    "frames": 4500,
+    "aspect": "16:9",
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "bpm": 88,
+    "sections": [
+      {
+        "id": "intro",
+        "start": 0,
+        "end": 10.9,
+        "bars": 4
+      },
+      {
+        "id": "verse",
+        "start": 10.9,
+        "end": 43.63333333333333,
+        "bars": 12
+      },
+      {
+        "id": "build",
+        "start": 43.63333333333333,
+        "end": 54.53333333333333,
+        "bars": 4
+      },
+      {
+        "id": "drop",
+        "start": 54.53333333333333,
+        "end": 76.36666666666666,
+        "bars": 8
+      },
+      {
+        "id": "breakdown",
+        "start": 76.36666666666666,
+        "end": 98.16666666666667,
+        "bars": 8
+      },
+      {
+        "id": "build2",
+        "start": 98.16666666666667,
+        "end": 109.1,
+        "bars": 4
+      },
+      {
+        "id": "drop2",
+        "start": 109.1,
+        "end": 130.9,
+        "bars": 8
+      },
+      {
+        "id": "outro",
+        "start": 130.9,
+        "end": 150,
+        "bars": 7
+      }
+    ],
+    "shots": 26,
+    "captions": 26,
+    "kp_cards": 5,
+    "sfx": {
+      "cues": 61,
+      "normal": 30,
+      "emphasis": 27,
+      "climax": 4
+    },
+    "rehooks": [
+      {
+        "i": 0,
+        "bar": 0,
+        "kind": "hook",
+        "section": "intro",
+        "t": 0
+      },
+      {
+        "i": 1,
+        "bar": 8,
+        "kind": "mid",
+        "section": "verse",
+        "t": 21.818
+      },
+      {
+        "i": 2,
+        "bar": 16,
+        "kind": "turn",
+        "section": "build",
+        "t": 43.636
+      },
+      {
+        "i": 3,
+        "bar": 28,
+        "kind": "turn",
+        "section": "breakdown",
+        "t": 76.364
+      },
+      {
+        "i": 4,
+        "bar": 36,
+        "kind": "turn",
+        "section": "build2",
+        "t": 98.182
+      },
+      {
+        "i": 5,
+        "bar": 48,
+        "kind": "final",
+        "section": "outro",
+        "t": 130.909
+      }
+    ],
+    "segments": [
+      {
+        "id": "s1",
+        "name": "opening",
+        "sections": [
+          "intro"
+        ],
+        "start": 0,
+        "end": 10.9,
+        "from_frame": 0,
+        "to_frame": 327
+      },
+      {
+        "id": "s2",
+        "name": "verse",
+        "sections": [
+          "verse"
+        ],
+        "start": 10.9,
+        "end": 43.63333333333333,
+        "from_frame": 327,
+        "to_frame": 1309
+      },
+      {
+        "id": "s3",
+        "name": "build-drop",
+        "sections": [
+          "build",
+          "drop"
+        ],
+        "start": 43.63333333333333,
+        "end": 76.36666666666666,
+        "from_frame": 1309,
+        "to_frame": 2291
+      },
+      {
+        "id": "s4",
+        "name": "breakdown-build2",
+        "sections": [
+          "breakdown",
+          "build2"
+        ],
+        "start": 76.36666666666666,
+        "end": 109.1,
+        "from_frame": 2291,
+        "to_frame": 3273
+      },
+      {
+        "id": "s5",
+        "name": "drop2-outro",
+        "sections": [
+          "drop2",
+          "outro"
+        ],
+        "start": 109.1,
+        "end": 150,
+        "from_frame": 3273,
+        "to_frame": 4500
+      }
+    ],
+    "end_card": {
+      "line": "罗马的一生。",
+      "start": 144.53333333333333,
+      "end": 150
+    }
+  },
+  "checks": {
+    "film": "out/film.mp4",
+    "items": [
+      {
+        "id": "format",
+        "status": "pass",
+        "details": {
+          "problems": [],
+          "duration": 150,
+          "frames": 4500,
+          "expected_frames": 4500
+        }
+      },
+      {
+        "id": "loudness",
+        "status": "pass",
+        "details": {
+          "I": -13.9,
+          "TP": -1.4,
+          "LRA": 8.4,
+          "failed": []
+        }
+      },
+      {
+        "id": "downbeats",
+        "status": "pass",
+        "details": {
+          "shots": 26,
+          "off_beat": [],
+          "sections_off": [],
+          "max_quantisation_ms": 15.2
+        }
+      },
+      {
+        "id": "sfx_sync",
+        "status": "fail",
+        "code": "sfx_out_of_sync",
+        "details": {
+          "cues": 61,
+          "tiers": {
+            "normal": 30,
+            "emphasis": 27,
+            "climax": 4
+          },
+          "median_ms": 2.3,
+          "max_ms": 103.3,
+          "out_of_sync": [
+            "x041"
+          ]
+        }
+      },
+      {
+        "id": "captions",
+        "status": "pass",
+        "details": {
+          "blocks": 26,
+          "dir": "ltr",
+          "problems": []
+        }
+      },
+      {
+        "id": "aigc",
+        "status": "pass",
+        "details": {
+          "metadata": {
+            "Label": "1",
+            "ContentProducer": "SandBase Lab chronicle-ink 0.3.0",
+            "ProduceID": "f336036a555a307c624e4b8d7ecc48be",
+            "ReservedCode1": "",
+            "ContentPropagator": "",
+            "PropagateID": "",
+            "ReservedCode2": ""
+          },
+          "badge": {
+            "kind": "aigc",
+            "start": 0,
+            "end": 3
+          },
+          "end_card_s": 5.47
+        }
+      },
+      {
+        "id": "rehooks",
+        "status": "pass",
+        "details": {
+          "gaps": [
+            21.8,
+            21.8,
+            32.7,
+            21.8,
+            32.7,
+            19.1
+          ]
+        }
+      },
+      {
+        "id": "facts",
+        "status": "pass",
+        "details": {
+          "gate": "passed",
+          "lang": "zh-CN"
+        }
+      },
+      {
+        "id": "scene_scan",
+        "status": "pass",
+        "details": {
+          "scenes": 3,
+          "rejected": []
+        }
+      },
+      {
+        "id": "visual_review",
+        "status": "pass",
+        "details": {
+          "segments": 5,
+          "missing": [],
+          "open_blocking": [],
+          "over_rounds": []
+        }
+      }
+    ],
+    "failed": [
+      "sfx_out_of_sync"
+    ],
+    "listening": "not certified: a person still has to listen to the mix"
+  },
+  "compliance": {
+    "aigc": {
+      "badge": [
+        0,
+        3
+      ],
+      "end_card": [
+        144.53333333333333,
+        150
+      ],
+      "metadata": true
+    },
+    "implicit_label": "AIGC field per GB 45438 (field set not verified)",
+    "portrait_policy": "allowed",
+    "map_policy": "no-borders",
+    "commercial_terms_note": "visuals and music are produced by code in this project (fonts: SIL OFL); facts and excerpts keep their source licences"
+  },
+  "cost": {
+    "model_calls": 0,
+    "note": "no image, voice, music, vision or LLM model is called by the Skill; writing is done by the user's own Agent"
+  },
+  "render": {
+    "seconds": 144.5,
+    "ms_per_frame": 32,
+    "workers": 5,
+    "gpu": false,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "output": "out/film.mp4",
+    "loudnorm": {
+      "input_i": -18.3,
+      "input_tp": -1.09,
+      "output_i": -13.68,
+      "output_tp": -1.5
+    }
+  },
+  "outputs": [
+    {
+      "path": "out/film.mp4",
+      "sha256": "cc94b071fa3c03b97ce7fb0d96b5a928465e8b72b671bfbcc038bdc2f3d200de",
+      "bytes": 109260648
+    },
+    {
+      "path": "out/captions.vtt",
+      "sha256": "a8e5e676991cdeb12f622bad1d92951d596a227e1f42653d272823bf82a23eb4",
+      "bytes": 1802
+    },
+    {
+      "path": "out/sheet.jpg",
+      "sha256": "9caeaa72239bdd749596787c06bece454d5f804c1e2f39715d9eede39fd2f5dc",
+      "bytes": 606783
+    },
+    {
+      "path": "out/joins.jpg",
+      "sha256": "804e106ff942ecf0634c0f23642c45ad8852809502476e8b131879d4c6094462",
+      "bytes": 347431
+    }
+  ],
+  "human_review": {
+    "facts": false,
+    "visuals": false,
+    "listening": false
+  },
+  "warnings": [
+    "entailment_partial:S24",
+    "fetch_failed:en.wikipedia.org",
+    "fetch_failed:zh.wikipedia.org",
+    "fetch_http:403:www.britannica.com"
+  ]
+}

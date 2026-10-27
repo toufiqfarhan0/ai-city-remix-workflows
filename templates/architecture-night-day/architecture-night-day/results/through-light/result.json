@@ -1,0 +1,65 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "architecture-night-day",
+    "version": "1.0.0"
+  },
+  "sample": "through-light",
+  "site": {
+    "file": "index.html",
+    "sha256": "28d4a185346421e19ca157effd2b4f32f9ea0f77da327d962b0dd20f984e0842",
+    "bytes": 828500
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-21T15:38:01.234Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 60
+      },
+      "low": {
+        "1600x900": 60
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "visit": true,
+      "view": true,
+      "orbit": true,
+      "zoom": true,
+      "reset": true,
+      "light": true,
+      "play": true
+    },
+    "facts": {
+      "landmarks": 5,
+      "duration": 20,
+      "triangles": 1218778,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline architecture explorer, sample Temple of Heaven: five instanced landmarks, a night-to-day light slider and a deterministic 20-second film timeline. Interpretive layout, not a survey. Silent by design; no runtime model calls.",
+    "zh-CN": "原创离线建筑漫游，示例为天坛：五座实例化建筑、从夜到昼的光线滑块和可确定重放的 20 秒影片时间线。布局为示意，并非测绘。设计上无声音，运行时不调用模型。"
+  }
+}

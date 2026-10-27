@@ -1,0 +1,1002 @@
+{
+  "when": "2026-10-27T07:31:35.937Z",
+  "ok": true,
+  "fps": {
+    "high": {
+      "1600x900": 26
+    },
+    "low": {
+      "1600x900": 31
+    },
+    "mobile": {
+      "390x844": 62
+    }
+  },
+  "checks": [
+    {
+      "id": "markup",
+      "ok": true,
+      "value": []
+    },
+    {
+      "id": "bundle",
+      "ok": true,
+      "value": []
+    },
+    {
+      "id": "layout-embed-en",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 7,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "embed-touch-en",
+      "ok": true,
+      "value": {
+        "a": "Shinjuku Park Tower",
+        "b": "Shinjuku Nomura Building",
+        "zoom": 0.588,
+        "rot": 1
+      }
+    },
+    {
+      "id": "layout-embed-zh-CN",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 7,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "embed-touch-zh-CN",
+      "ok": true,
+      "value": {
+        "a": "Shinjuku Park Tower",
+        "b": "Shinjuku Nomura Building",
+        "zoom": 0.588,
+        "rot": 1
+      }
+    },
+    {
+      "id": "autoplay-en-high",
+      "ok": true,
+      "value": 0.2943
+    },
+    {
+      "id": "fps-en-high",
+      "ok": true,
+      "value": 25.0775424008478
+    },
+    {
+      "id": "interaction-landmark",
+      "ok": true,
+      "value": {
+        "delta": 44.16,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-labels",
+      "ok": true,
+      "value": {
+        "delta": 0.97,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-pan",
+      "ok": true,
+      "value": {
+        "delta": 42.15,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-zoom",
+      "ok": true,
+      "value": {
+        "delta": 49.58,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-rotate",
+      "ok": true,
+      "value": {
+        "delta": 56.18,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-time",
+      "ok": true,
+      "value": {
+        "delta": 69.13,
+        "threshold": 3
+      }
+    },
+    {
+      "id": "light-label",
+      "ok": true,
+      "value": "Night"
+    },
+    {
+      "id": "interaction-play",
+      "ok": true,
+      "value": {
+        "delta": 96.22,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "space-pauses",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "area-data",
+      "ok": true,
+      "value": {
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829
+      }
+    },
+    {
+      "id": "layout-desktop-en-high",
+      "ok": true,
+      "value": {
+        "layout": "full",
+        "controls": 8,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "autoplay-zh-CN-high",
+      "ok": true,
+      "value": 0.3321
+    },
+    {
+      "id": "fps-zh-CN-high",
+      "ok": true,
+      "value": 26.096033402925926
+    },
+    {
+      "id": "layout-desktop-zh-CN-high",
+      "ok": true,
+      "value": {
+        "layout": "full",
+        "controls": 8,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "autoplay-en-low",
+      "ok": true,
+      "value": 0.30800000000000005
+    },
+    {
+      "id": "fps-en-low",
+      "ok": true,
+      "value": 30.97607592434309
+    },
+    {
+      "id": "layout-desktop-en-low",
+      "ok": true,
+      "value": {
+        "layout": "full",
+        "controls": 8,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "mobile-tier-en",
+      "ok": true,
+      "value": "compact"
+    },
+    {
+      "id": "touch-pan-en",
+      "ok": true,
+      "value": {
+        "from": [
+          790.5,
+          723
+        ],
+        "to": [
+          751.9713986202532,
+          479.1044380708244
+        ]
+      }
+    },
+    {
+      "id": "layout-mobile-en",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 7,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "mobile-tier-zh-CN",
+      "ok": true,
+      "value": "compact"
+    },
+    {
+      "id": "touch-pan-zh-CN",
+      "ok": true,
+      "value": {
+        "from": [
+          790.5,
+          723
+        ],
+        "to": [
+          752.2385852165482,
+          478.8395640717767
+        ]
+      }
+    },
+    {
+      "id": "layout-mobile-zh-CN",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 7,
+        "bad": [],
+        "scroll": false,
+        "integerScale": true,
+        "inside": true
+      }
+    },
+    {
+      "id": "capture-api",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "deterministic-capture",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "film-progress",
+      "ok": true,
+      "value": [
+        [
+          0,
+          0.04,
+          null
+        ],
+        [
+          0.5864815657715066,
+          0.2678876170655567,
+          "Shinjuku Mitsui Building"
+        ],
+        [
+          0.9999999999999999,
+          0.97,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "reduced-motion",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "console-errors",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "external-requests",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "csp-violations",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "audio-before",
+      "ok": true,
+      "value": "none,none,none"
+    },
+    {
+      "id": "audio-after-gesture",
+      "ok": true,
+      "value": "none,none,none"
+    }
+  ],
+  "interactions": {
+    "landmark": true,
+    "labels": true,
+    "pan": true,
+    "zoom": true,
+    "rotate": true,
+    "time": true,
+    "play": true
+  },
+  "facts": {
+    "landmarks": 8,
+    "buildings": 3544,
+    "roads": 829,
+    "trees": 670,
+    "widthM": 1581,
+    "heightM": 1446,
+    "duration": 60,
+    "embedVerified": true
+  },
+  "proofs": [
+    {
+      "id": "landmark",
+      "before": {
+        "mode": "tour",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 790.5,
+        "cy": 723,
+        "zoom": 0.1896727838695309,
+        "rot": 0.09662333942982788,
+        "lift": 0,
+        "target": {
+          "cx": 790.5,
+          "cy": 723,
+          "zoom": 0.1896727838695309,
+          "lift": 0,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 83,
+        "frameMs": 45.89999999990687,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": null,
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 5,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 3532,
+          "cars": 0,
+          "trees": 641
+        }
+      },
+      "after": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 520.0210081738869,
+        "cy": 666.8349634459438,
+        "zoom": 0.41513751953394845,
+        "rot": 0.09662333942982788,
+        "lift": 100.5649759773155,
+        "target": {
+          "cx": 516,
+          "cy": 666,
+          "zoom": 0.42,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 110,
+        "frameMs": 32.60000000009313,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 2,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 1042,
+          "cars": 302,
+          "trees": 474
+        }
+      },
+      "pixelDiff": 44.157725694444444
+    },
+    {
+      "id": "labels",
+      "before": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 516.1023486251249,
+        "cy": 666.0212527199714,
+        "zoom": 0.4198755294055334,
+        "rot": 0.09662333942982788,
+        "lift": 102.0219464456093,
+        "target": {
+          "cx": 516,
+          "cy": 666,
+          "zoom": 0.42,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 122,
+        "frameMs": 44.90000000037253,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 2,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 996,
+          "cars": 300,
+          "trees": 467
+        }
+      },
+      "after": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": false,
+        "cx": 516.000314681193,
+        "cy": 666.0000653436357,
+        "zoom": 0.4199996172460317,
+        "rot": 0.09662333942982788,
+        "lift": 102.05988300050072,
+        "target": {
+          "cx": 516,
+          "cy": 666,
+          "zoom": 0.42,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 140,
+        "frameMs": 32.200000000186265,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 993,
+          "cars": 299,
+          "trees": 466
+        }
+      },
+      "pixelDiff": 0.9715798611111112
+    },
+    {
+      "id": "pan",
+      "before": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 516.0000060293155,
+        "cy": 666.000001251989,
+        "zoom": 0.41999999266640176,
+        "rot": 0.09662333942982788,
+        "lift": 102.05999775828076,
+        "target": {
+          "cx": 516,
+          "cy": 666,
+          "zoom": 0.42,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 153,
+        "frameMs": 35.60000000009313,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 2,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 993,
+          "cars": 302,
+          "trees": 466
+        }
+      },
+      "after": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 511.4006176725869,
+        "cy": 590.8367520399669,
+        "zoom": 0.41999999999999993,
+        "rot": 0.09662333942982788,
+        "lift": 102.05999999999997,
+        "target": {
+          "cx": 511.3776991241109,
+          "cy": 590.4622164133642,
+          "zoom": 0.42,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 212,
+        "frameMs": 44.39999999990687,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 2,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 1005,
+          "cars": 311,
+          "trees": 449
+        }
+      },
+      "pixelDiff": 42.15346064814815
+    },
+    {
+      "id": "zoom",
+      "before": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 511.379016284346,
+        "cy": 590.4837414865812,
+        "zoom": 0.41999999999999993,
+        "rot": 0.09662333942982788,
+        "lift": 102.05999999999999,
+        "target": {
+          "cx": 511.3776991241109,
+          "cy": 590.4622164133642,
+          "zoom": 0.42,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 222,
+        "frameMs": 27.899999999906868,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 2,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 1004,
+          "cars": 312,
+          "trees": 449
+        }
+      },
+      "after": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 511.15886064263236,
+        "cy": 590.7600864221286,
+        "zoom": 1.77176897180525,
+        "rot": 0.09662333942982788,
+        "lift": 102.06,
+        "target": {
+          "cx": 511.1588130321504,
+          "cy": 590.7601512186108,
+          "zoom": 1.7726922431385517,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 260,
+        "frameMs": 55.700000000186265,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 21,
+          "cars": 18,
+          "trees": 2
+        }
+      },
+      "pixelDiff": 49.58141203703704
+    },
+    {
+      "id": "rotate",
+      "before": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 511.15881350477366,
+        "cy": 590.7601505753843,
+        "zoom": 1.7726830755773155,
+        "rot": 0.09662333942982788,
+        "lift": 102.06,
+        "target": {
+          "cx": 511.1588130321504,
+          "cy": 590.7601512186108,
+          "zoom": 1.7726922431385517,
+          "lift": 102.06,
+          "rot": 0.09662333942982788
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 269,
+        "frameMs": 47.8000000002794,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 21,
+          "cars": 19,
+          "trees": 2
+        }
+      },
+      "after": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 511.15881303215485,
+        "cy": 590.7601512186047,
+        "zoom": 1.772692243051776,
+        "rot": 0.9997215645824068,
+        "lift": 102.06,
+        "target": {
+          "cx": 511.1588130321504,
+          "cy": 590.7601512186108,
+          "zoom": 1.7726922431385517,
+          "lift": 102.06,
+          "rot": 1
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 293,
+        "frameMs": 56.60000000009313,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 32,
+          "cars": 13,
+          "trees": 0
+        }
+      },
+      "pixelDiff": 56.18433449074074
+    },
+    {
+      "id": "time",
+      "before": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 511.1588130321505,
+        "cy": 590.7601512186106,
+        "zoom": 1.7726922431374443,
+        "rot": 0.9999964471352536,
+        "lift": 102.06,
+        "target": {
+          "cx": 511.1588130321504,
+          "cy": 590.7601512186108,
+          "zoom": 1.7726922431385517,
+          "lift": 102.06,
+          "rot": 1
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 301,
+        "frameMs": 51.1999999997206,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 32,
+          "cars": 13,
+          "trees": 0
+        }
+      },
+      "after": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 1,
+        "labels": true,
+        "cx": 511.1588130321504,
+        "cy": 590.7601512186108,
+        "zoom": 1.7726922431385517,
+        "rot": 0.9999999999687117,
+        "lift": 102.06,
+        "target": {
+          "cx": 511.1588130321504,
+          "cy": 590.7601512186108,
+          "zoom": 1.7726922431385517,
+          "lift": 102.06,
+          "rot": 1
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 319,
+        "frameMs": 63.8000000002794,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "night",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.36,
+        "drawn": {
+          "buildings": 32,
+          "cars": 17,
+          "trees": 0
+        }
+      },
+      "pixelDiff": 69.13476851851851
+    },
+    {
+      "id": "play",
+      "before": {
+        "mode": "explore",
+        "playing": false,
+        "filmT": 2.8473,
+        "tod": 1,
+        "labels": true,
+        "cx": 511.1588130321504,
+        "cy": 590.7601512186108,
+        "zoom": 1.7726922431385517,
+        "rot": 0.9999999999999989,
+        "lift": 102.06,
+        "target": {
+          "cx": 511.1588130321504,
+          "cy": 590.7601512186108,
+          "zoom": 1.7726922431385517,
+          "lift": 102.06,
+          "rot": 1
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 333,
+        "frameMs": 90.20000000018626,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": "Tokyo Metropolitan Government Main Building 1",
+        "light": "night",
+        "duration": 60,
+        "labelsShown": 0,
+        "reducedMotion": false,
+        "lightAmb": 0.36,
+        "drawn": {
+          "buildings": 32,
+          "cars": 20,
+          "trees": 0
+        }
+      },
+      "after": {
+        "mode": "tour",
+        "playing": true,
+        "filmT": 4.467600000000002,
+        "tod": 0.04,
+        "labels": true,
+        "cx": 704.4856551343634,
+        "cy": 705.1390977874635,
+        "zoom": 0.2183203064804535,
+        "rot": 0.13133491616234488,
+        "lift": 31.980415435289178,
+        "target": {
+          "cx": 704.4856551343634,
+          "cy": 705.1390977874635,
+          "zoom": 0.2183203064804535,
+          "lift": 31.980415435289178,
+          "rot": 0.13133491616234488
+        },
+        "layout": "full",
+        "scale": 3,
+        "width": 534,
+        "height": 278,
+        "renders": 357,
+        "frameMs": 105.70000000018626,
+        "buildings": 3544,
+        "landmarks": 8,
+        "roads": 829,
+        "trees": 670,
+        "areaM": [
+          1581,
+          1446
+        ],
+        "focus": null,
+        "light": "day",
+        "duration": 60,
+        "labelsShown": 5,
+        "reducedMotion": false,
+        "lightAmb": 0.9875555555555555,
+        "drawn": {
+          "buildings": 3443,
+          "cars": 683,
+          "trees": 625
+        }
+      },
+      "pixelDiff": 96.21777199074074
+    }
+  ],
+  "errors": [],
+  "csp": []
+}

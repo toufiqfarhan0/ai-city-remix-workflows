@@ -1,0 +1,102 @@
+{
+  "schema": "chronicle-entity/1",
+  "qid": "Q36020",
+  "subject": "person",
+  "label": {
+    "en": "Su Shi",
+    "zh-CN": "苏轼"
+  },
+  "labels": {
+    "zh-hans": "苏轼",
+    "zh-hant": "蘇軾",
+    "zh": "蘇軾",
+    "en": "Su Shi"
+  },
+  "aliases": {
+    "zh-hans": [
+      "苏东坡",
+      "苏文忠",
+      "东坡居士",
+      "苏子瞻",
+      "苏和仲"
+    ],
+    "zh-hant": [
+      "蘇東坡",
+      "蘇文忠",
+      "東坡居士",
+      "蘇子瞻",
+      "蘇和仲",
+      "文忠",
+      "子瞻"
+    ],
+    "zh": [
+      "苏东坡",
+      "苏文忠",
+      "东坡居士",
+      "苏子瞻",
+      "苏和仲",
+      "老泉山人",
+      "鐵冠道人",
+      "蘇東坡",
+      "蘇文忠",
+      "東坡居士",
+      "蘇子瞻",
+      "蘇和仲",
+      "文忠",
+      "子瞻",
+      "苏轼"
+    ],
+    "en": [
+      "Su Dongpo",
+      "Zizhan",
+      "Su Shih",
+      "Dongpo jushi",
+      "Su shi",
+      "zi Zizhan",
+      "hao Dongpo jushi",
+      "Su Tung-p'o",
+      "Wenzhong"
+    ]
+  },
+  "native_names": [
+    {
+      "text": "蘇軾",
+      "language": "zh-hant"
+    },
+    {
+      "text": "苏轼",
+      "language": "zh-hans"
+    }
+  ],
+  "description": {
+    "en": "Chinese writer and politician (1037–1101)",
+    "zh-CN": "北宋文学家"
+  },
+  "sitelinks": 54,
+  "lock_rule": "qid",
+  "alternatives": [],
+  "living": false,
+  "portrait_policy": "allowed",
+  "born": {
+    "raw": "+1037-01-08T00:00:00Z",
+    "y": 1037,
+    "precision": "day",
+    "calendar": "julian",
+    "approx": false,
+    "m": 1,
+    "d": 8
+  },
+  "died": {
+    "raw": "+1101-08-24T00:00:00Z",
+    "y": 1101,
+    "precision": "day",
+    "calendar": "julian",
+    "approx": false,
+    "m": 8,
+    "d": 24
+  },
+  "external_ids": {
+    "P1417": "biography/Su-Shi",
+    "P497": "0003767"
+  }
+}

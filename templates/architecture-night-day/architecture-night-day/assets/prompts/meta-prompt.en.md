@@ -1,0 +1,5 @@
+# Architecture night-day explorer scene
+
+Build an interactive 3D explorer of {{subject}} with these buildings: {{landmarks}}. Author every building as procedural, instanced Three.js geometry (roof tiers, tile courses, brackets, columns, terraces and balustrades), not downloaded models or textures. Style: {{style}}. Camera: {{camera}}. Lighting: {{lightingTransition}}; sky, sun, fill lights, warm lamps, fog and exposure change together from one day fraction. Interactions: {{interaction}}.
+
+Keep one scene shared by the live page and the film. The film state is a pure function of time (`script(t)`), with explicit shot start and end times, hard cuts between buildings and a fixed camera during the main light change. Visible controls must operate actual scene state. Provide the full 16:9 composition for desktop and the film, a compact layout for phones and a 345 by 345 embed, English and Simplified Chinese UI, reduced motion (no autoplay) and a single offline HTML with no runtime network, storage or model calls. State that the layout is interpretive when it is not a survey. {{extraPrompt}}

@@ -1,0 +1,659 @@
+:root {
+  font-family: "DM Sans", system-ui, sans-serif;
+  color: #253e3b;
+  background: #e6ece8;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #168575;
+  outline-offset: 4px;
+}
+.app {
+  height: 100svh;
+  overflow: hidden;
+  position: relative;
+  --ink: #253e3b;
+  --muted: #7b8981;
+  --panel: rgba(253, 254, 247, 0.78);
+  color: var(--ink);
+  transition:
+    color 1.8s,
+    background 1.8s;
+}
+.night {
+  --ink: #e0ece8;
+  --muted: #91a9ab;
+  --panel: rgba(30, 48, 64, 0.85);
+}
+.canvas {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+}
+.canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 29px 40px;
+  pointer-events: none;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink);
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+  pointer-events: auto;
+}
+.brand-name {
+  font-weight: 750;
+  color: var(--ink);
+  letter-spacing: -0.65px;
+}
+.brand-mark {
+  display: block;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.brand-slash {
+  color: #92978e;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 1px;
+}
+.brand-lab {
+  background: var(--accent, #d9ff43);
+  color: #11110f;
+  padding: 4px 8px;
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 1.4px;
+  line-height: 1;
+}
+.brand-divider {
+  height: 17px;
+  width: 1px;
+  background: #8b9d904d;
+  margin: 0 7px;
+}
+.campaign {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+}
+.edition {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 11px;
+  text-decoration: none;
+  pointer-events: auto;
+}
+.intro {
+  position: absolute;
+  top: 131px;
+  left: 42px;
+  pointer-events: none;
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.eyebrow > span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #258f7c;
+}
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(35px, 3.9vw, 58px);
+  font-weight: 600;
+  letter-spacing: -2.7px;
+  line-height: 1.08;
+  margin: 21px 0 20px;
+}
+h1 em {
+  font-style: normal;
+  color: #6c8278;
+  font-weight: 400;
+}
+.night h1 em {
+  color: #8fa8b1;
+}
+.intro p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+  letter-spacing: 0.1px;
+}
+.intro-line {
+  width: 28px;
+  height: 1px;
+  background: #9fafa7;
+  margin: 24px 0 15px;
+}
+.explore-copy {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.4px;
+}
+.top-controls {
+  position: absolute;
+  right: 40px;
+  top: 112px;
+  display: flex;
+  gap: 8px;
+}
+.mode-switch {
+  padding: 4px;
+  background: var(--panel);
+  border: 1px solid #ffffff55;
+  box-shadow: 0 5px 20px #223d3510;
+  border-radius: 10px;
+  display: flex;
+}
+.mode-switch button {
+  border: 0;
+  background: none;
+  color: var(--muted);
+  padding: 9px 13px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 7px;
+  font-size: 11px;
+}
+.mode-switch button.active {
+  background: #2b5d50;
+  color: #fff;
+  box-shadow: 0 2px 4px #153f2d18;
+}
+.night .mode-switch button.active {
+  background: #54718e;
+}
+.square {
+  border: 1px solid #ffffff55;
+  background: var(--panel);
+  width: 44px;
+  border-radius: 10px;
+  color: var(--ink);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 5px 20px #223d3508;
+}
+.square.selected {
+  background: #2b5d50;
+  color: #fff;
+}
+.square:hover,
+.view-tools button:hover {
+  background: #dce8dd;
+}
+.night .square:hover,
+.night .view-tools button:hover {
+  background: #496279;
+}
+.location {
+  position: absolute;
+  top: 173px;
+  right: 40px;
+  font-size: 8px;
+  letter-spacing: 1.3px;
+  color: var(--muted);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.live-dot {
+  background: #4f9477;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+.coordinate {
+  font-size: 8px;
+  letter-spacing: 0.2px;
+  border-left: 1px solid #9ca89d50;
+  padding-left: 10px;
+  margin-left: 4px;
+}
+.view-tools {
+  position: absolute;
+  right: 40px;
+  top: 45%;
+  padding: 5px;
+  background: var(--panel);
+  border: 1px solid #ffffff50;
+  border-radius: 11px;
+  box-shadow: 0 6px 25px #143b2e0a;
+  display: flex;
+  flex-direction: column;
+}
+.view-tools button {
+  border: 0;
+  background: none;
+  color: var(--ink);
+  width: 32px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+}
+.view-tools > div {
+  height: 1px;
+  background: #9fafa733;
+  margin: 4px;
+}
+.compass {
+  position: absolute;
+  bottom: 193px;
+  right: 45px;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.compass span {
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+.landmark-bar {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 74px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.landmark-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+.landmark-buttons {
+  display: flex;
+  gap: 8px;
+}
+.landmark-buttons button {
+  flex: 1;
+  max-width: 230px;
+  border: 1px solid #ffffff88;
+  border-radius: 9px;
+  background: var(--panel);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 14px;
+  font-size: 11px;
+  box-shadow: 0 5px 16px #23493705;
+  backdrop-filter: blur(14px);
+  transition:
+    transform 0.2s,
+    background 0.2s;
+}
+.landmark-buttons button:hover {
+  transform: translateY(-3px);
+  background: #fafff3;
+}
+.landmark-buttons button.chosen {
+  border-color: #3f8a75;
+  background: #dceadd;
+}
+.night .landmark-buttons button:hover,
+.night .landmark-buttons button.chosen {
+  background: #365369;
+}
+.landmark-num {
+  font-size: 9px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.landmark-buttons svg {
+  margin-left: auto;
+  color: var(--muted);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  right: 40px;
+  border-top: 1px solid #8ea29833;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 9px;
+}
+.hint {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+.collectible {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+}
+.collectible span {
+  padding: 0 8px;
+}
+.loading,
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px 24px;
+  background: var(--panel);
+  border-radius: 12px;
+  font-size: 13px;
+}
+.loading span {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 10px;
+  background: #3f8a75;
+  border-radius: 50%;
+  animation: pulse 1s infinite;
+}
+.landmark-info {
+  position: absolute;
+  left: 42px;
+  top: 430px;
+  width: 220px;
+  padding: 20px;
+  background: var(--panel);
+  border: 1px solid #ffffff50;
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+}
+.landmark-info button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+}
+.landmark-info h2 {
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.7px;
+  margin: 14px 0 8px;
+}
+.landmark-info .eyebrow {
+  color: var(--muted);
+  font-size: 8px;
+}
+.landmark-info p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: var(--muted);
+  margin: 0;
+}
+.toast {
+  position: absolute;
+  left: 50%;
+  bottom: 150px;
+  transform: translateX(-50%);
+  background: #2b5d50;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 30px;
+  font-size: 12px;
+  box-shadow: 0 8px 35px #1b433538;
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.3;
+  }
+}
+@media (min-width: 1600px) {
+  .intro {
+    top: 155px;
+  }
+  .landmark-bar {
+    bottom: 85px;
+  }
+}
+/* Compact layout: phones, small windows and the 345×345 Lab embed (body[data-layout] is set by App). */
+body[data-layout="compact"] header {
+  padding: 10px 12px;
+}
+body[data-layout="compact"] .brand {
+  font-size: 13px;
+  gap: 6px;
+}
+body[data-layout="compact"] .brand-mark {
+  width: 20px;
+  height: 20px;
+}
+body[data-layout="compact"] .brand-divider,
+body[data-layout="compact"] .campaign,
+body[data-layout="compact"] .edition,
+body[data-layout="compact"] .location {
+  display: none;
+}
+body[data-layout="compact"] .hint {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  right: 10px;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+}
+body[data-layout="compact"] header ~ .hint {
+  top: 44px;
+}
+body[data-layout="compact"] .top-controls {
+  top: auto;
+  right: auto;
+  left: 8px;
+  bottom: 70px;
+  gap: 4px;
+}
+body[data-layout="compact"] .mode-switch {
+  padding: 2px;
+  border-radius: 8px;
+}
+body[data-layout="compact"] .mode-switch button {
+  padding: 6px 8px;
+  gap: 4px;
+  font-size: 10px;
+}
+body[data-layout="compact"] .square {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+body[data-layout="compact"] .view-tools {
+  top: auto;
+  right: 8px;
+  bottom: 70px;
+  flex-direction: row;
+  padding: 2px;
+  border-radius: 8px;
+}
+body[data-layout="compact"] .view-tools button {
+  width: 30px;
+  height: 26px;
+}
+body[data-layout="compact"] .landmark-bar {
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  gap: 0;
+}
+body[data-layout="compact"] .landmark-label,
+body[data-layout="compact"] .landmark-num,
+body[data-layout="compact"] .landmark-buttons svg {
+  display: none;
+}
+body[data-layout="compact"] .landmark-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+}
+body[data-layout="compact"] .landmark-buttons button {
+  max-width: none;
+  min-width: 0;
+  justify-content: center;
+  padding: 6px 4px;
+  border-radius: 7px;
+  font-size: 10px;
+}
+body[data-layout="compact"] .landmark-buttons button:hover {
+  transform: none;
+}
+body[data-layout="compact"] .landmark-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body[data-layout="compact"] .landmark-info {
+  left: 8px;
+  top: 30px;
+  width: auto;
+  max-width: 60%;
+  padding: 10px 28px 10px 12px;
+}
+body[data-layout="compact"] header ~ .landmark-info {
+  top: 66px;
+}
+body[data-layout="compact"] .landmark-info button {
+  right: 6px;
+  top: 6px;
+}
+body[data-layout="compact"] .landmark-info h2 {
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  margin: 4px 0;
+}
+body[data-layout="compact"] .landmark-info p {
+  font-size: 10px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+body[data-layout="compact"] .toast {
+  bottom: 112px;
+}
+/* Capture mode: no wall-clock CSS transitions, so every stepped frame is reproducible. */
+body[data-capture] *,
+body[data-capture] *::before,
+body[data-capture] *::after {
+  transition: none !important;
+  animation: none !important;
+}
+.webgl-missing {
+  margin: 0;
+  padding: 24px;
+  font-size: 14px;
+}
+.capture-backdrop {
+  position: absolute;
+  inset: 0;
+  background: #0d1e2dbb;
+  backdrop-filter: blur(8px);
+  display: grid;
+  place-items: center;
+  z-index: 10;
+  padding: 24px;
+}
+.capture-panel {
+  width: min(900px, 100%);
+  background: var(--panel);
+  border-radius: 16px;
+  padding: 14px;
+  position: relative;
+  box-shadow: 0 20px 80px #0004;
+}
+.capture-panel > button {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  background: #f2f5e8;
+  border: 0;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: grid;
+  place-items: center;
+  color: #294c43;
+}
+.capture-panel img {
+  width: 100%;
+  max-height: 70svh;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+.capture-panel > div {
+  padding: 15px 6px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 12px;
+}
+.capture-panel a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  background: #2b5d50;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 7px;
+  white-space: nowrap;
+}

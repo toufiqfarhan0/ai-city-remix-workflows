@@ -1,0 +1,72 @@
+{
+  "city": "Hong Kong",
+  "driveSide": "left",
+  "place": { "en": "Central, Hong Kong", "zh-CN": "香港中环" },
+  "film": {
+    "duration": 60,
+    "posterAt": 12,
+    "tod": [0.04, 0.97],
+    "turns": 1,
+    "wide": 0.17,
+    "near": 0.42,
+    "order": ["Statue Square", "HSBC Main Building", "Bank of China Tower", "Lippo Centre", "Central Pier Number 8", "Two International Finance Centre", "Jardine House", "The Center"]
+  },
+  "ground": {
+    "land": "#cfc6b0",
+    "plaza": "#ddd3ba",
+    "green": "#7fae58",
+    "greenDark": "#5f9145",
+    "water": "#2f7f9e",
+    "waterLight": "#9fd8e6",
+    "road": "#55575f",
+    "roadMinor": "#6e6f74",
+    "path": "#e2d9c4",
+    "rail": "#7c6f62",
+    "kerb": "#c9c2b2",
+    "line": "#ece6d4"
+  },
+  "facades": {
+    "house": ["#efe2c6", "#e6c9a4", "#f2ece0"],
+    "terrace": ["#e9dcc2", "#d9c6a6", "#efe6d4", "#c9b79a", "#e4d0b6"],
+    "apartments": ["#e8e1d2", "#d8d2c4", "#efe3c8", "#cdd4d6", "#e7cfb4"],
+    "office": ["#7e93a8", "#8b98a3", "#6f8399", "#a3acb3"],
+    "shop": ["#efe4cc", "#e9cfa0", "#dcbca8"],
+    "civic": ["#efe5cc", "#e4d6b4", "#f0ebe0"],
+    "church": ["#ece2c8", "#dfd0ac"],
+    "industrial": ["#a9a49a", "#b8836a", "#9aa2a4"],
+    "warehouse": ["#c2bcae", "#a3aaab", "#b9917a"],
+    "tower": ["#6c87a3", "#7d93a6", "#5d7590", "#8fa2b2", "#a7b3bb"]
+  },
+  "roofs": {
+    "default": "#a29e96",
+    "house": "#b0674a",
+    "terrace": "#a9a59c",
+    "apartments": "#9e9a92",
+    "office": "#8e949a",
+    "tower": "#868d95",
+    "civic": "#8fa08f",
+    "church": "#8a6a52",
+    "shop": "#a6a198",
+    "industrial": "#8d9192",
+    "warehouse": "#9a9690"
+  },
+  "glass": "#3b5571",
+  "windowLit": "#ffe7a6",
+  "windowWarm": "#ffc46b",
+  "trim": "#f3eee2",
+  "tree": "#4f8a3a",
+  "treeDark": "#356629",
+  "trunk": "#6b4a32",
+  "lamp": "#fff0b8",
+  "cars": ["#d8392b", "#e9c33a", "#f2f0ea", "#3b6fb5", "#2f9a5c", "#d8392b", "#2a2c33"],
+  "notes": {
+    "Statue Square": { "en": "A public square beside the former Supreme Court building, named for the royal statues that once stood in it.", "zh-CN": "紧邻旧最高法院大楼的公共广场，因昔日立在此处的王室雕像得名。" },
+    "HSBC Main Building": { "en": "A bank headquarters designed by Norman Foster, opened in 1985; its ground floor is an open public passage.", "zh-CN": "诺曼·福斯特设计的银行总部，1985 年启用，底层是开放的公共通道。" },
+    "Bank of China Tower": { "en": "A 367 m tower by I. M. Pei, completed in 1990, braced by a triangular frame.", "zh-CN": "贝聿铭设计的 367 米高楼，1990 年落成，外露三角形桁架结构。" },
+    "Lippo Centre": { "en": "Twin office towers of 1988 by Paul Rudolph, with stepped glass bays on every side.", "zh-CN": "保罗·鲁道夫设计的双塔写字楼，1988 年落成，四面是层层外挑的玻璃体块。" },
+    "Central Pier Number 8": { "en": "A harbourfront pier, home of the Hong Kong Maritime Museum since 2013.", "zh-CN": "海滨码头，2013 年起是香港海事博物馆所在地。" },
+    "Two International Finance Centre": { "en": "A 412 m office tower on reclaimed harbour land, completed in 2003.", "zh-CN": "建在填海土地上的 412 米写字楼，2003 年落成。" },
+    "Jardine House": { "en": "A 1972 office tower known for its rows of round windows; the tallest building in Hong Kong when it opened.", "zh-CN": "1972 年落成的写字楼，以一排排圆窗闻名，启用时是香港最高的建筑。" },
+    "The Center": { "en": "A 346 m office tower completed in 1998; bands of coloured light run up its crown at night.", "zh-CN": "1998 年落成的 346 米写字楼，夜里塔顶有一圈圈变色灯光。" }
+  }
+}

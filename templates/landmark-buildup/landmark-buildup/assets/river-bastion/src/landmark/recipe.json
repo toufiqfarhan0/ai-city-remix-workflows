@@ -1,0 +1,813 @@
+{
+ "schema": "landmark-recipe/1",
+ "id": "river-bastion",
+ "seed": 1514,
+ "units": "metres",
+ "site": {
+  "ground": "water",
+  "radius": 34
+ },
+ "palette": {
+  "stone": "#e8dcc2",
+  "trim": "#f3ead6",
+  "mortar": "#8f8571",
+  "accent": "#b4433a",
+  "dome": "#e2d4b4",
+  "roof": "#9a5a3c",
+  "void": "#24201c",
+  "water": "#2f6e95",
+  "ground": "#c9bea5"
+ },
+ "stages": [
+  {
+   "id": "foundation",
+   "from": 0,
+   "to": 0.07,
+   "label": {
+    "en": "Foundations in the river",
+    "zh-CN": "河中奠基"
+   }
+  },
+  {
+   "id": "bastion",
+   "from": 0.07,
+   "to": 0.33,
+   "label": {
+    "en": "Bastion walls, course by course",
+    "zh-CN": "棱堡城墙逐层砌筑"
+   }
+  },
+  {
+   "id": "terrace",
+   "from": 0.33,
+   "to": 0.37,
+   "label": {
+    "en": "Gun terrace",
+    "zh-CN": "炮台平台"
+   }
+  },
+  {
+   "id": "parapet",
+   "from": 0.37,
+   "to": 0.48,
+   "label": {
+    "en": "Battlements and sentry turrets",
+    "zh-CN": "雉堞与哨塔"
+   }
+  },
+  {
+   "id": "shaft",
+   "from": 0.48,
+   "to": 0.8,
+   "label": {
+    "en": "Tower shaft and loggia",
+    "zh-CN": "塔身与凉廊"
+   }
+  },
+  {
+   "id": "crown",
+   "from": 0.8,
+   "to": 0.9,
+   "label": {
+    "en": "Roof deck and top storey",
+    "zh-CN": "屋顶平台与顶层"
+   }
+  },
+  {
+   "id": "finish",
+   "from": 0.9,
+   "to": 1,
+   "label": {
+    "en": "Crown battlements and domes",
+    "zh-CN": "顶部雉堞与圆顶"
+   }
+  }
+ ],
+ "parts": [
+  {
+   "type": "platform",
+   "stage": "foundation",
+   "x": 0,
+   "z": 2,
+   "w": 27,
+   "d": 24,
+   "y": -1.4,
+   "h": 1.4,
+   "course": 0.7,
+   "step": 2.7,
+   "batter": 0.7,
+   "mat": "stone",
+   "lift": 1.2
+  },
+  {
+   "type": "walls",
+   "id": "tower",
+   "stage": "bastion",
+   "footprint": [
+    [
+     -6,
+     -9
+    ],
+    [
+     6,
+     -9
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     -6,
+     3
+    ]
+   ],
+   "base": 0,
+   "height": 8,
+   "thickness": 1.3,
+   "course": 0.56,
+   "block": 1.15,
+   "openings": [
+    {
+     "edge": 0,
+     "at": 0.5,
+     "y": 0,
+     "w": 1.6,
+     "h": 2.4,
+     "arch": true
+    }
+   ]
+  },
+  {
+   "type": "walls",
+   "id": "bastion",
+   "stage": "bastion",
+   "footprint": [
+    [
+     -6,
+     -6
+    ],
+    [
+     -11,
+     -6
+    ],
+    [
+     -11,
+     6
+    ],
+    [
+     -6,
+     12
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     11,
+     -6
+    ],
+    [
+     6,
+     -6
+    ]
+   ],
+   "base": 0,
+   "height": 8,
+   "thickness": 1.4,
+   "course": 0.56,
+   "block": 1.2,
+   "openings": [
+    {
+     "edge": 3,
+     "at": [
+      0.25,
+      0.5,
+      0.75
+     ],
+     "repeat": true,
+     "y": 2.3,
+     "w": 1,
+     "h": 0.8,
+     "arch": true
+    },
+    {
+     "edge": 2,
+     "at": [
+      0.5
+     ],
+     "repeat": true,
+     "y": 2.3,
+     "w": 1,
+     "h": 0.8,
+     "arch": true
+    },
+    {
+     "edge": 4,
+     "at": [
+      0.5
+     ],
+     "repeat": true,
+     "y": 2.3,
+     "w": 1,
+     "h": 0.8,
+     "arch": true
+    },
+    {
+     "edge": 1,
+     "at": [
+      0.33,
+      0.67
+     ],
+     "repeat": true,
+     "y": 2.3,
+     "w": 1,
+     "h": 0.8,
+     "arch": true
+    },
+    {
+     "edge": 5,
+     "at": [
+      0.33,
+      0.67
+     ],
+     "repeat": true,
+     "y": 2.3,
+     "w": 1,
+     "h": 0.8,
+     "arch": true
+    }
+   ],
+   "open": true
+  },
+  {
+   "type": "platform",
+   "stage": "terrace",
+   "x": 0,
+   "z": 4.7,
+   "w": 21,
+   "d": 2.6,
+   "y": 7.6,
+   "h": 0.4,
+   "course": 0.4,
+   "step": 2.5,
+   "mat": "trim",
+   "lift": 0.8
+  },
+  {
+   "type": "platform",
+   "stage": "terrace",
+   "x": 0,
+   "z": 8.8,
+   "w": 15,
+   "d": 5.6,
+   "y": 7.6,
+   "h": 0.4,
+   "course": 0.4,
+   "step": 2.5,
+   "mat": "trim",
+   "lift": 0.8
+  },
+  {
+   "type": "platform",
+   "stage": "terrace",
+   "x": -8.5,
+   "z": -1.5,
+   "w": 3.6,
+   "d": 8.2,
+   "y": 7.6,
+   "h": 0.4,
+   "course": 0.4,
+   "step": 2.5,
+   "mat": "trim",
+   "lift": 0.8
+  },
+  {
+   "type": "platform",
+   "stage": "terrace",
+   "x": 8.5,
+   "z": -1.5,
+   "w": 3.6,
+   "d": 8.2,
+   "y": 7.6,
+   "h": 0.4,
+   "course": 0.4,
+   "step": 2.5,
+   "mat": "trim",
+   "lift": 0.8
+  },
+  {
+   "type": "stringcourse",
+   "stage": "terrace",
+   "footprint": [
+    [
+     -6,
+     -6
+    ],
+    [
+     -11,
+     -6
+    ],
+    [
+     -11,
+     6
+    ],
+    [
+     -6,
+     12
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     11,
+     -6
+    ],
+    [
+     6,
+     -6
+    ]
+   ],
+   "y": 7.9,
+   "open": true
+  },
+  {
+   "type": "battlement",
+   "stage": "parapet",
+   "footprint": [
+    [
+     -6,
+     -6
+    ],
+    [
+     -11,
+     -6
+    ],
+    [
+     -11,
+     6
+    ],
+    [
+     -6,
+     12
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     11,
+     -6
+    ],
+    [
+     6,
+     -6
+    ]
+   ],
+   "y": 8.05,
+   "merlon": 1.1,
+   "gap": 0.7,
+   "h": 1.2,
+   "depth": 0.8,
+   "shield": true,
+   "open": true
+  },
+  {
+   "type": "turret",
+   "stage": "parapet",
+   "at": [
+    11,
+    6
+   ],
+   "y": 8.4,
+   "r": 1.15,
+   "h": 2.4
+  },
+  {
+   "type": "turret",
+   "stage": "parapet",
+   "at": [
+    6,
+    12
+   ],
+   "y": 8.4,
+   "r": 1.15,
+   "h": 2.4
+  },
+  {
+   "type": "turret",
+   "stage": "parapet",
+   "at": [
+    -6,
+    12
+   ],
+   "y": 8.4,
+   "r": 1.15,
+   "h": 2.4
+  },
+  {
+   "type": "turret",
+   "stage": "parapet",
+   "at": [
+    -11,
+    6
+   ],
+   "y": 8.4,
+   "r": 1.15,
+   "h": 2.4
+  },
+  {
+   "type": "walls",
+   "stage": "shaft",
+   "footprint": [
+    [
+     -6,
+     -9
+    ],
+    [
+     6,
+     -9
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     -6,
+     3
+    ]
+   ],
+   "base": 8,
+   "height": 23.6,
+   "thickness": 1.3,
+   "course": 0.56,
+   "block": 1.15,
+   "openings": [
+    {
+     "edge": "all",
+     "at": [
+      0.5
+     ],
+     "y": 10.6,
+     "w": 1.3,
+     "h": 1.7,
+     "arch": true
+    },
+    {
+     "edge": "all",
+     "at": [
+      0.5
+     ],
+     "y": 21.8,
+     "w": 1.3,
+     "h": 1.7,
+     "arch": true
+    },
+    {
+     "edge": "all",
+     "at": [
+      0.5
+     ],
+     "y": 26.6,
+     "w": 1.1,
+     "h": 1.5,
+     "arch": true
+    },
+    {
+     "edge": 2,
+     "at": [
+      0.3,
+      0.5,
+      0.7
+     ],
+     "repeat": true,
+     "y": 15.4,
+     "w": 1.2,
+     "h": 2,
+     "arch": true
+    },
+    {
+     "edge": 0,
+     "at": [
+      0.5
+     ],
+     "repeat": true,
+     "y": 15.4,
+     "w": 1.3,
+     "h": 1.7,
+     "arch": true
+    },
+    {
+     "edge": 1,
+     "at": [
+      0.5
+     ],
+     "repeat": true,
+     "y": 15.4,
+     "w": 1.3,
+     "h": 1.7,
+     "arch": true
+    },
+    {
+     "edge": 3,
+     "at": [
+      0.5
+     ],
+     "repeat": true,
+     "y": 15.4,
+     "w": 1.3,
+     "h": 1.7,
+     "arch": true
+    }
+   ]
+  },
+  {
+   "type": "stringcourse",
+   "stage": "shaft",
+   "window": [
+    0.25,
+    0.3
+   ],
+   "footprint": [
+    [
+     -6,
+     -9
+    ],
+    [
+     6,
+     -9
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     -6,
+     3
+    ]
+   ],
+   "y": 14.6
+  },
+  {
+   "type": "stringcourse",
+   "stage": "shaft",
+   "window": [
+    0.52,
+    0.57
+   ],
+   "footprint": [
+    [
+     -6,
+     -9
+    ],
+    [
+     6,
+     -9
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     -6,
+     3
+    ]
+   ],
+   "y": 21
+  },
+  {
+   "type": "stringcourse",
+   "stage": "shaft",
+   "window": [
+    0.76,
+    0.81
+   ],
+   "footprint": [
+    [
+     -6,
+     -9
+    ],
+    [
+     6,
+     -9
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     -6,
+     3
+    ]
+   ],
+   "y": 25.8
+  },
+  {
+   "type": "loggia",
+   "stage": "shaft",
+   "window": [
+    0.36,
+    0.56
+   ],
+   "of": "tower",
+   "edge": 2,
+   "y": 15,
+   "bays": 5,
+   "h": 3.4,
+   "out": 1.7,
+   "margin": 0.9
+  },
+  {
+   "type": "platform",
+   "stage": "crown",
+   "x": 0,
+   "z": -3,
+   "w": 11.6,
+   "d": 11.6,
+   "y": 31.2,
+   "h": 0.4,
+   "course": 0.4,
+   "step": 2.9,
+   "mat": "trim",
+   "lift": 1
+  },
+  {
+   "type": "walls",
+   "stage": "crown",
+   "footprint": [
+    [
+     -3.6,
+     -7
+    ],
+    [
+     3.6,
+     -7
+    ],
+    [
+     3.6,
+     0.2
+    ],
+    [
+     -3.6,
+     0.2
+    ]
+   ],
+   "base": 31.6,
+   "height": 3.4,
+   "thickness": 0.9,
+   "course": 0.5,
+   "block": 1,
+   "openings": [
+    {
+     "edge": "all",
+     "at": [
+      0.5
+     ],
+     "y": 32.4,
+     "w": 1,
+     "h": 1.3,
+     "arch": true
+    }
+   ]
+  },
+  {
+   "type": "battlement",
+   "stage": "finish",
+   "footprint": [
+    [
+     -6,
+     -9
+    ],
+    [
+     6,
+     -9
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     -6,
+     3
+    ]
+   ],
+   "y": 31.6,
+   "merlon": 0.9,
+   "gap": 0.6,
+   "h": 1.1,
+   "depth": 0.7,
+   "shield": true
+  },
+  {
+   "type": "battlement",
+   "stage": "finish",
+   "footprint": [
+    [
+     -3.6,
+     -7
+    ],
+    [
+     3.6,
+     -7
+    ],
+    [
+     3.6,
+     0.2
+    ],
+    [
+     -3.6,
+     0.2
+    ]
+   ],
+   "y": 35,
+   "merlon": 0.75,
+   "gap": 0.5,
+   "h": 0.9,
+   "depth": 0.6
+  },
+  {
+   "type": "turret",
+   "stage": "finish",
+   "at": [
+    6,
+    3
+   ],
+   "y": 32,
+   "r": 0.95,
+   "h": 2.6
+  },
+  {
+   "type": "turret",
+   "stage": "finish",
+   "at": [
+    -6,
+    3
+   ],
+   "y": 32,
+   "r": 0.95,
+   "h": 2.6
+  },
+  {
+   "type": "turret",
+   "stage": "finish",
+   "at": [
+    6,
+    -9
+   ],
+   "y": 32,
+   "r": 0.95,
+   "h": 2.6
+  },
+  {
+   "type": "turret",
+   "stage": "finish",
+   "at": [
+    -6,
+    -9
+   ],
+   "y": 32,
+   "r": 0.95,
+   "h": 2.6
+  }
+ ],
+ "copy": {
+  "en": {
+   "title": "River Bastion",
+   "place": "Belém, Lisbon",
+   "eyebrow": "An early sixteenth-century river fort",
+   "text": "A bastion with cannon ports and sentry turrets, a four-storey tower with an arcaded loggia, battlements with shields and domed corner turrets, assembled stone by stone.",
+   "disclaimer": "An interpretive model of the Torre de Belém with simplified proportions and ornament; not a survey.",
+   "views": {
+    "overview": "Overview",
+    "loggia": "Loggia",
+    "turret": "Sentry turret",
+    "crown": "Crown"
+   }
+  },
+  "zh-CN": {
+   "title": "河上棱堡",
+   "place": "里斯本贝伦",
+   "eyebrow": "十六世纪初的河口要塞",
+   "text": "带炮孔和哨塔的棱堡，四层塔楼与拱廊凉台，饰有盾徽的雉堞和圆顶角塔，一块石头一块石头地建起来。",
+   "disclaimer": "贝伦塔的示意模型，比例和装饰经过简化，并非测绘。",
+   "views": {
+    "overview": "全景",
+    "loggia": "凉廊",
+    "turret": "哨塔",
+    "crown": "塔顶"
+   }
+  }
+ }
+}

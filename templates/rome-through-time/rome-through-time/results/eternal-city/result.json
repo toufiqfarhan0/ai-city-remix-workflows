@@ -1,0 +1,66 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "rome-through-time",
+    "version": "1.0.1"
+  },
+  "sample": "eternal-city",
+  "site": {
+    "file": "index.html",
+    "sha256": "3d8e38eb1d1e50016b71ad6447bee17697c8963ccfc80e2176af911e17d3eb0a",
+    "bytes": 825281
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-22T04:54:47.730Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 60
+      },
+      "low": {
+        "1600x900": 60
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "era": true,
+      "year": true,
+      "orbit": true,
+      "zoom": true,
+      "reset": true,
+      "play": true,
+      "notes": true
+    },
+    "facts": {
+      "landmarks": 3,
+      "duration": 25,
+      "entities": 596,
+      "triangles": 199682,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline Rome diorama that evolves year by year from AD 125 to 2026 in one persistent city graph, with a narration card and a deterministic 25-second film timeline. Artistic reconstruction, not a survey. Silent page; no runtime model calls.",
+    "zh-CN": "原创离线罗马微缩城市，在同一张持续存在的城市图中从公元 125 年逐年演变到 2026 年，配历史解说卡和可确定重放的 25 秒影片时间线。艺术化重建，并非测绘。页面无声，运行时不调用模型。"
+  }
+}

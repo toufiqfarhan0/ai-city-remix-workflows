@@ -1,0 +1,67 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "landmark-buildup",
+    "version": "0.2.2"
+  },
+  "sample": "liberty-unveiled",
+  "site": {
+    "file": "index.html",
+    "sha256": "081100321ce07b4c2a55d2d4f239b023065bb1b6d85dca3775c9459a9d5399af",
+    "bytes": 730127
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-24T12:24:22.939Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 61
+      },
+      "low": {
+        "1600x900": 60
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "build": true,
+      "stage": true,
+      "view": true,
+      "orbit": true,
+      "zoom": true,
+      "light": true,
+      "explode": true,
+      "play": true
+    },
+    "facts": {
+      "pieces": 6395,
+      "stages": 7,
+      "duration": 45,
+      "triangles": 78036,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline construction and dismantling of an interpretive Statue of Liberty: star fort, stepped foundation, granite pedestal, iron pylon, armature and a copper skin hung plate by plate, then the tablet, crown and torch; the dismantle slider pulls the skin off its frame. A deterministic 45-second film. Simplified proportions and drapery, not a survey. Silent by design; no runtime model calls.",
+    "zh-CN": "原创离线的自由女神像示意模型建造与拆解：星形堡垒、阶梯式基础、花岗岩基座、铁塔骨架、支撑拉杆，再把铜皮一片片挂上，最后是书板、王冠和火炬；拆解滑块把铜皮从骨架上拉开。可确定重放的 45 秒影片。比例和衣褶经过简化，并非测绘。设计上无声音，运行时不调用模型。"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "pixel-city-drive",
+    "version": "0.1.0"
+  },
+  "sample": "riverside-run",
+  "site": {
+    "file": "index.html",
+    "sha256": "f389e014e9d6edcd18e24ac08da224618b6008a805d304e04a02b389d30367ab",
+    "bytes": 244042
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-23T15:40:27.601Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 60
+      },
+      "low": {
+        "1600x900": 60
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "route": true,
+      "speed": true,
+      "time": true,
+      "next": true,
+      "map": true,
+      "play": true
+    },
+    "facts": {
+      "landmarks": 10,
+      "buildings": 310,
+      "bridges": 11,
+      "lengthM": 7275,
+      "duration": 90,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline pixel-art drive along a real Lisbon route baked from OpenStreetMap: buildings on their mapped footprints, code-drawn facades, signs with real names, seven landmarks and a bridge, golden hour into night, a deterministic 90-second film. Facades are drawn by code, not photographs. Silent by design; no runtime model calls.",
+    "zh-CN": "原创离线像素画驾驶，沿一条从 OpenStreetMap 烘焙的真实里斯本路线：建筑位于地图上的实际轮廓，立面由代码绘制，路牌使用真实名称，经过七个地标和一座大桥，从黄金时刻开到夜晚，并有可确定重放的 90 秒影片。立面由代码绘制，不是照片。设计上无声音，运行时不调用模型。"
+  }
+}

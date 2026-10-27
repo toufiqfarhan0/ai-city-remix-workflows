@@ -1,0 +1,1247 @@
+{
+  "schema": "chronicle-facts/1",
+  "entity": {
+    "qid": "Q406",
+    "label": {
+      "en": "Istanbul",
+      "zh-CN": "伊斯坦布尔"
+    },
+    "subject": "city",
+    "lock_rule": "qid",
+    "alternatives": [],
+    "living": false,
+    "portrait_policy": "allowed"
+  },
+  "claims": [
+    {
+      "id": "agent.001",
+      "predicate": "founded",
+      "type": "date",
+      "status": "disputed",
+      "instance": "founded#1",
+      "cluster": "founded#1/c1",
+      "value": {
+        "raw": "c. 657 BCE",
+        "y": -656,
+        "precision": "year",
+        "calendar": "unknown",
+        "approx": true,
+        "gregorian_year_hint": -657
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Istanbul was founded as Byzantium around 657 BCE by Greek colonists from Megara.",
+        "zh-CN": "伊斯坦布尔约于公元前657年由墨伽拉希腊殖民者建立。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "The city was founded as Byzantium, probably around 657 BCE, by Greek colonists from Megara",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.002",
+      "predicate": "founded",
+      "type": "date",
+      "status": "disputed",
+      "instance": "founded#1",
+      "cluster": "founded#1/c3",
+      "value": {
+        "raw": "660 BCE",
+        "y": -659,
+        "precision": "year",
+        "calendar": "unknown",
+        "approx": false,
+        "gregorian_year_hint": -660
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Byzantium was established c. 660 BCE by Megarian colonists on the Bosphorus.",
+        "zh-CN": "约公元前660年，来自墨伽拉的殖民者在博斯普鲁斯海峡欧洲一侧建立了拜占庭。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s02",
+          "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "zh-CN",
+          "excerpt": "西元前660年，来自墨伽拉的希腊殖民者于博斯普鲁斯海峡的欧洲一侧建立了拜占庭",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.003",
+      "predicate": "other",
+      "type": "text",
+      "status": "single-source",
+      "instance": "other#1",
+      "cluster": "other#1/c1",
+      "value": {
+        "text": "The colonists chose the site for its superb natural harbor the Golden Horn and strategic location commanding the strait."
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Golden Horn gave Byzantium one of the finest natural harbours in the ancient world.",
+        "zh-CN": "金角湾为拜占庭提供了古代世界最优良的天然港湾之一。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "The colonists chose the site for its superb natural harbor (the Golden Horn) and strategic location",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.004",
+      "predicate": "other",
+      "type": "text",
+      "status": "single-source",
+      "instance": "other#3",
+      "cluster": "other#3/c1",
+      "value": {
+        "text": "The Golden Horn provided one of the finest natural harbors in the ancient world."
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Golden Horn made Constantinople the preeminent commercial city of its age.",
+        "zh-CN": "金角湾使君士坦丁堡成为其时代最杰出的商业城市。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The Golden Horn provided one of the finest natural harbors in the ancient world, enabling Constantinople to become the preeminent commercial city of its age.",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.005",
+      "predicate": "capital_of",
+      "type": "event",
+      "status": "verified",
+      "instance": "capital_of#1",
+      "cluster": "capital_of#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Roman Empire",
+            "zh-CN": "罗马帝国"
+          },
+          "qid": "Q2277"
+        },
+        "date": {
+          "raw": "330 CE",
+          "y": 330,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 330
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "In 330 CE, Emperor Constantine made Constantinople the new capital of the Roman Empire.",
+        "zh-CN": "公元330年，君士坦丁大帝将君士坦丁堡定为罗马帝国新首都。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "In 330 CE, the emperor Constantine the Great made it the new capital of the Roman Empire",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.006",
+      "predicate": "capital_of",
+      "type": "event",
+      "status": "verified",
+      "instance": "capital_of#1",
+      "cluster": "capital_of#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Roman Empire",
+            "zh-CN": "罗马帝国"
+          },
+          "qid": "Q2277"
+        },
+        "date": {
+          "raw": "330",
+          "y": 330,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 330
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Constantinople was declared the full capital of the Roman Empire on 11 May 330 CE.",
+        "zh-CN": "公元330年5月11日，君士坦丁堡正式宣告成为全帝国首都。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s02",
+          "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "zh-CN",
+          "excerpt": "于330年5月11日，君士坦丁堡宣告成为全帝国首都",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.007",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#1",
+      "cluster": "structure_built#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Hagia Sophia",
+            "zh-CN": "圣索菲亚大教堂"
+          },
+          "qid": "Q12506"
+        },
+        "date": {
+          "raw": "537 CE",
+          "y": 537,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 537
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Hagia Sophia was completed in 537 CE under Emperor Justinian I.",
+        "zh-CN": "圣索菲亚大教堂于公元537年查士丁尼一世统治期间建成。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The Hagia Sophia (Ayasofya), completed in 537 CE under Emperor Justinian I",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.008",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#1",
+      "cluster": "structure_built#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Hagia Sophia",
+            "zh-CN": "圣索菲亚大教堂"
+          },
+          "qid": "Q12506"
+        },
+        "date": {
+          "raw": "537 CE",
+          "y": 537,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 537
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Justinian I rebuilt the great church of Hagia Sophia, completed in 537 CE.",
+        "zh-CN": "查士丁尼一世重建了圣索菲亚大教堂，于537年完工。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "The Hagia Sophia was completed in 537 CE. Constantinople served as the preeminent trade hub",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.009",
+      "predicate": "wall_built",
+      "type": "event",
+      "status": "single-source",
+      "instance": "wall_built#1",
+      "cluster": "wall_built#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Theodosian Land Walls",
+            "zh-CN": "狄奥多西城墙"
+          }
+        },
+        "date": {
+          "raw": "412 CE",
+          "y": 412,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 412
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Theodosian Land Walls were built between 412 and 422 CE under Emperor Theodosius II.",
+        "zh-CN": "狄奥多西城墙于公元412至422年间由狄奥多西二世皇帝修建。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The Theodosian Land Walls, built between 412 and 422 CE under Emperor Theodosius II",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.010",
+      "predicate": "sacked",
+      "type": "event",
+      "status": "single-source",
+      "instance": "sacked#2",
+      "cluster": "sacked#2/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Fourth Crusade",
+            "zh-CN": "第四次十字军"
+          }
+        },
+        "date": {
+          "raw": "1204 CE",
+          "y": 1204,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1204
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Constantinople was sacked in 1204 CE by the crusaders of the Fourth Crusade.",
+        "zh-CN": "公元1204年，君士坦丁堡遭第四次十字军东征掠夺。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s02",
+          "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "zh-CN",
+          "excerpt": "在第四次十字军东征中君士坦丁堡受到劫掠和破坏，此后开始衰落",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.011",
+      "predicate": "sacked",
+      "type": "event",
+      "status": "verified",
+      "instance": "sacked#1",
+      "cluster": "sacked#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Ottoman conquest",
+            "zh-CN": "奥斯曼征服"
+          }
+        },
+        "date": {
+          "raw": "1453 CE",
+          "y": 1453,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Constantinople fell to the Ottoman Turks under Sultan Mehmed II on 29 May 1453.",
+        "zh-CN": "1453年5月29日，君士坦丁堡陷落于苏丹穆罕默德二世率领的奥斯曼土耳其人之手。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "on May 29, 1453, Constantinople fell to the Ottoman Turks under Sultan Mehmed II",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.012",
+      "predicate": "sacked",
+      "type": "event",
+      "status": "verified",
+      "instance": "sacked#1",
+      "cluster": "sacked#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Ottoman conquest",
+            "zh-CN": "奥斯曼征服"
+          }
+        },
+        "date": {
+          "raw": "1453",
+          "y": 1453,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "On 29 May 1453, Sultan Mehmed II conquered Constantinople after an eight-week siege.",
+        "zh-CN": "1453年5月29日，苏丹穆罕默德二世经八周围城后攻陷君士坦丁堡。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s02",
+          "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "zh-CN",
+          "excerpt": "最终于1453年5月29日，在八周的围城之后（其间最后一任罗马皇帝君士坦丁十一世阵亡），苏丹穆罕默德二世",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.013",
+      "predicate": "capital_of",
+      "type": "event",
+      "status": "single-source",
+      "instance": "capital_of#2",
+      "cluster": "capital_of#2/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Ottoman Empire",
+            "zh-CN": "奥斯曼帝国"
+          },
+          "qid": "Q12560"
+        },
+        "date": {
+          "raw": "1453",
+          "y": 1453,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Mehmed II made Istanbul the new capital of the Ottoman Empire after 1453.",
+        "zh-CN": "1453年后，穆罕默德二世将伊斯坦布尔定为奥斯曼帝国新首都。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Mehmed made the city the new capital of his empire",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.014",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "single-source",
+      "instance": "structure_built#3",
+      "cluster": "structure_built#3/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Grand Bazaar",
+            "zh-CN": "大巴扎"
+          },
+          "qid": "Q190560"
+        },
+        "date": {
+          "raw": "1461 CE",
+          "y": 1461,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1461
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Grand Bazaar was begun c. 1461 under Mehmed II and is one of the oldest covered markets in the world.",
+        "zh-CN": "大巴扎约于1461年穆罕默德二世统治下开始修建，是世界上最古老的室内集市之一。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The Grand Bazaar (Kapali Carsi), begun in 1461 under Mehmed II, is one of the largest and oldest covered markets in the world.",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.016",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "single-source",
+      "instance": "structure_built#4",
+      "cluster": "structure_built#4/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Suleymaniye Mosque",
+            "zh-CN": "苏莱曼尼清真寺"
+          }
+        },
+        "date": {
+          "raw": "1557",
+          "y": 1557,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1557
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Suleymaniye Mosque was completed in 1557, designed by Mimar Sinan.",
+        "zh-CN": "苏莱曼尼清真寺于1557年建成，由米马尔·希南设计。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s02",
+          "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": "zh-CN",
+          "excerpt": "首席建筑师米马尔·希南设计城内的多座象征性建筑",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.017",
+      "predicate": "other",
+      "type": "text",
+      "status": "single-source",
+      "instance": "other#4",
+      "cluster": "other#4/c1",
+      "value": {
+        "text": "The city served as the western terminus of the Silk Road."
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Istanbul served as the western terminus of the Silk Road, where Eastern goods were exchanged for European products.",
+        "zh-CN": "伊斯坦布尔是古丝绸之路的西端终点，东方货物在此与欧洲商品交换。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The city served as the western terminus of the Silk Road, where goods from China, India and the East were exchanged for European products.",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.018",
+      "predicate": "other",
+      "type": "text",
+      "status": "single-source",
+      "instance": "other#5",
+      "cluster": "other#5/c1",
+      "value": {
+        "text": "Istanbul is the only city in the world situated on two continents Europe and Asia."
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Istanbul is the only major city in the world straddling two continents, Europe and Asia.",
+        "zh-CN": "伊斯坦布尔是世界上唯一横跨欧亚两大洲的大都市。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "Istanbul is the only city in the world situated on two continents — Europe and Asia.",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.019",
+      "predicate": "heritage_listed",
+      "type": "event",
+      "status": "verified",
+      "instance": "heritage_listed#1",
+      "cluster": "heritage_listed#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "UNESCO World Heritage Site",
+            "zh-CN": "联合国教科文组织世界遗产"
+          }
+        },
+        "date": {
+          "raw": "1985",
+          "y": 1985,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1985
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Historic Areas of Istanbul were inscribed on the UNESCO World Heritage List in 1985.",
+        "zh-CN": "伊斯坦布尔历史区于1985年被列入联合国教科文组织世界遗产名录。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The Historic Areas of Istanbul were inscribed on the UNESCO World Heritage List in 1985",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.020",
+      "predicate": "heritage_listed",
+      "type": "event",
+      "status": "verified",
+      "instance": "heritage_listed#1",
+      "cluster": "heritage_listed#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "UNESCO World Heritage Site",
+            "zh-CN": "联合国教科文组织世界遗产"
+          }
+        },
+        "date": {
+          "raw": "1985",
+          "y": 1985,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 1985
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Istanbul historic areas were collectively designated a UNESCO World Heritage site in 1985.",
+        "zh-CN": "伊斯坦布尔历史城区于1985年被集体列为联合国教科文组织世界遗产。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Around their slopes are ranged many of the mosques and other historic landmarks that were collectively designated a UNESCO World Heritage site in 1985.",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.021",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#2",
+      "cluster": "structure_built#2/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Marmaray rail tunnel",
+            "zh-CN": "马尔马拉伊铁路隧道"
+          }
+        },
+        "date": {
+          "raw": "2013",
+          "y": 2013,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 2013
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Marmaray rail tunnel beneath the Bosphorus opened in 2013, linking Europe and Asia by rail.",
+        "zh-CN": "穿越博斯普鲁斯海峡的马尔马拉伊铁路隧道于2013年开通，将欧亚两洲铁路网相连。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s05",
+          "url": "https://whc.unesco.org/en/list/356/",
+          "tier": 1,
+          "publisher": "unesco",
+          "lang": "en",
+          "excerpt": "The Marmaray Project, completed in 2013, created a rail tunnel beneath the Bosphorus",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.022",
+      "predicate": "structure_built",
+      "type": "event",
+      "status": "verified",
+      "instance": "structure_built#2",
+      "cluster": "structure_built#2/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Marmaray rail tunnel",
+            "zh-CN": "马尔马拉伊铁路隧道"
+          }
+        },
+        "date": {
+          "raw": "2013",
+          "y": 2013,
+          "precision": "year",
+          "calendar": "unknown",
+          "approx": false,
+          "gregorian_year_hint": 2013
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Marmaray rail tunnel opened in 2013, creating a continuous rail link beneath the Bosphorus.",
+        "zh-CN": "马尔马拉伊隧道于2013年开通，形成穿越博斯普鲁斯海峡的持续铁路连接。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "The Marmaray rail tunnel beneath the Bosphorus opened in 2013, creating a continuous rail link",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.024",
+      "predicate": "other",
+      "type": "text",
+      "status": "single-source",
+      "instance": "other#2",
+      "cluster": "other#2/c1",
+      "value": {
+        "text": "The Bosphorus connects the Black Sea to the Mediterranean making Istanbul the gateway between the two seas."
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "The Bosphorus connects the Black Sea to the Mediterranean, making Istanbul the sole gateway between the two seas.",
+        "zh-CN": "博斯普鲁斯海峡连接黑海与地中海，使伊斯坦布尔成为两海之间唯一的门户。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "The Bosporus (Istanbul Bogazi) is the channel connecting the Black Sea (Karadeniz) to the Mediterranean",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "agent.025",
+      "predicate": "rebuilt",
+      "type": "event",
+      "status": "single-source",
+      "instance": "rebuilt#1",
+      "cluster": "rebuilt#1/c1",
+      "value": {
+        "object": {
+          "label": {
+            "en": "Repopulation under Mehmed II",
+            "zh-CN": "穆罕默德二世复兴"
+          }
+        },
+        "date": {
+          "raw": "after 1453",
+          "y": 1453,
+          "precision": "year",
+          "calendar": "lunar-chinese",
+          "approx": false,
+          "gregorian_year_hint": 1453
+        }
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "After 1453, Mehmed II repopulated Istanbul and began building the Grand Bazaar and Topkapi Palace.",
+        "zh-CN": "1453年后，穆罕默德二世重新安置居民，并开始修建大巴扎和托卡比皇宫。"
+      },
+      "origin": "agent",
+      "sources": [
+        {
+          "id": "s04",
+          "url": "https://www.britannica.com/place/Istanbul",
+          "tier": 1,
+          "publisher": "britannica",
+          "lang": "en",
+          "excerpt": "Mehmed made the city the new capital of his empire. He converted the Hagia Sophia to a mosque and worked to repopulate and revitalize the city",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.001",
+      "predicate": "located_in",
+      "type": "label",
+      "status": "single-source",
+      "instance": "located_in#1",
+      "cluster": "located_in#1/c1",
+      "value": {
+        "label": {
+          "en": "Istanbul Province",
+          "zh-CN": "伊斯坦堡省"
+        },
+        "qid": "Q534799"
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Istanbul is located in Istanbul Province",
+        "zh-CN": "伊斯坦布尔位于伊斯坦堡省"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q534799\"",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.002",
+      "predicate": "founded",
+      "type": "date",
+      "status": "disputed",
+      "instance": "founded#1",
+      "cluster": "founded#1/c2",
+      "value": {
+        "raw": "+1453-05-29T00:00:00Z",
+        "y": 1453,
+        "precision": "day",
+        "calendar": "julian",
+        "approx": false,
+        "m": 5,
+        "d": 29
+      },
+      "scope": null,
+      "flags": [],
+      "text": {
+        "en": "Istanbul was founded on 29 May 1453 (Julian)",
+        "zh-CN": "伊斯坦布尔建城于1453年5月29日（儒略历）"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"+1453-05-29T00:00:00Z\"",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.003",
+      "predicate": "river",
+      "type": "label",
+      "status": "single-source",
+      "instance": "river#1",
+      "cluster": "river#1/c1",
+      "value": {
+        "label": {},
+        "qid": "Q35958"
+      },
+      "scope": null,
+      "flags": [
+        "label_fallback"
+      ],
+      "text": {
+        "en": "Istanbul lies on ",
+        "zh-CN": "伊斯坦布尔坐落在畔"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q35958\"",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.004",
+      "predicate": "river",
+      "type": "label",
+      "status": "single-source",
+      "instance": "river#2",
+      "cluster": "river#2/c1",
+      "value": {
+        "label": {},
+        "qid": "Q35367"
+      },
+      "scope": null,
+      "flags": [
+        "label_fallback"
+      ],
+      "text": {
+        "en": "Istanbul lies on ",
+        "zh-CN": "伊斯坦布尔坐落在畔"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q35367\"",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.005",
+      "predicate": "river",
+      "type": "label",
+      "status": "single-source",
+      "instance": "river#3",
+      "cluster": "river#3/c1",
+      "value": {
+        "label": {},
+        "qid": "Q166"
+      },
+      "scope": null,
+      "flags": [
+        "label_fallback"
+      ],
+      "text": {
+        "en": "Istanbul lies on ",
+        "zh-CN": "伊斯坦布尔坐落在畔"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q166\"",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "s01.006",
+      "predicate": "river",
+      "type": "label",
+      "status": "single-source",
+      "instance": "river#4",
+      "cluster": "river#4/c1",
+      "value": {
+        "label": {},
+        "qid": "Q179839"
+      },
+      "scope": null,
+      "flags": [
+        "label_fallback"
+      ],
+      "text": {
+        "en": "Istanbul lies on ",
+        "zh-CN": "伊斯坦布尔坐落在畔"
+      },
+      "origin": "structured",
+      "sources": [
+        {
+          "id": "s01",
+          "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+          "tier": 2,
+          "publisher": "wikimedia",
+          "lang": null,
+          "excerpt": "\"Q179839\"",
+          "retrieved_at": "2026-10-23T17:16:43.395Z"
+        }
+      ],
+      "lines": []
+    }
+  ],
+  "hints": [
+    {
+      "source_id": "s02",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1453"
+    },
+    {
+      "source_id": "s03",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1453"
+    },
+    {
+      "source_id": "s04",
+      "claim_id": "s01.002",
+      "predicate": "founded",
+      "match": "1453"
+    }
+  ],
+  "disputed": [
+    {
+      "instance": "founded#1",
+      "predicate": "founded",
+      "sides": [
+        {
+          "cluster": "founded#1/c1",
+          "claims": [
+            "agent.001"
+          ],
+          "values": [
+            {
+              "raw": "c. 657 BCE",
+              "y": -656,
+              "precision": "year",
+              "calendar": "unknown",
+              "approx": true,
+              "gregorian_year_hint": -657
+            }
+          ],
+          "sources": [
+            {
+              "id": "s04",
+              "publisher": "britannica",
+              "tier": 1,
+              "url": "https://www.britannica.com/place/Istanbul"
+            }
+          ]
+        },
+        {
+          "cluster": "founded#1/c2",
+          "claims": [
+            "s01.002"
+          ],
+          "values": [
+            {
+              "raw": "+1453-05-29T00:00:00Z",
+              "y": 1453,
+              "precision": "day",
+              "calendar": "julian",
+              "approx": false,
+              "m": 5,
+              "d": 29
+            }
+          ],
+          "sources": [
+            {
+              "id": "s01",
+              "publisher": "wikimedia",
+              "tier": 2,
+              "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q406&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1"
+            }
+          ]
+        },
+        {
+          "cluster": "founded#1/c3",
+          "claims": [
+            "agent.002"
+          ],
+          "values": [
+            {
+              "raw": "660 BCE",
+              "y": -659,
+              "precision": "year",
+              "calendar": "unknown",
+              "approx": false,
+              "gregorian_year_hint": -660
+            }
+          ],
+          "sources": [
+            {
+              "id": "s02",
+              "publisher": "wikimedia",
+              "tier": 2,
+              "url": "https://zh.wikipedia.org/api/rest_v1/page/html/%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "value_invalid_count": 0,
+  "subject_mismatch_count": 0,
+  "rejected_count": 0,
+  "excerpt_not_found_count": 2,
+  "visual_checks": [],
+  "human_review": {
+    "facts": false,
+    "visuals": false,
+    "listening": false
+  },
+  "warnings": [
+    "fetch_http:403:www.britannica.com"
+  ]
+}

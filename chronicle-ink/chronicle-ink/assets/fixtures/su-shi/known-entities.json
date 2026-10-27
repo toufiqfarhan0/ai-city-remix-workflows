@@ -1,0 +1,531 @@
+{
+  "schema": "chronicle-known-entities/1",
+  "entities": {
+    "Q1028181": {
+      "labels": {
+        "zh-hans": "画家",
+        "zh-hant": "畫家",
+        "zh": "畫家",
+        "en": "painter"
+      },
+      "aliases": {
+        "zh-hans": [
+          "画匠"
+        ],
+        "zh": [
+          "画家",
+          "畫匠",
+          "画匠"
+        ]
+      }
+    },
+    "Q10415082": {
+      "labels": {
+        "zh-hans": "朝云",
+        "zh-hant": "朝雲",
+        "zh": "王朝雲",
+        "en": "Wang Zhaoyun"
+      },
+      "aliases": {
+        "zh": [
+          "朝雲"
+        ],
+        "en": [
+          "Zhaoyun"
+        ]
+      }
+    },
+    "Q10514231": {
+      "labels": {
+        "zh-hans": "苏过",
+        "zh-hant": "蘇過",
+        "zh": "蘇過",
+        "en": "Su Guo"
+      },
+      "aliases": {
+        "zh-hant": [
+          "叔黨",
+          "斜川居士"
+        ],
+        "zh": [
+          "叔黨",
+          "斜川居士"
+        ],
+        "en": [
+          "Xiechuan jushi",
+          "Shudang"
+        ]
+      }
+    },
+    "Q105186": {
+      "labels": {
+        "zh-hans": "药师",
+        "zh-hant": "藥師",
+        "zh": "藥劑師",
+        "en": "pharmacist"
+      },
+      "aliases": {
+        "zh": [
+          "药剂师",
+          "执业药师"
+        ],
+        "en": [
+          "druggist",
+          "chemist",
+          "pharmacists"
+        ]
+      }
+    },
+    "Q107382552": {
+      "labels": {
+        "zh-hans": "翰林学士",
+        "zh": "翰林学士",
+        "en": "Hanlin Academy Scholar"
+      },
+      "aliases": {
+        "en": [
+          "Hanlin academian"
+        ]
+      }
+    },
+    "Q1155951": {
+      "labels": {
+        "zh-hans": "苏辙",
+        "zh-hant": "蘇轍",
+        "zh": "苏辙",
+        "en": "Su Zhe"
+      },
+      "aliases": {
+        "zh-hant": [
+          "子由",
+          "文定",
+          "潁濱遺老",
+          "同叔"
+        ],
+        "zh": [
+          "蘇文定",
+          "子由",
+          "蘇轍",
+          "潁濱遺老",
+          "同叔",
+          "文定"
+        ],
+        "en": [
+          "Wending",
+          "Yingbin yilao",
+          "Tongshu",
+          "Ziyou"
+        ]
+      }
+    },
+    "Q11774202": {
+      "labels": {
+        "zh-hans": "散文家",
+        "zh-hant": "散文家",
+        "zh": "散文家",
+        "en": "essayist"
+      },
+      "aliases": {
+        "en": [
+          "essayists",
+          "essay writer"
+        ]
+      }
+    },
+    "Q1198660": {
+      "labels": {
+        "zh-hans": "郏县",
+        "zh-hant": "郟縣",
+        "zh": "郏县",
+        "en": "Jia County"
+      },
+      "aliases": {}
+    },
+    "Q12144794": {
+      "labels": {
+        "zh-hant": "散文家",
+        "zh": "散文家",
+        "en": "prose writer"
+      },
+      "aliases": {
+        "zh": [
+          "散文作者"
+        ],
+        "en": [
+          "prose writers",
+          "proser",
+          "prosaist",
+          "prosaists"
+        ]
+      }
+    },
+    "Q16260880": {
+      "labels": {
+        "zh-hans": "王弗",
+        "zh-hant": "王弗",
+        "zh": "王弗",
+        "en": "Wang Fu"
+      },
+      "aliases": {}
+    },
+    "Q18654093": {
+      "labels": {
+        "zh-hans": "武阳君",
+        "zh-hant": "武陽君",
+        "zh": "武陽君",
+        "en": "Cheng（Wife of Su xun）"
+      },
+      "aliases": {
+        "zh-hans": [
+          "程氏（苏洵妻）",
+          "程氏 (苏轼母)"
+        ],
+        "zh-hant": [
+          "程氏（蘇洵妻）",
+          "程氏 (蘇軾母)"
+        ],
+        "zh": [
+          "程氏（蘇洵妻）",
+          "程氏 (蘇軾母)"
+        ],
+        "en": [
+          "Cheng Shi（Wife of Su xun）"
+        ]
+      }
+    },
+    "Q201788": {
+      "labels": {
+        "zh-hans": "历史学家",
+        "zh-hant": "歷史學家",
+        "zh": "歷史學家",
+        "en": "historian"
+      },
+      "aliases": {
+        "zh-hans": [
+          "历史学者",
+          "史学家"
+        ],
+        "zh": [
+          "歷史家",
+          "史學家",
+          "历史学者",
+          "史学家"
+        ],
+        "en": [
+          "historiographer",
+          "historians"
+        ]
+      }
+    },
+    "Q20826540": {
+      "labels": {
+        "zh-hans": "学者",
+        "zh-hant": "學者",
+        "zh": "学者",
+        "en": "scholar"
+      },
+      "aliases": {
+        "zh": [
+          "學者"
+        ],
+        "en": [
+          "scholarly person",
+          "learned person",
+          "erudite person"
+        ]
+      }
+    },
+    "Q319460": {
+      "labels": {
+        "zh-hans": "北宋",
+        "zh-hant": "北宋",
+        "zh": "北宋",
+        "en": "Northern Song dynasty"
+      },
+      "aliases": {
+        "en": [
+          "Northern Song"
+        ]
+      }
+    },
+    "Q3303330": {
+      "labels": {
+        "zh-hans": "书法家",
+        "zh-hant": "書法家",
+        "zh": "書法家",
+        "en": "calligrapher"
+      },
+      "aliases": {
+        "zh": [
+          "书法家"
+        ],
+        "en": [
+          "penman",
+          "writing artist"
+        ]
+      }
+    },
+    "Q36180": {
+      "labels": {
+        "zh-hans": "作家",
+        "zh-hant": "作家",
+        "zh": "作家",
+        "en": "writer"
+      },
+      "aliases": {
+        "zh-hans": [
+          "文学家",
+          "作者"
+        ],
+        "zh-hant": [
+          "文學家"
+        ],
+        "zh": [
+          "文人",
+          "文学家",
+          "著作家",
+          "写手",
+          "文字工匠",
+          "绘本作家"
+        ],
+        "en": [
+          "writers",
+          "author",
+          "authors"
+        ]
+      }
+    },
+    "Q427097": {
+      "labels": {
+        "zh-hans": "眉山市",
+        "zh-hant": "眉山市",
+        "zh": "眉山市",
+        "en": "Meishan"
+      },
+      "aliases": {
+        "zh-hans": [
+          "眉山"
+        ],
+        "zh-hant": [
+          "眉山"
+        ],
+        "zh": [
+          "眉山",
+          "眉州"
+        ],
+        "en": [
+          "Meizhou",
+          "Qingzhou",
+          "Meishan Prefecture",
+          "Meishan City"
+        ]
+      }
+    },
+    "Q45362452": {
+      "labels": {
+        "zh-hans": "苏迨",
+        "zh-hant": "蘇迨",
+        "zh": "蘇迨",
+        "en": "Su Dai"
+      },
+      "aliases": {
+        "zh-hant": [
+          "仲豫"
+        ],
+        "zh": [
+          "仲豫",
+          "苏迨"
+        ],
+        "en": [
+          "Zhongyu"
+        ]
+      }
+    },
+    "Q45364023": {
+      "labels": {
+        "zh-hans": "王闰之",
+        "zh-hant": "王閏之",
+        "zh": "王閏之",
+        "en": "Wang Runzhi"
+      },
+      "aliases": {
+        "zh-hant": [
+          "季章"
+        ],
+        "zh": [
+          "季章"
+        ],
+        "en": [
+          "Jizhang"
+        ]
+      }
+    },
+    "Q45391332": {
+      "labels": {
+        "zh-hans": "苏迈",
+        "zh-hant": "蘇邁",
+        "zh": "蘇邁",
+        "en": "Su Mai"
+      },
+      "aliases": {
+        "zh-hant": [
+          "伯達"
+        ],
+        "zh": [
+          "伯達",
+          "苏迈"
+        ],
+        "en": [
+          "Boda"
+        ]
+      }
+    },
+    "Q47175595": {
+      "labels": {
+        "zh-hans": "清朝礼部尚书",
+        "zh": "清朝禮部尚書",
+        "en": "Minister of Rites of the Qing dynasty"
+      },
+      "aliases": {
+        "zh-hans": [
+          "礼部尚书"
+        ],
+        "zh": [
+          "清朝礼部尚书",
+          "禮部尚書",
+          "礼部尚书"
+        ]
+      }
+    },
+    "Q4964182": {
+      "labels": {
+        "zh-hans": "哲学家",
+        "zh-hant": "哲學家",
+        "zh": "哲學家",
+        "en": "philosopher"
+      },
+      "aliases": {
+        "zh": [
+          "哲学家"
+        ]
+      }
+    },
+    "Q49757": {
+      "labels": {
+        "zh-hans": "诗人",
+        "zh-hant": "詩人",
+        "zh": "诗人",
+        "en": "poet"
+      },
+      "aliases": {
+        "zh": [
+          "詩人"
+        ],
+        "en": [
+          "poetess",
+          "bard",
+          "poetry writer",
+          "poetry author"
+        ]
+      }
+    },
+    "Q57970": {
+      "labels": {
+        "zh-hans": "常州市",
+        "zh-hant": "常州市",
+        "zh": "常州市",
+        "en": "Changzhou"
+      },
+      "aliases": {
+        "zh-hans": [
+          "常州",
+          "龙城",
+          "江苏常州"
+        ],
+        "zh-hant": [
+          "常州",
+          "龍城",
+          "江蘇常州"
+        ],
+        "zh": [
+          "常州",
+          "龙城"
+        ],
+        "en": [
+          "Chángzhōu"
+        ]
+      }
+    },
+    "Q639669": {
+      "labels": {
+        "zh-hans": "音乐家",
+        "zh-hant": "音樂家",
+        "zh": "音樂家",
+        "en": "musician"
+      },
+      "aliases": {
+        "zh-hans": [
+          "音乐人"
+        ],
+        "zh-hant": [
+          "音樂人"
+        ],
+        "zh": [
+          "音乐家",
+          "錄音藝術家",
+          "樂士"
+        ],
+        "en": [
+          "musical artist"
+        ]
+      }
+    },
+    "Q82955": {
+      "labels": {
+        "zh-hans": "政治人物",
+        "zh-hant": "政治人物",
+        "zh": "政治人物",
+        "en": "politician"
+      },
+      "aliases": {
+        "zh": [
+          "政客",
+          "政治家",
+          "政治人士"
+        ],
+        "en": [
+          "political leader",
+          "political figure",
+          "polit.",
+          "pol"
+        ]
+      }
+    },
+    "Q947039": {
+      "labels": {
+        "zh-hans": "苏洵",
+        "zh-hant": "蘇洵",
+        "zh": "苏洵",
+        "en": "Su Xun"
+      },
+      "aliases": {
+        "zh-hant": [
+          "明允",
+          "文"
+        ],
+        "zh": [
+          "蘇老泉",
+          "蘇明允",
+          "蘇洵",
+          "老泉",
+          "文",
+          "明允"
+        ],
+        "en": [
+          "Mingyun",
+          "Wen"
+        ]
+      }
+    }
+  }
+}

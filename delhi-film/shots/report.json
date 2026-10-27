@@ -1,0 +1,1012 @@
+{
+  "when": "2026-10-23T17:41:31.429Z",
+  "ok": true,
+  "fps": {
+    "high": {
+      "1600x900": 90
+    },
+    "low": {
+      "1600x900": 93
+    },
+    "mobile": {
+      "390x844": 92
+    }
+  },
+  "checks": [
+    {
+      "id": "markup",
+      "ok": true,
+      "value": []
+    },
+    {
+      "id": "bundle",
+      "ok": true,
+      "value": []
+    },
+    {
+      "id": "layout-embed-en",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 11,
+        "bad": [],
+        "clipped": 0,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "w": 345,
+          "h": 258
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "embed-touch-en",
+      "ok": true,
+      "value": {
+        "chapter": "facade",
+        "distance": 14,
+        "lanterns": false
+      }
+    },
+    {
+      "id": "layout-embed-zh-CN",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 11,
+        "bad": [],
+        "clipped": 0,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "w": 345,
+          "h": 258
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "embed-touch-zh-CN",
+      "ok": true,
+      "value": {
+        "chapter": "facade",
+        "distance": 14,
+        "lanterns": false
+      }
+    },
+    {
+      "id": "autoplay-en-high",
+      "ok": true,
+      "value": 0.08320000000000005
+    },
+    {
+      "id": "fps-en-high",
+      "ok": true,
+      "value": 80.2919708029197
+    },
+    {
+      "id": "sound-unmutes-en-high",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "sound-mutes-en-high",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "interaction-chapter",
+      "ok": true,
+      "value": {
+        "delta": 51,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-orbit",
+      "ok": true,
+      "value": {
+        "delta": 5.51,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-zoom",
+      "ok": true,
+      "value": {
+        "delta": 6.24,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-light",
+      "ok": true,
+      "value": {
+        "delta": 47.96,
+        "threshold": 3
+      }
+    },
+    {
+      "id": "light-label",
+      "ok": true,
+      "value": "Daylight"
+    },
+    {
+      "id": "interaction-lanterns",
+      "ok": true,
+      "value": {
+        "delta": 64.22,
+        "threshold": 0.3
+      }
+    },
+    {
+      "id": "interaction-life",
+      "ok": true,
+      "value": {
+        "delta": 0.3,
+        "threshold": 0.05
+      }
+    },
+    {
+      "id": "life-pauses",
+      "ok": true,
+      "value": {
+        "a": 1.6121999999999987,
+        "b": 1.6121999999999987
+      }
+    },
+    {
+      "id": "interaction-card",
+      "ok": true,
+      "value": {
+        "delta": 69.14,
+        "threshold": 2
+      }
+    },
+    {
+      "id": "card-closes",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "interaction-scrub",
+      "ok": true,
+      "value": {
+        "delta": 37.11,
+        "threshold": 2
+      }
+    },
+    {
+      "id": "interaction-reset",
+      "ok": true,
+      "value": {
+        "delta": 69.25,
+        "threshold": 0.5
+      }
+    },
+    {
+      "id": "interaction-play",
+      "ok": true,
+      "value": {
+        "delta": 0.17,
+        "threshold": 0.1
+      }
+    },
+    {
+      "id": "play-pauses",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "triangle-budget",
+      "ok": true,
+      "value": 253360
+    },
+    {
+      "id": "chapter-count",
+      "ok": true,
+      "value": 4
+    },
+    {
+      "id": "layout-desktop-en-high",
+      "ok": true,
+      "value": {
+        "layout": "full",
+        "controls": 22,
+        "bad": [],
+        "clipped": 1,
+        "canvas": {
+          "x": 291.6666564941406,
+          "y": 83.33332824707031,
+          "w": 991.6666259765625,
+          "h": 658.3333129882812
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "autoplay-zh-CN-high",
+      "ok": true,
+      "value": 0.08370000000000004
+    },
+    {
+      "id": "fps-zh-CN-high",
+      "ok": true,
+      "value": 89.8024346437948
+    },
+    {
+      "id": "sound-unmutes-zh-CN-high",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "sound-mutes-zh-CN-high",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "layout-desktop-zh-CN-high",
+      "ok": true,
+      "value": {
+        "layout": "full",
+        "controls": 22,
+        "bad": [],
+        "clipped": 0,
+        "canvas": {
+          "x": 291.6666564941406,
+          "y": 83.33332824707031,
+          "w": 991.6666259765625,
+          "h": 658.3333129882812
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "autoplay-en-low",
+      "ok": true,
+      "value": 0.06240000000000009
+    },
+    {
+      "id": "fps-en-low",
+      "ok": true,
+      "value": 92.91213166977522
+    },
+    {
+      "id": "sound-unmutes-en-low",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "sound-mutes-en-low",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "layout-desktop-en-low",
+      "ok": true,
+      "value": {
+        "layout": "full",
+        "controls": 22,
+        "bad": [],
+        "clipped": 1,
+        "canvas": {
+          "x": 291.6666564941406,
+          "y": 83.33332824707031,
+          "w": 991.6666259765625,
+          "h": 658.3333129882812
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "mobile-tier-en",
+      "ok": true,
+      "value": "compact"
+    },
+    {
+      "id": "touch-zoom-en",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "touch-orbit-en",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "layout-mobile-en",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 11,
+        "bad": [],
+        "clipped": 0,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 725
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "mobile-tier-zh-CN",
+      "ok": true,
+      "value": "compact"
+    },
+    {
+      "id": "touch-zoom-zh-CN",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "touch-orbit-zh-CN",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "layout-mobile-zh-CN",
+      "ok": true,
+      "value": {
+        "layout": "compact",
+        "controls": 11,
+        "bad": [],
+        "clipped": 0,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 725
+        },
+        "inside": true
+      }
+    },
+    {
+      "id": "capture-api",
+      "ok": true,
+      "value": null
+    },
+    {
+      "id": "deterministic-capture",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "golden-to-stars",
+      "ok": true,
+      "value": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.6666666666666667,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "film-chapters",
+      "ok": true,
+      "value": [
+        "garden",
+        "facade",
+        "crown",
+        "stars"
+      ]
+    },
+    {
+      "id": "reduced-motion",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "console-errors",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "external-requests",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "csp-violations",
+      "ok": true,
+      "value": 0
+    },
+    {
+      "id": "audio-before",
+      "ok": true,
+      "value": "uninitialised,uninitialised,uninitialised"
+    },
+    {
+      "id": "audio-after-gesture",
+      "ok": true,
+      "value": "running,running,running"
+    }
+  ],
+  "interactions": {
+    "chapter": true,
+    "orbit": true,
+    "zoom": true,
+    "light": true,
+    "lanterns": true,
+    "life": true,
+    "card": true,
+    "scrub": true,
+    "reset": true,
+    "play": true
+  },
+  "facts": {
+    "chapters": 4,
+    "duration": 60,
+    "spires": 9,
+    "houses": 14,
+    "triangles": 253360,
+    "embedVerified": true
+  },
+  "proofs": [
+    {
+      "id": "chapter",
+      "before": {
+        "mode": "film",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 0,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6191327552582548,
+        "elev": 0.42759696874386305,
+        "distance": 94.48417536085722,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 203,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0.8697716049382718,
+        "lanterns": true,
+        "life": 44.270700000000005,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0,
+        "elev": -0.023072827890143977,
+        "distance": 13.003461077728499,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 231,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 228152,
+        "drawCalls": 409,
+        "reducedMotion": false
+      },
+      "pixelDiff": 50.99648148148148
+    },
+    {
+      "id": "orbit",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0.8697716049382718,
+        "lanterns": true,
+        "life": 44.70080000000003,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0,
+        "elev": -0.023072827890143977,
+        "distance": 13.003461077728499,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 268,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 228152,
+        "drawCalls": 409,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0.8697716049382718,
+        "lanterns": true,
+        "life": 45.38750000000004,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 13.003461077728499,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 333,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 232480,
+        "drawCalls": 448,
+        "reducedMotion": false
+      },
+      "pixelDiff": 5.510949074074074
+    },
+    {
+      "id": "zoom",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0.8697716049382718,
+        "lanterns": true,
+        "life": 45.713800000000056,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 13.003461077728499,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 361,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 232440,
+        "drawCalls": 447,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0.8697716049382718,
+        "lanterns": true,
+        "life": 46.19230000000007,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 16.864579902493414,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 406,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 234092,
+        "drawCalls": 487,
+        "reducedMotion": false
+      },
+      "pixelDiff": 6.242378472222223
+    },
+    {
+      "id": "light",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0.8697716049382718,
+        "lanterns": true,
+        "life": 46.52530000000008,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 16.864579902493414,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 435,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 234092,
+        "drawCalls": 487,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0,
+        "lanterns": true,
+        "life": 47.01760000000009,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 16.864579902493414,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 480,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 233508,
+        "drawCalls": 483,
+        "reducedMotion": false
+      },
+      "pixelDiff": 47.96344907407408
+    },
+    {
+      "id": "lanterns",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 0,
+        "lanterns": true,
+        "life": 47.3507000000001,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 16.864579902493414,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 509,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 233428,
+        "drawCalls": 481,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "crown",
+        "light": 1,
+        "lanterns": false,
+        "life": 48.023800000000136,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": -1.056,
+        "elev": 0.17720000000000002,
+        "distance": 16.864579902493414,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 568,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 232672,
+        "drawCalls": 478,
+        "reducedMotion": false
+      },
+      "pixelDiff": 64.22229166666666
+    },
+    {
+      "id": "life",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 0.06929999999999928,
+        "lifeRunning": false,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6306220393878582,
+        "elev": 0.44620487899045963,
+        "distance": 103.11784229705353,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 611,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 1.3347999999999993,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6306220393878582,
+        "elev": 0.44620487899045963,
+        "distance": 103.11784229705353,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 711,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "pixelDiff": 0.30311921296296296
+    },
+    {
+      "id": "card",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 1.6121999999999987,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6306220393878582,
+        "elev": 0.44620487899045963,
+        "distance": 103.11784229705353,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 735,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "facade",
+        "light": 0.3738333333333333,
+        "lanterns": true,
+        "life": 27.409199999999995,
+        "lifeRunning": true,
+        "muted": true,
+        "card": true,
+        "yaw": 0,
+        "elev": 0,
+        "distance": 11.3,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 785,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 235868,
+        "drawCalls": 512,
+        "reducedMotion": false
+      },
+      "pixelDiff": 69.14037037037038
+    },
+    {
+      "id": "scrub",
+      "before": {
+        "mode": "free",
+        "time": 2.6601,
+        "playing": false,
+        "layout": "full",
+        "chapter": "facade",
+        "light": 0.3738333333333333,
+        "lanterns": true,
+        "life": 27.728599999999993,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0,
+        "elev": 0,
+        "distance": 11.3,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 810,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 235868,
+        "drawCalls": 512,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "film",
+        "time": 54.21,
+        "playing": false,
+        "layout": "full",
+        "chapter": "stars",
+        "light": 1,
+        "lanterns": true,
+        "life": 27.915599999999987,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6266855997960886,
+        "elev": 0.44397510494686243,
+        "distance": 98.82117419081433,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 827,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "pixelDiff": 37.112488425925925
+    },
+    {
+      "id": "reset",
+      "before": {
+        "mode": "film",
+        "time": 54.21,
+        "playing": false,
+        "layout": "full",
+        "chapter": "stars",
+        "light": 1,
+        "lanterns": true,
+        "life": 27.915599999999987,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6266855997960886,
+        "elev": 0.44397510494686243,
+        "distance": 98.82117419081433,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 827,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "film",
+        "time": 0,
+        "playing": false,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 27.915599999999987,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6306220393878582,
+        "elev": 0.44620487899045963,
+        "distance": 103.11784229705353,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 828,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "pixelDiff": 69.25097800925926
+    },
+    {
+      "id": "play",
+      "before": {
+        "mode": "film",
+        "time": 0,
+        "playing": false,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 27.915599999999987,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6306220393878582,
+        "elev": 0.44620487899045963,
+        "distance": 103.11784229705353,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 828,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "after": {
+        "mode": "film",
+        "time": 0.2635,
+        "playing": true,
+        "layout": "full",
+        "chapter": "garden",
+        "light": 0.3333333333333333,
+        "lanterns": true,
+        "life": 27.915599999999987,
+        "lifeRunning": true,
+        "muted": true,
+        "card": false,
+        "yaw": 0.6305964225672757,
+        "elev": 0.4461638070932518,
+        "distance": 103.0969668912075,
+        "chapters": 4,
+        "duration": 60,
+        "renders": 846,
+        "spires": 9,
+        "houses": 14,
+        "cars": 10,
+        "people": 32,
+        "triangles": 253360,
+        "drawCalls": 640,
+        "reducedMotion": false
+      },
+      "pixelDiff": 0.17266203703703703
+    }
+  ],
+  "errors": [],
+  "csp": []
+}

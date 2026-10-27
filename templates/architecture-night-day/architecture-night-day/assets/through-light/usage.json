@@ -1,0 +1,21 @@
+{
+  "scope": "Verified SandBase API usage only. Codex conversation tokens and costs are not available in these records and are excluded.",
+  "model": "minimax/minimax-m3.1-flash",
+  "historical_temple_generation": {
+    "input_tokens": 6705,
+    "output_tokens": 181161,
+    "total_tokens": 187866,
+    "cost_usd_exact": "0.109565",
+    "note": "Includes earlier temple video versions and the four-landmark API generation; Codex usage excluded."
+  },
+  "this_ui_video_and_package_revision": {
+    "new_sandbase_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "cost_usd_exact": "0.000000",
+    "method": "Local editing and deterministic Three.js rendering of existing generated geometry."
+  },
+  "rerun_note": "Re-rendering this included source makes no model API calls. Changing the subject with an LLM incurs new usage, which must be recorded from the provider response and billing evidence; the historical sample total is not a forecast.",
+  "verification": "Historical totals reconciled against SandBase Console Usage & Billing and run billing records on 2026-10-21."
+}

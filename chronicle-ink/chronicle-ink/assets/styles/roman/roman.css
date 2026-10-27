@@ -1,0 +1,96 @@
+/* Roman Atlas overlays (DOM text over the code-drawn canvas): an antique city-atlas look with
+   parchment, Pompeian red, bronze gold and carved Cinzel capitals. Same element ids and CSS variables
+   as the ink style; no filters or blurred shadows (CPU rendering). */
+:root {
+  --ci-paper: #EBDDBF;
+  --ci-ink: #2A1E14;
+  --ci-ink-soft: #5A4632;
+  --ci-cinnabar: #9E2B1F;
+  --ci-gold: #B08A3E;
+  --ci-halo: rgba(235, 221, 191, 0.94);
+}
+#ci-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ci-overlay { position: absolute; pointer-events: none; }
+#ci-caption {
+  left: 50%;
+  width: var(--ci-caption-width);
+  bottom: var(--ci-caption-bottom);
+  margin-left: calc(var(--ci-caption-width) / -2);
+  text-align: center;
+  color: var(--ci-ink);
+  font-size: var(--ci-caption-size);
+  line-height: 1.38;
+  letter-spacing: 0.04em;
+  opacity: 0;
+  text-shadow:
+    0 0 2px var(--ci-halo), 0 0 2px var(--ci-halo), 2px 0 0 var(--ci-halo), -2px 0 0 var(--ci-halo),
+    0 2px 0 var(--ci-halo), 0 -2px 0 var(--ci-halo), 3px 3px 0 var(--ci-halo), -3px -3px 0 var(--ci-halo),
+    3px -3px 0 var(--ci-halo), -3px 3px 0 var(--ci-halo);
+}
+#ci-caption .ci-line { display: block; white-space: nowrap; }
+#ci-caption .ci-em { color: var(--ci-cinnabar); }
+#ci-caption[dir="rtl"] { direction: rtl; unicode-bidi: isolate; }
+#ci-card {
+  right: var(--ci-card-right);
+  top: var(--ci-card-top);
+  width: var(--ci-card-width);
+  padding: calc(var(--ci-card-title-size) * 0.7) calc(var(--ci-card-title-size) * 0.8);
+  background: rgba(240, 229, 205, 0.96);
+  border: 3px solid var(--ci-gold);
+  outline: 2px solid var(--ci-ink);
+  outline-offset: 5px;
+  color: var(--ci-ink);
+  opacity: 0;
+  text-align: center;
+}
+#ci-card .ci-card-seal {
+  position: absolute;
+  right: calc(var(--ci-card-title-size) * -1);
+  top: calc(var(--ci-card-title-size) * -1);
+  width: calc(var(--ci-card-title-size) * 2);
+  height: calc(var(--ci-card-title-size) * 2);
+  border-radius: 50%;
+  background: var(--ci-cinnabar);
+  border: 3px solid var(--ci-gold);
+  box-sizing: border-box;
+  color: var(--ci-paper);
+  font-family: "Cinzel", "Noto Serif SC", serif;
+  font-size: calc(var(--ci-card-title-size) * 0.55);
+  line-height: calc(var(--ci-card-title-size) * 1.85);
+  transform-origin: 50% 50%;
+}
+#ci-card .ci-card-title { font-size: var(--ci-card-title-size); color: var(--ci-ink-soft); letter-spacing: 0.14em; }
+#ci-card .ci-card-value { font-family: "Cinzel", "Noto Serif SC", serif; font-weight: 700; font-size: var(--ci-card-value-size); line-height: 1.15; margin-top: 0.15em; color: var(--ci-ink); white-space: nowrap; }
+#ci-title {
+  left: 10%; right: 10%; top: var(--ci-title-top);
+  text-align: center;
+  text-wrap: balance;
+  line-height: 1.25;
+  font-family: "Cinzel", "Noto Serif SC", serif;
+  font-weight: 700;
+  font-size: var(--ci-title-size);
+  color: var(--ci-ink);
+  letter-spacing: 0.12em;
+  opacity: 0;
+  text-shadow: 0 0 3px var(--ci-halo), 4px 4px 0 var(--ci-halo), -4px -4px 0 var(--ci-halo), 4px -4px 0 var(--ci-halo), -4px 4px 0 var(--ci-halo);
+}
+#ci-badge {
+  left: 2.2%; top: 3%;
+  padding: 0.25em 0.6em;
+  font-size: var(--ci-badge-size);
+  color: var(--ci-paper);
+  background: rgba(42, 30, 20, 0.72);
+  letter-spacing: 0.05em;
+}
+#ci-endcard {
+  inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: calc(var(--ci-caption-size) * 0.6);
+  background: var(--ci-paper) var(--ci-paper-texture) center / cover no-repeat;
+  color: var(--ci-ink);
+  opacity: 0;
+}
+#ci-endcard .ci-end-line { font-family: "Cinzel", "Noto Serif SC", serif; font-weight: 700; font-size: calc(var(--ci-title-size) * 0.66); letter-spacing: 0.1em; text-align: center; max-width: 80%; }
+#ci-endcard .ci-end-seal { width: calc(var(--ci-title-size) * 1.1); height: calc(var(--ci-title-size) * 1.1); border-radius: 50%; border: 4px solid var(--ci-gold); box-sizing: border-box; background: var(--ci-cinnabar); color: var(--ci-paper); font-family: "Cinzel", "Noto Serif SC", serif; font-size: calc(var(--ci-title-size) * 0.3); line-height: calc(var(--ci-title-size) * 1.02); text-align: center; }
+#ci-endcard .ci-end-series { font-size: calc(var(--ci-caption-size) * 0.8); color: var(--ci-ink-soft); letter-spacing: 0.12em; }
+#ci-endcard .ci-end-aigc { font-size: calc(var(--ci-caption-size) * 0.55); color: var(--ci-ink-soft); }

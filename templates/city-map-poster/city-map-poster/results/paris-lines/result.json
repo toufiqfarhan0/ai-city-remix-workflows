@@ -1,0 +1,76 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "city-map-poster",
+    "version": "0.2.0"
+  },
+  "sample": "paris-lines",
+  "site": {
+    "file": "index.html",
+    "sha256": "6fee1df576b014eb7225f15016f92ef7a70afdbe1d2c6dae03c048e28da6fbcf",
+    "bytes": 1204801
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-25T07:14:25.815Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 60
+      },
+      "low": {
+        "1600x900": 60
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "theme": true,
+      "shape": true,
+      "format": true,
+      "marks": true,
+      "pan": true,
+      "zoom": true,
+      "draw": true,
+      "kind": true,
+      "landmark": true,
+      "play": true
+    },
+    "facts": {
+      "themes": 5,
+      "roads": 9416,
+      "roadKm": 842,
+      "water": 290,
+      "parks": 5030,
+      "marks": 3,
+      "kinds": 4,
+      "foodPlaces": 14229,
+      "skylineMapped": 42729,
+      "landmarks": 4,
+      "duration": 60,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline city posters of central Paris, baked from OpenStreetMap: the street map (about 9,400 street lines, the Seine, parks, railways, three marks), a skyline from mapped building heights, a food map of mapped places to eat and drink, and four landmark outlines, with five themes, three formats, a round art area, print PNG export and a deterministic 60-second film. Every line, height and place is a mapped feature; skyline heights are stretched to fit. Silent by design; no runtime model calls.",
+    "zh-CN": "原创离线城市海报，示例为从 OpenStreetMap 烘焙的巴黎市中心：街道地图（约 9400 条街道线、塞纳河、公园、铁路和三个标记）、按登记建筑高度画出的天际线、登记餐饮地点的美食地图和四张地标轮廓，有五个主题、三种尺寸、圆形画面、打印 PNG 导出和可确定重放的 60 秒影片。每一条线、每个高度和地点都是地图上的真实要素；天际线高度按比例拉伸。设计上无声音，运行时不调用模型。"
+  }
+}

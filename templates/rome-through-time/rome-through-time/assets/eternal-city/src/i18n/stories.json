@@ -1,0 +1,186 @@
+{
+ "en": {
+  "imperial": {
+   "name": "Imperial Rome",
+   "desc": "At the heart of an empire, marble temples and grand civic spaces frame a city built for spectacle.",
+   "changes": [
+    "A monumental Forum at the civic heart",
+    "The Colosseum hosts public spectacles",
+    "Palatine palaces overlook the valley"
+   ],
+   "fact": "The Colosseum is complete: four exterior stories surround a working arena and continuous seating."
+  },
+  "medieval": {
+   "name": "Medieval Rome",
+   "desc": "The imperial city becomes a patchwork of homes, churches and gardens among ancient stone.",
+   "changes": [
+    "Narrow houses and towers replace courtyard blocks",
+    "Winding paths cross gardens and pasture",
+    "Ancient monuments find new uses"
+   ],
+   "fact": "Missing exterior bays expose small dwellings inside the Colosseum; the Forum becomes pasture."
+  },
+  "baroque": {
+   "name": "Baroque Rome",
+   "desc": "Church facades, palaces and fountains add a new layer of grandeur around the ancient city.",
+   "changes": [
+    "Domed churches and broad palazzi shape the skyline",
+    "A fountain anchors the formal piazza",
+    "Terraced gardens occupy the Palatine"
+   ],
+   "fact": "The Colosseum remains a depleted ruin; higher ground partly buries the Forum’s surviving columns."
+  },
+  "modern": {
+   "name": "Modern Rome",
+   "desc": "A living city surrounds an open-air archive. Ancient landmarks endure beside the rhythms of modern life.",
+   "changes": [
+    "The Forum is exposed as an archaeological site",
+    "Buses, crossings and shops line modern streets",
+    "Balconies and roof terraces shape urban blocks"
+   ],
+   "fact": "Conservation buttresses and visitor paths frame the Colosseum; excavated foundations define the Forum."
+  },
+  "late-antique": {
+   "name": "An ancient city changes",
+   "desc": "Civic buildings age and lose their upper structures. Reuse and smaller settlements gradually reshape the imperial landscape.",
+   "changes": [
+    "Selected roofs and wall sections are lost",
+    "Ancient masonry remains in place",
+    "New uses develop around surviving monuments"
+   ],
+   "fact": "The Colosseum’s northern core and inner arcades remain anchored while individual southern bays deteriorate."
+  },
+  "medieval-settlement": {
+   "name": "Medieval settlement",
+   "desc": "Homes, churches and towers grow among enduring ancient structures. Occupied sites and fragments coexist.",
+   "changes": [
+    "Narrow houses and towers replace courtyard blocks",
+    "Winding paths cross gardens and pasture",
+    "Ancient monuments find new uses"
+   ],
+   "fact": "The Forum’s rising ground surrounds surviving columns; dwellings occupy parts of the damaged amphitheater."
+  },
+  "renaissance": {
+   "name": "Renaissance to Baroque",
+   "desc": "Palaces, domes and facades are added at different times, while older buildings remain or find new uses.",
+   "changes": [
+    "Domed churches and broad palazzi shape the skyline",
+    "A fountain anchors the formal piazza",
+    "Terraced gardens occupy the Palatine"
+   ],
+   "fact": "The Colosseum remains a depleted ruin; higher ground partly buries the Forum’s surviving columns."
+  },
+  "archaeology": {
+   "name": "Archaeology & modernization",
+   "desc": "Excavation reveals buried foundations while roads, shops and conservation works gradually change the surrounding city.",
+   "changes": [
+    "The Forum is exposed as an archaeological site",
+    "Buses, crossings and shops line modern streets",
+    "Balconies and roof terraces shape urban blocks"
+   ],
+   "fact": "Conservation buttresses and visitor paths frame the Colosseum; excavated foundations define the Forum."
+  },
+  "living-capital": {
+   "name": "A living historic capital",
+   "desc": "Excavation reveals buried foundations while roads, shops and conservation works gradually change the surrounding city.",
+   "changes": [
+    "The Forum is exposed as an archaeological site",
+    "Buses, crossings and shops line modern streets",
+    "Balconies and roof terraces shape urban blocks"
+   ],
+   "fact": "Conservation buttresses and visitor paths frame the Colosseum; excavated foundations define the Forum."
+  }
+ },
+ "zh-CN": {
+  "imperial": {
+   "name": "帝国时期的罗马",
+   "desc": "大理石神庙、宏伟的公共空间与壮观的斗兽场，共同构成帝国中心的城市图景。",
+   "changes": [
+    "古典广场成为城市公共生活的中心",
+    "完整的斗兽场承载公共观演活动",
+    "帕拉蒂尼山上的宫殿俯瞰山谷"
+   ],
+   "fact": "斗兽场的外立面、竞技场和分层看台完整相连。"
+  },
+  "medieval": {
+   "name": "中世纪罗马",
+   "desc": "古代城市逐渐成为住宅、教堂与花园交织的聚落，新的生活延续在古老石墙之间。",
+   "changes": [
+    "狭窄住宅与塔楼形成新的街区",
+    "曲折小路穿过菜园与牧地",
+    "古代建筑被赋予新的用途"
+   ],
+   "fact": "缺失的外墙暴露内部结构，斗兽场内出现小型住宅，古罗马广场逐渐成为牧地。"
+  },
+  "baroque": {
+   "name": "巴洛克罗马",
+   "desc": "教堂立面、宫邸与喷泉，在古代遗迹周围塑造出新的城市秩序与宏伟气质。",
+   "changes": [
+    "穹顶教堂与宫邸重塑城市轮廓",
+    "喷泉与正式广场成为公共空间中心",
+    "帕拉蒂尼山出现台地花园"
+   ],
+   "fact": "斗兽场作为残缺的历史废墟继续存在；地面堆积使广场遗存的部分柱列被掩埋。"
+  },
+  "modern": {
+   "name": "今日罗马",
+   "desc": "现代城市围绕露天历史档案持续运转，古代遗迹与当代生活共同存在。",
+   "changes": [
+    "古罗马广场逐步成为开放的考古遗址",
+    "公交车、人行横道与商铺沿街展开",
+    "阳台与屋顶平台丰富城市街区"
+   ],
+   "fact": "保护性支撑与游客步道围绕斗兽场，发掘出的基础重新勾勒出古罗马广场的格局。"
+  },
+  "late-antique": {
+   "name": "古代城市的转变",
+   "desc": "公共建筑逐渐老化，上部结构局部损失。再利用与小型聚落缓慢改变帝国时期的城市景观。",
+   "changes": [
+    "部分屋顶与上部墙体逐渐缺失",
+    "古代石材与下部墙体保留在原地",
+    "新的生活围绕历史建筑展开"
+   ],
+   "fact": "斗兽场北侧主体持续保留，南侧不同墙段在各自的时间窗口中逐步损毁。"
+  },
+  "medieval-settlement": {
+   "name": "中世纪聚落",
+   "desc": "住宅、教堂与塔楼在古代结构之间生长，仍在使用的空间与历史残片彼此交织。",
+   "changes": [
+    "狭窄住宅与塔楼形成新的街区",
+    "曲折小路穿过菜园与牧地",
+    "古代建筑被赋予新的用途"
+   ],
+   "fact": "广场地面逐渐抬高，古代柱列仍然保留；损毁的斗兽场内部出现再利用住宅。"
+  },
+  "renaissance": {
+   "name": "文艺复兴至巴洛克",
+   "desc": "宫邸、穹顶和装饰立面在不同时期逐步加入，旧建筑继续存在，或被赋予新的用途。",
+   "changes": [
+    "穹顶教堂与宫邸重塑城市轮廓",
+    "喷泉与正式广场成为公共空间中心",
+    "帕拉蒂尼山出现台地花园"
+   ],
+   "fact": "斗兽场作为残缺的历史废墟继续存在；地面堆积使广场遗存的部分柱列被掩埋。"
+  },
+  "archaeology": {
+   "name": "考古与现代化",
+   "desc": "考古发掘重新揭示被掩埋的基础，道路、商铺与保护工程逐渐改变周边环境。",
+   "changes": [
+    "考古发掘揭示古代建筑基础",
+    "现代道路与公共设施逐步出现",
+    "历史建筑保留并接受局部翻修"
+   ],
+   "fact": "保护性支撑与游客步道围绕斗兽场，发掘出的基础重新勾勒出古罗马广场的格局。"
+  },
+  "living-capital": {
+   "name": "延续至今的历史城市",
+   "desc": "考古遗址与当代交通、商业和公共生活共同存在，古代遗迹成为现代城市的一部分。",
+   "changes": [
+    "古罗马广场逐步成为开放的考古遗址",
+    "公交车、人行横道与商铺沿街展开",
+    "阳台与屋顶平台丰富城市街区"
+   ],
+   "fact": "保护性支撑与游客步道围绕斗兽场，发掘出的基础重新勾勒出古罗马广场的格局。"
+  }
+ }
+}

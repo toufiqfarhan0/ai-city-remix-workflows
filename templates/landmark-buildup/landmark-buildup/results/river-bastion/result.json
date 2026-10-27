@@ -1,0 +1,67 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "landmark-buildup",
+    "version": "0.2.2"
+  },
+  "sample": "river-bastion",
+  "site": {
+    "file": "index.html",
+    "sha256": "84ac12063eaf88281ebea483a479d1408050f1a05b3e15038d14af4943e9d486",
+    "bytes": 730359
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-24T12:23:46.605Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 55
+      },
+      "low": {
+        "1600x900": 61
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "build": true,
+      "stage": true,
+      "view": true,
+      "orbit": true,
+      "zoom": true,
+      "light": true,
+      "explode": true,
+      "play": true
+    },
+    "facts": {
+      "pieces": 4882,
+      "stages": 7,
+      "duration": 40,
+      "triangles": 65852,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline construction of an interpretive Torre de Belém: about five thousand solid pieces from a recipe drop into place in construction order (coursed walls with real openings and arches, battlements, domed turrets, a loggia), with a day-to-dusk light and a deterministic 40-second film. Simplified proportions, not a survey. Silent by design; no runtime model calls.",
+    "zh-CN": "原创离线建造过程，示例为贝伦塔的示意模型：按配方生成的约五千个实体构件依施工顺序落位（带真实洞口和拱券的砌筑墙体、雉堞、圆顶角塔、凉廊），配有从白昼到黄昏的光线和可确定重放的 40 秒影片。比例经过简化，并非测绘。设计上无声音，运行时不调用模型。"
+  }
+}

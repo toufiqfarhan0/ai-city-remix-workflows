@@ -1,0 +1,4 @@
+# Hosting
+One self-contained HTML file; no external URLs, models, textures or storage; system fonts only. SAMPLE_SITE_CSP: sandbox allow-scripts; default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data: blob:; font-src data:; media-src data: blob:; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'self'. The host iframe only needs allow-scripts. WebGL is required.
+URL parameters: lang (en or zh-CN), embed=1, quality=low|high, capture=1. Compact mode (embed=1, or a window narrower than 900 or lower than 520 px) shows the stage label and a one-row strip: play, build, next view, zoom in and reset.
+Capture uses window.__scene with slug, version, ready, inspect, act, pointer, press, release, cover and film; capture=1 adds step and script. script(t) draws the film frame at t from recipe.json and film.json alone. Embedded pages post landmark-buildup:ready, or landmark-buildup:error with code webgl or data.

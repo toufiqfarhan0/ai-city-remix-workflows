@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manhattan Miniature"
+  short_description: "Build an interactive 3D miniature city as one offline HTML file"
+  default_prompt: "Use $manhattan-miniature to build an interactive miniature of <your city> with <your landmarks>, then verify it with npm run shoot."

@@ -1,0 +1,9 @@
+{
+  "schema": "chronicle-fixture/2",
+  "id": "su-shi",
+  "generated_at": "2026-10-21T06:00:00.000Z",
+  "retrieved_at": "2026-10-21T05:35:00.182Z",
+  "made_with": "research (keyless public reads: Wikidata and CBDB fetched by the engine; zh-Wikipedia read by the Agent with its own fetch tool and passed with --source-file because this machine could not reach Wikipedia; Britannica returned HTTP 403), facts with Agent-written claims, script with the Agent's shot list and entailment answer, Agent-written scene code. No model API was called.",
+  "contents": "Source index (URLs, retrieval times, sha256) without source texts; excerpts of at most 30 words / 60 CJK characters inside the fact sheet. Wikidata labels are CC0; Wikipedia excerpts are CC BY-SA 4.0 (see references/third-party-notices.md).",
+  "languages": ["en", "zh-CN"]
+}

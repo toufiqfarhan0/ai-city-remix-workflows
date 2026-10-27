@@ -1,0 +1,18 @@
+{
+  "title": "New York in Eight Growth Rings",
+  "summary": "From the Battery's 1626 palisade, trace New York's outward expansion along rivers and avenues through eight transformative eras, returning to the harbor where every era's ring glows in unison.",
+  "lang": "en",
+  "fields": {
+    "city_id": "new-york-city",
+    "place_lat": 40.7128,
+    "place_lng": -74.0061,
+    "used_m31_flash": true,
+    "director_notes": "Directed with MiniMax M3.1 Flash (model minimax/minimax-m3.1-flash via SandBase API). Brief: Trace New York's outward growth along rivers and roads across 8 historical eras (1626 to Present), returning to The Battery. Produced using city-through-time, MiniMax Speech 2.8 HD narration, real OSM geometry, and OpenFreeMap vector basemap.",
+    "sources": [
+      "https://www.britannica.com/place/New-York-City",
+      "https://www.nyc.gov/site/planning/plans/commissioners-plan/commissioners-plan.page",
+      "https://www.nycgovparks.org/parks/central-park/history"
+    ],
+    "my_city_line": "From palisade to skyline, New York grows in rings."
+  }
+}

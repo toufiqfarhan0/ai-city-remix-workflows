@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>City Through Time</title>
+<style>html, body { margin: 0; background: #0b0a12; } canvas { display: block; }</style>
+<script>/*D3ARRAY*/</script>
+<script>/*D3GEO*/</script>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script>
+/*
+ * City Through Time player. Everything comes from STORY (story.json) and LAND
+ * (Natural Earth land, for the globe). window.render(t) draws frame t: a pure
+ * function of time, so a headless browser can step it frame by frame.
+ *
+ *   0 → INTRO        globe turns to the city, pin, dive in
+ *   eras × ERA       one era each: the year rolls on, the new extent lights up on top of the
+ *                    earlier ones (they stay as dimmer layers), the newly gained ground flashes
+ *                    behind the growth front, events float up, subtitle and an era timeline
+ *   OUTRO            every era's layer and outline stacked: the city's rings
+ */
+const S = /*STORY*/null, LAND = /*LAND*/null, BASE = /*BASE*/null, PHOTOS = /*PHOTOS*/null
+const W = 1920, H = 1080, INTRO = 8, OUTRO = 8
+const STARTS = []; { let t = INTRO; for (const e of S.eras) { STARTS.push(t); t += e.duration ?? 6.5 } }
+const END = STARTS.length ? STARTS[STARTS.length - 1] + (S.eras[S.eras.length - 1].duration ?? 6.5) : INTRO
+const T = END + OUTRO
+const eraAt = (t) => { let i = 0; while (i < STARTS.length - 1 && t >= STARTS[i + 1]) i++; return i }
+const cv = document.getElementById('c'), g = cv.getContext('2d')
+const FONT = '"PingFang SC", "Hiragino Sans GB", "Noto Sans SC", system-ui, sans-serif'
+const MONO = '"SF Mono", "JetBrains Mono", Menlo, monospace'
+const clamp = (x) => (x < 0 ? 0 : x > 1 ? 1 : x)
+const ease = (x) => { x = clamp(x); return x * x * (3 - 2 * x) }
+const seg = (t, a, b) => ease((t - a) / (b - a))
+const lerp = (a, b, k) => a + (b - a) * k
+const fadeIO = (t, a, b, f = 0.6) => Math.min(seg(t, a, a + f), 1 - seg(t, b - f, b))
+const rgba = (hex, a) => { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})` }
+
+// Local metres around the city centre.
+const KX = 111320 * Math.cos(S.city.lat * Math.PI / 180), KY = 110540
+const M = ([lat, lon]) => [(lon - S.city.lon) * KX, -(lat - S.city.lat) * KY]
+const eras = S.eras.map((e) => {
+  const sh = e.shape
+  const polys = (sh.polygons ?? []).map((p) => p.map(M))
+  const lines = (sh.lines ?? []).map((l) => l.map(M))
+  const pts = polys.length ? polys.flat() : lines.length ? lines.flat() : (() => { const c = M(sh.glow ?? sh.ring); const r = sh.radius; return [[c[0] - r, c[1] - r], [c[0] + r, c[1] + r]] })()
+  return { ...e, polys, lines, glow: sh.glow && M(sh.glow), ring: sh.ring && M(sh.ring), radius: sh.radius, pts }
+})
+const rivers = (S.rivers ?? []).map((l) => l.map(M))
+/** Area in km² of an era's outlines (null for line-only or glow eras: no honest edge). */
+const ringArea = (p) => Math.abs(p.reduce((s, q, i) => { const r = p[(i + 1) % p.length]; return s + q[0] * r[1] - r[0] * q[1] }, 0)) / 2e6
+eras.forEach((e) => { e.km2 = e.polys.length ? e.polys.reduce((s, p) => s + ringArea(p), 0) : null })
+eras.forEach((e, i) => { const prev = eras.slice(0, i).reverse().find((x) => x.km2); e.growth = e.km2 && prev ? e.km2 / prev.km2 : null })
+/** The first year in a label as a signed number ("52 BC" → -52, "c. AD 200" → 200, "1784–1791" → 1784). */
+function yearNum(s) { const m = String(s).match(/(\d{1,4})/); if (!m) return null; return /\bB\.?C/i.test(s) ? -Number(m[1]) : Number(m[1]) }
+const fmtYear = (n) => (n < 0 ? `${-n} BC` : `${n}`)
+const fmtKm2 = (v) => (v < 10 ? v.toFixed(1) : Math.round(v).toLocaleString('en-US'))
+const fmtLat = (v) => `${Math.abs(v).toFixed(3)}°${v >= 0 ? 'N' : 'S'}`, fmtLon = (v) => `${Math.abs(v).toFixed(3)}°${v >= 0 ? 'E' : 'W'}`
+
+// Tabletop: the map is a slab seen from above at an angle (squashed y, slight turn).
+const TILT = 0.62, TURN = -0.12
+function fit(pts, pad) {
+  const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1])
+  const w = (Math.max(...xs) - Math.min(...xs)) * pad, h = (Math.max(...ys) - Math.min(...ys)) * pad
+  return { x: (Math.max(...xs) + Math.min(...xs)) / 2, y: (Math.max(...ys) + Math.min(...ys)) / 2, s: Math.min(1100 / w, 520 / (h * TILT)) }
+}
+const views = eras.map((e) => fit(e.pts, e.polys.length ? 1.5 : e.lines.length ? 1.12 : 1.25))
+const allView = fit(eras.filter((e) => e.polys.length || e.lines.length).flatMap((e) => e.pts), 1.1)
+function camera(t) {
+  if (t >= END) {
+    const k = seg(t, END, END + 2)
+    const a = views[views.length - 1]
+    return { x: lerp(a.x, allView.x, k), y: lerp(a.y, allView.y, k), s: Math.exp(lerp(Math.log(a.s), Math.log(allView.s), k)), drift: t }
+  }
+  const i = eraAt(t)
+  const from = STARTS[i], a = views[Math.max(0, i - 1)], b = views[i]
+  const k = i === 0 ? 1 : seg(t, from, from + 2)
+  // A slow push-in while the era plays keeps the frame alive between moves.
+  const push = 1 + 0.05 * clamp((t - from) / (S.eras[i].duration ?? 6.5))
+  return { x: lerp(a.x, b.x, k), y: lerp(a.y, b.y, k), s: push * Math.exp(lerp(Math.log(a.s), Math.log(b.s), k)), drift: t }
+}
+/** Map metres → screen pixels for camera c. */
+function screen(c, [x, y]) {
+  const dx = (x - c.x) * c.s, dy = (y - c.y) * c.s
+  const turn = TURN + 0.02 * Math.sin(c.drift * 0.15)
+  const rx = dx * Math.cos(turn) - dy * Math.sin(turn), ry = dx * Math.sin(turn) + dy * Math.cos(turn)
+  return [W / 2 + 90 + rx, H / 2 - 10 + ry * TILT]
+}
+/** The same map → screen mapping as screen(), as a canvas transform (metres in, pixels out). */
+function mapMatrix(c) {
+  const turn = TURN + 0.02 * Math.sin(c.drift * 0.15), co = Math.cos(turn), si = Math.sin(turn)
+  const a = c.s * co, b = c.s * si * TILT, cc = -c.s * si, d = c.s * co * TILT
+  const ox = W / 2 + 90, oy = H / 2 - 10
+  return [a, b, cc, d, ox - a * c.x - cc * c.y, oy - b * c.x - d * c.y]
+}
+
+// ─── basemap: streets and buildings rasterised once into map-space layers ───
+const layers = []
+let lit = null, lit2 = null
+const fx = document.createElement('canvas'); fx.width = W; fx.height = H
+const f = fx.getContext('2d')
+function bake(items, draw, pxPerM) {
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity
+  for (const a of items) for (let i = a.length % 2; i < a.length; i += 2) { x0 = Math.min(x0, a[i]); x1 = Math.max(x1, a[i]); y0 = Math.min(y0, a[i + 1]); y1 = Math.max(y1, a[i + 1]) }
+  // Browsers silently drop canvases over ~16k px a side or ~268M px: cap the resolution.
+  pxPerM = Math.min(pxPerM, 12000 / Math.max(1, x1 - x0, y1 - y0), Math.sqrt(120e6 / Math.max(1, (x1 - x0) * (y1 - y0))))
+  const cvs = document.createElement('canvas')
+  cvs.width = Math.ceil((x1 - x0) * pxPerM); cvs.height = Math.ceil((y1 - y0) * pxPerM)
+  const cx = cvs.getContext('2d')
+  cx.setTransform(pxPerM, 0, 0, pxPerM, -x0 * pxPerM, -y0 * pxPerM)
+  draw(cx, pxPerM)
+  return { cvs, x0, y0, w: x1 - x0, h: y1 - y0 }
+}
+function polyline(cx, a, from, close) {
+  cx.beginPath(); cx.moveTo(a[from], a[from + 1]); for (let i = from + 2; i < a.length; i += 2) cx.lineTo(a[i], a[i + 1]); if (close) cx.closePath()
+}
+if (BASE) {
+  // Origin of BASE coordinates may differ from the story centre: shift into story metres.
+  const dx = (BASE.origin[1] - S.city.lon) * KX, dy = -(BASE.origin[0] - S.city.lat) * KY
+  const shift = (a, from) => { const b = a.slice(); for (let i = from; i < b.length; i += 2) { b[i] += dx; b[i + 1] += dy } return b }
+  const major = BASE.major.map((a) => shift(a, 1)), minor = BASE.minor.map((a) => shift(a, 0)), blds = BASE.buildings.map((a) => shift(a, 0))
+  layers.push(bake(major, (cx, k) => {
+    cx.lineCap = 'round'; cx.lineJoin = 'round'
+    for (const a of major) { cx.strokeStyle = a[0] >= 3 ? '#5a5768' : a[0] === 2 ? '#4a4858' : '#3b3947'; cx.lineWidth = (a[0] >= 3 ? 7 : a[0] === 2 ? 5 : 3.5) / k; polyline(cx, a, 1, false); cx.stroke() }
+  }, 0.32))
+  layers.push(bake([...minor, ...blds], (cx, k) => {
+    cx.lineCap = 'round'; cx.lineJoin = 'round'
+    cx.strokeStyle = '#2f2d3a'; cx.lineWidth = 2.2 / k
+    for (const a of minor) { polyline(cx, a, 0, false); cx.stroke() }
+    cx.fillStyle = '#34323f'; cx.strokeStyle = '#403d4d'; cx.lineWidth = 0.6 / k
+    for (const a of blds) { polyline(cx, a, 0, true); cx.fill(); cx.stroke() }
+  }, 1.4))
+  // The whole road network in white: the wider city's lights.
+  lit2 = bake(major, (cx, k) => {
+    cx.lineCap = 'round'; cx.lineJoin = 'round'
+    for (const a of major) { cx.strokeStyle = 'rgba(255,255,255,0.9)'; cx.lineWidth = (a[0] >= 3 ? 9 : a[0] === 2 ? 7 : 5) / k; polyline(cx, a, 1, false); cx.stroke() }
+  }, 0.22)
+  // The same city drawn in white: it is tinted and revealed era by era (the "lights coming on").
+  lit = bake([...minor, ...blds], (cx, k) => {
+    cx.lineCap = 'round'; cx.lineJoin = 'round'
+    cx.strokeStyle = 'rgba(255,255,255,0.55)'; cx.lineWidth = 2 / k
+    for (const a of minor) { polyline(cx, a, 0, false); cx.stroke() }
+    cx.fillStyle = 'rgba(255,255,255,0.95)'
+    for (const a of blds) { polyline(cx, a, 0, true); cx.fill() }
+  }, 1.4)
+}
+const images = {}
+window.ready = Promise.all(Object.entries(PHOTOS ?? {}).map(([k, src]) => new Promise((ok) => { const im = new Image(); im.onload = () => { images[k] = im; ok() }; im.onerror = ok; im.src = src })))
+
+function trace(c, pts, close = true) {
+  g.beginPath(); pts.forEach((p, i) => { const [x, y] = screen(c, p); i ? g.lineTo(x, y) : g.moveTo(x, y) }); if (close) g.closePath()
+}
+function text(s, x, y, size, color, weight = 500, align = 'left', font = FONT) {
+  g.font = `${weight} ${size}px ${font}`; g.textAlign = align; g.fillStyle = color; g.fillText(s, x, y); g.textAlign = 'left'
+}
+
+// ─── globe intro ────────────────────────────────────────────
+const globe = d3.geoOrthographic().clipAngle(90).translate([W / 2, H / 2])
+const gpath = d3.geoPath(globe, g)
+const grat = d3.geoGraticule10()
+function drawGlobe(t) {
+  const k = seg(t, 0, 4.6), dive = seg(t, 5, INTRO)
+  globe.rotate([-lerp(S.city.lon + 100, S.city.lon, k), -lerp(10, S.city.lat, k)]).scale(420 * Math.exp(dive * 4.6))
+  g.fillStyle = '#0b0a12'; g.fillRect(0, 0, W, H)
+  const r = globe.scale(), halo = g.createRadialGradient(W / 2, H / 2, r * 0.92, W / 2, H / 2, r * 1.3)
+  halo.addColorStop(0, 'rgba(106,76,255,0.32)'); halo.addColorStop(1, 'rgba(106,76,255,0)')
+  g.fillStyle = halo; g.fillRect(0, 0, W, H)
+  g.beginPath(); gpath({ type: 'Sphere' }); g.fillStyle = '#15121f'; g.fill()
+  g.beginPath(); gpath(grat); g.strokeStyle = 'rgba(255,255,255,0.05)'; g.lineWidth = 1; g.stroke()
+  g.beginPath(); gpath(LAND); g.fillStyle = '#2b2740'; g.fill()
+  const [px, py] = globe([S.city.lon, S.city.lat])
+  const pin = seg(t, 3.4, 4.4)
+  if (pin > 0) {
+    const p = (t * 1.3) % 1
+    g.strokeStyle = `rgba(217,255,67,${(1 - p) * pin})`; g.lineWidth = 3; g.beginPath(); g.arc(px, py, 10 + p * 50, 0, Math.PI * 2); g.stroke()
+    g.fillStyle = '#d9ff43'; g.beginPath(); g.arc(px, py, 9, 0, Math.PI * 2); g.fill()
+    g.globalAlpha = pin * (1 - dive)
+    text(S.city.name, px + 28, py - 12, 48, '#f2f0f3', 700)
+    text(S.city.note ?? `${Math.abs(S.city.lat).toFixed(1)}°${S.city.lat >= 0 ? 'N' : 'S'} · ${Math.abs(S.city.lon).toFixed(1)}°${S.city.lon >= 0 ? 'E' : 'W'}`, px + 30, py + 30, 26, '#c9c5d3', 400)
+    g.globalAlpha = 1
+  }
+  subtitle(S.intro, fadeIO(t, 0.6, 5.4, 0.4))
+  g.globalAlpha = 1 - seg(t, 2.2, 3.4)
+  text(S.title.en, 96, 170, 84, '#f2f0f3', 700); text(S.title.sub ?? '', 100, 228, 36, '#c9c5d3', 400)
+  g.globalAlpha = 1
+}
+
+// ─── the slab ───────────────────────────────────────────────
+function drawSlab(c) {
+  g.fillStyle = '#0b0a12'; g.fillRect(0, 0, W, H)
+  const R = 60000, slab = [[-R, -R], [R, -R], [R, R], [-R, R]]
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.7)'; g.shadowBlur = 60; g.fillStyle = '#1c1b24'; trace(c, slab); g.fill(); g.restore()
+  // Basemap layers in map space, drawn through the same tilt as everything else.
+  const m = mapMatrix(c)
+  g.save(); g.setTransform(...m); g.imageSmoothingQuality = 'high'
+  for (const l of layers) g.drawImage(l.cvs, l.x0, l.y0, l.w, l.h)
+  g.restore()
+  // Vignette keeps the eye on the centre.
+  const vg = g.createRadialGradient(W / 2 + 90, H / 2, 200, W / 2 + 90, H / 2, 1100)
+  vg.addColorStop(0, 'rgba(11,10,18,0)'); vg.addColorStop(1, 'rgba(11,10,18,0.75)')
+  g.fillStyle = vg; g.fillRect(0, 0, W, H)
+  g.strokeStyle = '#1f4a78'; g.lineWidth = Math.max(3, 90 * c.s); g.lineCap = 'round'; g.lineJoin = 'round'
+  rivers.forEach((l) => { trace(c, l, false); g.stroke() })
+}
+/** Where an era grows from: its own seed, the glow centre, or the middle of its first outline. */
+function seedOf(e) {
+  if (e.seed) return M(e.seed)
+  if (e.glow) return e.glow
+  if (e.ring) return e.ring
+  const p = e.polys[0]; return [p.reduce((s, q) => s + q[0], 0) / p.length, p.reduce((s, q) => s + q[1], 0) / p.length]
+}
+function maxReach(e, seed) {
+  if (!e.polys.length) return e.radius
+  return Math.max(...e.polys.flat().map((q) => Math.hypot(q[0] - seed[0], q[1] - seed[1])))
+}
+/**
+ * An era's extent: the real streets and buildings inside it light up in the era colour,
+ * spreading out from the seed like a city growing (k: 0 → 1). The outline draws itself
+ * along behind the front. alpha fades a whole era out (the previous one).
+ */
+function drawArea(c, e, k, alpha = 1, { bloom = true, prev = null } = {}) {
+  if (k <= 0 || alpha <= 0) return
+  if (e.ring) {
+    const [x, y] = screen(c, e.ring), rr = e.radius * c.s * ease(k)
+    g.save(); g.translate(x, y); g.scale(1, TILT); g.strokeStyle = rgba(e.color, 0.85 * alpha); g.lineWidth = 2.5 / TILT; g.setLineDash([14, 10])
+    g.shadowColor = rgba(e.color, 0.8); g.shadowBlur = 14; g.beginPath(); g.arc(0, 0, rr, 0, Math.PI * 2); g.stroke(); g.restore()
+    return
+  }
+  const seed = seedOf(e), reach = (e.glow ? e.radius : maxReach(e, seed)) * 1.05
+  const r = reach * ease(k)
+  const [sx, sy] = screen(c, seed)
+  const rpx = r * c.s
+  f.setTransform(1, 0, 0, 1, 0, 0); f.globalCompositeOperation = 'source-over'; f.clearRect(0, 0, W, H)
+  // 1. The city, clipped to the era outline.
+  f.save()
+  if (e.polys.length) { f.beginPath(); for (const p of e.polys) p.forEach((q, i) => { const [x, y] = screen(c, q); i ? f.lineTo(x, y) : f.moveTo(x, y) }); f.closePath(); f.clip() }
+  f.setTransform(...mapMatrix(c))
+  if (lit2 && (e.glow || e.lines.length)) f.drawImage(lit2.cvs, lit2.x0, lit2.y0, lit2.w, lit2.h)
+  if (lit) f.drawImage(lit.cvs, lit.x0, lit.y0, lit.w, lit.h)
+  f.setTransform(1, 0, 0, 1, 0, 0)
+  // A faint wash so the extent reads even where there are few buildings.
+  f.fillStyle = 'rgba(255,255,255,0.07)'; f.fillRect(0, 0, W, H)
+  f.restore()
+  // 2. Keep only what the growth front has reached (soft edge; glows fade out radially).
+  f.globalCompositeOperation = 'destination-in'
+  f.save(); f.translate(sx, sy); f.scale(1, TILT)
+  const grd = f.createRadialGradient(0, 0, 0, 0, 0, Math.max(rpx, 1))
+  if (e.glow) { grd.addColorStop(0, 'rgba(0,0,0,1)'); grd.addColorStop(0.55, 'rgba(0,0,0,0.85)'); grd.addColorStop(1, 'rgba(0,0,0,0)') }
+  else { grd.addColorStop(0, 'rgba(0,0,0,1)'); grd.addColorStop(0.9, 'rgba(0,0,0,1)'); grd.addColorStop(1, 'rgba(0,0,0,0)') }
+  f.fillStyle = grd; f.beginPath(); f.arc(0, 0, Math.max(rpx, 1), 0, Math.PI * 2); f.fill(); f.restore()
+  // 3. Tint.
+  f.globalCompositeOperation = 'source-in'; f.fillStyle = e.color; f.fillRect(0, 0, W, H)
+  f.globalCompositeOperation = 'source-over'
+  // 4. Composite: a blurred bloom, then the sharp lit city.
+  if (bloom) { g.save(); g.globalAlpha = 0.8 * alpha; g.filter = 'blur(8px)'; g.globalCompositeOperation = 'lighter'; g.drawImage(fx, 0, 0); g.restore() }
+  g.save(); g.globalAlpha = alpha; g.globalCompositeOperation = 'lighter'; g.drawImage(fx, 0, 0); if (bloom) g.drawImage(fx, 0, 0); g.restore()
+  // 5. The growth front: a bright ring where the lights are coming on, clipped to the outline.
+  if (k < 1 && !e.glow) {
+    g.save()
+    if (e.polys.length) { g.beginPath(); for (const p of e.polys) p.forEach((q, i) => { const [x, y] = screen(c, q); i ? g.lineTo(x, y) : g.moveTo(x, y) }); g.closePath(); g.clip() }
+    g.translate(sx, sy); g.scale(1, TILT)
+    const ring = g.createRadialGradient(0, 0, Math.max(rpx * 0.82, 0), 0, 0, Math.max(rpx, 1))
+    ring.addColorStop(0, rgba(e.color, 0)); ring.addColorStop(0.75, rgba(e.color, 0.35 * alpha)); ring.addColorStop(1, rgba(e.color, 0))
+    g.fillStyle = ring; g.beginPath(); g.arc(0, 0, Math.max(rpx, 1), 0, Math.PI * 2); g.fill(); g.restore()
+    // New ground: right behind the front, but only outside the previous era's outline, the lights flare white.
+    if (prev?.polys.length && e.polys.length) {
+      g.save()
+      g.beginPath(); for (const p of [...e.polys, ...prev.polys]) p.forEach((q, i) => { const [x, y] = screen(c, q); i ? g.lineTo(x, y) : g.moveTo(x, y) }); g.closePath(); g.clip('evenodd')
+      g.translate(sx, sy); g.scale(1, TILT)
+      const flare = g.createRadialGradient(0, 0, Math.max(rpx * 0.6, 0), 0, 0, Math.max(rpx, 1))
+      flare.addColorStop(0, 'rgba(255,255,255,0)'); flare.addColorStop(0.85, `rgba(255,255,255,${0.22 * alpha})`); flare.addColorStop(1, 'rgba(255,255,255,0)')
+      g.globalCompositeOperation = 'lighter'; g.fillStyle = flare; g.beginPath(); g.arc(0, 0, Math.max(rpx, 1), 0, Math.PI * 2); g.fill(); g.restore()
+    }
+  }
+  // 6. The outline: drawn only where the front has passed, thin and crisp.
+  if (e.polys.length) {
+    g.save(); g.translate(sx, sy); g.scale(1, TILT); g.beginPath(); g.arc(0, 0, Math.max(rpx * 1.02, 1), 0, Math.PI * 2); g.restore()
+    g.save(); g.clip()
+    g.strokeStyle = rgba(e.color, 0.95 * alpha); g.lineWidth = 2.2; g.shadowColor = rgba(e.color, 0.9); g.shadowBlur = 12
+    for (const p of e.polys) { trace(c, p); g.stroke() }
+    g.restore()
+  }
+  if (e.lines.length) {
+    // Revealed with the same growth front as the lights.
+    g.save(); g.translate(sx, sy); g.scale(1, TILT); g.beginPath(); g.arc(0, 0, Math.max(rpx * 1.02, 1), 0, Math.PI * 2); g.restore()
+    g.save(); g.clip(); g.strokeStyle = rgba('#ffffff', 0.9 * alpha); g.lineWidth = 3; g.shadowColor = rgba(e.color, 1); g.shadowBlur = 16; g.lineCap = 'round'
+    for (const l of e.lines) { trace(c, l, false); g.stroke() }
+    g.restore()
+  }
+}
+function drawEvent(c, ev, a, t, n) {
+  if (a <= 0) return
+  const [x, y] = screen(c, M(ev.at))
+  const key = ev.image ?? ev.photo, im = key && images[key]
+  // Cards float up and bob gently; alternate sides so two cards never overlap.
+  const side = n % 2 ? -1 : 1, bob = Math.sin(t * 1.3 + n) * 4, rise = (1 - a) * 24
+  const cw = im ? 320 : 0, ch = im ? 210 : 0
+  g.font = `600 26px ${FONT}`; const w1 = g.measureText(ev.title).width
+  const w2 = 0
+  const w = Math.max(w1 + 28, w2 + 28, cw + 16)
+  // Keep cards inside the frame and clear of the year block (top left) and subtitle band.
+  let bx = side > 0 ? x + 60 : x - 60 - w
+  if (bx < 760) bx = Math.max(760, x + 60)
+  bx = Math.min(bx, W - w - 40)
+  const by = Math.min(Math.max(90, y - 70 - ch - 70), H - 200 - ch - 84) + bob + rise
+  g.globalAlpha = a
+  g.fillStyle = '#f2f0f3'; g.beginPath(); g.arc(x, y, 7, 0, Math.PI * 2); g.fill()
+  g.strokeStyle = 'rgba(242,240,243,0.35)'; g.lineWidth = 4; g.beginPath(); g.arc(x, y, 14, 0, Math.PI * 2); g.stroke()
+  g.strokeStyle = 'rgba(242,240,243,0.8)'; g.lineWidth = 1.5; g.beginPath(); g.moveTo(x, y); g.lineTo(side > 0 ? bx : bx + w, by + ch + 60); g.stroke()
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 30
+  g.fillStyle = 'rgba(16,15,24,0.94)'; g.fillRect(bx, by, w, ch + 76 + (im ? 8 : 0)); g.restore()
+  g.strokeStyle = 'rgba(242,240,243,0.22)'; g.strokeRect(bx + 0.5, by + 0.5, w - 1, ch + 75 + (im ? 8 : 0))
+  if (im) {
+    g.drawImage(im, bx + 8, by + 8, w - 16, ch - 8)
+    const credit = (S.photos?.[key]?.credit ?? '')
+    g.font = `400 12px ${FONT}`; g.fillStyle = 'rgba(11,10,18,0.6)'; const cwid = g.measureText(credit).width + 12
+    g.fillRect(bx + w - 8 - cwid, by + ch - 22, cwid, 22); text(credit, bx + w - 14, by + ch - 6, 12, 'rgba(242,240,243,0.85)', 400, 'right')
+  }
+  text(ev.title, bx + 14, by + ch + 44 + (im ? 6 : 0), 28, '#f2f0f3', 600)
+  g.globalAlpha = 1
+}
+function hud(c, label) {
+  text(S.city.name.toUpperCase(), 40, 46, 18, 'rgba(242,240,243,0.8)', 600, 'left', MONO)
+  text(`${fmtLat(S.city.lat)}  ${fmtLon(S.city.lon)}`, 40, 70, 16, 'rgba(242,240,243,0.5)', 400, 'left', MONO)
+  text(S.credits, W - 40, 46, 16, 'rgba(242,240,243,0.5)', 400, 'right')
+  // Scale bar: 1 km on the map.
+  const px = 1000 * c.s
+  if (px > 30 && px < 600) {
+    g.fillStyle = 'rgba(242,240,243,0.7)'; g.fillRect(40, H - 210, px, 3)
+    text('1 km', 40, H - 220, 16, 'rgba(242,240,243,0.7)', 400, 'left', MONO)
+  }
+}
+/** Era timeline along the bottom edge: one coloured segment per era, filled up to now. */
+function timeline(t, a = 1) {
+  if (a <= 0) return
+  const x0 = 40, x1 = W - 40, y = H - 26, span = END - INTRO
+  g.globalAlpha = a
+  eras.forEach((e, j) => {
+    const s0 = STARTS[j], s1 = s0 + (e.duration ?? 6.5)
+    const ax = x0 + ((s0 - INTRO) / span) * (x1 - x0) + 2, bx = x0 + ((s1 - INTRO) / span) * (x1 - x0) - 2
+    g.fillStyle = 'rgba(242,240,243,0.12)'; g.fillRect(ax, y, bx - ax, 4)
+    const fill = clamp((t - s0) / (s1 - s0))
+    if (fill > 0) { g.fillStyle = rgba(e.color, t >= s1 ? 0.75 : 1); g.fillRect(ax, y, (bx - ax) * fill, 4) }
+    if (t >= s0 && t < s1) text(e.year, ax, y - 10, 15, rgba(e.color, 1), 600, 'left', MONO)
+  })
+  g.globalAlpha = 1
+}
+function subtitle(s, a) {
+  if (a <= 0) return
+  g.globalAlpha = a
+  g.font = `500 34px ${FONT}`
+  // Wrap to at most two lines of ~1300 px.
+  const words = s.split(' '), lines = ['']
+  for (const w of words) { const next = lines[lines.length - 1] ? lines[lines.length - 1] + ' ' + w : w; if (g.measureText(next).width > 1300 && lines[lines.length - 1]) lines.push(w); else lines[lines.length - 1] = next }
+  const w = Math.max(...lines.map((l) => g.measureText(l).width)) + 64, h = lines.length * 46 + 26
+  g.fillStyle = 'rgba(11,10,18,0.72)'; g.fillRect((W - w) / 2, H - 70 - h, w, h)
+  lines.forEach((l, n) => text(l, W / 2, H - 70 - h + 48 + n * 46, 34, '#f2f0f3', 500, 'center'))
+  g.globalAlpha = 1
+}
+
+window.render = function (t) {
+  g.setTransform(1, 0, 0, 1, 0, 0)
+  if (t < INTRO) {
+    drawGlobe(t)
+    const k = seg(t, INTRO - 1.2, INTRO)
+    if (k > 0) { g.globalAlpha = k; g.fillStyle = '#0b0a12'; g.fillRect(0, 0, W, H); g.globalAlpha = 1 }
+    return
+  }
+  const c = camera(t)
+  drawSlab(c)
+  const end = END
+  if (t >= end) {
+    // Outro: every era's outline, oldest first: the city's rings.
+    const k = seg(t, end, end + 2.5)
+    // Every era's lit layer comes back, oldest first, so the rings stack up like tree rings.
+    eras.forEach((e, j) => { const a = seg(t, end + j * 0.22, end + 0.9 + j * 0.22); if (a > 0 && !e.lines.length) drawArea(c, e, 1, 0.1 * a, { bloom: false }) })
+    eras.forEach((e, j) => { const a = seg(t, end + j * 0.25, end + 1 + j * 0.25); if (e.polys.length || e.lines.length) { g.save(); g.strokeStyle = rgba(e.color, 0.95 * a); g.lineWidth = 2.5; g.shadowColor = rgba(e.color, 0.8); g.shadowBlur = 10; e.polys.forEach((p) => { trace(c, p); g.stroke() }); e.lines.forEach((l) => { trace(c, l, false); g.stroke() }); g.restore() } })
+    hud(c, '')
+    g.globalAlpha = k
+    text(S.title.en, 96, 190, 80, '#f2f0f3', 700); text(S.title.sub ?? '', 100, 246, 34, '#c9c5d3', 400)
+    let ly = 320
+    for (const e of eras) { g.fillStyle = e.color; g.fillRect(100, ly - 12, 28, 6); text(`${e.year} · ${e.label}`, 144, ly, 22, '#dcd9e4'); if (e.km2) { const w = g.measureText(`${e.year} · ${e.label}`).width; text(`≈ ${fmtKm2(e.km2)} km²`, 156 + w, ly, 18, 'rgba(220,217,228,0.55)', 400, 'left', MONO) } ly += 34 }
+    subtitle(S.outro, fadeIO(t, end + 0.6, T - 1.4, 0.4))
+    g.globalAlpha = 1
+    const z = seg(t, T - 1.6, T)
+    if (z > 0) { g.globalAlpha = z; g.fillStyle = '#0b0a12'; g.fillRect(0, 0, W, H); if (S.endCard?.title) { text(S.endCard.title, W / 2, H / 2 - 10, 88, '#f2f0f3', 700, 'center'); if (S.endCard.sub) text(S.endCard.sub, W / 2, H / 2 + 60, 40, '#d9ff43', 500, 'center') } g.globalAlpha = 1 }
+    if (t < end + 0.8) { g.globalAlpha = 1 - seg(t, end, end + 0.8); g.globalAlpha = 1 }
+    return
+  }
+  const i = eraAt(t), e = eras[i], from = STARTS[i], to = from + (e.duration ?? 6.5)
+  // Layer by layer: earlier eras stay lit as dimmer layers (older = dimmer) with their outlines,
+  // so each new extent grows visibly on top of everything before it.
+  // Only the previous era keeps a dim fill (stacking every layer additively washes the colours
+  // out to grey); older eras keep their outlines. The new front sweeps over the old lights.
+  const prev = eras[i - 1]
+  if (prev) drawArea(c, prev, 1, lerp(1, prev.lines.length ? 0 : 0.3, seg(t, from, from + 1.6)), { bloom: t < from + 1.6 })
+  for (let j = 0; j < i; j++) if (eras[j].polys.length) { g.strokeStyle = rgba(eras[j].color, 0.45); g.lineWidth = 1.5; eras[j].polys.forEach((p) => { trace(c, p); g.stroke() }) }
+  const prevPoly = eras.slice(0, i).reverse().find((x) => x.polys.length) ?? null
+  drawArea(c, e, clamp((t - from - 0.4) / (e.lines.length ? 4.5 : 3.2)), 1, { prev: prevPoly })
+  ;(e.events ?? []).forEach((ev, n, all) => {
+    // One card at a time: an era's cards share its time evenly.
+    const span = ((e.duration ?? 6.5) - 1.6) / all.length, a0 = from + 1.3 + n * span
+    drawEvent(c, ev, fadeIO(t, a0, n === all.length - 1 ? to - 0.3 : a0 + span, 0.45), t, n)
+  })
+  hud(c, '')
+  // Year block, top left.
+  const a = fadeIO(t, from, to, 0.5)
+  g.globalAlpha = a
+  text(e.label.toUpperCase(), 100, 268, 22, 'rgba(242,240,243,0.75)', 600, 'left', MONO)
+  // The year rolls on from the previous era's, then settles on this era's own label.
+  const y0 = i ? yearNum(eras[i - 1].year) : null, y1 = yearNum(e.year), roll = seg(t, from, from + 1.2)
+  const rolling = y0 !== null && y1 !== null && roll < 1
+  text(rolling ? fmtYear(Math.round(lerp(y0, y1, roll))) : e.year, 96, 360, 112, '#f2f0f3', 300)
+  let sy = 410
+  if (e.stat) { text(e.stat, 100, sy, 26, rgba(e.color, 1), 500); sy += 38 }
+  if (e.km2) {
+    const grow = e.growth && e.growth > 1.05 ? `  ·  ×${e.growth < 10 ? e.growth.toFixed(1) : Math.round(e.growth)}` : ''
+    text(`≈ ${fmtKm2(e.km2)} km²${grow}`, 100, sy, 22, 'rgba(242,240,243,0.6)', 500, 'left', MONO)
+  }
+  g.globalAlpha = 1
+  subtitle(e.narration, fadeIO(t, from + 0.3, to - 0.1, 0.4))
+  timeline(t, seg(t, INTRO, INTRO + 1))
+  // Dip from the globe.
+  if (t < INTRO + 0.8) { g.globalAlpha = 1 - seg(t, INTRO, INTRO + 0.8); g.fillStyle = '#0b0a12'; g.fillRect(0, 0, W, H); g.globalAlpha = 1 }
+}
+window.DURATION = T
+render(0)
+</script>
+</body>
+</html>

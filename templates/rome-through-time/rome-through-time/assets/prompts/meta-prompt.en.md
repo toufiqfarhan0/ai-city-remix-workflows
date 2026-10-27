@@ -1,0 +1,5 @@
+# Rome through time scene
+
+Build an interactive 3D time machine of {{city}} that evolves continuously through {{eras}}. Keep one mounted city graph with stable entity IDs and fixed landmark anchors; derive every visible state from the exact calendar year so reverse scrubbing is path-independent, and stagger roof loss, wall loss, reuse, rebuilding and planting per entity instead of swapping whole era scenes. Author all geometry procedurally in Three.js, with no downloaded models, textures or fonts. Style: {{style}}. Camera: {{camera}}. Interactions: {{interaction}}.
+
+The live page and the film share one engine. The film's year and camera are pure functions of film time (`script(t)`), and the film shows the real interface, not an overlay. Provide the full 16:9 composition for desktop and the film, a compact layout for phones and a 345 by 345 embed, English and Simplified Chinese UI, reduced motion and a single offline HTML with no runtime network, storage or model calls. State that the reconstruction is artistic and approximate, not a survey. {{extraPrompt}}

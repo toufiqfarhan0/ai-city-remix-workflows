@@ -1,0 +1,48 @@
+{
+  "schema": "chronicle-sources-index/1",
+  "sources": [
+    {
+      "id": "s01",
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q36020&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+      "final_url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q36020&props=claims%7Csitelinks%7Clabels%7Cdescriptions%7Caliases&format=json&utf8=1",
+      "tier": 2,
+      "publisher": "wikimedia",
+      "lang": null,
+      "retrieved_at": "2026-10-21T05:42:31.840Z",
+      "sha256": "1df68c51fa0d7d203d864e22a0962deab55b80889fbaa72220c4d746276c225c",
+      "bytes": 139160,
+      "kind": "wikidata"
+    },
+    {
+      "id": "s02",
+      "url": "https://cbdb.fas.harvard.edu/cbdbapi/person?id=0003767&o=json",
+      "final_url": "https://cbdb.fas.harvard.edu/cbdbapi/person?id=0003767&o=json",
+      "tier": 1,
+      "publisher": "cbdb",
+      "lang": null,
+      "retrieved_at": "2026-10-21T05:42:31.840Z",
+      "sha256": "f96976f36e6518d3eea9195771e845c5673d75e021361159beeeab1cd5456c4d",
+      "bytes": 555093,
+      "kind": "adapter",
+      "adapter": "cbdb"
+    },
+    {
+      "id": "s03",
+      "url": "https://zh.wikipedia.org/zh-hans/%E8%8B%8F%E8%BD%BC",
+      "final_url": "https://zh.wikipedia.org/zh-hans/%E8%8B%8F%E8%BD%BC",
+      "tier": 2,
+      "publisher": "wikimedia",
+      "lang": "zh-CN",
+      "retrieved_at": "2026-10-21T05:42:31.840Z",
+      "sha256": "af2e671724016a1b828b4d02f534a6ee2e6367c38cb4a2811dbc7542eb5a1775",
+      "bytes": 8419,
+      "kind": "text",
+      "via": "agent"
+    }
+  ],
+  "warnings": [
+    "fetch_failed:en.wikipedia.org",
+    "fetch_failed:zh.wikipedia.org",
+    "fetch_http:403:www.britannica.com"
+  ]
+}

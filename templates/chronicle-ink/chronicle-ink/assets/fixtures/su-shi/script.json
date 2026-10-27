@@ -1,0 +1,333 @@
+{
+  "schema": "chronicle-script/2",
+  "seconds": 150,
+  "aspect": "16:9",
+  "subject": "person",
+  "structure": "arc",
+  "seal": "坡",
+  "title": { "en": "Su Shi: Exiled Again, Living as Dongpo", "zh-CN": "苏轼：一贬再贬，过成东坡" },
+  "title_claims": ["agent.013", "agent.024", "agent.016"],
+  "shots": [
+    {
+      "id": "S01", "section": "intro", "bars": 2, "size": "wide", "camera": "push-in", "transition": "cut",
+      "scene": "river-mist", "params": { "title": true, "moon": true, "boat": true },
+      "description": "Night river in layered mist under a pale moon; one small boat with a seated figure seen from far away",
+      "motion": "slow push-in; title wipes in on beat 1; ripples drift",
+      "sfx": [{ "beat": 4, "kind": "brush", "tier": "normal", "dur_beats": 2 }],
+      "kind": "fact", "claims": ["agent.013", "agent.024", "agent.026"], "rehook": true,
+      "caption": {
+        "en": { "text": "Huangzhou, Huizhou, then Changhua: exiled again and again.", "em": ["exiled again and again"] },
+        "zh-CN": { "text": "从黄州到惠州，再到昌化军，他一贬再贬。", "em": ["一贬再贬"] }
+      }
+    },
+    {
+      "id": "S02", "section": "intro", "bars": 2, "size": "close", "camera": "hold", "transition": "ink-bleed",
+      "scene": "ink-name", "params": { "text": "东坡", "stamp_beat": 6 },
+      "description": "Close on xuan paper: a brush writes the two characters 东坡 in big strokes, then a cinnabar seal is pressed",
+      "motion": "strokes appear over beats 0-5; seal stamps on beat 6",
+      "sfx": [{ "beat": 0, "kind": "brush", "tier": "normal", "dur_beats": 3 }, { "beat": 6, "kind": "seal", "tier": "emphasis" }],
+      "kind": "fact", "claims": ["agent.017"],
+      "caption": {
+        "en": { "text": "The name of a field became his own.", "em": ["his own"] },
+        "zh-CN": { "text": "一块地的名字，后来成了他的名字。", "em": ["他的名字"] }
+      }
+    },
+    {
+      "id": "S03", "section": "verse", "bars": 2, "size": "wide", "camera": "pan-right", "transition": "ink-bleed",
+      "scene": "meishan-hills", "params": {},
+      "description": "Misty Sichuan hills, terraced slopes and a small town of tiled roofs by a river",
+      "motion": "pan right across three depth layers; mist bands drift",
+      "sfx": [{ "beat": 2, "kind": "appear", "tier": "normal" }],
+      "kind": "fact", "claims": ["s01.003", "s02.004"],
+      "caption": {
+        "en": { "text": "The story begins in Meishan.", "em": ["Meishan"] },
+        "zh-CN": { "text": "故事从眉山开始。", "em": ["眉山"] }
+      }
+    },
+    {
+      "id": "S04", "section": "verse", "bars": 2, "size": "medium", "camera": "hold", "transition": "cut",
+      "scene": "desk-scroll", "params": { "mode": "birth" },
+      "description": "A handscroll unrolls on a desk beside an inkstone; plum blossoms grow on the scroll",
+      "motion": "scroll unrolls beats 0-3; plum grows beats 2-7",
+      "sfx": [{ "beat": 0, "kind": "scroll", "tier": "normal", "dur_beats": 2 }, { "beat": 4, "kind": "appear", "tier": "normal" }],
+      "kind": "fact", "claims": ["s01.001", "agent.018", "s01.006"],
+      "caption": {
+        "en": { "text": "Born on 8 January 1037; courtesy name Zizhan.", "em": ["1037"] },
+        "zh-CN": { "text": "1037年1月8日，苏轼出生，字子瞻。", "em": ["子瞻"] }
+      }
+    },
+    {
+      "id": "S05", "section": "verse", "bars": 2, "size": "medium", "camera": "push-in", "transition": "cut",
+      "scene": "scholar-walk", "params": { "figures": 2, "gate": true },
+      "description": "Two robed scholars seen from behind walk toward a city gate under a wide sky",
+      "motion": "figures walk toward the gate; card appears on beat 1",
+      "sfx": [],
+      "kind": "fact", "claims": ["agent.001", "agent.002"], "kp": "kp1", "rehook": true,
+      "caption": {
+        "en": { "text": "In 1057 he and his brother passed the jinshi exam.", "em": ["jinshi"] },
+        "zh-CN": { "text": "1057年，他和弟弟一同进京赶考，考中进士。", "em": ["考中进士"] }
+      }
+    },
+    {
+      "id": "S06", "section": "verse", "bars": 2, "size": "wide", "camera": "parallax", "transition": "ink-bleed",
+      "scene": "west-lake", "params": {},
+      "description": "A lake city with willows, a causeway and a pavilion, painted in ink and indigo wash",
+      "motion": "parallax drift; willow tips sway",
+      "sfx": [{ "beat": 2, "kind": "appear", "tier": "normal" }],
+      "kind": "fact", "claims": ["agent.003", "agent.004"],
+      "caption": {
+        "en": { "text": "In 1071 he went to Hangzhou as vice-prefect.", "em": ["Hangzhou"] },
+        "zh-CN": { "text": "1071年，他到杭州出任通判。", "em": ["杭州"] }
+      }
+    },
+    {
+      "id": "S07", "section": "verse", "bars": 2, "size": "wide", "camera": "pan-left", "transition": "cut",
+      "scene": "flood-city", "params": {},
+      "description": "A walled city with a river bursting its banks; small silhouettes carry earth to the wall",
+      "motion": "water lines surge on beat 0 and beat 4; figures move",
+      "sfx": [{ "beat": 0, "kind": "reveal", "tier": "emphasis" }],
+      "kind": "fact", "claims": ["agent.007", "agent.008"],
+      "caption": {
+        "en": { "text": "In Xuzhou the Yellow River burst; he joined the flood relief.", "em": ["Yellow River"] },
+        "zh-CN": { "text": "在徐州，黄河决口，他亲自参加救灾。", "em": ["黄河决口"] }
+      }
+    },
+    {
+      "id": "S08", "section": "verse", "bars": 2, "size": "close", "camera": "push-in", "transition": "cut",
+      "scene": "desk-scroll", "params": { "mode": "seal" },
+      "description": "An official letter on the desk; a seal is pressed onto it",
+      "motion": "push-in; seal stamps on beat 4",
+      "sfx": [{ "beat": 4, "kind": "seal", "tier": "emphasis" }],
+      "kind": "fact", "claims": ["agent.009", "agent.010"],
+      "caption": {
+        "en": { "text": "In 1079 he became prefect of Huzhou. And then?", "em": ["Huzhou"] },
+        "zh-CN": { "text": "1079年，他移知湖州。接下来呢？", "em": ["湖州"] }
+      }
+    },
+    {
+      "id": "S09", "section": "build", "bars": 2, "size": "medium", "camera": "push-in", "transition": "seal-stamp",
+      "scene": "prison-bars", "params": {},
+      "description": "Heavy ink bars of a cell, a single candle flickering behind them",
+      "motion": "bars slam in on beat 0; candle flickers",
+      "sfx": [{ "beat": 2, "kind": "transition", "tier": "emphasis" }],
+      "kind": "fact", "hedge": "attributed", "claims": ["agent.011"], "rehook": true,
+      "caption": {
+        "en": { "text": "Records say he was jailed that year and nearly died.", "em": ["jailed"] },
+        "zh-CN": { "text": "据记载，同年他因乌台诗案入狱，几乎丧命。", "em": ["乌台诗案"] }
+      }
+    },
+    {
+      "id": "S10", "section": "build", "bars": 1, "size": "detail", "camera": "hold", "transition": "cut",
+      "scene": "prison-bars", "params": { "detail": true },
+      "description": "Detail: a writing brush lying on the floor in the candlelight",
+      "motion": "ink drop spreads from the brush tip on beat 1",
+      "sfx": [{ "beat": 1, "kind": "appear", "tier": "normal" }],
+      "kind": "question", "claims": [],
+      "caption": {
+        "en": { "text": "What would you do now?", "em": ["you"] },
+        "zh-CN": { "text": "换作是你，此刻会怎么想？", "em": ["换作是你"] }
+      }
+    },
+    {
+      "id": "S11", "section": "build", "bars": 1, "size": "wide", "camera": "push-in", "transition": "cut",
+      "scene": "boat-departure", "params": { "mode": "dawn" },
+      "description": "A small official boat leaves a city gate at dawn on a grey river",
+      "motion": "boat glides right; mist rises",
+      "sfx": [],
+      "kind": "fact", "claims": ["agent.013"],
+      "caption": {
+        "en": { "text": "Spared, he was demoted to Huangzhou.", "em": ["Huangzhou"] },
+        "zh-CN": { "text": "他免于一死，被贬为黄州团练副使。", "em": ["黄州"] }
+      }
+    },
+    {
+      "id": "S12", "section": "drop", "bars": 2, "size": "wide", "camera": "pan-left", "transition": "cut",
+      "scene": "dongpo-field", "params": {},
+      "description": "A hillside field east of a riverside town; a robed farmer in a straw hat hoes the slope (silhouette)",
+      "motion": "pan left; hoe strokes on beats 2 and 6; card appears on beat 1",
+      "sfx": [{ "beat": 4, "kind": "appear", "tier": "normal" }],
+      "kind": "fact", "claims": ["agent.012", "agent.014", "agent.017"], "kp": "kp2",
+      "caption": {
+        "en": { "text": "In 1080, in Huangzhou, he farmed a plot of land.", "em": ["farmed"] },
+        "zh-CN": { "text": "1080年，他来到黄州，躬耕一块地。", "em": ["躬耕"] }
+      }
+    },
+    {
+      "id": "S13", "section": "drop", "bars": 2, "size": "close", "camera": "hold", "transition": "cut",
+      "scene": "ink-name", "params": { "text": "东坡居士", "stamp_beat": 1, "vertical": true },
+      "description": "The four characters 东坡居士 written vertically, a seal beside them",
+      "motion": "characters reveal beats 0-4; seal on the card beat",
+      "sfx": [{ "beat": 0, "kind": "brush", "tier": "normal", "dur_beats": 4 }],
+      "kind": "fact", "claims": ["agent.016", "agent.017"], "kp": "kp3",
+      "caption": {
+        "en": { "text": "He named it Dongpo, and himself Dongpo Jushi.", "em": ["Dongpo Jushi"] },
+        "zh-CN": { "text": "他把它命名为东坡，自号东坡居士。", "em": ["东坡居士"] }
+      }
+    },
+    {
+      "id": "S14", "section": "drop", "bars": 2, "size": "wide", "camera": "parallax", "transition": "cut",
+      "scene": "fishermen-river", "params": {},
+      "description": "Fishing boats and a woodcutter on a river bank; a scholar sits among them by a small fire",
+      "motion": "parallax; nets cast on beat 2; smoke rises",
+      "sfx": [{ "beat": 2, "kind": "appear", "tier": "normal" }, { "beat": 6, "kind": "appear", "tier": "normal" }],
+      "kind": "fact", "claims": ["agent.015"],
+      "caption": {
+        "en": { "text": "He roamed hills and rivers with fishermen and woodcutters.", "em": ["fishermen and woodcutters"] },
+        "zh-CN": { "text": "他放浪山水之间，与渔樵杂处。", "em": ["放浪山水"] }
+      }
+    },
+    {
+      "id": "S15", "section": "drop", "bars": 2, "size": "wide", "camera": "pull-out", "transition": "cut",
+      "scene": "dongpo-field", "params": { "dusk": true },
+      "description": "The same field at dusk seen from above the river, the farmer small in the frame",
+      "motion": "pull-out; geese cross on beat 4",
+      "sfx": [{ "beat": 4, "kind": "brush", "tier": "normal", "dur_beats": 2 }],
+      "kind": "fact", "claims": ["agent.014", "agent.020"],
+      "caption": {
+        "en": { "text": "Huangzhou was home from 1080 to 1084.", "em": ["1080 to 1084"] },
+        "zh-CN": { "text": "他在黄州，从1080年住到1084年。", "em": ["黄州"] }
+      }
+    },
+    {
+      "id": "S16", "section": "breakdown", "bars": 2, "size": "wide", "camera": "pan-right", "transition": "scroll-pan",
+      "scene": "red-cliff", "params": {},
+      "description": "Red cliffs over a moonlit river with a small boat below",
+      "motion": "pan right; moon glints on beat 4",
+      "sfx": [{ "beat": 4, "kind": "appear", "tier": "normal" }],
+      "kind": "fact", "hedge": "attributed", "claims": ["agent.019"], "rehook": true,
+      "caption": {
+        "en": { "text": "Records say in 1082 he wrote the First Ode on the Red Cliff.", "em": ["First Ode on the Red Cliff"] },
+        "zh-CN": { "text": "据记载，1082年他游赤壁，写下《前赤壁赋》。", "em": ["《前赤壁赋》"] }
+      }
+    },
+    {
+      "id": "S17", "section": "breakdown", "bars": 2, "size": "wide", "camera": "push-in", "transition": "ink-bleed",
+      "scene": "scholar-walk", "params": { "figures": 1, "road": true, "autumn": true },
+      "description": "A lone traveller on a northern road in autumn wind",
+      "motion": "push-in; leaves blow across",
+      "sfx": [],
+      "kind": "fact", "claims": ["agent.020", "agent.021", "agent.014"],
+      "caption": {
+        "en": { "text": "In 1084 he left Huangzhou for Ruzhou.", "em": ["Ruzhou"] },
+        "zh-CN": { "text": "1084年，他离开黄州，改任汝州。", "em": ["汝州"] }
+      }
+    },
+    {
+      "id": "S18", "section": "breakdown", "bars": 2, "size": "medium", "camera": "hold", "transition": "cut",
+      "scene": "banana-monastery", "params": {},
+      "description": "Southern banana leaves and a monastery roof in humid haze",
+      "motion": "leaves sway; card appears on beat 1",
+      "sfx": [],
+      "kind": "fact", "claims": ["agent.024", "agent.025"], "kp": "kp4",
+      "caption": {
+        "en": { "text": "In 1094 he was exiled again, to Huizhou.", "em": ["Huizhou"] },
+        "zh-CN": { "text": "1094年，他又被贬到惠州。", "em": ["惠州"] }
+      }
+    },
+    {
+      "id": "S19", "section": "breakdown", "bars": 2, "size": "wide", "camera": "hold", "transition": "ink-bleed",
+      "scene": "open-sea", "params": {},
+      "description": "Open sea with a single sail and a distant coastline (no borders), long horizon",
+      "motion": "waves roll; sail drifts left; card on beat 1",
+      "sfx": [],
+      "kind": "fact", "claims": ["agent.026", "agent.027"], "kp": "kp5",
+      "caption": {
+        "en": { "text": "In 1097 he was placed under watch in Changhua.", "em": ["Changhua"] },
+        "zh-CN": { "text": "1097年，他被安置在昌化军。", "em": ["昌化军"] }
+      }
+    },
+    {
+      "id": "S20", "section": "build2", "bars": 2, "size": "wide", "camera": "push-in", "transition": "cut",
+      "scene": "boat-departure", "params": { "mode": "harbour" },
+      "description": "A coastal harbour in morning light; boats raise sails and head north",
+      "motion": "sails rise on beats 2 and 4",
+      "sfx": [{ "beat": 2, "kind": "appear", "tier": "normal" }, { "beat": 4, "kind": "appear", "tier": "emphasis" }],
+      "kind": "fact", "claims": ["agent.029", "agent.030"], "rehook": true,
+      "caption": {
+        "en": { "text": "In 1100 his place of exile moved to Lianzhou.", "em": ["Lianzhou"] },
+        "zh-CN": { "text": "1100年，他的贬所移到廉州。", "em": ["廉州"] }
+      }
+    },
+    {
+      "id": "S21", "section": "build2", "bars": 2, "size": "medium", "camera": "push-in", "transition": "cut",
+      "scene": "scholar-walk", "params": { "figures": 1, "bank": true, "old": true },
+      "description": "An old scholar seen from behind, standing on a river bank looking north",
+      "motion": "push-in toward the horizon; wind in the robe",
+      "sfx": [{ "beat": 6, "kind": "transition", "tier": "emphasis", "dur_beats": 2 }],
+      "kind": "question", "claims": [],
+      "caption": {
+        "en": { "text": "Would the road north ever open?", "em": ["north"] },
+        "zh-CN": { "text": "北归的路，会不会就此打开？", "em": ["北归"] }
+      }
+    },
+    {
+      "id": "S22", "section": "drop2", "bars": 4, "size": "wide", "camera": "hold", "transition": "cut",
+      "scene": "exile-map", "params": {},
+      "description": "Abstract ink terrain with rivers (no borders); a cinnabar route draws through his postings",
+      "motion": "route draws from beat 0 to beat 13; each stop pops as the brush reaches it",
+      "sfx": [{ "beat": 0, "kind": "route", "tier": "emphasis", "dur_beats": 13 }, { "beat": 4, "kind": "appear", "tier": "normal" }, { "beat": 8, "kind": "appear", "tier": "normal" }, { "beat": 13, "kind": "seal", "tier": "climax" }],
+      "kind": "fact", "claims": ["agent.003", "agent.005", "agent.007", "agent.009", "agent.014", "agent.024", "agent.026"],
+      "caption": {
+        "en": { "text": "Hangzhou, Mizhou, Xuzhou, Huzhou, Huangzhou, Huizhou, Changhua.", "em": ["Huangzhou"] },
+        "zh-CN": { "text": "杭州、密州、徐州、湖州、黄州、惠州、昌化军。", "em": ["黄州"] }
+      }
+    },
+    {
+      "id": "S23", "section": "drop2", "bars": 2, "size": "wide", "camera": "push-in", "transition": "ink-bleed",
+      "scene": "lamp-house", "params": {},
+      "description": "A quiet riverside house at dusk with a single lamp in the window",
+      "motion": "lamp glows, then dims at the end of the shot",
+      "sfx": [],
+      "kind": "fact", "claims": ["s01.002", "s01.004", "agent.031"], "kp": "kp6",
+      "caption": {
+        "en": { "text": "In 1101 he died in Changzhou.", "em": ["1101"] },
+        "zh-CN": { "text": "1101年，他在常州去世。", "em": ["常州"] }
+      }
+    },
+    {
+      "id": "S24", "section": "drop2", "bars": 2, "size": "close", "camera": "hold", "transition": "cut",
+      "scene": "ink-name", "params": { "text": "东坡居士", "stamp_beat": 5, "vertical": true, "final": true },
+      "description": "The name 东坡居士 again, now with ink bleeding outward and a large seal",
+      "motion": "ink blooms beats 0-4; seal on beat 5",
+      "sfx": [{ "beat": 5, "kind": "seal", "tier": "climax" }],
+      "kind": "fact", "claims": ["agent.013", "agent.024", "agent.016"],
+      "caption": {
+        "en": { "text": "From exile to exile, he kept the name Dongpo.", "em": ["Dongpo"] },
+        "zh-CN": { "text": "一贬再贬，他把苦日子，过成了东坡。", "em": ["东坡"] }
+      }
+    },
+    {
+      "id": "S25", "section": "outro", "bars": 3, "size": "wide", "camera": "pull-out", "transition": "ink-bleed",
+      "scene": "river-mist", "params": { "dawn": true, "boat": true, "empty": true },
+      "description": "Dawn on the misty river; the boat is empty, wide negative space",
+      "motion": "slow pull-out; mist thickens",
+      "sfx": [],
+      "kind": "fact", "claims": ["agent.018", "agent.016"], "rehook": true,
+      "caption": {
+        "en": { "text": "Courtesy name Zizhan, art name Dongpo Jushi.", "em": ["Dongpo Jushi"] },
+        "zh-CN": { "text": "他字子瞻，号东坡居士。", "em": ["东坡居士"] }
+      }
+    },
+    {
+      "id": "S26", "section": "outro", "bars": 4, "size": "wide", "camera": "hold", "transition": "cut",
+      "scene": "river-mist", "params": { "dawn": true, "boat": false, "fade": true },
+      "description": "Mist fills the frame for the end card",
+      "motion": "mist rises until the paper is almost blank",
+      "sfx": [],
+      "kind": "question", "claims": [],
+      "caption": {
+        "en": { "text": "Could you turn exile into poetry?", "em": ["poetry"] },
+        "zh-CN": { "text": "如果是你，还能把日子过成诗吗？", "em": ["过成诗"] }
+      }
+    }
+  ],
+  "knowledge_points": [
+    { "id": "kp1", "claims": ["agent.001"], "count": 1057, "card": { "en": { "title": "Jinshi degree", "value": "1057" }, "zh-CN": { "title": "考中进士", "value": "1057" } } },
+    { "id": "kp2", "claims": ["agent.012"], "count": 1080, "card": { "en": { "title": "Demoted to Huangzhou", "value": "1080" }, "zh-CN": { "title": "黄州团练副使", "value": "1080" } } },
+    { "id": "kp3", "claims": ["agent.016"], "card": { "en": { "title": "Art name", "value": "Dongpo Jushi" }, "zh-CN": { "title": "自号", "value": "东坡居士" } } },
+    { "id": "kp4", "claims": ["agent.024"], "count": 1094, "card": { "en": { "title": "Exiled to Huizhou", "value": "1094" }, "zh-CN": { "title": "贬至惠州", "value": "1094" } } },
+    { "id": "kp5", "claims": ["agent.026"], "count": 1097, "card": { "en": { "title": "Placed in Changhua", "value": "1097" }, "zh-CN": { "title": "安置昌化军", "value": "1097" } } },
+    { "id": "kp6", "claims": ["s01.002"], "count": 1101, "card": { "en": { "title": "Died", "value": "1101" }, "zh-CN": { "title": "卒年", "value": "1101" } } }
+  ],
+  "end_card": { "line": { "en": "Dongpo Jushi: Su Shi.", "zh-CN": "东坡居士，苏轼。" }, "claims": ["agent.016"] }
+}

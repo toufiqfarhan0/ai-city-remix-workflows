@@ -1,0 +1,111 @@
+{
+  "schema": "chronicle-sources/1",
+  "note": "Paths are relative to assets/. Every bundled third-party or generated file is listed with its sha256.",
+  "files": [
+    {
+      "path": "fonts/LXGWWenKai-Regular.ttf",
+      "sha256": "efdf69841720962ffed30d73cc1ae79e417e1d58869e871917c789fcc1531c25",
+      "bytes": 3416576,
+      "license": "OFL-1.1",
+      "source": "https://github.com/lxgw/LxgwWenKai (LXGW WenKai Regular subset, 6,898 code points; same file as the sketchbook-film Skill)"
+    },
+    {
+      "path": "fonts/OFL-LXGWWenKai.txt",
+      "sha256": "c38b1994a5e48ac30ac7d1da7d0409fd8fd8127dfe28a13d6e787d5b1ef34a5e",
+      "bytes": 4448,
+      "license": "OFL-1.1",
+      "source": "https://github.com/lxgw/LxgwWenKai (licence text)"
+    },
+    {
+      "path": "fonts/OFL-Noto.txt",
+      "sha256": "45d545469122348b916bfa4d362f691c3f7f3af7169fd46f920845cae97923df",
+      "bytes": 4519,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 LICENSE (Noto Project Authors)"
+    },
+    {
+      "path": "fonts/noto-naskh-arabic-arabic-400-normal.woff2",
+      "sha256": "9cc2d2e90f7b51904468558b4ed529de8a8206497c8edb5e33122bd077e0158c",
+      "bytes": 52668,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-naskh-arabic 5.3.0 (files/noto-naskh-arabic-arabic-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-sans-devanagari-400-normal.woff2",
+      "sha256": "1ccb720178c307d17a30f2f8eda43c2f9ffa831c02cb7f7d9d7b8708bcbaf43c",
+      "bytes": 42676,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-sans 5.3.0 (files/noto-sans-devanagari-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-sans-latin-400-normal.woff2",
+      "sha256": "09aee8065d25508f23a4c3d92cd777ac869c52d93fd868a88f025d888a7937d6",
+      "bytes": 13120,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-sans 5.3.0 (files/noto-sans-latin-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-serif-cyrillic-400-normal.woff2",
+      "sha256": "8deaf453448fb06f5cdd79262bc0a22a8af999541ef2639202f6dc44d0cae392",
+      "bytes": 7800,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 (files/noto-serif-cyrillic-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-serif-greek-400-normal.woff2",
+      "sha256": "4f87b0a2fc2f0a9ce734414bb54edb9bb3e9f0143c4d17e3879881adf8058cfa",
+      "bytes": 9368,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 (files/noto-serif-greek-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-serif-latin-400-normal.woff2",
+      "sha256": "4c0cbe3eec50d260754d681c17ee2af49a43d7fd93ce42877f665fcb1a889b87",
+      "bytes": 14400,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 (files/noto-serif-latin-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-serif-latin-700-normal.woff2",
+      "sha256": "0d0b440760c93e6fec440ad438d10cea6c70367a0f5ecfcfa15cef0a85c67093",
+      "bytes": 15232,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 (files/noto-serif-latin-700-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-serif-latin-ext-400-normal.woff2",
+      "sha256": "536857e8de0e3b12176fefbf1233a294c7dece1f2f4d018d26cb386a8de75cd0",
+      "bytes": 60236,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 (files/noto-serif-latin-ext-400-normal.woff2)"
+    },
+    {
+      "path": "fonts/noto-serif-vietnamese-400-normal.woff2",
+      "sha256": "207dac0723db2e3832fb864c23a416dd953df68b27289acaec79ed94cd37b7ee",
+      "bytes": 5240,
+      "license": "OFL-1.1",
+      "source": "@fontsource/noto-serif 5.3.0 (files/noto-serif-vietnamese-400-normal.woff2)"
+    },
+    {
+      "path": "ident/seal.svg",
+      "sha256": "a07a2cc6729a6d82616379a21352ab377cd6ad88ba65043287e355aa27d71a91",
+      "bytes": 1134,
+      "license": "MIT",
+      "source": "made for this Skill"
+    },
+    {
+      "path": "vendor/GSAP-LICENSE.txt",
+      "sha256": "0ceec4a12e50ffb6ef3f9a18371aae629d8440c3cef981f8f9cfc842449e898c",
+      "bytes": 6960,
+      "license": "GSAP Standard License",
+      "source": "https://gsap.com/standard-license/ (text copy)"
+    },
+    {
+      "path": "vendor/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "bytes": 72779,
+      "license": "GSAP Standard License",
+      "source": "https://www.npmjs.com/package/gsap (gsap 3.14.2, dist/gsap.min.js)"
+    }
+  ]
+}

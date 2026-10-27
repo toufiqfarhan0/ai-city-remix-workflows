@@ -1,0 +1,212 @@
+{
+  "schema": "chronicle-style/2",
+  "id": "chronicle-ink",
+  "name": {
+    "en": "Ink Scroll",
+    "zh-CN": "水墨卷轴"
+  },
+  "palette": {
+    "paper": "#EFE6D2",
+    "paper_shadow": "#D9CDB2",
+    "ink": "#1D1B18",
+    "ink_soft": "#4A453D",
+    "cinnabar": "#B5332A",
+    "ochre": "#A87C4F",
+    "indigo": "#3E5566",
+    "mist": "#C9C2B2",
+    "caption_text": "#1D1B18",
+    "caption_halo": "rgba(239,230,210,0.92)",
+    "min_contrast": 4.5
+  },
+  "typography": {
+    "files": [
+      {
+        "family": "LXGW WenKai",
+        "file": "fonts/LXGWWenKai-Regular.ttf",
+        "role": "han",
+        "license": "fonts/OFL-LXGWWenKai.txt"
+      },
+      {
+        "family": "Noto Serif",
+        "file": "fonts/noto-serif-latin-400-normal.woff2",
+        "role": "latin",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Serif",
+        "file": "fonts/noto-serif-latin-ext-400-normal.woff2",
+        "role": "latin",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Serif",
+        "file": "fonts/noto-serif-vietnamese-400-normal.woff2",
+        "role": "latin",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Serif",
+        "file": "fonts/noto-serif-greek-400-normal.woff2",
+        "role": "latin",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Serif",
+        "file": "fonts/noto-serif-cyrillic-400-normal.woff2",
+        "role": "latin",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Serif",
+        "file": "fonts/noto-serif-latin-700-normal.woff2",
+        "role": "latin",
+        "weight": 700,
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Sans",
+        "file": "fonts/noto-sans-latin-400-normal.woff2",
+        "role": "ui",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Sans",
+        "file": "fonts/noto-sans-devanagari-400-normal.woff2",
+        "role": "ui",
+        "license": "fonts/OFL-Noto.txt"
+      },
+      {
+        "family": "Noto Naskh Arabic",
+        "file": "fonts/noto-naskh-arabic-arabic-400-normal.woff2",
+        "role": "arabic",
+        "license": "fonts/OFL-Noto.txt"
+      }
+    ],
+    "stack": {
+      "han": "\"LXGW WenKai\", \"Noto Serif\", serif",
+      "default": "\"Noto Serif\", \"Noto Naskh Arabic\", \"Noto Sans\", \"LXGW WenKai\", serif"
+    },
+    "scale": {
+      "16:9": {
+        "title": 0.078,
+        "caption": 0.05,
+        "card_title": 0.036,
+        "card_value": 0.085
+      },
+      "9:16": {
+        "title": 0.05,
+        "caption": 0.032,
+        "card_title": 0.026,
+        "card_value": 0.05
+      }
+    }
+  },
+  "captions": {
+    "budget": {
+      "cjk": {
+        "chars_per_line": 16
+      },
+      "spaced": {
+        "words_per_line": 9,
+        "chars_per_line": 42
+      },
+      "max_lines": 2
+    },
+    "16:9": {
+      "bottom": 0.075,
+      "width": 0.78
+    },
+    "9:16": {
+      "bottom": 0.16,
+      "width": 0.86
+    },
+    "highlight": "cinnabar",
+    "lead_beats": 0.5,
+    "min_hold_s": 1.6
+  },
+  "music": {
+    "theme": "ink-theme",
+    "bpm": 88,
+    "key": "D",
+    "mode": "gong pentatonic (D E F# A B)",
+    "lufs": -14,
+    "true_peak": -1.5,
+    "instruments": [
+      "plucked string (guqin-like Karplus-Strong)",
+      "breathy flute (xiao-like)",
+      "low frame drum",
+      "woodblock",
+      "string pad",
+      "bell"
+    ]
+  },
+  "sfx": {
+    "tiers": {
+      "normal": -20,
+      "emphasis": -13,
+      "climax": -7
+    },
+    "kinds": [
+      "transition",
+      "appear",
+      "count",
+      "seal",
+      "route",
+      "reveal",
+      "brush",
+      "scroll"
+    ]
+  },
+  "transitions": [
+    {
+      "id": "cut",
+      "use": "downbeat"
+    },
+    {
+      "id": "ink-bleed",
+      "use": "section or mood change",
+      "beats": 2
+    },
+    {
+      "id": "scroll-pan",
+      "use": "time or place jump",
+      "beats": 2
+    },
+    {
+      "id": "seal-stamp",
+      "use": "knowledge-point card or verdict",
+      "beats": 1
+    }
+  ],
+  "camera": [
+    "hold",
+    "push-in",
+    "pull-out",
+    "pan-left",
+    "pan-right",
+    "rise",
+    "parallax"
+  ],
+  "ident": {
+    "seal": "ident/seal.svg",
+    "series": {
+      "en": "Vibe Knowledge · Ink",
+      "zh-CN": "知识大赏 · 水墨"
+    },
+    "episode_format": {
+      "en": "No. {n}",
+      "zh-CN": "第{n}卷"
+    },
+    "aigc_label": {
+      "en": "AI-generated: drawn and scored by code written by an AI agent. Illustrative only.",
+      "zh-CN": "AI 生成：画面与音乐均由 AI 编写的代码绘制合成，仅作示意"
+    },
+    "aigc_badge": {
+      "en": "AI-generated",
+      "zh-CN": "AI生成"
+    }
+  },
+  "kit": "style/ink-kit.js",
+  "css": "style/ink.css",
+  "rules": "references/style-pack.md"
+}

@@ -1,0 +1,29 @@
+{
+ "schema": "landmark-recipe/1",
+ "id": "brick-campanile",
+ "seed": 1173,
+ "units": "metres",
+ "site": { "ground": "plaza", "radius": 14 },
+ "palette": { "stone": "#b8613f", "trim": "#e9dfc9", "mortar": "#6d5243", "accent": "#7f8c6f", "dome": "#9d4a32", "roof": "#8f4630", "void": "#1f1915", "water": "#2f6e95", "ground": "#cdbf9f" },
+ "stages": [
+  { "id": "footing", "from": 0, "to": 0.06, "label": { "en": "Stone footing", "zh-CN": "石砌基座" } },
+  { "id": "shaft", "from": 0.06, "to": 0.62, "label": { "en": "Brick shaft, course by course", "zh-CN": "砖砌塔身逐层砌筑" } },
+  { "id": "belfry", "from": 0.62, "to": 0.82, "label": { "en": "Belfry arcade", "zh-CN": "钟楼拱廊" } },
+  { "id": "spire", "from": 0.82, "to": 1, "label": { "en": "Cornice and spire", "zh-CN": "檐口与尖顶" } }
+ ],
+ "parts": [
+  { "type": "platform", "stage": "footing", "x": 0, "z": 0, "w": 10, "d": 10, "y": 0, "h": 1.5, "course": 0.5, "step": 2.5, "batter": 0.4, "mat": "trim" },
+  { "type": "walls", "stage": "shaft", "footprint": [[-3.6, -3.6], [3.6, -3.6], [3.6, 3.6], [-3.6, 3.6]], "base": 1.5, "height": 30, "thickness": 1, "course": 0.32, "block": 0.6,
+    "openings": [ { "edge": 2, "at": 0.5, "y": 1.5, "w": 1.4, "h": 2.4, "arch": true }, { "edge": "all", "at": [0.5], "y": 12, "w": 0.5, "h": 1.4, "arch": true }, { "edge": "all", "at": [0.5], "y": 22, "w": 0.5, "h": 1.4, "arch": true } ] },
+  { "type": "stringcourse", "stage": "shaft", "window": [0.5, 0.55], "footprint": [[-3.6, -3.6], [3.6, -3.6], [3.6, 3.6], [-3.6, 3.6]], "y": 16.5 },
+  { "type": "stringcourse", "stage": "belfry", "window": [0, 0.1], "footprint": [[-3.6, -3.6], [3.6, -3.6], [3.6, 3.6], [-3.6, 3.6]], "y": 31.6 },
+  { "type": "walls", "stage": "belfry", "footprint": [[-3.6, -3.6], [3.6, -3.6], [3.6, 3.6], [-3.6, 3.6]], "base": 31.7, "height": 6, "thickness": 1, "course": 0.32, "block": 0.6,
+    "openings": [ { "edge": "all", "at": [0.3, 0.7], "repeat": true, "y": 32.6, "w": 1.6, "h": 2.8, "arch": true } ] },
+  { "type": "stringcourse", "stage": "spire", "window": [0, 0.15], "footprint": [[-3.6, -3.6], [3.6, -3.6], [3.6, 3.6], [-3.6, 3.6]], "y": 37.8, "out": 0.35 },
+  { "type": "roof", "stage": "spire", "x": 0, "z": 0, "y": 38, "w": 7.4, "h": 10, "courses": 18 }
+ ],
+ "copy": {
+  "en": { "title": "Brick Campanile", "place": "A market square", "eyebrow": "A medieval bell tower", "text": "A brick shaft on a stone footing, a belfry with paired arches and a tiled spire.", "disclaimer": "An invented example tower.", "views": { "overview": "Overview", "loggia": "Belfry", "turret": "Door", "crown": "Spire" } },
+  "zh-CN": { "title": "砖砌钟楼", "place": "集市广场", "eyebrow": "中世纪钟楼", "text": "石砌基座上的砖砌塔身，带双拱的钟楼层和瓦面尖顶。", "disclaimer": "虚构的示例塔楼。", "views": { "overview": "全景", "loggia": "钟楼", "turret": "门洞", "crown": "尖顶" } }
+ }
+}

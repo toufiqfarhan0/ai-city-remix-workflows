@@ -1,0 +1,137 @@
+{
+  "schema": "chronicle-known-entities/1",
+  "entities": {
+    "Q12544": {
+      "labels": {
+        "zh-hans": "拜占庭帝国",
+        "zh-hant": "拜占庭帝國",
+        "zh": "拜占庭帝國",
+        "en": "Byzantine Empire"
+      },
+      "aliases": {
+        "zh-hans": [
+          "东罗马帝国",
+          "拜占廷帝国"
+        ],
+        "zh-hant": [
+          "拜占廷帝國"
+        ],
+        "zh": [
+          "东罗马帝国",
+          "東羅馬帝國",
+          "拜占庭帝国",
+          "拜占廷帝国"
+        ],
+        "en": [
+          "Byzantium",
+          "Eastern Roman Empire",
+          "Roman Empire",
+          "Lower Empire",
+          "Romanía",
+          "Greek Empire",
+          "Empire of the Greeks"
+        ]
+      }
+    },
+    "Q12560": {
+      "labels": {
+        "zh-hans": "奥斯曼帝国",
+        "zh-hant": "鄂圖曼帝國",
+        "zh": "奥斯曼帝国",
+        "en": "Ottoman Empire"
+      },
+      "aliases": {
+        "zh-hant": [
+          "鄂圖曼土耳其帝國"
+        ],
+        "zh": [
+          "魯迷"
+        ],
+        "en": [
+          "Ottoman State",
+          "Turkish Empire",
+          "Sublime Ottoman State"
+        ]
+      }
+    },
+    "Q178897": {
+      "labels": {
+        "zh-hans": "拉丁帝国",
+        "zh-hant": "拉丁帝國",
+        "zh": "拉丁帝国",
+        "en": "Latin Empire"
+      },
+      "aliases": {
+        "zh": [
+          "拉丁王国"
+        ],
+        "en": [
+          "Constantinopolitan Empire"
+        ]
+      }
+    },
+    "Q2277": {
+      "labels": {
+        "zh-hans": "罗马帝国",
+        "zh-hant": "羅馬帝國",
+        "zh": "羅馬帝國",
+        "en": "Roman Empire"
+      },
+      "aliases": {
+        "zh": [
+          "罗马帝国"
+        ],
+        "en": [
+          "Imperium Romanum",
+          "Romanum imperium",
+          "imperium romanum",
+          "Roman period"
+        ]
+      }
+    },
+    "Q2854228": {
+      "labels": {
+        "zh": "占领君士坦丁堡",
+        "en": "occupation of Istanbul"
+      },
+      "aliases": {}
+    },
+    "Q43": {
+      "labels": {
+        "zh-hans": "土耳其",
+        "zh-hant": "土耳其",
+        "zh": "土耳其",
+        "en": "Turkey"
+      },
+      "aliases": {
+        "zh-hans": [
+          "土耳其共和国"
+        ],
+        "zh-hant": [
+          "土耳其共和國"
+        ],
+        "zh": [
+          "土耳其共和国"
+        ],
+        "en": [
+          "Republic of Türkiye",
+          "Republic of Turkey"
+        ]
+      }
+    },
+    "Q534799": {
+      "labels": {
+        "zh-hant": "伊斯坦堡省",
+        "zh": "伊斯坦堡省",
+        "en": "Istanbul Province"
+      },
+      "aliases": {
+        "en": [
+          "İstanbul Province",
+          "Istanbul",
+          "İstanbul"
+        ]
+      }
+    }
+  }
+}

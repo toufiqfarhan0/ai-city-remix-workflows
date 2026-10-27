@@ -1,0 +1,1890 @@
+{
+  "schema": "chronicle-timeline/2",
+  "theme": "ink-theme",
+  "seconds": 150,
+  "fps": 30,
+  "frames": 4500,
+  "aspect": "16:9",
+  "lang": "en",
+  "dir": "ltr",
+  "bpm": 88,
+  "bar_s": 2.727,
+  "beat_s": 0.682,
+  "sections": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 10.9,
+      "start_frame": 0,
+      "start_bar": 0,
+      "bars": 4
+    },
+    {
+      "id": "verse",
+      "start": 10.9,
+      "end": 43.63333333333333,
+      "start_frame": 327,
+      "start_bar": 4,
+      "bars": 12
+    },
+    {
+      "id": "build",
+      "start": 43.63333333333333,
+      "end": 54.53333333333333,
+      "start_frame": 1309,
+      "start_bar": 16,
+      "bars": 4
+    },
+    {
+      "id": "drop",
+      "start": 54.53333333333333,
+      "end": 76.36666666666666,
+      "start_frame": 1636,
+      "start_bar": 20,
+      "bars": 8
+    },
+    {
+      "id": "breakdown",
+      "start": 76.36666666666666,
+      "end": 98.16666666666667,
+      "start_frame": 2291,
+      "start_bar": 28,
+      "bars": 8
+    },
+    {
+      "id": "build2",
+      "start": 98.16666666666667,
+      "end": 109.1,
+      "start_frame": 2945,
+      "start_bar": 36,
+      "bars": 4
+    },
+    {
+      "id": "drop2",
+      "start": 109.1,
+      "end": 130.9,
+      "start_frame": 3273,
+      "start_bar": 40,
+      "bars": 8
+    },
+    {
+      "id": "outro",
+      "start": 130.9,
+      "end": 150,
+      "start_frame": 3927,
+      "start_bar": 48,
+      "bars": 7
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "section": "intro",
+      "scene": "river-mist",
+      "params": {
+        "title": true,
+        "moon": true,
+        "boat": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 0,
+      "end": 5.466666666666667,
+      "start_frame": 0,
+      "end_frame": 164,
+      "start_bar": 0,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": true,
+      "description": "Night river in layered mist under a pale moon; one small boat with a seated figure seen from far away",
+      "claims": [
+        "agent.013",
+        "agent.024",
+        "agent.026"
+      ]
+    },
+    {
+      "id": "S02",
+      "section": "intro",
+      "scene": "ink-name",
+      "params": {
+        "text": "东坡",
+        "stamp_beat": 6
+      },
+      "size": "close",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 5.466666666666667,
+      "end": 10.9,
+      "start_frame": 164,
+      "end_frame": 327,
+      "start_bar": 2,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Close on xuan paper: a brush writes the two characters 东坡 in big strokes, then a cinnabar seal is pressed",
+      "claims": [
+        "agent.017"
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "verse",
+      "scene": "meishan-hills",
+      "params": {},
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 10.9,
+      "end": 16.366666666666667,
+      "start_frame": 327,
+      "end_frame": 491,
+      "start_bar": 4,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Misty Sichuan hills, terraced slopes and a small town of tiled roofs by a river",
+      "claims": [
+        "s01.003",
+        "s02.004"
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "verse",
+      "scene": "desk-scroll",
+      "params": {
+        "mode": "birth"
+      },
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 16.366666666666667,
+      "end": 21.833333333333332,
+      "start_frame": 491,
+      "end_frame": 655,
+      "start_bar": 6,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A handscroll unrolls on a desk beside an inkstone; plum blossoms grow on the scroll",
+      "claims": [
+        "s01.001",
+        "agent.018",
+        "s01.006"
+      ]
+    },
+    {
+      "id": "S05",
+      "section": "verse",
+      "scene": "scholar-walk",
+      "params": {
+        "figures": 2,
+        "gate": true
+      },
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 21.833333333333332,
+      "end": 27.266666666666666,
+      "start_frame": 655,
+      "end_frame": 818,
+      "start_bar": 8,
+      "bars": 2,
+      "kp": "kp1",
+      "rehook": true,
+      "title": false,
+      "description": "Two robed scholars seen from behind walk toward a city gate under a wide sky",
+      "claims": [
+        "agent.001",
+        "agent.002"
+      ]
+    },
+    {
+      "id": "S06",
+      "section": "verse",
+      "scene": "west-lake",
+      "params": {},
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 27.266666666666666,
+      "end": 32.733333333333334,
+      "start_frame": 818,
+      "end_frame": 982,
+      "start_bar": 10,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A lake city with willows, a causeway and a pavilion, painted in ink and indigo wash",
+      "claims": [
+        "agent.003",
+        "agent.004"
+      ]
+    },
+    {
+      "id": "S07",
+      "section": "verse",
+      "scene": "flood-city",
+      "params": {},
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 32.733333333333334,
+      "end": 38.166666666666664,
+      "start_frame": 982,
+      "end_frame": 1145,
+      "start_bar": 12,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A walled city with a river bursting its banks; small silhouettes carry earth to the wall",
+      "claims": [
+        "agent.007",
+        "agent.008"
+      ]
+    },
+    {
+      "id": "S08",
+      "section": "verse",
+      "scene": "desk-scroll",
+      "params": {
+        "mode": "seal"
+      },
+      "size": "close",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 38.166666666666664,
+      "end": 43.63333333333333,
+      "start_frame": 1145,
+      "end_frame": 1309,
+      "start_bar": 14,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "An official letter on the desk; a seal is pressed onto it",
+      "claims": [
+        "agent.009",
+        "agent.010"
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "build",
+      "scene": "prison-bars",
+      "params": {},
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "seal-stamp",
+      "transition_s": 0.6666666666666666,
+      "start": 43.63333333333333,
+      "end": 49.1,
+      "start_frame": 1309,
+      "end_frame": 1473,
+      "start_bar": 16,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Heavy ink bars of a cell, a single candle flickering behind them",
+      "claims": [
+        "agent.011"
+      ]
+    },
+    {
+      "id": "S10",
+      "section": "build",
+      "scene": "prison-bars",
+      "params": {
+        "detail": true
+      },
+      "size": "detail",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 49.1,
+      "end": 51.833333333333336,
+      "start_frame": 1473,
+      "end_frame": 1555,
+      "start_bar": 18,
+      "bars": 1,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Detail: a writing brush lying on the floor in the candlelight",
+      "claims": []
+    },
+    {
+      "id": "S11",
+      "section": "build",
+      "scene": "boat-departure",
+      "params": {
+        "mode": "dawn"
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 51.833333333333336,
+      "end": 54.53333333333333,
+      "start_frame": 1555,
+      "end_frame": 1636,
+      "start_bar": 19,
+      "bars": 1,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A small official boat leaves a city gate at dawn on a grey river",
+      "claims": [
+        "agent.013"
+      ]
+    },
+    {
+      "id": "S12",
+      "section": "drop",
+      "scene": "dongpo-field",
+      "params": {},
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 54.53333333333333,
+      "end": 60,
+      "start_frame": 1636,
+      "end_frame": 1800,
+      "start_bar": 20,
+      "bars": 2,
+      "kp": "kp2",
+      "rehook": false,
+      "title": false,
+      "description": "A hillside field east of a riverside town; a robed farmer in a straw hat hoes the slope (silhouette)",
+      "claims": [
+        "agent.012",
+        "agent.014",
+        "agent.017"
+      ]
+    },
+    {
+      "id": "S13",
+      "section": "drop",
+      "scene": "ink-name",
+      "params": {
+        "text": "东坡居士",
+        "stamp_beat": 1,
+        "vertical": true
+      },
+      "size": "close",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 60,
+      "end": 65.46666666666667,
+      "start_frame": 1800,
+      "end_frame": 1964,
+      "start_bar": 22,
+      "bars": 2,
+      "kp": "kp3",
+      "rehook": false,
+      "title": false,
+      "description": "The four characters 东坡居士 written vertically, a seal beside them",
+      "claims": [
+        "agent.016",
+        "agent.017"
+      ]
+    },
+    {
+      "id": "S14",
+      "section": "drop",
+      "scene": "fishermen-river",
+      "params": {},
+      "size": "wide",
+      "camera": "parallax",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 65.46666666666667,
+      "end": 70.9,
+      "start_frame": 1964,
+      "end_frame": 2127,
+      "start_bar": 24,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Fishing boats and a woodcutter on a river bank; a scholar sits among them by a small fire",
+      "claims": [
+        "agent.015"
+      ]
+    },
+    {
+      "id": "S15",
+      "section": "drop",
+      "scene": "dongpo-field",
+      "params": {
+        "dusk": true
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 70.9,
+      "end": 76.36666666666666,
+      "start_frame": 2127,
+      "end_frame": 2291,
+      "start_bar": 26,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The same field at dusk seen from above the river, the farmer small in the frame",
+      "claims": [
+        "agent.014",
+        "agent.020"
+      ]
+    },
+    {
+      "id": "S16",
+      "section": "breakdown",
+      "scene": "red-cliff",
+      "params": {},
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "scroll-pan",
+      "transition_s": 1.3666666666666667,
+      "start": 76.36666666666666,
+      "end": 81.83333333333333,
+      "start_frame": 2291,
+      "end_frame": 2455,
+      "start_bar": 28,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Red cliffs over a moonlit river with a small boat below",
+      "claims": [
+        "agent.019"
+      ]
+    },
+    {
+      "id": "S17",
+      "section": "breakdown",
+      "scene": "scholar-walk",
+      "params": {
+        "figures": 1,
+        "road": true,
+        "autumn": true
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 81.83333333333333,
+      "end": 87.26666666666667,
+      "start_frame": 2455,
+      "end_frame": 2618,
+      "start_bar": 30,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A lone traveller on a northern road in autumn wind",
+      "claims": [
+        "agent.020",
+        "agent.021",
+        "agent.014"
+      ]
+    },
+    {
+      "id": "S18",
+      "section": "breakdown",
+      "scene": "banana-monastery",
+      "params": {},
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 87.26666666666667,
+      "end": 92.73333333333333,
+      "start_frame": 2618,
+      "end_frame": 2782,
+      "start_bar": 32,
+      "bars": 2,
+      "kp": "kp4",
+      "rehook": false,
+      "title": false,
+      "description": "Southern banana leaves and a monastery roof in humid haze",
+      "claims": [
+        "agent.024",
+        "agent.025"
+      ]
+    },
+    {
+      "id": "S19",
+      "section": "breakdown",
+      "scene": "open-sea",
+      "params": {},
+      "size": "wide",
+      "camera": "hold",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 92.73333333333333,
+      "end": 98.16666666666667,
+      "start_frame": 2782,
+      "end_frame": 2945,
+      "start_bar": 34,
+      "bars": 2,
+      "kp": "kp5",
+      "rehook": false,
+      "title": false,
+      "description": "Open sea with a single sail and a distant coastline (no borders), long horizon",
+      "claims": [
+        "agent.026",
+        "agent.027"
+      ]
+    },
+    {
+      "id": "S20",
+      "section": "build2",
+      "scene": "boat-departure",
+      "params": {
+        "mode": "harbour"
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 98.16666666666667,
+      "end": 103.63333333333334,
+      "start_frame": 2945,
+      "end_frame": 3109,
+      "start_bar": 36,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "A coastal harbour in morning light; boats raise sails and head north",
+      "claims": [
+        "agent.029",
+        "agent.030"
+      ]
+    },
+    {
+      "id": "S21",
+      "section": "build2",
+      "scene": "scholar-walk",
+      "params": {
+        "figures": 1,
+        "bank": true,
+        "old": true
+      },
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 103.63333333333334,
+      "end": 109.1,
+      "start_frame": 3109,
+      "end_frame": 3273,
+      "start_bar": 38,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "An old scholar seen from behind, standing on a river bank looking north",
+      "claims": []
+    },
+    {
+      "id": "S22",
+      "section": "drop2",
+      "scene": "exile-map",
+      "params": {},
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 109.1,
+      "end": 120,
+      "start_frame": 3273,
+      "end_frame": 3600,
+      "start_bar": 40,
+      "bars": 4,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Abstract ink terrain with rivers (no borders); a cinnabar route draws through his postings",
+      "claims": [
+        "agent.003",
+        "agent.005",
+        "agent.007",
+        "agent.009",
+        "agent.014",
+        "agent.024",
+        "agent.026"
+      ]
+    },
+    {
+      "id": "S23",
+      "section": "drop2",
+      "scene": "lamp-house",
+      "params": {},
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 120,
+      "end": 125.46666666666667,
+      "start_frame": 3600,
+      "end_frame": 3764,
+      "start_bar": 44,
+      "bars": 2,
+      "kp": "kp6",
+      "rehook": false,
+      "title": false,
+      "description": "A quiet riverside house at dusk with a single lamp in the window",
+      "claims": [
+        "s01.002",
+        "s01.004",
+        "agent.031"
+      ]
+    },
+    {
+      "id": "S24",
+      "section": "drop2",
+      "scene": "ink-name",
+      "params": {
+        "text": "东坡居士",
+        "stamp_beat": 5,
+        "vertical": true,
+        "final": true
+      },
+      "size": "close",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 125.46666666666667,
+      "end": 130.9,
+      "start_frame": 3764,
+      "end_frame": 3927,
+      "start_bar": 46,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The name 东坡居士 again, now with ink bleeding outward and a large seal",
+      "claims": [
+        "agent.013",
+        "agent.024",
+        "agent.016"
+      ]
+    },
+    {
+      "id": "S25",
+      "section": "outro",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": true,
+        "empty": true
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "ink-bleed",
+      "transition_s": 1.3666666666666667,
+      "start": 130.9,
+      "end": 139.1,
+      "start_frame": 3927,
+      "end_frame": 4173,
+      "start_bar": 48,
+      "bars": 3,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "Dawn on the misty river; the boat is empty, wide negative space",
+      "claims": [
+        "agent.018",
+        "agent.016"
+      ]
+    },
+    {
+      "id": "S26",
+      "section": "outro",
+      "scene": "river-mist",
+      "params": {
+        "dawn": true,
+        "boat": false,
+        "fade": true
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 139.1,
+      "end": 150,
+      "start_frame": 4173,
+      "end_frame": 4500,
+      "start_bar": 51,
+      "bars": 4,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Mist fills the frame for the end card",
+      "claims": []
+    }
+  ],
+  "captions": [
+    {
+      "shot": "S01",
+      "start": 0.3333333333333333,
+      "end": 5.466666666666667,
+      "lines": [
+        "Huangzhou, Huizhou, then",
+        "Changhua: exiled again and again."
+      ],
+      "em": [
+        "exiled again and again"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S02",
+      "start": 5.8,
+      "end": 10.9,
+      "lines": [
+        "The name of a field became his own."
+      ],
+      "em": [
+        "his own"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S03",
+      "start": 11.233333333333333,
+      "end": 16.366666666666667,
+      "lines": [
+        "The story begins in Meishan."
+      ],
+      "em": [
+        "Meishan"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S04",
+      "start": 16.7,
+      "end": 21.833333333333332,
+      "lines": [
+        "Born on 8 January 1037; courtesy",
+        "name Zizhan."
+      ],
+      "em": [
+        "1037"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S05",
+      "start": 22.166666666666668,
+      "end": 27.266666666666666,
+      "lines": [
+        "In 1057 he and his brother",
+        "passed the jinshi exam."
+      ],
+      "em": [
+        "jinshi"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S06",
+      "start": 27.6,
+      "end": 32.733333333333334,
+      "lines": [
+        "In 1071 he went to",
+        "Hangzhou as vice-prefect."
+      ],
+      "em": [
+        "Hangzhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S07",
+      "start": 33.06666666666667,
+      "end": 38.166666666666664,
+      "lines": [
+        "In Xuzhou the Yellow River burst;",
+        "he joined the flood relief."
+      ],
+      "em": [
+        "Yellow River"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S08",
+      "start": 38.5,
+      "end": 43.63333333333333,
+      "lines": [
+        "In 1079 he became prefect",
+        "of Huzhou. And then?"
+      ],
+      "em": [
+        "Huzhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S09",
+      "start": 43.96666666666667,
+      "end": 49.1,
+      "lines": [
+        "Records say he was jailed",
+        "that year and nearly died."
+      ],
+      "em": [
+        "jailed"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S10",
+      "start": 49.43333333333333,
+      "end": 51.833333333333336,
+      "lines": [
+        "What would you do now?"
+      ],
+      "em": [
+        "you"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S11",
+      "start": 52.166666666666664,
+      "end": 54.53333333333333,
+      "lines": [
+        "Spared, he was demoted to Huangzhou."
+      ],
+      "em": [
+        "Huangzhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S12",
+      "start": 54.86666666666667,
+      "end": 60,
+      "lines": [
+        "In 1080, in Huangzhou, he",
+        "farmed a plot of land."
+      ],
+      "em": [
+        "farmed"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S13",
+      "start": 60.333333333333336,
+      "end": 65.46666666666667,
+      "lines": [
+        "He named it Dongpo, and",
+        "himself Dongpo Jushi."
+      ],
+      "em": [
+        "Dongpo Jushi"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S14",
+      "start": 65.8,
+      "end": 70.9,
+      "lines": [
+        "He roamed hills and rivers with",
+        "fishermen and woodcutters."
+      ],
+      "em": [
+        "fishermen and woodcutters"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S15",
+      "start": 71.23333333333333,
+      "end": 76.36666666666666,
+      "lines": [
+        "Huangzhou was home from 1080 to 1084."
+      ],
+      "em": [
+        "1080 to 1084"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S16",
+      "start": 76.7,
+      "end": 81.83333333333333,
+      "lines": [
+        "Records say in 1082 he wrote",
+        "the First Ode on the Red Cliff."
+      ],
+      "em": [
+        "First Ode on the Red Cliff"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S17",
+      "start": 82.16666666666667,
+      "end": 87.26666666666667,
+      "lines": [
+        "In 1084 he left Huangzhou for Ruzhou."
+      ],
+      "em": [
+        "Ruzhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S18",
+      "start": 87.6,
+      "end": 92.73333333333333,
+      "lines": [
+        "In 1094 he was exiled again, to Huizhou."
+      ],
+      "em": [
+        "Huizhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S19",
+      "start": 93.06666666666666,
+      "end": 98.16666666666667,
+      "lines": [
+        "In 1097 he was placed",
+        "under watch in Changhua."
+      ],
+      "em": [
+        "Changhua"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S20",
+      "start": 98.5,
+      "end": 103.63333333333334,
+      "lines": [
+        "In 1100 his place of",
+        "exile moved to Lianzhou."
+      ],
+      "em": [
+        "Lianzhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S21",
+      "start": 103.96666666666667,
+      "end": 109.1,
+      "lines": [
+        "Would the road north ever open?"
+      ],
+      "em": [
+        "north"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S22",
+      "start": 109.43333333333334,
+      "end": 120,
+      "lines": [
+        "Hangzhou, Mizhou, Xuzhou, Huzhou,",
+        "Huangzhou, Huizhou, Changhua."
+      ],
+      "em": [
+        "Huangzhou"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S23",
+      "start": 120.33333333333333,
+      "end": 125.46666666666667,
+      "lines": [
+        "In 1101 he died in Changzhou."
+      ],
+      "em": [
+        "1101"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S24",
+      "start": 125.8,
+      "end": 130.9,
+      "lines": [
+        "From exile to exile, he",
+        "kept the name Dongpo."
+      ],
+      "em": [
+        "Dongpo"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S25",
+      "start": 131.23333333333332,
+      "end": 139.1,
+      "lines": [
+        "Courtesy name Zizhan,",
+        "art name Dongpo Jushi."
+      ],
+      "em": [
+        "Dongpo Jushi"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S26",
+      "start": 139.43333333333334,
+      "end": 144.53333333333333,
+      "lines": [
+        "Could you turn exile into poetry?"
+      ],
+      "em": [
+        "poetry"
+      ],
+      "dir": "ltr"
+    }
+  ],
+  "kp_cards": [
+    {
+      "id": "kp1",
+      "shot": "S05",
+      "start": 22.5,
+      "end": 27.1,
+      "title": "Jinshi degree",
+      "value": "1057",
+      "count": 1057,
+      "count_s": 1.3666666666666667
+    },
+    {
+      "id": "kp2",
+      "shot": "S12",
+      "start": 55.2,
+      "end": 59.833333333333336,
+      "title": "Demoted to Huangzhou",
+      "value": "1080",
+      "count": 1080,
+      "count_s": 1.3666666666666667
+    },
+    {
+      "id": "kp3",
+      "shot": "S13",
+      "start": 60.666666666666664,
+      "end": 65.3,
+      "title": "Art name",
+      "value": "Dongpo Jushi",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp4",
+      "shot": "S18",
+      "start": 87.93333333333334,
+      "end": 92.56666666666666,
+      "title": "Exiled to Huizhou",
+      "value": "1094",
+      "count": 1094,
+      "count_s": 1.3666666666666667
+    },
+    {
+      "id": "kp5",
+      "shot": "S19",
+      "start": 93.4,
+      "end": 98,
+      "title": "Placed in Changhua",
+      "value": "1097",
+      "count": 1097,
+      "count_s": 1.3666666666666667
+    },
+    {
+      "id": "kp6",
+      "shot": "S23",
+      "start": 120.66666666666667,
+      "end": 125.3,
+      "title": "Died",
+      "value": "1101",
+      "count": 1101,
+      "count_s": 1.3666666666666667
+    }
+  ],
+  "sfx": [
+    {
+      "shot": "S01",
+      "t": 0.6666666666666666,
+      "frame": 20,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x001"
+    },
+    {
+      "shot": "S01",
+      "t": 2.7333333333333334,
+      "frame": 82,
+      "kind": "brush",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 1.364,
+      "step": 0,
+      "id": "x002"
+    },
+    {
+      "shot": "S02",
+      "t": 5.466666666666667,
+      "frame": 164,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x003"
+    },
+    {
+      "shot": "S02",
+      "t": 5.466666666666667,
+      "frame": 164,
+      "kind": "brush",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 2.045,
+      "step": 0,
+      "id": "x004"
+    },
+    {
+      "shot": "S02",
+      "t": 9.566666666666666,
+      "frame": 287,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 1,
+      "id": "x005"
+    },
+    {
+      "shot": "S03",
+      "t": 10.9,
+      "frame": 327,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x006"
+    },
+    {
+      "shot": "S03",
+      "t": 12.266666666666667,
+      "frame": 368,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x007"
+    },
+    {
+      "shot": "S04",
+      "t": 16.366666666666667,
+      "frame": 491,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x008"
+    },
+    {
+      "shot": "S04",
+      "t": 16.366666666666667,
+      "frame": 491,
+      "kind": "scroll",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 1.364,
+      "step": 0,
+      "id": "x009"
+    },
+    {
+      "shot": "S04",
+      "t": 19.1,
+      "frame": 573,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 1,
+      "id": "x010"
+    },
+    {
+      "shot": "S05",
+      "t": 21.833333333333332,
+      "frame": 655,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x011"
+    },
+    {
+      "shot": "S05",
+      "t": 22.5,
+      "frame": 675,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x012"
+    },
+    {
+      "shot": "S05",
+      "t": 23.866666666666667,
+      "frame": 716,
+      "kind": "count",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.3666666666666667,
+      "id": "x013"
+    },
+    {
+      "shot": "S06",
+      "t": 27.266666666666666,
+      "frame": 818,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x014"
+    },
+    {
+      "shot": "S06",
+      "t": 28.633333333333333,
+      "frame": 859,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x015"
+    },
+    {
+      "shot": "S07",
+      "t": 32.733333333333334,
+      "frame": 982,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x016"
+    },
+    {
+      "shot": "S07",
+      "t": 32.733333333333334,
+      "frame": 982,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x017"
+    },
+    {
+      "shot": "S08",
+      "t": 38.166666666666664,
+      "frame": 1145,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x018"
+    },
+    {
+      "shot": "S08",
+      "t": 40.9,
+      "frame": 1227,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x019"
+    },
+    {
+      "shot": "S09",
+      "t": 43.63333333333333,
+      "frame": 1309,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x020"
+    },
+    {
+      "shot": "S09",
+      "t": 45,
+      "frame": 1350,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x021"
+    },
+    {
+      "shot": "S10",
+      "t": 49.1,
+      "frame": 1473,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x022"
+    },
+    {
+      "shot": "S10",
+      "t": 49.766666666666666,
+      "frame": 1493,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x023"
+    },
+    {
+      "shot": "S11",
+      "t": 51.833333333333336,
+      "frame": 1555,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x024"
+    },
+    {
+      "shot": "S12",
+      "t": 54.53333333333333,
+      "frame": 1636,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "auto",
+      "id": "x025"
+    },
+    {
+      "shot": "S12",
+      "t": 55.2,
+      "frame": 1656,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x026"
+    },
+    {
+      "shot": "S12",
+      "t": 56.56666666666667,
+      "frame": 1697,
+      "kind": "count",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.3666666666666667,
+      "id": "x027"
+    },
+    {
+      "shot": "S12",
+      "t": 57.266666666666666,
+      "frame": 1718,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x028"
+    },
+    {
+      "shot": "S13",
+      "t": 60,
+      "frame": 1800,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x029"
+    },
+    {
+      "shot": "S13",
+      "t": 60,
+      "frame": 1800,
+      "kind": "brush",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 2.727,
+      "step": 0,
+      "id": "x030"
+    },
+    {
+      "shot": "S13",
+      "t": 60.666666666666664,
+      "frame": 1820,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x031"
+    },
+    {
+      "shot": "S14",
+      "t": 65.46666666666667,
+      "frame": 1964,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x032"
+    },
+    {
+      "shot": "S14",
+      "t": 66.83333333333333,
+      "frame": 2005,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x033"
+    },
+    {
+      "shot": "S14",
+      "t": 69.56666666666666,
+      "frame": 2087,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 1,
+      "id": "x034"
+    },
+    {
+      "shot": "S15",
+      "t": 70.9,
+      "frame": 2127,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x035"
+    },
+    {
+      "shot": "S15",
+      "t": 73.63333333333334,
+      "frame": 2209,
+      "kind": "brush",
+      "tier": "normal",
+      "source": "shot",
+      "dur": 1.364,
+      "step": 0,
+      "id": "x036"
+    },
+    {
+      "shot": "S16",
+      "t": 76.36666666666666,
+      "frame": 2291,
+      "kind": "scroll",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x037"
+    },
+    {
+      "shot": "S16",
+      "t": 79.1,
+      "frame": 2373,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x038"
+    },
+    {
+      "shot": "S17",
+      "t": 81.83333333333333,
+      "frame": 2455,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x039"
+    },
+    {
+      "shot": "S18",
+      "t": 87.26666666666667,
+      "frame": 2618,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x040"
+    },
+    {
+      "shot": "S18",
+      "t": 87.93333333333334,
+      "frame": 2638,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x041"
+    },
+    {
+      "shot": "S18",
+      "t": 89.3,
+      "frame": 2679,
+      "kind": "count",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.3666666666666667,
+      "id": "x042"
+    },
+    {
+      "shot": "S19",
+      "t": 92.73333333333333,
+      "frame": 2782,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x043"
+    },
+    {
+      "shot": "S19",
+      "t": 93.4,
+      "frame": 2802,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x044"
+    },
+    {
+      "shot": "S19",
+      "t": 94.76666666666667,
+      "frame": 2843,
+      "kind": "count",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.3666666666666667,
+      "id": "x045"
+    },
+    {
+      "shot": "S20",
+      "t": 98.16666666666667,
+      "frame": 2945,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x046"
+    },
+    {
+      "shot": "S20",
+      "t": 99.53333333333333,
+      "frame": 2986,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x047"
+    },
+    {
+      "shot": "S20",
+      "t": 100.9,
+      "frame": 3027,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 1,
+      "id": "x048"
+    },
+    {
+      "shot": "S21",
+      "t": 103.63333333333334,
+      "frame": 3109,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x049"
+    },
+    {
+      "shot": "S21",
+      "t": 107.73333333333333,
+      "frame": 3232,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "shot",
+      "dur": 1.364,
+      "step": 0,
+      "id": "x050"
+    },
+    {
+      "shot": "S22",
+      "t": 109.1,
+      "frame": 3273,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "auto",
+      "id": "x051"
+    },
+    {
+      "shot": "S22",
+      "t": 109.1,
+      "frame": 3273,
+      "kind": "route",
+      "tier": "emphasis",
+      "source": "shot",
+      "dur": 8.864,
+      "step": 0,
+      "id": "x052"
+    },
+    {
+      "shot": "S22",
+      "t": 111.83333333333333,
+      "frame": 3355,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 1,
+      "id": "x053"
+    },
+    {
+      "shot": "S22",
+      "t": 114.56666666666666,
+      "frame": 3437,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 2,
+      "id": "x054"
+    },
+    {
+      "shot": "S22",
+      "t": 117.96666666666667,
+      "frame": 3539,
+      "kind": "seal",
+      "tier": "climax",
+      "source": "shot",
+      "step": 3,
+      "id": "x055"
+    },
+    {
+      "shot": "S23",
+      "t": 120,
+      "frame": 3600,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x056"
+    },
+    {
+      "shot": "S23",
+      "t": 120.66666666666667,
+      "frame": 3620,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x057"
+    },
+    {
+      "shot": "S23",
+      "t": 122.03333333333333,
+      "frame": 3661,
+      "kind": "count",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.3666666666666667,
+      "id": "x058"
+    },
+    {
+      "shot": "S24",
+      "t": 125.46666666666667,
+      "frame": 3764,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x059"
+    },
+    {
+      "shot": "S24",
+      "t": 128.86666666666667,
+      "frame": 3866,
+      "kind": "seal",
+      "tier": "climax",
+      "source": "shot",
+      "step": 0,
+      "id": "x060"
+    },
+    {
+      "shot": "S25",
+      "t": 130.9,
+      "frame": 3927,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 1.367,
+      "id": "x061"
+    },
+    {
+      "shot": "S26",
+      "t": 139.1,
+      "frame": 4173,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x062"
+    },
+    {
+      "shot": "S26",
+      "t": 144.53333333333333,
+      "frame": 4336,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x063"
+    }
+  ],
+  "title": {
+    "text": "Su Shi: Exiled Again, Living as Dongpo",
+    "shot": "S01",
+    "start": 0.6666666666666666,
+    "end": 5.133333333333334
+  },
+  "end_card": {
+    "line": "Dongpo Jushi: Su Shi.",
+    "start": 144.53333333333333,
+    "end": 150
+  },
+  "badge": {
+    "kind": "aigc",
+    "start": 0,
+    "end": 3
+  },
+  "rehooks": [
+    {
+      "i": 0,
+      "bar": 0,
+      "kind": "hook",
+      "section": "intro",
+      "t": 0
+    },
+    {
+      "i": 1,
+      "bar": 8,
+      "kind": "mid",
+      "section": "verse",
+      "t": 21.818
+    },
+    {
+      "i": 2,
+      "bar": 16,
+      "kind": "turn",
+      "section": "build",
+      "t": 43.636
+    },
+    {
+      "i": 3,
+      "bar": 28,
+      "kind": "turn",
+      "section": "breakdown",
+      "t": 76.364
+    },
+    {
+      "i": 4,
+      "bar": 36,
+      "kind": "turn",
+      "section": "build2",
+      "t": 98.182
+    },
+    {
+      "i": 5,
+      "bar": 48,
+      "kind": "final",
+      "section": "outro",
+      "t": 130.909
+    }
+  ],
+  "segments": [
+    {
+      "id": "s1",
+      "name": "opening",
+      "sections": [
+        "intro"
+      ],
+      "start": 0,
+      "end": 10.9,
+      "from_frame": 0,
+      "to_frame": 327
+    },
+    {
+      "id": "s2",
+      "name": "verse",
+      "sections": [
+        "verse"
+      ],
+      "start": 10.9,
+      "end": 43.63333333333333,
+      "from_frame": 327,
+      "to_frame": 1309
+    },
+    {
+      "id": "s3",
+      "name": "build-drop",
+      "sections": [
+        "build",
+        "drop"
+      ],
+      "start": 43.63333333333333,
+      "end": 76.36666666666666,
+      "from_frame": 1309,
+      "to_frame": 2291
+    },
+    {
+      "id": "s4",
+      "name": "breakdown-build2",
+      "sections": [
+        "breakdown",
+        "build2"
+      ],
+      "start": 76.36666666666666,
+      "end": 109.1,
+      "from_frame": 2291,
+      "to_frame": 3273
+    },
+    {
+      "id": "s5",
+      "name": "drop2-outro",
+      "sections": [
+        "drop2",
+        "outro"
+      ],
+      "start": 109.1,
+      "end": 150,
+      "from_frame": 3273,
+      "to_frame": 4500
+    }
+  ]
+}

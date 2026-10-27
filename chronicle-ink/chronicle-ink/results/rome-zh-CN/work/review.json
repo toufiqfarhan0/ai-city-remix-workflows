@@ -1,0 +1,8 @@
+{ "schema": "chronicle-review/1", "segments": [
+  { "id": "s1", "rounds": [
+    { "sheet": "out/segments/s1/sheet.jpg", "findings": ["no title on the opening map", "scale bar collides with the AI badge in the top-left corner"], "fixes": ["S01 params.title = true", "scale bar moved above the caption band (bottom-left)"], "open_blocking": [] },
+    { "sheet": "out/sheet.jpg", "findings": [], "fixes": [], "open_blocking": [] } ] },
+  { "id": "s2", "rounds": [ { "sheet": "out/segments/s2/sheet.jpg", "findings": ["map labels in the hill cluster overlap slightly at 2 km view"], "fixes": [], "open_blocking": [] } ] },
+  { "id": "s3", "rounds": [ { "sheet": "out/sheet.jpg", "findings": ["seal-stamp transition printed the two-character seal right-to-left (马罗) over the map"], "fixes": ["script.seal set to the single character 罗"], "open_blocking": [] } ] },
+  { "id": "s4", "rounds": [ { "sheet": "out/sheet.jpg", "findings": [], "fixes": [], "open_blocking": [] } ] },
+  { "id": "s5", "rounds": [ { "sheet": "out/sheet.jpg", "findings": [], "fixes": [], "open_blocking": [] } ] } ] }

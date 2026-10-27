@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>City Grows 3D</title>
+<!--
+  City Grows 3D player. film.mjs inlines Three.js, the story, the timeline and city.json.
+  Every building is one extruded footprint in one merged mesh; each vertex carries the year
+  the building was recorded as built (or "unknown"), so a single shader uniform (the city
+  year) makes buildings rise, glow and settle in the year they appeared. window.render(t)
+  is a pure function of t; the canvas is drawn with preserveDrawingBuffer for capture.
+-->
+<style>
+@font-face { font-family: 'Sans'; src: local('Segoe UI'), local('Helvetica Neue'), local('Arial'); }
+html, body { margin: 0; background: #070a12; overflow: hidden; }
+canvas { display: block; }
+#hud { position: fixed; inset: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+<canvas id="gl" width="1920" height="1080"></canvas>
+<canvas id="hud" width="1920" height="1080"></canvas>
+<script>/*THREE*/</script>
+<script>
+const STORY = /*STORY*/null
+const CITY = /*CITY*/null
+const TL = /*TIMELINE*/null
+/*STORYLIB*/
+const W = 1920, H = 1080, RISE = 6, UNKNOWN = -1
+const gl = document.getElementById('gl'), hud = document.getElementById('hud'), hx = hud.getContext('2d')
+const renderer = new THREE.WebGLRenderer({ canvas: gl, antialias: true, preserveDrawingBuffer: true })
+// 2x supersampling: the 3D is drawn at 3840x2160 and shown at 1920x1080, so edges and thin streets stay crisp.
+renderer.setPixelRatio(2); renderer.setSize(W, H, false)
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.35
+const scene = new THREE.Scene()
+scene.background = new THREE.Color('#18213a')
+scene.fog = new THREE.Fog('#18213a', 7000, 16000)
+const camera = new THREE.PerspectiveCamera(32, W / H, 10, 30000)
+const P = projector(CITY.center)
+function projector([lat0, lon0]) { const R = 6378137, k = Math.cos(lat0 * Math.PI / 180); return (lat, lon) => [((lon - lon0) * Math.PI / 180) * R * k, ((lat - lat0) * Math.PI / 180) * R] }
+
+// ── ground: land, water, parks and streets (city.json ground, from OpenFreeMap) ──
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(60000, 60000), new THREE.MeshStandardMaterial({ color: '#323a4e', roughness: 1 }))
+ground.rotation.x = -Math.PI / 2; scene.add(ground)
+function flatMesh(rings, color, y, opts = {}) {
+  const shapes = rings.filter((r) => r.length >= 4).map((r) => new THREE.Shape(r.map(([x, z]) => new THREE.Vector2(x, z))))
+  if (!shapes.length) return null
+  const m = new THREE.Mesh(new THREE.ShapeGeometry(shapes), new THREE.MeshStandardMaterial({ color, roughness: opts.rough ?? 1, metalness: opts.metal ?? 0 }))
+  m.rotation.x = -Math.PI / 2; m.position.y = y; scene.add(m); return m
+}
+flatMesh(CITY.ground?.parks ?? [], '#2c3d33', 0.3)
+const water = flatMesh(CITY.ground?.water ?? [], '#22406a', 0.6, { rough: 0.18, metal: 0.4 })
+// Streets as thin lines: the major ones brighter, so the street plan reads before any building rises.
+const roadGroups = { major: [], minor: [] }
+for (const r of CITY.ground?.roads ?? []) for (const l of r.lines) { const pts = l.map(([x, z]) => new THREE.Vector3(x, 1.2, -z)); for (let i = 0; i < pts.length - 1; i++) (/^(motorway|trunk|primary|secondary)$/.test(r.cls) ? roadGroups.major : roadGroups.minor).push(pts[i], pts[i + 1]) }
+const roadMat = { major: new THREE.LineBasicMaterial({ color: '#e2cc9c', transparent: true, opacity: 0.8 }), minor: new THREE.LineBasicMaterial({ color: '#a8afc0', transparent: true, opacity: 0.45 }) }
+for (const k of ['major', 'minor']) if (roadGroups[k].length) scene.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(roadGroups[k]), roadMat[k]))
+const hemi = new THREE.HemisphereLight('#d6e0f5', '#3a3024', 1.1); scene.add(hemi)
+const sun = new THREE.DirectionalLight('#ffe6c4', 2.2); sun.position.set(-2500, 3600, 1800); scene.add(sun)
+const fillLight = new THREE.DirectionalLight('#9fb6e0', 0.6); fillLight.position.set(2600, 1600, -2200); scene.add(fillLight)
+
+// ── colours by era of the building's year ──
+const ERA = [[-1e9, '#7d6a8f'], [1600, '#a56f4d'], [1700, '#c9863f'], [1800, '#d9a75a'], [1900, '#9fb4c8'], [1945, '#7fa7d6'], [2000, '#e7f1ff']]
+const eraColor = (y) => { let c = ERA[0][1]; for (const [from, col] of ERA) if (y >= from) c = col; return new THREE.Color(c) }
+
+// ── one merged mesh: walls and roofs of every building ──
+let meshCount = 0
+function buildMesh(list, opts) {
+  const pos = [], nor = [], col = [], yr = [], hgt = [], idx = []
+  let v = 0
+  for (const b of list) {
+    const ring = b.ring.slice(0, -1), h = b.h, y = b.year ?? UNKNOWN
+    if (ring.length < 3) continue
+    const c = b.year ? eraColor(b.year) : new THREE.Color(opts.unknownColor)
+    // walls
+    for (let i = 0; i < ring.length; i++) {
+      const [x0, z0] = ring[i], [x1, z1] = ring[(i + 1) % ring.length], dx = x1 - x0, dz = z1 - z0, L = Math.hypot(dx, dz) || 1, nx = dz / L, nz = -dx / L
+      for (const [px, pz, py] of [[x0, z0, 0], [x1, z1, 0], [x1, z1, h], [x0, z0, h]]) { pos.push(px, py, -pz); nor.push(nx, 0, -nz); col.push(c.r, c.g, c.b); yr.push(y); hgt.push(h) }
+      idx.push(v, v + 1, v + 2, v, v + 2, v + 3); v += 4
+    }
+    // roof
+    const flat = []; for (const [x, z] of ring) flat.push(x, z)
+    const tris = THREE.ShapeUtils.triangulateShape(ring.map(([x, z]) => new THREE.Vector2(x, z)), [])
+    const base = v
+    for (const [x, z] of ring) { pos.push(x, h, -z); nor.push(0, 1, 0); col.push(c.r * 1.12, c.g * 1.12, c.b * 1.12); yr.push(y); hgt.push(h); v++ }
+    for (const t of tris) {
+      const [a, b, c] = t.map((k) => ring[k])
+      const up = (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0]) > 0   // ccw in x/z → faces +y after z → -z
+      idx.push(base + t[0], up ? base + t[1] : base + t[2], up ? base + t[2] : base + t[1])
+    }
+  }
+  const g = new THREE.BufferGeometry()
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3))
+  g.setAttribute('normal', new THREE.Float32BufferAttribute(nor, 3))
+  g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3))
+  g.setAttribute('aYear', new THREE.Float32BufferAttribute(yr, 1))
+  g.setAttribute('aH', new THREE.Float32BufferAttribute(hgt, 1))
+  g.setIndex(idx)
+  const m = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.82, metalness: 0.05 })
+  m.userData.u = { uYear: { value: 0 }, uRise: { value: RISE }, uUnknown: { value: 0 }, uLayer: { value: opts.layer ?? 1 }, uHeat: { value: new THREE.Vector4(0, 0, 0, 0) }, uGlow: { value: opts.glow ?? 1 } }
+  // Each mesh gets its own program: with a shared cache key three.js would skip onBeforeCompile
+  // for the second material and draw it with the first one's uniforms (the 1890s layer would
+  // follow today's city year).
+  const key = `city-${++meshCount}`
+  m.customProgramCacheKey = () => key
+  m.onBeforeCompile = (sh) => {
+    Object.assign(sh.uniforms, m.userData.u)
+    sh.vertexShader = sh.vertexShader
+      .replace('#include <common>', `#include <common>
+        attribute float aYear; attribute float aH;
+        uniform float uYear; uniform float uRise; uniform float uUnknown; uniform float uLayer; uniform vec4 uHeat; uniform float uGlow;
+        varying float vGlow; varying float vShow; varying float vHeat; varying float vTop;`)
+      .replace('#include <begin_vertex>', `#include <begin_vertex>
+        float grow = aYear < 0.0 ? uUnknown : clamp((uYear - aYear) / uRise, 0.0, 1.0) * uLayer;
+        float k = 1.0 - pow(1.0 - grow, 3.0);
+        transformed.y *= max(k, 0.0001);
+        vShow = grow > 0.0001 ? 1.0 : 0.0;
+        vGlow = aYear < 0.0 ? 0.0 : (grow > 0.0 && grow < 1.0 ? 1.0 - grow : 0.0) * uGlow;
+        vec2 hp = position.xz - uHeat.xy; vHeat = uHeat.w * clamp(1.0 - length(hp) / max(uHeat.z, 1.0), 0.0, 1.0);
+        vTop = aH > 0.0 ? position.y / aH : 0.0;`)
+    sh.fragmentShader = sh.fragmentShader
+      .replace('#include <common>', `#include <common>
+        varying float vGlow; varying float vShow; varying float vHeat; varying float vTop;`)
+      .replace('#include <clipping_planes_fragment>', `if (vShow < 0.5) discard;
+        #include <clipping_planes_fragment>`)
+      .replace('#include <emissivemap_fragment>', `#include <emissivemap_fragment>
+        totalEmissiveRadiance += vec3(1.0, 0.72, 0.38) * vGlow * 0.45 + vec3(1.0, 0.35, 0.08) * vHeat * (1.2 + 1.4 * vTop);`)
+  }
+  return new THREE.Mesh(g, m)
+}
+const today = buildMesh(CITY.buildings, { unknownColor: '#5b6372' })
+scene.add(today)
+// The 1890s survey: one warm, slightly translucent layer of 13 m blocks, so it reads as a different map.
+const victorian = CITY.victorian ? buildMesh(CITY.victorian.map((ring) => ({ ring, h: 13, year: 1893 })), { unknownColor: '#000', layer: 0, glow: 0 }) : null
+if (victorian) { const c = new THREE.Color('#b8925e'); const a = victorian.geometry.getAttribute('color'); for (let i = 0; i < a.count; i++) a.setXYZ(i, c.r, c.g, c.b); scene.add(victorian) }
+
+
+// ── outlines (reconstructions): a low glowing wall that draws itself along its ring ──
+const outlines = (STORY.outlines ?? []).map((o) => {
+  const pts = o.ring.map(([la, lo]) => P(la, lo)), pos = [], idx = []
+  const Hh = 8, T = 4
+  for (let i = 0; i < pts.length - 1; i++) {
+    const [x0, z0] = pts[i], [x1, z1] = pts[i + 1], dx = x1 - x0, dz = z1 - z0, L = Math.hypot(dx, dz) || 1, nx = (-dz / L) * T, nz = (dx / L) * T, v = pos.length / 3
+    for (const [x, z, y] of [[x0 - nx, z0 - nz, 0], [x1 - nx, z1 - nz, 0], [x1 + nx, z1 + nz, 0], [x0 + nx, z0 + nz, 0], [x0 - nx, z0 - nz, Hh], [x1 - nx, z1 - nz, Hh], [x1 + nx, z1 + nz, Hh], [x0 + nx, z0 + nz, Hh]]) pos.push(x, y, -z)
+    for (const q of [[4, 5, 6, 4, 6, 7], [0, 1, 5, 0, 5, 4], [3, 2, 6, 3, 6, 7]]) for (const k of q) idx.push(v + k)
+  }
+  const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setIndex(idx); g.computeVertexNormals()
+  const mesh = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: '#e9c27a', emissive: '#d98a3a', emissiveIntensity: 0.45, transparent: true, side: THREE.DoubleSide }))
+  scene.add(mesh)
+  return { o, mesh, n: idx.length }
+})
+
+// ── fire and blitz: a glowing disc on the ground under the burning area ──
+const heatTex = (() => { const c = document.createElement('canvas'); c.width = c.height = 256; const x = c.getContext('2d'), gr = x.createRadialGradient(128, 128, 0, 128, 128, 128); gr.addColorStop(0, 'rgba(255,140,40,1)'); gr.addColorStop(0.3, 'rgba(230,60,10,0.85)'); gr.addColorStop(0.7, 'rgba(140,20,0,0.35)'); gr.addColorStop(1, 'rgba(60,0,0,0)'); x.fillStyle = gr; x.fillRect(0, 0, 256, 256); return new THREE.CanvasTexture(c) })()
+const heatDisc = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), new THREE.MeshBasicMaterial({ map: heatTex, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false }))
+heatDisc.rotation.x = -Math.PI / 2; heatDisc.position.y = 3; scene.add(heatDisc)
+
+// ── camera: each era blends from its start pose to its "to" pose; between eras it eases ──
+function pose(c) { const [x, z] = P(c.target[0], c.target[1]); return { x, z, dist: c.dist, pitch: c.pitch, yaw: c.yaw } }
+const poses = STORY.eras.map((e) => { const a = pose(e.camera); const b = { ...a, ...(e.camera.to ?? {}) }; return [a, b] })
+const mix = (a, b, u) => a + (b - a) * u, ease = (u) => (u <= 0 ? 0 : u >= 1 ? 1 : u * u * (3 - 2 * u))
+function cameraAt(t) {
+  const eras = TL.eras
+  let k = eras.findIndex((e) => t < e.start + e.duration); if (k < 0) k = eras.length - 1
+  if (t < eras[0].start) { const p = poses[0][0], u = ease(t / eras[0].start); return { ...p, dist: mix(p.dist * 2.2, p.dist, u), pitch: mix(70, p.pitch, u) } }
+  if (t > TL.endStart) { const p = poses[eras.length - 1][1], u = ease((t - TL.endStart) / 6); return { ...p, dist: mix(p.dist, 6200, u), pitch: mix(p.pitch, 50, u), yaw: p.yaw + 25 * u } }
+  const e = eras[k], u = (t - e.start) / e.duration, [a, b] = poses[k]
+  const blend = 1.6 / e.duration
+  if (k > 0 && u < blend) { const pv = poses[k - 1][1], w = ease(u / blend); const cur = { x: mix(a.x, b.x, u), z: mix(a.z, b.z, u), dist: mix(a.dist, b.dist, u), pitch: mix(a.pitch, b.pitch, u), yaw: mix(a.yaw, b.yaw, u) }; return { x: mix(pv.x, cur.x, w), z: mix(pv.z, cur.z, w), dist: mix(pv.dist, cur.dist, w), pitch: mix(pv.pitch, cur.pitch, w), yaw: mix(pv.yaw, cur.yaw, w) } }
+  return { x: mix(a.x, b.x, u), z: mix(a.z, b.z, u), dist: mix(a.dist, b.dist, u), pitch: mix(a.pitch, b.pitch, u), yaw: mix(a.yaw, b.yaw, u) }
+}
+function place(c) {
+  const p = (c.pitch * Math.PI) / 180, y = (c.yaw * Math.PI) / 180
+  camera.position.set(c.x + Math.sin(y) * Math.cos(p) * c.dist, Math.sin(p) * c.dist, -c.z + Math.cos(y) * Math.cos(p) * c.dist)
+  camera.lookAt(c.x, 0, -c.z)
+}
+
+// ── HUD: year counter, era label, narration caption, credits ──
+function hudText(t, year, era) {
+  hx.clearRect(0, 0, W, H)
+  const fade = (a, b, s = 0.6) => Math.max(0, Math.min(1, (t - a) / s, (b - t) / s))
+  // title
+  const ta = fade(0.6, TL.title - 0.4)
+  if (ta > 0) { hx.globalAlpha = ta; const tb = hx.createLinearGradient(0, 360, 0, 600); tb.addColorStop(0, 'rgba(6,9,16,0)'); tb.addColorStop(0.3, 'rgba(6,9,16,0.7)'); tb.addColorStop(0.7, 'rgba(6,9,16,0.7)'); tb.addColorStop(1, 'rgba(6,9,16,0)'); hx.fillStyle = tb; hx.fillRect(0, 360, W, 240); hx.textAlign = 'center'; hx.fillStyle = '#f3efe6'; hx.font = '600 76px Sans'; hx.fillText(STORY.title.en, W / 2, 470); if (STORY.subtitle) { hx.font = '400 32px Sans'; hx.fillStyle = '#c9d4e8'; hx.fillText(STORY.subtitle, W / 2, 530) } }
+  // year and era
+  if (t >= TL.title - 0.3 && t < TL.endStart + 1) {
+    const a = fade(TL.title - 0.3, TL.endStart + 1)
+    hx.globalAlpha = a; hx.textAlign = 'left'
+    const g = hx.createRadialGradient(330, 150, 40, 330, 150, 620); g.addColorStop(0, 'rgba(6,9,16,0.72)'); g.addColorStop(1, 'rgba(6,9,16,0)'); hx.fillStyle = g; hx.fillRect(0, 0, 1000, 480)
+    const g2 = hx.createLinearGradient(0, H - 260, 0, H); g2.addColorStop(0, 'rgba(6,9,16,0)'); g2.addColorStop(1, 'rgba(6,9,16,0.75)'); hx.fillStyle = g2; hx.fillRect(0, H - 260, W, 260)
+    hx.font = '700 120px Sans'; hx.fillStyle = '#f3efe6'
+    const y = Math.round(year), txt = y < 0 ? `${-y} BC` : y < 1000 ? `AD ${y}` : String(y)
+    hx.fillText(txt, 96, 196)
+    if (era) { hx.font = '500 38px Sans'; hx.fillStyle = '#ffcf7a'; hx.fillText(era.label, 100, 254) }
+    // legend
+    // Legend, top right, out of the caption's way
+    hx.font = '500 26px Sans'; hx.textAlign = 'left'
+    const items = [['#a56f4d', 'before 1700'], ['#c9863f', '1700s'], ['#d9a75a', '1800s'], ['#9fb4c8', '1900-1944'], ['#7fa7d6', '1945-1999'], ['#e7f1ff', '2000 on'], ['#5b6372', 'year not recorded']]
+    hx.fillStyle = 'rgba(6,9,16,0.6)'; hx.fillRect(W - 330, 60, 280, items.length * 40 + 28)
+    items.forEach(([c, l], i) => { const y = 92 + i * 40; hx.fillStyle = c; hx.fillRect(W - 306, y - 18, 30, 22); hx.fillStyle = '#e6ebf4'; hx.fillText(l, W - 262, y) })
+  }
+  // caption: the narration line of the current era
+  let line = null, a0 = 0, a1 = 0
+  if (t < TL.title && STORY.intro) { line = STORY.intro; a0 = TL.introAt; a1 = TL.title }
+  else if (era) { line = era.narration; a0 = TL.eras[STORY.eras.indexOf(era)].voiceAt; a1 = TL.eras[STORY.eras.indexOf(era)].start + TL.eras[STORY.eras.indexOf(era)].duration - 0.2 }
+  else if (t >= TL.endStart && STORY.outro) { line = STORY.outro; a0 = TL.outroAt; a1 = TL.duration - 0.5 }
+  if (line) {
+    const ca = fade(a0, a1, 0.35)
+    if (ca > 0) {
+      hx.globalAlpha = ca; hx.font = '500 40px Sans'; hx.textAlign = 'center'
+      const words = line.split(' '), lines = []; let cur = ''
+      for (const w of words) { const n = cur ? cur + ' ' + w : w; if (hx.measureText(n).width > 1500 && cur) { lines.push(cur); cur = w } else cur = n }
+      if (cur) lines.push(cur)
+      const y0 = H - 150 - (lines.length - 1) * 52
+      hx.fillStyle = 'rgba(6,9,16,0.8)'; const bw = Math.max(...lines.map((l) => hx.measureText(l).width)) + 80; hx.fillRect((W - bw) / 2, y0 - 50, bw, lines.length * 52 + 30)
+      hx.fillStyle = '#f3efe6'; lines.forEach((l, i) => hx.fillText(l, W / 2, y0 + i * 52))
+    }
+  }
+  // end card
+  if (t > TL.endStart + 3) {
+    const a = Math.min(1, (t - TL.endStart - 3) / 1)
+    hx.globalAlpha = a; hx.textAlign = 'center'
+    hx.fillStyle = 'rgba(6,9,16,0.55)'; hx.fillRect(0, 300, W, 420)
+    hx.fillStyle = '#f3efe6'; hx.font = '600 60px Sans'; hx.fillText(STORY.title.en, W / 2, 400)
+    hx.font = '400 24px Sans'; hx.fillStyle = '#c9d4e8'
+    const s = CITY.stats
+    const lines = [`${s.buildings.toLocaleString('en')} buildings · ${s.dated.toLocaleString('en')} with a recorded year`, ...STORY.credits]
+    lines.forEach((l, i) => hx.fillText(l, W / 2, 470 + i * 38))
+  }
+  hx.globalAlpha = 1
+}
+
+// ── events: fire and blitz glow, flash ──
+const EVENTS = []
+STORY.eras.forEach((e, i) => { for (const ev of e.events ?? []) { const [x, z] = P(ev.at[0], ev.at[1]); EVENTS.push({ ...ev, t0: eventTime(TL, i, ev), x, z, len: ev.kind === 'flash' ? 2.5 : 4.5 }) } })
+function heat(t) {
+  for (const ev of EVENTS) {
+    const d = t - ev.t0
+    if (d >= -0.4 && d < ev.len) { const k = d < 0 ? (d + 0.4) / 0.4 : d < ev.len * 0.6 ? 1 : 1 - (d - ev.len * 0.6) / (ev.len * 0.4); return new THREE.Vector4(ev.x, ev.z, ev.radius ?? 600, Math.max(0, k)) }
+  }
+  return new THREE.Vector4(0, 0, 0, 0)
+}
+
+const tags = CITY.buildings.filter((b) => b.landmark).map((b) => { const ring = b.ring; let x = 0, z = 0; for (const [px, pz] of ring) { x += px; z += pz } return { name: b.name, year: b.year, h: b.h, x: x / ring.length, z: z / ring.length } })
+function drawTags(t, year) {
+  if (t < TL.title) return
+  hx.textAlign = 'center'; hx.font = '600 26px Sans'
+  for (const g of tags) {
+    const since = year - g.year, show = Math.max(0, Math.min(1, since / 3, (60 - since) / 20))
+    if (show <= 0 || t > TL.endStart + 2.5) continue
+    const v = new THREE.Vector3(g.x, g.h + 20, -g.z).project(camera)
+    if (v.z > 1 || Math.abs(v.x) > 0.95 || Math.abs(v.y) > 0.85) continue
+    const sx = (v.x + 1) / 2 * W, sy = (1 - v.y) / 2 * H
+    if (sy > H - 300 || (sx < 1000 && sy < 320)) continue
+    const label = `${g.name} · ${g.year}`, w = hx.measureText(label).width + 28
+    hx.globalAlpha = show
+    hx.fillStyle = 'rgba(6,9,16,0.72)'; hx.fillRect(sx - w / 2, sy - 52, w, 36)
+    hx.fillStyle = '#ffcf7a'; hx.fillRect(sx - 1, sy - 16, 2, 16)
+    hx.fillStyle = '#f3efe6'; hx.fillText(label, sx, sy - 26)
+  }
+  hx.globalAlpha = 1
+}
+window.ready = Promise.resolve()
+window.render = function (t) {
+  const year = yearAt(TL, t)
+  let k = TL.eras.findIndex((e) => t >= e.start && t < e.start + e.duration), era = k >= 0 ? STORY.eras[k] : null
+  const u = today.material.userData.u
+  u.uYear.value = year
+  u.uHeat.value = heat(t)
+  u.uUnknown.value = t > TL.endStart ? Math.min(1, (t - TL.endStart - 0.4) / 2.2) : 0
+  u.uLayer.value = 1
+  const vIdx = STORY.eras.findIndex((e) => e.victorian)
+  if (vIdx >= 0) { const ve = TL.eras[vIdx]; const k = Math.max(0, Math.min(1, (t - ve.start) / 1.2, (ve.start + ve.duration + 0.8 - t) / 1.2)); u.uLayer.value = 1 - k }
+  if (t < TL.title) { const k = 1 - ease((t - (TL.title - 2.4)) / 2.0); u.uYear.value = 3000; u.uLayer.value = k; u.uUnknown.value = k }
+  if (victorian) {
+    const vu = victorian.material.userData.u, vk = STORY.eras.findIndex((e) => e.victorian)
+    // The 1890s survey is one moment: it rises at the start of its era and sinks away at the end,
+    // on its own clock (its footprints all carry year 1893, so the city year would leave them flat).
+    const ve = vk >= 0 ? TL.eras[vk] : null
+    vu.uLayer.value = 1
+    vu.uYear.value = ve ? 1893 + RISE * Math.max(0, Math.min(1, (t - ve.start - 0.3) / 2.2, (ve.start + ve.duration + 1.2 - t) / 1.6)) : 0
+    vu.uHeat.value = new THREE.Vector4(0, 0, 0, 0)
+  }
+  for (const { o, mesh, n } of outlines) {
+    const a = 0.8 * (year < o.from ? 0 : year > (o.to ?? 1e9) ? Math.max(0, 1 - (year - o.to) / 15) : Math.min(1, (year - o.from) / 20))
+    mesh.geometry.setDrawRange(0, Math.max(0, Math.floor((n * Math.min(1, Math.max(0, (year - o.from) / 60 + 0.02))) / 18) * 18))
+    mesh.material.opacity = a
+    mesh.visible = a > 0.01
+  }
+  const hv = u.uHeat.value, flick = 0.85 + 0.15 * Math.sin(t * 13) * Math.sin(t * 5.3)
+  heatDisc.visible = hv.w > 0.01
+  if (heatDisc.visible) { heatDisc.position.set(hv.x, 3, -hv.y); heatDisc.scale.set(hv.z * 1.6, hv.z * 1.6, 1); heatDisc.material.opacity = Math.min(1, hv.w * 1.4) * flick }
+  place(cameraAt(t))
+  renderer.render(scene, camera)
+  hudText(t, year, era)
+  drawTags(t, year)
+}
+window.DURATION = TL.duration
+</script>
+</body>
+</html>

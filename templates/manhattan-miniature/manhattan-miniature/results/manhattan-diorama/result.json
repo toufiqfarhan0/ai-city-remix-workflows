@@ -1,0 +1,70 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "manhattan-miniature",
+    "version": "0.2.0"
+  },
+  "sample": "manhattan-diorama",
+  "site": {
+    "file": "index.html",
+    "sha256": "42614fdf95ec1b0b680078f7041b7c0ccb48e139fe26c01aa73ea7e0c8134f5c",
+    "bytes": 1072366
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-22T13:23:05.885Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 60
+      },
+      "low": {
+        "1600x900": 60
+      }
+    },
+    "mobile": {
+      "390x844": 60
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "none",
+      "afterGesture": "none"
+    },
+    "interactions": {
+      "landmark": true,
+      "night": true,
+      "orbit": true,
+      "pan": true,
+      "zoom": true,
+      "reset": true,
+      "rotate": true
+    },
+    "facts": {
+      "landmarks": 8,
+      "roadEdges": 121,
+      "vehicles": 33,
+      "pedestrians": 48,
+      "boats": 3,
+      "triangles": 663470,
+      "cameraClear": true,
+      "embedVerified": true,
+      "reducedMotion": false
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline miniature Manhattan: procedural blocks and streets, eight landmark views, day and night lighting, traffic, pedestrians and boats. Artistically compressed layout, not a survey. Silent by design; no runtime model calls.",
+    "zh-CN": "原创离线曼哈顿微缩城市：程序化街区与道路、八个地标视角、昼夜灯光、车流、行人和船只。布局经过艺术化压缩，并非测绘。设计上无声音，运行时不调用模型。"
+  }
+}

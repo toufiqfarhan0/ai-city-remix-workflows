@@ -1,0 +1,105 @@
+{
+  "schema": "chronicle-topics/1",
+  "topics": [
+    {
+      "id": "rome",
+      "qid": "Q220",
+      "qid_status": "verified",
+      "qid_checked_at": "2026-10-21",
+      "subject": "city",
+      "structure": "life",
+      "label": {
+        "en": "Rome",
+        "zh-CN": "罗马"
+      },
+      "angle": {
+        "en": "Every city has a life story: nearly three thousand years on one river bend",
+        "zh-CN": "每座城市都有它的一生：一处河湾上的近三千年"
+      },
+      "risk_notes": {
+        "en": "753 BC is the legendary date (keep 'according to legend'); Wikipedia is often unreachable: save pages into sources/; Wikipedia and Wikidata are one publisher, so the sack of 410 and 1871 are single-source unless a tier-1 page confirms them.",
+        "zh-CN": "公元前753年是传说年代（保留「相传」）；维基百科常无法直连，请存入 sources/；维基百科与 Wikidata 算同一发布方，410 年之劫和 1871 年定都在没有一级来源时都是单一来源。"
+      }
+    },
+    {
+      "id": "su-shi",
+      "qid": "Q36020",
+      "qid_status": "verified",
+      "qid_checked_at": "2026-10-21",
+      "subject": "person",
+      "structure": "arc",
+      "label": {
+        "en": "Su Shi",
+        "zh-CN": "苏轼"
+      },
+      "angle": {
+        "en": "Exiled ever farther, writing ever better",
+        "zh-CN": "越贬越远，越写越好"
+      },
+      "risk_notes": {
+        "en": "Birth date is Julian 1037-01-08 (lunar Jingyou 3, month 12): watch calendar and 虚岁 ages; Crow Terrace case details vary by source.",
+        "zh-CN": "生日为儒略历 1037-01-08（景祐三年十二月十九日），注意历法与虚岁；乌台诗案细节各来源不一。"
+      }
+    },
+    {
+      "id": "zhaozhou-bridge",
+      "qid": "Q551446",
+      "qid_status": "verified",
+      "qid_checked_at": "2026-10-21",
+      "subject": "landmark",
+      "structure": "time-travel",
+      "label": {
+        "en": "Zhaozhou Bridge",
+        "zh-CN": "赵州桥"
+      },
+      "angle": {
+        "en": "Why has a Sui-dynasty stone arch stood for some 1,400 years?",
+        "zh-CN": "一座隋代石拱桥，凭什么立了约 1400 年？"
+      },
+      "risk_notes": {
+        "en": "Construction dates conflict (595–605 vs inception 606 on Wikidata); length 50 m vs 50.82 m; use 'about 50 m'.",
+        "zh-CN": "建造年代说法不一（595–605 年与 Wikidata 的始建 606 年）；长度有 50 米与 50.82 米两种，写「约 50 米」。"
+      }
+    },
+    {
+      "id": "common-octopus",
+      "qid": "Q651361",
+      "qid_status": "verified",
+      "qid_checked_at": "2026-10-21",
+      "subject": "animal",
+      "structure": "superpower",
+      "label": {
+        "en": "Common octopus",
+        "zh-CN": "真蛸"
+      },
+      "angle": {
+        "en": "Eight arms and a body built differently from ours",
+        "zh-CN": "八条腕，一副与我们完全不同的身体"
+      },
+      "risk_notes": {
+        "en": "Eight arms (not tentacles); avoid chimera arms in images; IUCN status from Wikidata P141 only.",
+        "zh-CN": "八条是腕不是触手；图像里避免嵌合或多余的腕；IUCN 状态只取 Wikidata P141。"
+      }
+    },
+    {
+      "id": "giant-panda",
+      "qid": "Q33602",
+      "qid_status": "verified",
+      "qid_checked_at": "2026-10-21",
+      "subject": "animal",
+      "structure": "day",
+      "label": {
+        "en": "Giant panda",
+        "zh-CN": "大熊猫"
+      },
+      "angle": {
+        "en": "One day in the life of a bear that lives on bamboo",
+        "zh-CN": "以竹为食的熊，过完一天"
+      },
+      "risk_notes": {
+        "en": "A synonym taxon item (Q37927494) also matches the search; lock Q33602. Conservation status changed over time: state the year.",
+        "zh-CN": "搜索还会命中同义分类条目 Q37927494，须锁定 Q33602；保护等级随时间变化，须写明年份。"
+      }
+    }
+  ]
+}

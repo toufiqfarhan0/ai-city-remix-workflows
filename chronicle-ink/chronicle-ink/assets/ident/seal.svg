@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Chronicle seal">
+  <!-- Series seal: the character for "chronicle" carved in relief-white on a cinnabar block. Drawn by hand as paths. -->
+  <path fill="#B5332A" d="M15 13 L60 11 L104 13 L146 10 L188 12 L190 52 L188 98 L191 142 L188 189 L144 187 L98 190 L56 188 L12 190 L14 146 L11 100 L14 56 Z"/>
+  <g fill="none" stroke="#EFE6D2" stroke-width="15" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- left: silk radical, three strokes -->
+    <path d="M64 34 L42 70 L69 67"/>
+    <path d="M75 55 L38 109 L83 100"/>
+    <path d="M36 152 L85 131"/>
+    <!-- right: top turn, middle bar, vertical with bend and hook -->
+    <path d="M104 44 L165 44 L165 94"/>
+    <path d="M110 94 L165 94"/>
+    <path d="M109 94 L109 148 Q109 167 128 167 L158 167 Q171 167 173 149"/>
+  </g>
+  <!-- worn edges of the carved block -->
+  <g fill="#EFE6D2">
+    <path d="M12 72 L18 75 L12 79 Z"/>
+    <path d="M120 189 L124 183 L129 190 Z"/>
+    <path d="M190 118 L184 121 L191 125 Z"/>
+    <path d="M40 12 L44 18 L48 12 Z"/>
+  </g>
+</svg>

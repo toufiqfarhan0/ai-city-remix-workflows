@@ -1,0 +1,6 @@
+{
+  "subject": "the Temple of Heaven in Beijing, as a compressed interpretive park layout",
+  "landmarks": "Hall of Prayer, Huangqian Hall, Imperial Vault, Circular Mound Altar, Hall of Abstinence",
+  "camera": "Show the blue glazed tiles, layered eaves, timber brackets, red door bays and white marble balustrades in close and elevated three-quarter views.",
+  "extraPrompt": "Keep the selected building inside the scene viewport, clear of the side panels and the bottom timeline, in a 20-second 1920 by 1080 film at 30 fps without audio."
+}

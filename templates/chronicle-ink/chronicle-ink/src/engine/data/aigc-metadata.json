@@ -1,0 +1,9 @@
+{
+  "schema": "chronicle-aigc-metadata/1",
+  "standard": "GB 45438-2025",
+  "verified": false,
+  "note": "Field set of the implicit AIGC label (file metadata) as remembered, not yet checked against the standard text. 2026-10-21: openstd.samr.gov.cn lists GB 45438-2025 (in force since 2025-09-01) but offers the full text only through an interactive page viewer, so no text was obtained and nothing is verified. Until verified, reports say: AIGC field per GB 45438 (field set not verified).",
+  "fields": ["Label", "ContentProducer", "ProduceID", "ReservedCode1", "ContentPropagator", "PropagateID", "ReservedCode2"],
+  "label_value": "1",
+  "clause": null
+}

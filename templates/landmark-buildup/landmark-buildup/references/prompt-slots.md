@@ -1,0 +1,2 @@
+# Prompt slots
+Required string slots are landmark (the building to raise) and city (where it stands). Optional slots are parts (its structure in kit terms), materials (palette and texture), stages (construction order and labels), film (length, shots and light), interaction and extraPrompt. Each is bounded to 2000 characters. The bilingual templates share the same placeholders. A second example, brick-campanile.json, with its data in brick-campanile.recipe.json and brick-campanile.film.json, is a brick bell tower on the same code.

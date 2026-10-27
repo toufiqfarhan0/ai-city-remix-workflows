@@ -1,0 +1,2 @@
+# Prompt slots
+Required string slots are city and route (start, optional via points and end, as coordinates or descriptions an Agent can turn into coordinates). Optional slots are landmarks (which to pin and what to say), look (palette, paving, tiles, car), light (the time-of-day arc), film (length and pacing), interaction and extraPrompt. Each is bounded to 2000 characters. The bilingual templates share the same placeholders. A second example, lakefront-loop.json, is a short downtown drive with tall towers and a 60 second film on the same code.

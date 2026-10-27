@@ -1,0 +1,5 @@
+{
+  "city": "Rome, around the Colosseum, the Roman Forum and the Palatine",
+  "eras": "Imperial Rome (AD 125), Medieval Rome (1300), Baroque Rome (1700) and modern Rome (2026)",
+  "extraPrompt": "Export a 25-second 1920 by 1080 film at 30 fps: year 600 by 2 s, 1300 at 8 s, 1700 at 15 s, 2026 at 21.8 s, then a pullback held from 23 s to 25 s. Add the original synthesized score only as a separate scored copy."
+}

@@ -1,0 +1,5 @@
+{
+  "city": "Manhattan, New York, as a compressed island with an irregular Lower Manhattan and a regular Midtown grid",
+  "landmarks": "Empire State, Chrysler Building, One World Trade, Central Park, Times Square, Flatiron Building, Rockefeller Center, the Vessel at Hudson Yards",
+  "extraPrompt": "Keep the selected landmark clear of the title column and the landmark bar, and record a silent 12-second 1920 by 1080 cover at 30 fps: day overview, two landmark flights, night, back to the overview."
+}

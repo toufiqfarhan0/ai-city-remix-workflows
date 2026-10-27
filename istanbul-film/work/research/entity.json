@@ -1,0 +1,39 @@
+{
+  "schema": "chronicle-entity/1",
+  "qid": "Q406",
+  "subject": "city",
+  "label": {
+    "en": "Istanbul",
+    "zh-CN": "伊斯坦布尔"
+  },
+  "labels": {
+    "zh-hans": "伊斯坦布尔",
+    "zh-hant": "伊斯坦堡",
+    "zh": "伊斯坦堡",
+    "en": "Istanbul"
+  },
+  "aliases": {
+    "zh-hans": [
+      "伊斯坦堡"
+    ],
+    "zh": [
+      "伊斯坦布尔",
+      "伊斯坦布爾"
+    ]
+  },
+  "native_names": [],
+  "description": {
+    "en": "largest city in Turkey",
+    "zh-CN": "土耳其最大城市和港口"
+  },
+  "sitelinks": 290,
+  "lock_rule": "qid",
+  "alternatives": [],
+  "living": false,
+  "portrait_policy": "allowed",
+  "born": null,
+  "died": null,
+  "external_ids": {
+    "P1417": "place/Istanbul"
+  }
+}

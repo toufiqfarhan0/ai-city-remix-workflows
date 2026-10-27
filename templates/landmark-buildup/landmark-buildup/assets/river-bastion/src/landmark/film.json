@@ -1,0 +1,18 @@
+{
+  "duration": 40,
+  "build": [1.5, 29],
+  "light": [[0, 0.12], [29.5, 0.3], [33, 0.6], [37, 1]],
+  "cover": { "frames": 900, "posterAt": 24 },
+  "shots": [
+    { "id": "rise", "start": 0, "end": 30, "center": [[0, 3, 2], [0, 15, 0]], "yaw": [0.95, -0.55], "elev": [0.42, 0.26], "distance": [70, 66] },
+    { "id": "loggia", "start": 30, "end": 33.5, "center": [[0, 16.6, 4], [0, 17, 4.2]], "yaw": [0.22, 0.05], "elev": [0.1, 0.12], "distance": [21, 18] },
+    { "id": "turret", "start": 33.5, "end": 36.5, "center": [[6, 9.8, 12], [6.2, 10, 12]], "yaw": [0.78, 0.62], "elev": [0.2, 0.24], "distance": [15, 12.5] },
+    { "id": "dusk", "start": 36.5, "end": 40, "center": [[0, 15, 1], [0, 15.5, 1]], "yaw": [-0.3, -0.46], "elev": [0.16, 0.2], "distance": [66, 62] }
+  ],
+  "views": {
+    "overview": { "center": [0, 15, 1], "yaw": 0.6, "elev": 0.24, "distance": 66 },
+    "loggia": { "center": [0, 17, 4.2], "yaw": 0.12, "elev": 0.12, "distance": 19 },
+    "turret": { "center": [6.1, 10, 12], "yaw": 0.7, "elev": 0.22, "distance": 13 },
+    "crown": { "center": [0, 33, -3], "yaw": -0.5, "elev": 0.42, "distance": 24 }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "city": "Paris, France",
+  "center": "48.8590, 2.3240, between the Invalides and the Louvre",
+  "radius": "3.4 km, so the Eiffel Tower, the Louvre and Notre-Dame all sit inside the map",
+  "marks": "Tour Eiffel, Louvre and Notre-Dame",
+  "extraPrompt": "Keep the Seine as the strongest shape on the cream paper theme.",
+  "kinds": "all four posters, the skyline seen from the south",
+  "landmarks": "Cathédrale Notre-Dame de Paris, Palais du Louvre, Panthéon and Tour Eiffel"
+}

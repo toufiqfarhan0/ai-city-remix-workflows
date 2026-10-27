@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs & caches
+dist/
+dist-single/
+*.tsbuildinfo
+.vite/
+
+# Large media binaries (raw video files)
+*.mp4
+*.webm
+*.zip
+
+# Audio clips generated during build (scripts will regenerate)
+temp_*.json
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+.tempmediaStorage/
+.system_generated/

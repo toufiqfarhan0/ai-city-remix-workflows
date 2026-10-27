@@ -1,0 +1,70 @@
+{
+  "schema": "code-scene-result/1",
+  "skill": {
+    "name": "stone-stars-city",
+    "version": "0.1.1"
+  },
+  "sample": "stone-stars",
+  "site": {
+    "file": "index.html",
+    "sha256": "addc721421e51e45bf9db6c39422b3b105c5dc88bbdf3fd335b5848d43e9fed0",
+    "bytes": 1723683
+  },
+  "build": {
+    "node": "v22.14.0",
+    "vite": "7.3.7",
+    "three": "0.186.1",
+    "r3f": "9.8.2",
+    "drei": "10.7.9"
+  },
+  "verify": {
+    "when": "2026-10-22T09:22:48.791Z",
+    "ok": true,
+    "fps": {
+      "high": {
+        "1600x900": 146
+      },
+      "low": {
+        "1600x900": 148
+      }
+    },
+    "mobile": {
+      "390x844": 158
+    },
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "cspViolations": 0,
+    "audio": {
+      "before": "uninitialised",
+      "afterGesture": "running"
+    },
+    "interactions": {
+      "chapter": true,
+      "orbit": true,
+      "zoom": true,
+      "light": true,
+      "lanterns": true,
+      "life": true,
+      "card": true,
+      "scrub": true,
+      "reset": true,
+      "play": true
+    },
+    "facts": {
+      "chapters": 4,
+      "duration": 24,
+      "spires": 14,
+      "houses": 14,
+      "triangles": 293376,
+      "embedVerified": true
+    },
+    "langs": [
+      "en",
+      "zh-CN"
+    ]
+  },
+  "note": {
+    "en": "Authored offline storybook miniature city around one procedural landmark (sample: a Gaudí-style basilica), with four chapters, a daylight-to-starlight light value, street life and a deterministic 24-second film timeline. Illustrative, not a survey. The bundled score was generated once through SandBase and starts only after a gesture; no runtime model calls.",
+    "zh-CN": "原创离线童话微缩城市，围绕一座程序化地标（示例为高迪风格教堂），包含四个章节、从白昼到星光的光线、街景动态和可确定重放的 24 秒影片时间线。示意而非测绘。内置配乐通过 SandBase 一次性生成，只在用户操作后播放；运行时不调用模型。"
+  }
+}
