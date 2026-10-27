@@ -1,0 +1,24 @@
+{
+  "title": "Shanghai: The Vertical Surge of Pudong",
+  "summary": "Witness Shanghai rise building by building, from historic Bund granite to the vertical surge of Pudong's supertall cluster above the Huangpu.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "shanghai",
+    "place_lat": 31.238,
+    "place_lng": 121.499,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt city-grows-3d to choreograph Shanghai's transformation across the Huangpu River from 1843 to 2026. MiniMax M3.1 Flash role: Directed historical era chronology, camera trajectories circling the Lujiazui bend, architectural heights, and narration timing. Visuals: 1,456 authentic OpenStreetMap 3D building footprints rising by historical construction year. Audio: MiniMax Speech 2.8 HD English narration paired with synthesized orchestral score bed.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lujiazui",
+      "https://en.wikipedia.org/wiki/Pudong",
+      "https://en.wikipedia.org/wiki/The_Bund",
+      "https://en.wikipedia.org/wiki/Oriental_Pearl_Tower",
+      "https://en.wikipedia.org/wiki/Jin_Mao_Tower",
+      "https://en.wikipedia.org/wiki/Shanghai_World_Financial_Center",
+      "https://en.wikipedia.org/wiki/Shanghai_Tower"
+    ],
+    "my_city_line": "From mudflats to clouds: Pudong's vertical surge."
+  }
+}

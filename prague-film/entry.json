@@ -1,0 +1,24 @@
+{
+  "title": "Prague: Chronicle of a Hundred Spires",
+  "summary": "From the 9th-century Přemyslid fortress of Prague Castle to the Gothic arches of Charles Bridge and the soaring vaults of St. Vitus Cathedral, journey through a millennium of Bohemian architecture.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "prague",
+    "place_lat": 50.087,
+    "place_lng": 14.421,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt the multi-era diorama workflow (rome-through-time) to tell the epic architectural story of Prague across four monumental eras: Bohemian Seat (870 AD), Gothic Golden Age (1357 AD), Baroque Spires (1700 AD), and Modern Prague (2026 AD). MiniMax M3.1 Flash role: Authored bilingual storytelling scripts, directed cinematic camera passes over the Vltava River, Prague Castle, and Charles Bridge, paced lighting transitions, and scored narration timings. Audio: MiniMax Speech 2.8 HD English narration synchronized to historical milestones.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Prague_Castle",
+      "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
+      "https://en.wikipedia.org/wiki/Charles_Bridge",
+      "https://en.wikipedia.org/wiki/History_of_Prague",
+      "https://en.wikipedia.org/wiki/Prague_astronomical_clock",
+      "https://en.wikipedia.org/wiki/Peter_Parler",
+      "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor"
+    ],
+    "my_city_line": "A thousand years of stone and gold: Prague."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Venice: The Threshold Across the Lagoon",
+  "summary": "Follow the Ponte della Libertà causeway over the shimmering Venetian Lagoon into Piazzale Roma, where road travel ends and Venice’s labyrinth of canals begins.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "venice",
+    "place_lat": 45.437,
+    "place_lng": 12.318,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt pixel-city-drive to capture the historic 8.35 km drive across Ponte della Libertà into Venice. MiniMax M3.1 Flash role: Directed camera speed, lighting transition from golden afternoon across the open lagoon into lit dusk at Piazzale Roma, landmark framing, and voiceover timing. Visuals: Pixel art rendering of 143 OpenStreetMap building footprints, lagoon waters, and historic church domes. Audio: MiniMax Speech 2.8 HD English narration synchronized to milestone vistas.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ponte_della_Libert%C3%A0",
+      "https://en.wikipedia.org/wiki/Piazzale_Roma",
+      "https://en.wikipedia.org/wiki/Venetian_Lagoon",
+      "https://en.wikipedia.org/wiki/San_Simeon_Piccolo",
+      "https://en.wikipedia.org/wiki/Sant%27Andrea_della_Zirada",
+      "https://en.wikipedia.org/wiki/Grand_Canal_(Venice)"
+    ],
+    "my_city_line": "Where asphalt surrenders to water: Venice."
+  }
+}
