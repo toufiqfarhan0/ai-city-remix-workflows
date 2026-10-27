@@ -1,0 +1,741 @@
+{
+  "schema": "landmark-recipe/1",
+  "id": "brandenburg-gate",
+  "seed": 1791,
+  "units": "metres",
+  "site": {
+    "ground": "plaza",
+    "radius": 48
+  },
+  "floodlights": [
+    [
+      -24,
+      28
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      0,
+      36
+    ],
+    [
+      -24,
+      -28
+    ],
+    [
+      24,
+      -28
+    ],
+    [
+      0,
+      -36
+    ]
+  ],
+  "palette": {
+    "stone": "#d8ccb4",
+    "trim": "#ece1cb",
+    "mortar": "#8f8472",
+    "accent": "#7d7361",
+    "dome": "#5e8c79",
+    "roof": "#759886",
+    "void": "#22201d",
+    "water": "#2a6280",
+    "ground": "#b8ab94",
+    "iron": "#5a5e62",
+    "copper": "#5e8c79",
+    "gold": "#d4af37"
+  },
+  "stages": [
+    {
+      "id": "foundation",
+      "from": 0,
+      "to": 0.14,
+      "label": {
+        "en": "Pariser Platz foundation plinths",
+        "zh-CN": "巴黎广场基石奠基"
+      }
+    },
+    {
+      "id": "colonnade",
+      "from": 0.14,
+      "to": 0.45,
+      "label": {
+        "en": "Doric colonnade and five passageways",
+        "zh-CN": "多立克列柱与五重通道"
+      }
+    },
+    {
+      "id": "pavilions",
+      "from": 0.45,
+      "to": 0.65,
+      "label": {
+        "en": "North and South wing pavilions",
+        "zh-CN": "南北侧翼守卫殿堂"
+      }
+    },
+    {
+      "id": "attic",
+      "from": 0.65,
+      "to": 0.82,
+      "label": {
+        "en": "Entablature and monumental attic",
+        "zh-CN": "古典檐部与纪念阁楼"
+      }
+    },
+    {
+      "id": "quadriga",
+      "from": 0.82,
+      "to": 0.94,
+      "label": {
+        "en": "Copper Quadriga and Victoria",
+        "zh-CN": "铜铸四马战车与胜利女神"
+      }
+    },
+    {
+      "id": "finish",
+      "from": 0.94,
+      "to": 1.0,
+      "label": {
+        "en": "Sandstone details & floodlit dusk",
+        "zh-CN": "砂岩雕饰与暮色泛光"
+      }
+    }
+  ],
+  "parts": [
+    {
+      "type": "platform",
+      "stage": "foundation",
+      "x": 0,
+      "z": 0,
+      "w": 66,
+      "d": 26,
+      "y": 0,
+      "h": 0.8,
+      "course": 0.4,
+      "step": 1.2,
+      "mat": "stone"
+    },
+    {
+      "type": "platform",
+      "stage": "foundation",
+      "x": 0,
+      "z": 0,
+      "w": 44,
+      "d": 14,
+      "y": 0.8,
+      "h": 0.6,
+      "course": 0.3,
+      "step": 0.6,
+      "mat": "trim"
+    },
+    {
+      "type": "walls",
+      "id": "main_gate",
+      "stage": "colonnade",
+      "footprint": [
+        [
+          -20.5,
+          -5.5
+        ],
+        [
+          20.5,
+          -5.5
+        ],
+        [
+          20.5,
+          5.5
+        ],
+        [
+          -20.5,
+          5.5
+        ]
+      ],
+      "base": 1.4,
+      "height": 13.6,
+      "thickness": 1.4,
+      "course": 0.4,
+      "block": 0.8,
+      "mat": "stone",
+      "openings": [
+        {
+          "edge": 0,
+          "at": 0.12,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 0,
+          "at": 0.31,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 0,
+          "at": 0.5,
+          "y": 1.4,
+          "w": 5.4,
+          "h": 12.0,
+          "arch": true
+        },
+        {
+          "edge": 0,
+          "at": 0.69,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 0,
+          "at": 0.88,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": 0.12,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": 0.31,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": 0.5,
+          "y": 1.4,
+          "w": 5.4,
+          "h": 12.0,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": 0.69,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": 0.88,
+          "y": 1.4,
+          "w": 4.2,
+          "h": 11.2,
+          "arch": true
+        }
+      ]
+    },
+    {
+      "type": "walls",
+      "stage": "colonnade",
+      "footprint": [
+        [
+          -8.2,
+          -5.0
+        ],
+        [
+          -7.2,
+          -5.0
+        ],
+        [
+          -7.2,
+          5.0
+        ],
+        [
+          -8.2,
+          5.0
+        ]
+      ],
+      "base": 1.4,
+      "height": 13.6,
+      "thickness": 0.9,
+      "course": 0.4,
+      "mat": "stone"
+    },
+    {
+      "type": "walls",
+      "stage": "colonnade",
+      "footprint": [
+        [
+          7.2,
+          -5.0
+        ],
+        [
+          8.2,
+          -5.0
+        ],
+        [
+          8.2,
+          5.0
+        ],
+        [
+          7.2,
+          5.0
+        ]
+      ],
+      "base": 1.4,
+      "height": 13.6,
+      "thickness": 0.9,
+      "course": 0.4,
+      "mat": "stone"
+    },
+    {
+      "type": "stringcourse",
+      "stage": "attic",
+      "footprint": [
+        [
+          -21.2,
+          -6.0
+        ],
+        [
+          21.2,
+          -6.0
+        ],
+        [
+          21.2,
+          6.0
+        ],
+        [
+          -21.2,
+          6.0
+        ]
+      ],
+      "y": 15.0,
+      "h": 0.6,
+      "out": 0.4
+    },
+    {
+      "type": "walls",
+      "id": "attic_wall",
+      "stage": "attic",
+      "footprint": [
+        [
+          -20.0,
+          -5.0
+        ],
+        [
+          20.0,
+          -5.0
+        ],
+        [
+          20.0,
+          5.0
+        ],
+        [
+          -20.0,
+          5.0
+        ]
+      ],
+      "base": 15.6,
+      "height": 4.6,
+      "thickness": 1.2,
+      "course": 0.38,
+      "mat": "stone"
+    },
+    {
+      "type": "stringcourse",
+      "stage": "attic",
+      "footprint": [
+        [
+          -20.6,
+          -5.4
+        ],
+        [
+          20.6,
+          -5.4
+        ],
+        [
+          20.6,
+          5.4
+        ],
+        [
+          -20.6,
+          5.4
+        ]
+      ],
+      "y": 20.2,
+      "h": 0.5,
+      "out": 0.4
+    },
+    {
+      "type": "platform",
+      "stage": "pavilions",
+      "x": -27.5,
+      "z": 0,
+      "w": 11,
+      "d": 12,
+      "y": 0.8,
+      "h": 0.4,
+      "mat": "trim"
+    },
+    {
+      "type": "walls",
+      "stage": "pavilions",
+      "footprint": [
+        [
+          -32.5,
+          -5.5
+        ],
+        [
+          -22.5,
+          -5.5
+        ],
+        [
+          -22.5,
+          5.5
+        ],
+        [
+          -32.5,
+          5.5
+        ]
+      ],
+      "base": 1.2,
+      "height": 6.8,
+      "thickness": 1.0,
+      "course": 0.38,
+      "mat": "stone",
+      "openings": [
+        {
+          "edge": 0,
+          "at": [
+            0.3,
+            0.7
+          ],
+          "repeat": true,
+          "y": 1.2,
+          "w": 2.2,
+          "h": 4.6,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": [
+            0.3,
+            0.7
+          ],
+          "repeat": true,
+          "y": 1.2,
+          "w": 2.2,
+          "h": 4.6,
+          "arch": true
+        }
+      ]
+    },
+    {
+      "type": "roof",
+      "stage": "pavilions",
+      "x": -27.5,
+      "z": 0,
+      "y": 8.0,
+      "w": 10.4,
+      "h": 2.2,
+      "courses": 5
+    },
+    {
+      "type": "platform",
+      "stage": "pavilions",
+      "x": 27.5,
+      "z": 0,
+      "w": 11,
+      "d": 12,
+      "y": 0.8,
+      "h": 0.4,
+      "mat": "trim"
+    },
+    {
+      "type": "walls",
+      "stage": "pavilions",
+      "footprint": [
+        [
+          22.5,
+          -5.5
+        ],
+        [
+          32.5,
+          -5.5
+        ],
+        [
+          32.5,
+          5.5
+        ],
+        [
+          22.5,
+          5.5
+        ]
+      ],
+      "base": 1.2,
+      "height": 6.8,
+      "thickness": 1.0,
+      "course": 0.38,
+      "mat": "stone",
+      "openings": [
+        {
+          "edge": 0,
+          "at": [
+            0.3,
+            0.7
+          ],
+          "repeat": true,
+          "y": 1.2,
+          "w": 2.2,
+          "h": 4.6,
+          "arch": true
+        },
+        {
+          "edge": 2,
+          "at": [
+            0.3,
+            0.7
+          ],
+          "repeat": true,
+          "y": 1.2,
+          "w": 2.2,
+          "h": 4.6,
+          "arch": true
+        }
+      ]
+    },
+    {
+      "type": "roof",
+      "stage": "pavilions",
+      "x": 27.5,
+      "z": 0,
+      "y": 8.0,
+      "w": 10.4,
+      "h": 2.2,
+      "courses": 5
+    },
+    {
+      "type": "platform",
+      "stage": "quadriga",
+      "x": 0,
+      "z": 0,
+      "w": 12.0,
+      "d": 5.4,
+      "y": 20.7,
+      "h": 1.0,
+      "course": 0.5,
+      "mat": "trim"
+    },
+    {
+      "type": "figure",
+      "stage": "quadriga",
+      "mat": "copper",
+      "base": 21.7,
+      "sections": [
+        {
+          "y": 0,
+          "rx": 1.2,
+          "rz": 1.0,
+          "cx": 0,
+          "cz": 0.2
+        },
+        {
+          "y": 1.4,
+          "rx": 0.9,
+          "rz": 0.75,
+          "cx": 0,
+          "cz": 0.15
+        },
+        {
+          "y": 2.8,
+          "rx": 0.7,
+          "rz": 0.6,
+          "cx": 0,
+          "cz": 0.1
+        },
+        {
+          "y": 4.0,
+          "rx": 0.45,
+          "rz": 0.4,
+          "cx": 0,
+          "cz": 0.05
+        }
+      ],
+      "segments": 14,
+      "folds": 6,
+      "foldDepth": 0.08,
+      "foldsTo": 1.6
+    },
+    {
+      "type": "frame",
+      "stage": "quadriga",
+      "x": 0,
+      "z": 0.2,
+      "base": 21.7,
+      "height": 2.2,
+      "w": 3.4,
+      "step": 1.1
+    },
+    {
+      "type": "limb",
+      "stage": "quadriga",
+      "points": [
+        [
+          -2.4,
+          21.7,
+          0.4
+        ],
+        [
+          -2.4,
+          22.8,
+          -1.8
+        ],
+        [
+          -2.4,
+          22.4,
+          -3.2
+        ]
+      ],
+      "radii": [
+        0.45,
+        0.38,
+        0.28
+      ],
+      "ring": 8,
+      "segments": 6
+    },
+    {
+      "type": "limb",
+      "stage": "quadriga",
+      "points": [
+        [
+          -0.8,
+          21.7,
+          0.4
+        ],
+        [
+          -0.8,
+          23.0,
+          -2.0
+        ],
+        [
+          -0.8,
+          22.5,
+          -3.4
+        ]
+      ],
+      "radii": [
+        0.45,
+        0.38,
+        0.28
+      ],
+      "ring": 8,
+      "segments": 6
+    },
+    {
+      "type": "limb",
+      "stage": "quadriga",
+      "points": [
+        [
+          0.8,
+          21.7,
+          0.4
+        ],
+        [
+          0.8,
+          23.0,
+          -2.0
+        ],
+        [
+          0.8,
+          22.5,
+          -3.4
+        ]
+      ],
+      "radii": [
+        0.45,
+        0.38,
+        0.28
+      ],
+      "ring": 8,
+      "segments": 6
+    },
+    {
+      "type": "limb",
+      "stage": "quadriga",
+      "points": [
+        [
+          2.4,
+          21.7,
+          0.4
+        ],
+        [
+          2.4,
+          22.8,
+          -1.8
+        ],
+        [
+          2.4,
+          22.4,
+          -3.2
+        ]
+      ],
+      "radii": [
+        0.45,
+        0.38,
+        0.28
+      ],
+      "ring": 8,
+      "segments": 6
+    },
+    {
+      "type": "rays",
+      "stage": "finish",
+      "at": [
+        0,
+        25.8,
+        0.1
+      ],
+      "count": 7,
+      "length": 1.2,
+      "from": 0,
+      "to": 3.14,
+      "tilt": 0.15
+    }
+  ],
+  "copy": {
+    "en": {
+      "title": "The Gate That Remembered Berlin",
+      "place": "Brandenburg Gate, Pariser Platz, Berlin",
+      "eyebrow": "A neoclassical triumphal threshold",
+      "text": "Twelve fluted Doric columns, five central passageways, flanking neoclassical halls, and Schadow’s copper Quadriga, assembled course by course across centuries of war, division, and peaceful unity.",
+      "disclaimer": "An interpretive architectural diorama of the Brandenburger Tor with simplified classical proportions; not a survey.",
+      "views": {
+        "overview": "Overview",
+        "colonnade": "Doric Colonnade",
+        "quadriga": "Copper Quadriga",
+        "crown": "Pariser Platz"
+      }
+    },
+    "zh-CN": {
+      "title": "记住柏林的勃兰登堡门",
+      "place": "柏林巴黎广场，勃兰登堡门",
+      "eyebrow": "新古典主义凯旋门",
+      "text": "十二根多立克石柱、五重通道、南北侧翼殿堂与沙多的铜铸四马战车，在战争、分裂与和平统一的历史中逐层砌筑。",
+      "disclaimer": "勃兰登堡门的新古典主义建筑示意模型，比例和细部经过适度简化，并非测绘。",
+      "views": {
+        "overview": "全景",
+        "colonnade": "列柱廊",
+        "quadriga": "四马战车",
+        "crown": "巴黎广场"
+      }
+    }
+  }
+}

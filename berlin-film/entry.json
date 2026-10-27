@@ -1,0 +1,20 @@
+{
+  "title": "The Gate That Remembered Berlin",
+  "summary": "Sandstone assembles at Pariser Platz, rises through its Doric colonnade, bears war and division, then opens with reunification. Returning at dusk, the floodlit Gate becomes Berlin's promise of unity.",
+  "lang": "en",
+  "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+  "fields": {
+    "city_id": "berlin",
+    "place_lat": 52.5167,
+    "place_lng": 13.3833,
+    "used_m31_flash": true,
+    "workflow_url": "https://github.com/toufiqfarhan0/ai-city-remix-workflows.git",
+    "director_notes": "Prompt: Adapt landmark-buildup into a 60s film of Berlin's Brandenburg Gate spanning its 1791 neoclassical construction, wartime scars, Cold War separation, peaceful reunification, and return to Pariser Platz at dusk under golden floodlights. MiniMax M3.1 Flash role: Directed narrative arc, landmark geometry sequencing, day-to-dusk lighting curves, and voiceover timing. Visuals: Neoclassical sandstone procedural model with 12 Doric columns, 5 passages, and copper Quadriga. Audio: MiniMax Speech 2.8 HD English narration synchronized to historical phases. Human involvement: Camera framing, lighting choreographies, subtitle alignment, and verification.",
+    "sources": [
+      "https://www.visitberlin.de/en/brandenburg-gate",
+      "https://www.britannica.com/topic/Brandenburg-Gate",
+      "https://www.stiftung-berliner-mauer.de/en/topics/berlin-wall"
+    ],
+    "my_city_line": "Berlin bears its scars and shines toward tomorrow."
+  }
+}

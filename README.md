@@ -25,8 +25,9 @@
 | **New York** | `city-through-time` | *New York: Eight Eras in Stone and Steel* | <img src="assets/covers/new_york_cover.jpg" width="170" style="border-radius:6px;" alt="New York Cover"/> | `103.40s` | **Submitted** (`pending`) | [🔗 View Entry `3de5c12a`](https://www.sandbase.ai/lab/event/aicityremix/e/3de5c12a-6883-44dc-b65a-3b759eb2f2f1) | [New York Workflow](workflows/new-york.md) |
 | **Tokyo** | `pixel-iso-city` | *Tokyo: The Map That Learned to Breathe* | <img src="assets/covers/tokyo_cover.jpg" width="170" style="border-radius:6px;" alt="Tokyo Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `9b9a053a`](https://www.sandbase.ai/lab/event/aicityremix/e/9b9a053a-2388-45d7-933b-3f3717a601e0) | [Tokyo Workflow](workflows/tokyo.md) |
 | **Jerusalem** | `manhattan-miniature` *(adapted)* | *Jerusalem in Stone: A Life from Daybreak to Starlight* | <img src="assets/covers/jerusalem_cover.jpg" width="170" style="border-radius:6px;" alt="Jerusalem Cover"/> | `60.00s` | **Submitted** (`pending`) | [🔗 View Entry `83a67a57`](https://www.sandbase.ai/lab/event/aicityremix/e/83a67a57-1482-4ec4-b151-35af89fefb0e) | [Jerusalem Workflow](workflows/jerusalem.md) |
+| **Berlin** | `landmark-buildup` | *The Gate That Remembered Berlin* | <img src="assets/covers/berlin_cover.jpg" width="170" style="border-radius:6px;" alt="Berlin Cover"/> | `60.00s` | **Ready for Submission** | [🔗 Contest Submission Ready](#) | [Berlin Workflow](workflows/berlin.md) |
 
-> 📌 *Note: In accordance with contest rules and strict uniqueness criteria, no Skill/template is ever reused across entries. For details on upcoming cities (Berlin, Athens, Shanghai, Venice, Prague, Moscow, Bangkok), see the [Upcoming Cities Roadmap](workflows/upcoming-cities.md).*
+> 📌 *Note: In accordance with contest rules and strict uniqueness criteria, no Skill/template is ever reused across entries. For details on upcoming cities (Athens, Shanghai, Venice, Prague, Moscow, Bangkok), see the [Upcoming Cities Roadmap](workflows/upcoming-cities.md).*
 
 ---
 
@@ -41,6 +42,7 @@ ai-city-remix-workflows/
 │   ├── new-york.md                    # City-Through-Time workflow (New York 400-year evolution)
 │   ├── tokyo.md                       # Pixel-Iso-City workflow (Tokyo 3,544 OSM building bake)
 │   ├── jerusalem.md                   # Miniature Diorama workflow (Jerusalem day-to-starlight)
+│   ├── berlin.md                      # Landmark-Buildup workflow (Berlin Brandenburg Gate)
 │   └── upcoming-cities.md             # Skill allocation matrix for queued global cities
 ├── assets/                            # Visual media assets for documentation
 │   ├── covers/                        # High-resolution film cover posters

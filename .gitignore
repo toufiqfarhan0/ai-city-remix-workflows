@@ -15,6 +15,9 @@ dist-single/
 
 # Audio clips generated during build (scripts will regenerate)
 temp_*.json
+audio/
+shots/
+film/
 
 # OS & IDE files
 .DS_Store
