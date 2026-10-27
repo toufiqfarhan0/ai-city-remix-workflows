@@ -10,6 +10,8 @@
 | **Film Duration** | 60.00s |
 | **Automated Verification** | ✅ 42/42 Checks Passed |
 | **Lab Status** | `pending` |
+| **Entry ID** | `4b3714c7-e59c-4821-8673-a2569af5b6c7` |
+| **Live Contest Link** | [🔗 https://www.sandbase.ai/lab/event/aicityremix/e/4b3714c7-e59c-4821-8673-a2569af5b6c7](https://www.sandbase.ai/lab/event/aicityremix/e/4b3714c7-e59c-4821-8673-a2569af5b6c7) |
 | **Open-Source Repo** | [https://github.com/toufiqfarhan0/ai-city-remix-workflows.git](https://github.com/toufiqfarhan0/ai-city-remix-workflows.git) |
 
 ---
